@@ -1,0 +1,7431 @@
+{
+ "entity": "species",
+ "label": "species",
+ "role": "option",
+ "count": 130,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "species_aleena",
+   "entity": "species",
+   "name": "Aleena",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 46,
+    "age_old": 61,
+    "age_venerable": 80,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Basic",
+     "Aleena"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "size": "s",
+    "source_tag": "TFU",
+    "specials": [
+     "Nimble",
+     "Quick Energy"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Aleena"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!J3:BU3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_anzati",
+   "entity": "species",
+   "name": "Anzati",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 100,
+    "age_middle": 650,
+    "age_old": 800,
+    "age_venerable": 951,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "languages": [
+     "Anzat",
+     "Basic"
+    ],
+    "reroll_skill_1": "Acrobatics",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "source_tag": "UR",
+    "specials": [
+     "Presence Sense",
+     "Mesmerize",
+     "Soup Drinking",
+     "Hunter's Instincts",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Anzati"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!J5:BU5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_aqualish",
+   "entity": "species",
+   "name": "Aqualish",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 51,
+    "age_old": 70,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "feat1": "Toughness",
+    "languages": [
+     "Basic",
+     "Aqualish"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Breathe Underwater",
+     "Expert Swimmer"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Aqualish"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!J6:BU6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_arkanian",
+   "entity": "species",
+   "name": "Arkanian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 45,
+    "age_old": 77,
+    "age_venerable": 100,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Arkanian"
+    ],
+    "mod_cha": -2,
+    "mod_int": 2,
+    "reroll_skill_1": "Initiative",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Darkvision",
+     "Intellectual Reputation",
+     "Flash of Genius"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Arkanian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!J8:BU8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_arkanian_offshoot",
+   "entity": "species",
+   "name": "Arkanian Offshoot",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 14,
+    "age_middle": 31,
+    "age_old": 46,
+    "age_venerable": 56,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Arkanian"
+    ],
+    "mod_con": -2,
+    "mod_str": 0,
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Determination"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Arkanian_Offshoot"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!J9:BU9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_astromech_droid",
+   "entity": "species",
+   "name": "Astromech Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_cha": -2,
+    "mod_int": 2,
+    "reroll_skill_1": "Ride",
+    "reroll_skill_1_mode": "worse",
+    "size": "s",
+    "skill_focus_1": "Mechanics",
+    "skill_focus_2": "Use Computer",
+    "skill_trained_1": "Mechanics",
+    "source_tag": "SGtD",
+    "specials": [
+     "2nd Degree",
+     "Droid Traits",
+     "Hardwired Design (Mechanics)"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 4
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!J10:BU10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_balosar",
+   "entity": "species",
+   "name": "Balosar",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 40,
+    "age_old": 53,
+    "age_venerable": 65,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Balosar"
+    ],
+    "mod_cha": 2,
+    "mod_con": -2,
+    "mod_dex": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "SaV",
+    "specials": [
+     "Antennapalps",
+     "Poison Resistance",
+     "Moral Ambiguity"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Balosar"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!J11:BU11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_barabel",
+   "entity": "species",
+   "name": "Barabel",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "languages": [
+     "Barabel"
+    ],
+    "mod_dex": -2,
+    "mod_str": 2,
+    "mod_wis": -2,
+    "natural_weapons": [
+     {
+      "name": "claws",
+      "damage": "1d6",
+      "type": "slashing"
+     },
+     {
+      "name": "bite",
+      "damage": "1d6",
+      "type": "piercing"
+     },
+     {
+      "name": "tail slap",
+      "damage": "1d6",
+      "type": "bludgeoning"
+     }
+    ],
+    "ref_bonus": 2,
+    "size": "m",
+    "source_tag": "GAW",
+    "specials": [
+     "Radiation Resistance",
+     "Darkvision",
+     "Primitive",
+     "Intimidating",
+     "Stun Resistance"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Barabel"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!J12:BU12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_battle_droid",
+   "entity": "species",
+   "name": "Battle Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_dex": 2,
+    "mod_int": -2,
+    "size": "m",
+    "source_tag": "SGtD",
+    "specials": [
+     "4th Degree",
+     "Droid Traits",
+     "Bonus Armor Feat",
+     "Bonus Weapon Feat"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!J13:BU13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_bith",
+   "entity": "species",
+   "name": "Bith",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 51,
+    "age_old": 71,
+    "age_venerable": 85,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Bith"
+    ],
+    "mod_cha": 2,
+    "mod_con": -2,
+    "mod_int": 2,
+    "size": "m",
+    "source_tag": "GoI",
+    "specials": [
+     "Meditative Trance",
+     "Scent",
+     "Evolved Intellect"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Bith"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!J15:BU15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_blood_carver",
+   "entity": "species",
+   "name": "Blood Carver",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 21,
+    "age_middle": 61,
+    "age_old": 81,
+    "age_venerable": 100,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Batorese"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_wis": -2,
+    "reroll_skill_1": "Climb",
+    "reroll_skill_1_mode": "worse",
+    "reroll_skill_2": "Jump",
+    "reroll_skill_2_mode": "worse",
+    "size": "m",
+    "skill_focus_1": "Acrobatics",
+    "source_tag": "SaV",
+    "specials": [
+     "Deathstrike"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "take10_skill_1": "Climb",
+    "take10_skill_2": "Jump",
+    "url": "https://swse.miraheze.org/wiki/Blood_Carver"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!J16:BU16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_bothan",
+   "entity": "species",
+   "name": "Bothan",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 46,
+    "age_old": 66,
+    "age_venerable": 85,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Bothese"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "size": "m",
+    "skill_focus_1": "Gather Information",
+    "source_tag": "SECR",
+    "specials": [],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Bothan",
+    "will_bonus": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!J17:BU17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_caamasi",
+   "entity": "species",
+   "name": "Caamasi",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 50,
+    "age_old": 77,
+    "age_venerable": 90,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Basic",
+     "Caamasi"
+    ],
+    "mod_con": -2,
+    "mod_str": -2,
+    "mod_wis": 4,
+    "size": "m",
+    "source_tag": "TFU",
+    "specials": [
+     "Adept Diplomat",
+     "Pacifism",
+     "Memory Sharing"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Caamasi"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!J18:BU18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_cathar",
+   "entity": "species",
+   "name": "Cathar",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 63,
+    "age_venerable": 80,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Basic",
+     "Catharese"
+    ],
+    "mod_dex": 2,
+    "mod_int": -2,
+    "natural_weapons": [
+     {
+      "name": "claws",
+      "damage": "1d6",
+      "type": "slashing"
+     }
+    ],
+    "size": "m",
+    "skill_trained_1": "Climb",
+    "skill_trained_2": "Stealth",
+    "source_tag": "KotOR",
+    "specials": [
+     "Reactive Claw",
+     "Cathar Instincts"
+    ],
+    "species_kind": "species",
+    "speed": 8,
+    "url": "https://swse.miraheze.org/wiki/Cathar"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!J19:BU19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_celegian",
+   "entity": "species",
+   "name": "Celegian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "languages": [
+     "Basic (understand)"
+    ],
+    "mod_dex": -2,
+    "mod_int": 2,
+    "size": "m",
+    "source_tag": "JATM",
+    "specials": [
+     "Cyanogen Breather",
+     "Expert Swimmer",
+     "Broadcast Telepath"
+    ],
+    "species_kind": "species",
+    "speed": "Fly 6 squares (hover), swim 10 squares",
+    "url": "https://swse.miraheze.org/wiki/Celegian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!J20:BU20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_cerean",
+   "entity": "species",
+   "name": "Cerean",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 36,
+    "age_old": 54,
+    "age_venerable": 65,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Cerean"
+    ],
+    "mod_dex": -2,
+    "mod_int": 2,
+    "mod_wis": 2,
+    "size": "m",
+    "skill_focus_1": "Initiative",
+    "source_tag": "SECR",
+    "specials": [
+     "Intuitive Initiative"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Cerean"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!J21:BU21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_chadra_fan",
+   "entity": "species",
+   "name": "Chadra-Fan",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "languages": [
+     "Basic",
+     "Chadra-Fan"
+    ],
+    "mod_dex": 2,
+    "mod_wis": -2,
+    "size": "s",
+    "source_tag": "UR",
+    "specials": [
+     "Heightened Awareness",
+     "Tinkerer",
+     "Darkvision"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Chadra-Fan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!J22:BU22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_chagrian",
+   "entity": "species",
+   "name": "Chagrian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 43,
+    "age_old": 57,
+    "age_venerable": 76,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW",
+     "LECG"
+    ],
+    "languages": [
+     "Basic",
+     "Chagri"
+    ],
+    "mod_dex": -2,
+    "mod_str": 2,
+    "size": "m",
+    "source_tag": "CWCS, LECG",
+    "specials": [
+     "Breathe Underwater",
+     "Low-Light Vision",
+     "Radiation Resistance"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Chagrian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    },
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!J23:BU23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_chiss",
+   "entity": "species",
+   "name": "Chiss",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 14,
+    "age_middle": 51,
+    "age_old": 63,
+    "age_venerable": 80,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG",
+     "TFU"
+    ],
+    "languages": [
+     "Cheunh"
+    ],
+    "mod_int": 2,
+    "size": "m",
+    "source_tag": "TFULE",
+    "specials": [
+     "Low-Light Vision",
+     "Bonus Trained Skill"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Chiss"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    },
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!J24:BU24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_chistori",
+   "entity": "species",
+   "name": "Chistori",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "damage_reduction": 2,
+    "languages": [
+     "Chistori"
+    ],
+    "mod_dex": -2,
+    "mod_str": 2,
+    "size": "m",
+    "source_tag": "TotG",
+    "specials": [
+     "Rage",
+     "Cold Blooded"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Chistori"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!J25:BU25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_clawdite",
+   "entity": "species",
+   "name": "Clawdite",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 31,
+    "age_old": 50,
+    "age_venerable": 70,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Clawdite"
+    ],
+    "mod_cha": 2,
+    "mod_str": -2,
+    "size": "m",
+    "source_tag": "SaV",
+    "specials": [
+     "Shapeshift",
+     "Startle"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Clawdite"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!J26:BU26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_clone",
+   "entity": "species",
+   "name": "Clone",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 8,
+    "age_middle": 21,
+    "age_old": 30,
+    "age_venerable": 40,
+    "age_young_adult": 6,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic"
+    ],
+    "size": "m",
+    "source_tag": "CWCS",
+    "specials": [
+     "Bonus Trained Skill",
+     "Bonus Feat"
+    ],
+    "species_kind": "species",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!J27:BU27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_clone_hero",
+   "entity": "species",
+   "name": "Clone Hero",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 8,
+    "age_middle": 21,
+    "age_old": 30,
+    "age_venerable": 40,
+    "age_young_adult": 6,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic"
+    ],
+    "size": "m",
+    "source_tag": "CWCS",
+    "specials": [
+     "Bonus Trained Skill",
+     "Bonus Feat"
+    ],
+    "species_kind": "species",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!J28:BU28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_codru_ji",
+   "entity": "species",
+   "name": "Codru-Ji",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 13,
+    "age_middle": 45,
+    "age_old": 61,
+    "age_venerable": 85,
+    "age_young_adult": 8,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "feat1": "Dual Weapon Mastery I",
+    "languages": [
+     "Basic",
+     "Codruese"
+    ],
+    "size": "m",
+    "source_tag": "LECG",
+    "specials": [
+     "Extra Arms",
+     "Skilled Grappler"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Codru-Ji"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!J29:BU29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_dashade",
+   "entity": "species",
+   "name": "Dashade",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 45,
+    "age_old": 70,
+    "age_venerable": 85,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "languages": [
+     "Dashadi"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "GAW",
+    "specials": [
+     "Environmental Adaptation",
+     "Fearsome Reputation",
+     "Force Resistance"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Dashade"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!J30:BU30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_dathomiri",
+   "entity": "species",
+   "name": "Dathomiri",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "fort_bonus": 0,
+    "languages": [
+     "Basic",
+     "Paecian",
+     "Zabrak"
+    ],
+    "mod_cha": 0,
+    "mod_con": 0,
+    "mod_dex": 0,
+    "mod_int": 0,
+    "mod_str": 0,
+    "mod_wis": 0,
+    "natural_armor": 0,
+    "size": "m",
+    "source_tag": "UR",
+    "specials": [
+     "Bonus Feat",
+     "Heightened awareness"
+    ],
+    "species_kind": "species",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 78,
+     "ref": "Data!J78:BU78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_defel",
+   "entity": "species",
+   "name": "Defel",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 11,
+    "age_middle": 50,
+    "age_old": 75,
+    "age_venerable": 90,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Defel"
+    ],
+    "mod_int": 2,
+    "mod_str": -2,
+    "size": "s",
+    "source_tag": "GoI",
+    "specials": [
+     "Partial Invisibility",
+     "Special Equipment (Defel)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Defel"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!J31:BU31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_draethos",
+   "entity": "species",
+   "name": "Draethos",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 400,
+    "age_old": 700,
+    "age_venerable": 781,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "feat1": "Weapon Proficiency (advanced melee)",
+    "languages": [
+     "Draethos"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "ref_bonus": 1,
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Natural Telepath",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Draethos"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!J33:BU33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_droid",
+   "entity": "species",
+   "name": "Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_dex": "0",
+    "mod_str": "0",
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Droid Traits"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!J34:BU34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_dug",
+   "entity": "species",
+   "name": "Dug",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 45,
+    "age_old": 60,
+    "age_venerable": 75,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Dug"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "size": "s",
+    "source_tag": "CWCS",
+    "specials": [
+     "Athletic"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Dug"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!J35:BU35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_duros",
+   "entity": "species",
+   "name": "Duros",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 36,
+    "age_old": 50,
+    "age_venerable": 70,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Durese"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "mod_int": 2,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Expert Pilot"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Duros"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!J36:BU36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_ewok",
+   "entity": "species",
+   "name": "Ewok",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 14,
+    "age_middle": 30,
+    "age_old": 45,
+    "age_venerable": 60,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Ewokese"
+    ],
+    "mod_dex": 2,
+    "mod_str": -2,
+    "size": "s",
+    "skill_focus_1": "Survival",
+    "source_tag": "SECR",
+    "specials": [
+     "Primitive",
+     "Scent",
+     "Sneaky"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Ewok"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!J37:BU37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_falleen",
+   "entity": "species",
+   "name": "Falleen",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 37,
+    "age_middle": 73,
+    "age_old": 140,
+    "age_venerable": 250,
+    "age_young_adult": 19,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Falleen"
+    ],
+    "mod_cha": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "SaV",
+    "specials": [
+     "Pheromones",
+     "Hold Breath",
+     "Pheromone Acclimation"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Falleen"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!J38:BU38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_feeorin",
+   "entity": "species",
+   "name": "Feeorin",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 195,
+    "age_old": 325,
+    "age_venerable": 400,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "languages": [
+     "Feeorin"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "mod_dex": -2,
+    "mod_str": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Low-Light Vision",
+     "Stronger By Age",
+     "Brutal",
+     "Inborn Resilience"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Feeorin"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!J39:BU39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_felucian",
+   "entity": "species",
+   "name": "Felucian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 20,
+    "age_middle": 50,
+    "age_old": 71,
+    "age_venerable": 86,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "feat1": "Force Sensitivity",
+    "languages": [
+     "Felucianese"
+    ],
+    "mod_con": 2,
+    "mod_int": -2,
+    "size": "m",
+    "source_tag": "TFU",
+    "specials": [
+     "Breathe Underwater",
+     "Low-Light Vision",
+     "Natural Camouflage",
+     "Force Blast",
+     "Primitive"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Felucian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!J40:BU40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_fosh",
+   "entity": "species",
+   "name": "Fosh",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 56,
+    "age_old": 71,
+    "age_venerable": 85,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Fosh"
+    ],
+    "mod_cha": 2,
+    "mod_con": -2,
+    "mod_dex": 2,
+    "size": "s",
+    "source_tag": "GoI",
+    "specials": [
+     "Deceptive",
+     "Healing Glands"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Fosh"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!J41:BU41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_gamorrean",
+   "entity": "species",
+   "name": "Gamorrean",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 13,
+    "age_middle": 30,
+    "age_old": 40,
+    "age_venerable": 45,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "feat1": "Improved Damage Threshold",
+    "fort_bonus": 2,
+    "languages": [
+     "Basic (Understand)",
+     "Gammorean"
+    ],
+    "mod_dex": -2,
+    "mod_int": -2,
+    "mod_str": 2,
+    "reroll_skill_1": "Knowledge",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Primitive"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Gamorrean"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!J42:BU42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_gand",
+   "entity": "species",
+   "name": "Gand",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 30,
+    "age_old": 46,
+    "age_venerable": 61,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Gand"
+    ],
+    "mod_cha": -2,
+    "mod_wis": 2,
+    "ref_bonus": 2,
+    "size": "m",
+    "source_tag": "SaV",
+    "specials": [
+     "Darkvision",
+     "Hardy",
+     "Special Equipment (Gand)",
+     "Limb Regeneration"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Gand"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 43,
+     "ref": "Data!J43:BU43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_gen_dai",
+   "entity": "species",
+   "name": "Gen'Dai",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 201,
+    "age_middle": 1000,
+    "age_old": 2000,
+    "age_venerable": 4000,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic",
+     "Gen'Dai"
+    ],
+    "mod_cha": -2,
+    "mod_con": 4,
+    "mod_wis": -2,
+    "size": "l",
+    "source_tag": "CWCS",
+    "specials": [
+     "Gen'Dai Surge",
+     "Hibernation",
+     "Mental Instability",
+     "Resilient Physiology"
+    ],
+    "species_kind": "species",
+    "speed": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 44,
+     "ref": "Data!J44:BU44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_geonosian",
+   "entity": "species",
+   "name": "Geonosian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 11,
+    "age_middle": 36,
+    "age_old": 51,
+    "age_venerable": 65,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "feat1": "Weapon Proficiency (advanced melee)",
+    "languages": [
+     "Geonosian"
+    ],
+    "mod_cha": -2,
+    "mod_int": -2,
+    "mod_str": 2,
+    "mod_wis": -2,
+    "ref_bonus": 1,
+    "size": "m",
+    "skill_focus_1": "Mechanics",
+    "source_tag": "CWCS",
+    "specials": [
+     "Radiation Resistance",
+     "Low-Light Vision",
+     "Fly Speed (8)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Geonosian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 45,
+     "ref": "Data!J45:BU45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_givin",
+   "entity": "species",
+   "name": "Givin",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 49,
+    "age_old": 65,
+    "age_venerable": 80,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "damage_reduction": 2,
+    "fort_bonus": 2,
+    "languages": [
+     "Basic",
+     "Givin"
+    ],
+    "mod_int": 2,
+    "mod_str": -2,
+    "size": "m",
+    "source_tag": "GoI",
+    "specials": [
+     "Exoskeleton",
+     "Deductive Reasoning",
+     "Unique Physiology"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Givin"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 46,
+     "ref": "Data!J46:BU46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_gotal",
+   "entity": "species",
+   "name": "Gotal",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 13,
+    "age_middle": 41,
+    "age_old": 61,
+    "age_venerable": 76,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Gotal"
+    ],
+    "size": "m",
+    "source_tag": "GoI",
+    "specials": [
+     "Energy Reading",
+     "Low-Light Vision",
+     "Sensor Cones"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Gotal"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 47,
+     "ref": "Data!J47:BU47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_gran",
+   "entity": "species",
+   "name": "Gran",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 63,
+    "age_venerable": 80,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Basic",
+     "Gran"
+    ],
+    "mod_cha": 2,
+    "mod_str": -2,
+    "size": "m",
+    "source_tag": "TFU",
+    "specials": [
+     "Darkvision",
+     "Target Awareness",
+     "Triple Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Gran"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 48,
+     "ref": "Data!J48:BU48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_gungan",
+   "entity": "species",
+   "name": "Gungan",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 36,
+    "age_old": 55,
+    "age_venerable": 65,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "if_weapongroup": "simple",
+    "if_weapongroup2": "simple",
+    "languages": [
+     "Basic",
+     "Gunganese"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_int": -2,
+    "ref_bonus": 2,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Expert Swimmer",
+     "Hold Breath",
+     "Low-Light Vision",
+     "Swim Speed (4)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "then_exotic": "Cesta",
+    "then_exotic2": "Atlatl",
+    "url": "https://swse.miraheze.org/wiki/Gungan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 49,
+     "ref": "Data!J49:BU49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_herglic",
+   "entity": "species",
+   "name": "Herglic",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 20,
+    "age_middle": 56,
+    "age_old": 80,
+    "age_venerable": 96,
+    "age_young_adult": 16,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Herglic"
+    ],
+    "mod_dex": -4,
+    "mod_str": 4,
+    "size": "l",
+    "skill_focus_1": "Gather Information",
+    "source_tag": "GoI",
+    "specials": [
+     "Sturdy"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Herglic"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 50,
+     "ref": "Data!J50:BU50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_houk",
+   "entity": "species",
+   "name": "Houk",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 45,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Houk"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "mod_str": 2,
+    "mod_wis": -2,
+    "ref_bonus": 1,
+    "reroll_skill_1": "Knowledge (life sciences)",
+    "reroll_skill_1_mode": "better",
+    "size": "m",
+    "source_tag": "SaV",
+    "specials": [
+     "Physically Intimidating"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Houk"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 51,
+     "ref": "Data!J51:BU51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_human",
+   "entity": "species",
+   "name": "Human",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic"
+    ],
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Bonus Trained Skill",
+     "Bonus Feat"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Human"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 52,
+     "ref": "Data!J52:BU52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_hutt",
+   "entity": "species",
+   "name": "Hutt",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 91,
+    "age_middle": 651,
+    "age_old": 845,
+    "age_venerable": 926,
+    "age_young_adult": 71,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Huttese"
+    ],
+    "mod_con": 2,
+    "mod_dex": -6,
+    "mod_int": 2,
+    "mod_str": 2,
+    "size": "l",
+    "source_tag": "SECR",
+    "specials": [
+     "Force Resistance",
+     "Supreme Stability",
+     "Persuasive"
+    ],
+    "species_kind": "species",
+    "speed": 2,
+    "url": "https://swse.miraheze.org/wiki/Hutt"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 53,
+     "ref": "Data!J53:BU53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_iktotchi",
+   "entity": "species",
+   "name": "Iktotchi",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 45,
+    "age_old": 71,
+    "age_venerable": 90,
+    "age_young_adult": 14,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic",
+     "Iktotchese"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "ref_bonus": 1,
+    "size": "m",
+    "source_tag": "CWCS",
+    "specials": [
+     "Limited Precognition",
+     "Expert Pilot"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Iktotchi"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 54,
+     "ref": "Data!J54:BU54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_ishi_tib",
+   "entity": "species",
+   "name": "Ishi Tib",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 12,
+    "age_middle": 40,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "languages": [
+     "Basic",
+     "Tibranese"
+    ],
+    "mod_int": 2,
+    "natural_weapons": [
+     {
+      "name": "beak",
+      "damage": "1d6",
+      "type": "piercing"
+     }
+    ],
+    "size": "m",
+    "source_tag": "UR",
+    "specials": [
+     "Breathe Underwater",
+     "Ecological Awareness",
+     "Expert Swimmer",
+     "Swim Speed (4)",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Ishi_Tib"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 55,
+     "ref": "Data!J55:BU55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_ithorian",
+   "entity": "species",
+   "name": "Ithorian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 45,
+    "age_old": 70,
+    "age_venerable": 85,
+    "age_young_adult": 14,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Ithorese"
+    ],
+    "mod_cha": 2,
+    "mod_dex": -2,
+    "mod_wis": 2,
+    "size": "m",
+    "skill_focus_1": "Knowledge (Life Sciences)",
+    "source_tag": "SECR",
+    "specials": [
+     "Bellow",
+     "Survival Instinct"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Ithorian",
+    "will_bonus": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 56,
+     "ref": "Data!J56:BU56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_jawa",
+   "entity": "species",
+   "name": "Jawa",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 40,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Jawa",
+     "Jawa Trade Language"
+    ],
+    "mod_dex": 2,
+    "mod_str": -2,
+    "size": "s",
+    "skill_trained_1": "Mechanics",
+    "source_tag": "SaV",
+    "specials": [
+     "Darkvision",
+     "Desert Dweller",
+     "Scavenger"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "take10_skill_1": "Climb",
+    "url": "https://swse.miraheze.org/wiki/Jawa"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 57,
+     "ref": "Data!J57:BU57",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_kaleesh",
+   "entity": "species",
+   "name": "Kaleesh",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 25,
+    "age_middle": 41,
+    "age_old": 56,
+    "age_venerable": 80,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic",
+     "Kaleesh"
+    ],
+    "mod_cha": 2,
+    "mod_con": 2,
+    "mod_dex": -2,
+    "mod_int": -2,
+    "reroll_skill_1": "Pilot",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "skill_focus_1": "Survival",
+    "source_tag": "CWCS",
+    "specials": [
+     "Darkvision",
+     "Driven",
+     "Persistant"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Kaleesh"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 58,
+     "ref": "Data!J58:BU58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_kaminoan",
+   "entity": "species",
+   "name": "Kaminoan",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 11,
+    "age_middle": 40,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic",
+     "Kaminoan"
+    ],
+    "mod_int": 2,
+    "mod_wis": -2,
+    "reroll_skill_1": "Swim",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "skill_focus_1": "Treat Injury",
+    "source_tag": "CWCS",
+    "specials": [
+     "Resistant"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "take10_skill_1": "Swim",
+    "url": "https://swse.miraheze.org/wiki/Kaminoan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 59,
+     "ref": "Data!J59:BU59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_kel_dor",
+   "entity": "species",
+   "name": "Kel Dor",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 45,
+    "age_old": 60,
+    "age_venerable": 70,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Kel Dor"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "mod_wis": 2,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Keen Force Sense",
+     "Low-Light Vision",
+     "Special Equipment"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Kel_Dor"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 60,
+     "ref": "Data!J60:BU60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_kerkoiden",
+   "entity": "species",
+   "name": "Kerkoiden",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 46,
+    "age_old": 71,
+    "age_venerable": 91,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic",
+     "Kerkoidese"
+    ],
+    "mod_con": -2,
+    "mod_wis": 2,
+    "size": "m",
+    "source_tag": "CWCS",
+    "specials": [
+     "Predator's Heritage",
+     "Social Cunning"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Kerkoiden"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 61,
+     "ref": "Data!J61:BU61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_khil",
+   "entity": "species",
+   "name": "Khil",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 50,
+    "age_old": 75,
+    "age_venerable": 90,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Khilese"
+    ],
+    "mod_cha": 2,
+    "mod_con": -2,
+    "mod_int": 2,
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Hullepi",
+     "Dependable Worker",
+     "Cooperative Spirit"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Khil"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 62,
+     "ref": "Data!J62:BU62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_kissai",
+   "entity": "species",
+   "name": "Kissai",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 31,
+    "age_old": 43,
+    "age_venerable": 60,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Sith"
+    ],
+    "mod_cha": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Inspired",
+     "Warrior's Awareness",
+     "Weapon Familiarity"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Kissai"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 63,
+     "ref": "Data!J63:BU63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_klatooinian",
+   "entity": "species",
+   "name": "Klatooinian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 50,
+    "age_old": 70,
+    "age_venerable": 90,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "languages": [
+     "Huttese"
+    ],
+    "mod_con": 2,
+    "mod_int": -2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "LECG",
+    "specials": [
+     "Iron Will"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Klatooinian",
+    "will_bonus": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 64,
+     "ref": "Data!J64:BU64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_krevaaki",
+   "entity": "species",
+   "name": "Krevaaki",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 63,
+    "age_old": 95,
+    "age_venerable": 130,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "fort_bonus": 1,
+    "languages": [
+     "Basic",
+     "Dromnyr"
+    ],
+    "mod_cha": -2,
+    "mod_wis": 2,
+    "natural_armor": 1,
+    "size": "m",
+    "source_tag": "UR",
+    "specials": [
+     "Carapace",
+     "Stoic",
+     "Tentacles"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Krevaaki"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 65,
+     "ref": "Data!J65:BU65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_labor_droid",
+   "entity": "species",
+   "name": "Labor Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_int": -2,
+    "mod_str": 2,
+    "size": "m",
+    "source_tag": "SGtD",
+    "specials": [
+     "5th Degree",
+     "Droid Traits",
+     "Heavy Lifting",
+     "Labor Droid"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 66,
+     "ref": "Data!J66:BU66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_lurmen",
+   "entity": "species",
+   "name": "Lurmen",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 36,
+    "age_old": 61,
+    "age_venerable": 76,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "languages": [
+     "Basic",
+     "Lurmese"
+    ],
+    "mod_str": -2,
+    "mod_wis": 2,
+    "size": "s",
+    "source_tag": "GAW",
+    "specials": [
+     "Mender",
+     "Primitive",
+     "Roller",
+     "Expert Climber"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Lurmen"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 67,
+     "ref": "Data!J67:BU67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_mantellian_savrip",
+   "entity": "species",
+   "name": "Mantellian Savrip",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 30,
+    "age_middle": 350,
+    "age_old": 400,
+    "age_venerable": 500,
+    "age_young_adult": 20,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "languages": [
+     "Savrip"
+    ],
+    "mod_cha": -4,
+    "mod_con": 4,
+    "mod_dex": -2,
+    "mod_int": -4,
+    "mod_str": 4,
+    "mod_wis": -4,
+    "natural_weapons": [
+     {
+      "name": "claw",
+      "damage": "1d6",
+      "type": "slashing"
+     }
+    ],
+    "ref_bonus": 2,
+    "size": "l",
+    "source_tag": "TotG",
+    "specials": [
+     "Rage",
+     "Primitive",
+     "Poison Claws"
+    ],
+    "species_kind": "species",
+    "speed": 8,
+    "url": "https://swse.miraheze.org/wiki/Mantellian_Savrip"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 68,
+     "ref": "Data!J68:BU68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_massassi",
+   "entity": "species",
+   "name": "Massassi",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 14,
+    "age_middle": 26,
+    "age_old": 36,
+    "age_venerable": 51,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Sith"
+    ],
+    "mod_cha": -2,
+    "mod_int": -2,
+    "mod_str": 4,
+    "mod_wis": -2,
+    "size": "m",
+    "skill_focus_1": "Survival",
+    "source_tag": "KotOR",
+    "specials": [
+     "Duty Bound",
+     "Primitive",
+     "Warrior's Awareness",
+     "Weapon Familiarity"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Massassi"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 69,
+     "ref": "Data!J69:BU69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_mechanic_droid",
+   "entity": "species",
+   "name": "Mechanic Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_cha": -2,
+    "mod_int": 2,
+    "size": "s",
+    "skill_trained_1": "Mechanics",
+    "source_tag": "SGtD",
+    "specials": [
+     "2nd Degree",
+     "Droid Traits",
+     "Hardwired Design (Mechanics)",
+     "Mechanically Minded"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 4
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 70,
+     "ref": "Data!J70:BU70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_medical_droid",
+   "entity": "species",
+   "name": "Medical Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_int": -2,
+    "mod_str": -2,
+    "size": "m",
+    "skill_trained_1": "Treat Injury",
+    "source_tag": "SGtD",
+    "specials": [
+     "1st Degree",
+     "Droid Traits",
+     "Hardwired Design (Treat Injury)"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 71,
+     "ref": "Data!J71:BU71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_miraluka",
+   "entity": "species",
+   "name": "Miraluka",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 45,
+    "age_old": 70,
+    "age_venerable": 85,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR",
+     "TotG"
+    ],
+    "feat1": "Force Training",
+    "languages": [
+     "Basic",
+     "Miralukese"
+    ],
+    "mod_dex": -2,
+    "mod_int": 2,
+    "size": "m",
+    "source_tag": "TotGKotOR",
+    "specials": [
+     "Force Sight"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Miraluka"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    },
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 72,
+     "ref": "Data!J72:BU72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_mon_calamari",
+   "entity": "species",
+   "name": "Mon Calamari",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 41,
+    "age_old": 58,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Mon Calamarian"
+    ],
+    "mod_con": -2,
+    "mod_int": 2,
+    "mod_wis": 2,
+    "size": "m",
+    "skill_focus_1": "Perception",
+    "source_tag": "SECR",
+    "specials": [
+     "Breathe Underwater",
+     "Expert Swimmer",
+     "Low-Light Vision",
+     "Swim Speed (4)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Mon_Calamari"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 73,
+     "ref": "Data!J73:BU73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_mrlssi",
+   "entity": "species",
+   "name": "Mrlssi",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 9,
+    "age_middle": 36,
+    "age_old": 70,
+    "age_venerable": 90,
+    "age_young_adult": 5,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Mrlsstese"
+    ],
+    "mod_cha": 2,
+    "mod_int": 2,
+    "mod_str": -2,
+    "reroll_skill_1": "Climb",
+    "reroll_skill_1_mode": "better",
+    "reroll_skill_2": "Jump",
+    "reroll_skill_2_mode": "better",
+    "size": "s",
+    "skill_focus_1": "Persuasion",
+    "skill_trained_1": "Mechanics",
+    "source_tag": "GoI",
+    "specials": [
+     "Scholarly Inclination"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Mrlssi"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 74,
+     "ref": "Data!J74:BU74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_nagai",
+   "entity": "species",
+   "name": "Nagai",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 45,
+    "age_old": 61,
+    "age_venerable": 75,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "if_weapongroup": "simple",
+    "languages": [
+     "Basic",
+     "Nagaian"
+    ],
+    "mod_cha": 2,
+    "mod_con": -2,
+    "mod_dex": 2,
+    "ref_bonus": 2,
+    "reroll_skill_1": "Perception",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "source_tag": "LECG",
+    "specials": [
+     "Soothing Voice"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "then_exotic": "Tehk'la blade",
+    "url": "https://swse.miraheze.org/wiki/Nagai"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 75,
+     "ref": "Data!J75:BU75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_nautolan",
+   "entity": "species",
+   "name": "Nautolan",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 41,
+    "age_old": 55,
+    "age_venerable": 70,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "damage_reduction": 2,
+    "languages": [
+     "Basic",
+     "Nautila"
+    ],
+    "mod_con": 2,
+    "mod_int": -2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "CWCS",
+    "specials": [
+     "Breathe Underwater",
+     "Pheromonal Sensor",
+     "Low-Light Vision",
+     "Expert Swimmer",
+     "Swim Speed (4)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Nautolan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 76,
+     "ref": "Data!J76:BU76",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_neimoidian",
+   "entity": "species",
+   "name": "Neimoidian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 41,
+    "age_old": 58,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Neimoidian"
+    ],
+    "mod_cha": 2,
+    "mod_str": -2,
+    "size": "m",
+    "skill_focus_1": "Deception",
+    "skill_focus_2": "Persuasion",
+    "source_tag": "GoI",
+    "specials": [],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Neimoidian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 79,
+     "ref": "Data!J79:BU79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_nelvaanian",
+   "entity": "species",
+   "name": "Nelvaanian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 21,
+    "age_middle": 31,
+    "age_old": 46,
+    "age_venerable": 65,
+    "age_young_adult": 8,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Nelvaanese"
+    ],
+    "mod_int": -2,
+    "mod_wis": 2,
+    "size": "m",
+    "source_tag": "CWCS",
+    "specials": [
+     "Primitive",
+     "Scent",
+     "Shadow Swiftness"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Nelvaanian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 80,
+     "ref": "Data!J80:BU80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_nikto",
+   "entity": "species",
+   "name": "Nikto",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 36,
+    "age_old": 55,
+    "age_venerable": 65,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "fort_bonus": 2,
+    "languages": [
+     "Nikto",
+     "Basic",
+     "Huttese"
+    ],
+    "mod_cha": -2,
+    "mod_int": -2,
+    "mod_str": 2,
+    "natural_armor": 2,
+    "size": "m",
+    "source_tag": "UR",
+    "specials": [
+     "Great Fortitude",
+     "Natural Armor",
+     "Survival Instinct"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Nikto"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 81,
+     "ref": "Data!J81:BU81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_noghri",
+   "entity": "species",
+   "name": "Noghri",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 13,
+    "age_middle": 45,
+    "age_old": 60,
+    "age_venerable": 75,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Honoghran"
+    ],
+    "mod_cha": -4,
+    "mod_dex": 2,
+    "mod_wis": 2,
+    "size": "s",
+    "source_tag": "TFU",
+    "specials": [
+     "Scent",
+     "Primitive"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Noghri"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 82,
+     "ref": "Data!J82:BU82",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_nosaurian",
+   "entity": "species",
+   "name": "Nosaurian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 46,
+    "age_old": 80,
+    "age_venerable": 100,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Basic",
+     "Nosaurian"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "size": "m",
+    "skill_trained_1": "Climb",
+    "source_tag": "TFU",
+    "specials": [
+     "Climber's Heritage",
+     "Survival Instinct"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Nosaurian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 83,
+     "ref": "Data!J83:BU83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_probe_droid",
+   "entity": "species",
+   "name": "Probe Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_cha": -2,
+    "mod_wis": 2,
+    "reroll_skill_1": "Swim",
+    "reroll_skill_1_mode": "better",
+    "size": "m",
+    "skill_trained_1": "Perception",
+    "source_tag": "SGtD",
+    "specials": [
+     "4th Degree",
+     "Droid Traits",
+     "Hardwired Design (Perception)"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 87,
+     "ref": "Data!J87:BU87",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_protocol_droid",
+   "entity": "species",
+   "name": "Protocol Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "feat1": "Skill Training",
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_cha": 2,
+    "mod_dex": -2,
+    "mod_wis": 2,
+    "size": "m",
+    "skill_trained_1": "Persuasion",
+    "source_tag": "SGtD",
+    "specials": [
+     "3rd Degree",
+     "Droid Traits",
+     "Hardwired Design (Persuasion)"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 88,
+     "ref": "Data!J88:BU88",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_quarren",
+   "entity": "species",
+   "name": "Quarren",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 41,
+    "age_old": 58,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Quarrenese"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "skill_focus_1": "Persuasion",
+    "source_tag": "SECR",
+    "specials": [
+     "Breathe Underwater",
+     "Expert Swimmer",
+     "Low-Light Vision",
+     "Swim Speed (4)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Quarren"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 89,
+     "ref": "Data!J89:BU89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_rakata",
+   "entity": "species",
+   "name": "Rakata",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 51,
+    "age_old": 70,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "feat1": "Weapon Focus (simple)",
+    "feat2": "Weapon Focus ()",
+    "feat3": "Weapon Focus ()",
+    "languages": [
+     "Rakata"
+    ],
+    "mod_int": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Ancient Knowledge",
+     "Force Blind",
+     "Primitive",
+     "Rage"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Rakata"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 90,
+     "ref": "Data!J90:BU90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_replica_droid__l",
+   "entity": "species",
+   "name": "Replica droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "languages": [
+     "(native language)"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_str": 2,
+    "size": "l",
+    "skill_focus_1": "Deception",
+    "source_tag": "TotG",
+    "specials": [
+     "Droid Traits",
+     "4th Degree"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 8,
+    "url": "https://swse.miraheze.org/wiki/Replica_Droid"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 91,
+     "ref": "Data!J91:BU91",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "species:droid_chassis",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_replica_droid__m",
+   "entity": "species",
+   "name": "Replica droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "languages": [
+     "(native language)"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_str": 2,
+    "size": "m",
+    "skill_focus_1": "Deception",
+    "source_tag": "TotG",
+    "specials": [
+     "Droid Traits",
+     "4th Degree"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Replica_Droid"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 92,
+     "ref": "Data!J92:BU92",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "species:droid_chassis",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_replica_droid__s",
+   "entity": "species",
+   "name": "Replica droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "languages": [
+     "(native language)"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_str": 2,
+    "size": "s",
+    "skill_focus_1": "Deception",
+    "source_tag": "TotG",
+    "specials": [
+     "Droid Traits",
+     "4th Degree"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Replica_Droid"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 93,
+     "ref": "Data!J93:BU93",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "species:droid_chassis",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_rodian",
+   "entity": "species",
+   "name": "Rodian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 36,
+    "age_old": 50,
+    "age_venerable": 60,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Rodese"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "skill_focus_1": "Survival",
+    "source_tag": "SECR",
+    "specials": [
+     "Heightened Awareness",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Rodian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 94,
+     "ref": "Data!J94:BU94",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_ryn",
+   "entity": "species",
+   "name": "Ryn",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 21,
+    "age_middle": 41,
+    "age_old": 61,
+    "age_venerable": 81,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Ryn"
+    ],
+    "mod_cha": 2,
+    "reroll_skill_1": "Mechanics",
+    "reroll_skill_1_mode": "better",
+    "size": "m",
+    "source_tag": "SaV",
+    "specials": [
+     "Musical Beak",
+     "Prehensile Tail",
+     "Connections"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Ryn"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 95,
+     "ref": "Data!J95:BU95",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_selkath",
+   "entity": "species",
+   "name": "Selkath",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 55,
+    "age_old": 85,
+    "age_venerable": 100,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Selkath"
+    ],
+    "mod_cha": 2,
+    "size": "m",
+    "source_tag": "KotOR",
+    "specials": [
+     "Breathe Underwater",
+     "Expert Swimmer",
+     "Able Healer"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Selkath"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 96,
+     "ref": "Data!J96:BU96",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_service_droid",
+   "entity": "species",
+   "name": "Service Droid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SGtD"
+    ],
+    "feat1": "Skill Training",
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_cha": 2,
+    "mod_str": -2,
+    "size": "m",
+    "source_tag": "SGtD",
+    "specials": [
+     "3rd Degree",
+     "Droid Traits"
+    ],
+    "species_kind": "droid_chassis",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sgtod",
+     "abbreviation": "SGtD",
+     "title": "Starships of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 97,
+     "ref": "Data!J97:BU97",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:droid_chassis"
+   ]
+  },
+  {
+   "id": "species_shard",
+   "entity": "species",
+   "name": "Shard",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 0,
+    "age_middle": 999,
+    "age_old": 999,
+    "age_venerable": 999,
+    "age_young_adult": 0,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "fort_bonus": 1,
+    "languages": [
+     "Basic",
+     "Binary"
+    ],
+    "mod_dex": -2,
+    "mod_wis": 2,
+    "ref_bonus": 1,
+    "size": "m",
+    "skill_trained_1": "Use Computer",
+    "source_tag": "JATM",
+    "specials": [
+     "Droid Shell"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Shard",
+    "will_bonus": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 98,
+     "ref": "Data!J98:BU98",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_shistavanen",
+   "entity": "species",
+   "name": "Shistavanen",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 14,
+    "age_middle": 41,
+    "age_old": 61,
+    "age_venerable": 96,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "languages": [
+     "Shistavanen"
+    ],
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_int": -2,
+    "natural_weapons": [
+     {
+      "name": "claws",
+      "damage": "1d6",
+      "type": "slashing"
+     }
+    ],
+    "size": "m",
+    "skill_trained_2": "Survival",
+    "source_tag": "UR",
+    "specials": [
+     "Natural Weapons",
+     "Quick Reflexes",
+     "Uncanny Tracker",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Shistavanen"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 99,
+     "ref": "Data!J99:BU99",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_sluissi",
+   "entity": "species",
+   "name": "Sluissi",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 40,
+    "age_old": 60,
+    "age_venerable": 76,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "languages": [
+     "Basic",
+     "Sluissese"
+    ],
+    "mod_dex": -2,
+    "mod_int": 2,
+    "size": "m",
+    "source_tag": "UR",
+    "specials": [
+     "Careful Worker",
+     "Serpentine"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Sluissi"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 101,
+     "ref": "Data!J101:BU101",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_snivvian",
+   "entity": "species",
+   "name": "Snivvian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 50,
+    "age_old": 80,
+    "age_venerable": 106,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "languages": [
+     "Snivvian"
+    ],
+    "mod_wis": 2,
+    "size": "s",
+    "source_tag": "KotOR",
+    "specials": [
+     "Cold Resistance",
+     "Observant"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Snivvian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 102,
+     "ref": "Data!J102:BU102",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_squib",
+   "entity": "species",
+   "name": "Squib",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 13,
+    "age_middle": 39,
+    "age_old": 54,
+    "age_venerable": 65,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "if_weapongroup": "rifles",
+    "languages": [
+     "Basic",
+     "Squibbian"
+    ],
+    "mod_dex": 2,
+    "mod_str": -2,
+    "size": "s",
+    "skill_trained_2": "Persuasion",
+    "source_tag": "UR",
+    "specials": [
+     "Natural Diplomat",
+     "Tech Savvy",
+     "Weapon Familiarity"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "then_exotic": "Squib tensor rifle",
+    "url": "https://swse.miraheze.org/wiki/Squib"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 103,
+     "ref": "Data!J103:BU103",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_ss_ruuk",
+   "entity": "species",
+   "name": "Ss-Ruuk",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "languages": [
+     "Ssi-Ruuvi"
+    ],
+    "mod_str": 2,
+    "mod_wis": -2,
+    "natural_armor": 2,
+    "size": "m",
+    "skill_focus_1": "Persuasion",
+    "source_tag": "UR",
+    "specials": [
+     "Force Blind",
+     "Keen Smell",
+     "Armored Scales"
+    ],
+    "species_kind": "species",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 104,
+     "ref": "Data!J104:BU104",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_sullustan",
+   "entity": "species",
+   "name": "Sullustan",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 40,
+    "age_old": 56,
+    "age_venerable": 70,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "languages": [
+     "Basic",
+     "Sullustese"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Darkvision",
+     "Expert Climber",
+     "Heightened Awareness"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Sullustan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 105,
+     "ref": "Data!J105:BU105",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_talz",
+   "entity": "species",
+   "name": "Talz",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 9,
+    "age_middle": 26,
+    "age_old": 41,
+    "age_venerable": 53,
+    "age_young_adult": 4,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Talz"
+    ],
+    "mod_con": 2,
+    "mod_int": -2,
+    "natural_weapons": [
+     {
+      "name": "claw",
+      "damage": "1d6",
+      "type": "slashing"
+     }
+    ],
+    "size": "m",
+    "skill_focus_1": "Mechanics",
+    "source_tag": "TFU",
+    "specials": [
+     "Darkvision"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Talz"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 106,
+     "ref": "Data!J106:BU106",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_taung",
+   "entity": "species",
+   "name": "Taung",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 13,
+    "age_middle": 46,
+    "age_old": 65,
+    "age_venerable": 85,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "fort_bonus": 1,
+    "languages": [
+     "Basic",
+     "Mando'a"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "ref_bonus": 1,
+    "size": "m",
+    "source_tag": "GAW",
+    "specials": [
+     "Armor Training",
+     "Superior Defenses",
+     "Warrior Culture"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Taung",
+    "will_bonus": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 107,
+     "ref": "Data!J107:BU107",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_thakwaash",
+   "entity": "species",
+   "name": "Thakwaash",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 50,
+    "age_old": 75,
+    "age_venerable": 90,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "languages": [
+     "Thakwaashi"
+    ],
+    "mod_cha": -2,
+    "mod_dex": -2,
+    "mod_str": 4,
+    "natural_armor": 1,
+    "size": "m",
+    "source_tag": "GAW",
+    "specials": [
+     "Multiple Personalities",
+     "Natural Armor"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Thakwaash"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 108,
+     "ref": "Data!J108:BU108",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_tofs",
+   "entity": "species",
+   "name": "Tofs",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "if_first": "Martial Arts I",
+    "languages": [
+     "Tof"
+    ],
+    "mod_cha": 2,
+    "mod_dex": -2,
+    "mod_str": 2,
+    "mod_wis": -2,
+    "size": "l",
+    "source_tag": "UR",
+    "specials": [],
+    "species_kind": "species",
+    "speed": 6,
+    "then_feat": "Mighty Swing"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 109,
+     "ref": "Data!J109:BU109",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_togorian",
+   "entity": "species",
+   "name": "Togorian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 45,
+    "age_old": 65,
+    "age_venerable": 80,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Basic",
+     "Togorian"
+    ],
+    "mod_int": -2,
+    "mod_str": 4,
+    "mod_wis": -2,
+    "ref_bonus": 1,
+    "size": "l",
+    "source_tag": "TFU",
+    "specials": [
+     "Low-Light Vision",
+     "Physical Intimidation"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Togorian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 110,
+     "ref": "Data!J110:BU110",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_togruta",
+   "entity": "species",
+   "name": "Togruta",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 55,
+    "age_old": 75,
+    "age_venerable": 95,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Basic",
+     "Togruti"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "size": "m",
+    "source_tag": "TFU",
+    "specials": [
+     "Pack Hunter",
+     "Sneaky",
+     "Spatial Awareness"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Togruta"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 111,
+     "ref": "Data!J111:BU111",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_toydarian",
+   "entity": "species",
+   "name": "Toydarian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 61,
+    "age_old": 75,
+    "age_venerable": 91,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Toydarian",
+     "Huttese"
+    ],
+    "mod_str": -2,
+    "mod_wis": 2,
+    "size": "s",
+    "skill_focus_1": "Deception",
+    "source_tag": "SaV",
+    "specials": [
+     "Force Resistance",
+     "Fly Speed (6)"
+    ],
+    "species_kind": "species",
+    "speed": 4,
+    "url": "https://swse.miraheze.org/wiki/Toydarian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 112,
+     "ref": "Data!J112:BU112",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_trandoshan",
+   "entity": "species",
+   "name": "Trandoshan",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 35,
+    "age_old": 50,
+    "age_venerable": 60,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "feat1": "Toughness",
+    "fort_bonus": 0,
+    "languages": [
+     "Basic",
+     "Dosh"
+    ],
+    "mod_dex": -2,
+    "mod_str": 2,
+    "natural_armor": 1,
+    "reroll_skill_1": "Survival",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Darkvision",
+     "Limb Regeneration"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Trandoshan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 113,
+     "ref": "Data!J113:BU113",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_trianii",
+   "entity": "species",
+   "name": "Trianii",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 45,
+    "age_old": 65,
+    "age_venerable": 85,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "languages": [
+     "Trianii"
+    ],
+    "mod_wis": 2,
+    "natural_weapons": [
+     {
+      "name": "claws",
+      "damage": "1d6",
+      "type": "slashing"
+     }
+    ],
+    "size": "m",
+    "source_tag": "GAW",
+    "specials": [
+     "Acrobatic Prowess",
+     "Prehensile Tail"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Trianii"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 114,
+     "ref": "Data!J114:BU114",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_twi_lek",
+   "entity": "species",
+   "name": "Twi'lek",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 45,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "languages": [
+     "Basic",
+     "Ryl",
+     "Lekku"
+    ],
+    "mod_cha": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Deceptive",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 116,
+     "ref": "Data!J116:BU116",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_ubese",
+   "entity": "species",
+   "name": "Ubese",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 61,
+    "age_venerable": 71,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Ubese",
+     "Ubeninal"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "size": "m",
+    "skill_focus_1": "Perception",
+    "source_tag": "SaV",
+    "specials": [
+     "Aggressive",
+     "Survival Instinct",
+     "Special Equipment (Ubese)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Ubese"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 117,
+     "ref": "Data!J117:BU117",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_umbaran",
+   "entity": "species",
+   "name": "Umbaran",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 45,
+    "age_old": 70,
+    "age_venerable": 90,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "languages": [
+     "Basic",
+     "Umbarese"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "mod_wis": 2,
+    "reroll_skill_1": "Endurance",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "skill_focus_1": "Gather Information",
+    "source_tag": "GoI",
+    "specials": [
+     "Darkvision",
+     "Stealthy"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Umbaran"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 118,
+     "ref": "Data!J118:BU118",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_utai",
+   "entity": "species",
+   "name": "Utai",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "languages": [
+     "Utapese"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "size": "s",
+    "source_tag": "TotG",
+    "specials": [
+     "Animal Handler",
+     "Cooperative",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 5,
+    "url": "https://swse.miraheze.org/wiki/Utai"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 119,
+     "ref": "Data!J119:BU119",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_verpine",
+   "entity": "species",
+   "name": "Verpine",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 10,
+    "age_middle": 41,
+    "age_old": 61,
+    "age_venerable": 81,
+    "age_young_adult": 5,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "if_weapongroup": "pistols",
+    "languages": [
+     "Basic",
+     "Verpine"
+    ],
+    "natural_armor": 1,
+    "reroll_skill_1": "Persuasion",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "source_tag": "UR",
+    "specials": [
+     "Heightened Awareness",
+     "Verpine Communication"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "then_exotic": "Verpine shatter gun",
+    "url": "https://swse.miraheze.org/wiki/Verpine"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 120,
+     "ref": "Data!J120:BU120",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_vultan",
+   "entity": "species",
+   "name": "Vultan",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "languages": [
+     "Basic",
+     "Dromnyr"
+    ],
+    "mod_int": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "JATM",
+    "specials": [
+     "Bonus Trained Skill"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Vultan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 121,
+     "ref": "Data!J121:BU121",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_vurk",
+   "entity": "species",
+   "name": "Vurk",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 31,
+    "age_old": 50,
+    "age_venerable": 70,
+    "age_young_adult": 7,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "languages": [
+     "Basic",
+     "Semblan"
+    ],
+    "mod_cha": 2,
+    "mod_con": 2,
+    "mod_dex": -2,
+    "size": "m",
+    "source_tag": "CWCS",
+    "specials": [
+     "Breathe Underwater",
+     "Expert Swimmer",
+     "Placid",
+     "Nomads",
+     "Swim Speed (4)"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Vurk"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 122,
+     "ref": "Data!J122:BU122",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_weequay",
+   "entity": "species",
+   "name": "Weequay",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 50,
+    "age_old": 75,
+    "age_venerable": 90,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "languages": [
+     "Sriluurian"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "mod_int": -2,
+    "ref_bonus": 1,
+    "size": "m",
+    "source_tag": "LECG",
+    "specials": [
+     "Pheromonal Communication",
+     "Natural Armor"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Weequay"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 123,
+     "ref": "Data!J123:BU123",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_whiphid",
+   "entity": "species",
+   "name": "Whiphid",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 85,
+    "age_old": 100,
+    "age_venerable": 250,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Whiphid"
+    ],
+    "mod_int": -2,
+    "mod_str": 4,
+    "mod_wis": -2,
+    "natural_weapons": [
+     {
+      "name": "claws",
+      "damage": "1d6",
+      "type": "slashing"
+     }
+    ],
+    "size": "l",
+    "source_tag": "TFU",
+    "specials": [
+     "Insulating Fur",
+     "Scent"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Whiphid"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 124,
+     "ref": "Data!J124:BU124",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_wookiee",
+   "entity": "species",
+   "name": "Wookiee",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 301,
+    "age_old": 351,
+    "age_venerable": 400,
+    "age_young_adult": 13,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "if_weapongroup": "rifles",
+    "if_weapongroup2": "advanced melee",
+    "languages": [
+     "Shyriiwook",
+     "Basic (understand only)"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "mod_dex": -2,
+    "mod_str": 4,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Rage",
+     "Expert Climber",
+     "Intimidating"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "then_exotic": "bowcaster",
+    "then_exotic2": "Ryyk blade",
+    "url": "https://swse.miraheze.org/wiki/Wookiee"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 125,
+     "ref": "Data!J125:BU125",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_wroonian",
+   "entity": "species",
+   "name": "Wroonian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "languages": [
+     "Basic",
+     "Wroonian"
+    ],
+    "mod_con": -2,
+    "mod_dex": 2,
+    "size": "m",
+    "source_tag": "SaV",
+    "specials": [
+     "Skills"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Wroonian",
+    "will_bonus": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 126,
+     "ref": "Data!J126:BU126",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_yarkora",
+   "entity": "species",
+   "name": "Yarkora",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 65,
+    "age_old": 95,
+    "age_venerable": 125,
+    "age_young_adult": 11,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "languages": [
+     "Basic",
+     "Yarkora"
+    ],
+    "mod_cha": 2,
+    "mod_dex": -2,
+    "mod_wis": 2,
+    "size": "m",
+    "skill_trained_1": "Gather Information",
+    "source_tag": "TFU",
+    "specials": [
+     "Confusion",
+     "Deceptive",
+     "Streetwise"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Yarkora"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 127,
+     "ref": "Data!J127:BU127",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_yevetha",
+   "entity": "species",
+   "name": "Yevetha",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 12,
+    "age_middle": 45,
+    "age_old": 67,
+    "age_venerable": 81,
+    "age_young_adult": 6,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "languages": [
+     "Yevethan"
+    ],
+    "mod_cha": -2,
+    "mod_str": 2,
+    "natural_weapons": [
+     {
+      "name": "claws",
+      "damage": "1d6",
+      "type": "slashing"
+     }
+    ],
+    "size": "m",
+    "source_tag": "GAW",
+    "specials": [
+     "Mechanical Aptitude",
+     "Xenophobia"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Yevetha"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 128,
+     "ref": "Data!J128:BU128",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_yuuzhan_vong",
+   "entity": "species",
+   "name": "Yuuzhan Vong",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 41,
+    "age_old": 61,
+    "age_venerable": 76,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "if_weapongroup": "simple",
+    "languages": [
+     "Yuuzhan Vong"
+    ],
+    "mod_str": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "SECRLECG",
+    "specials": [
+     "Force Immunity",
+     "Technophobic"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "then_exotic": "Amphistaff",
+    "url": "https://swse.miraheze.org/wiki/Yuuzhan_Vong"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 129,
+     "ref": "Data!J129:BU129",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_yuzzem",
+   "entity": "species",
+   "name": "Yuzzem",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 16,
+    "age_middle": 41,
+    "age_old": 60,
+    "age_venerable": 80,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "languages": [
+     "Yuzz"
+    ],
+    "mod_cha": -2,
+    "mod_str": 4,
+    "mod_wis": -2,
+    "natural_weapons": [
+     {
+      "name": "bite",
+      "damage": "1d8",
+      "type": "piercing"
+     },
+     {
+      "name": "claws",
+      "damage": "1d8",
+      "type": "slashing"
+     }
+    ],
+    "size": "l",
+    "source_tag": "GAW",
+    "specials": [
+     "Physically Intimidating",
+     "Scent",
+     "Expert Climber"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Yuzzem"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 130,
+     "ref": "Data!J130:BU130",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_zabrak",
+   "entity": "species",
+   "name": "Zabrak",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 45,
+    "age_old": 56,
+    "age_venerable": 70,
+    "age_young_adult": 9,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 1,
+    "languages": [
+     "Basic",
+     "Zabrak"
+    ],
+    "ref_bonus": 1,
+    "size": "m",
+    "source_tag": "SECR",
+    "specials": [
+     "Heightened Awareness",
+     "Superior Defenses"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Zabrak",
+    "will_bonus": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 131,
+     "ref": "Data!J131:BU131",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_zeltron",
+   "entity": "species",
+   "name": "Zeltron",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 50,
+    "age_old": 65,
+    "age_venerable": 80,
+    "age_young_adult": 12,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "languages": [
+     "Basic"
+    ],
+    "mod_cha": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "LECG",
+    "specials": [
+     "Zeltron Pheromones",
+     "Zeltron Empathy"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Zeltron"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 132,
+     "ref": "Data!J132:BU132",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_zygerrian",
+   "entity": "species",
+   "name": "Zygerrian",
+   "canon": "official",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 40,
+    "age_old": 61,
+    "age_venerable": 81,
+    "age_young_adult": 10,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "feat1": "Martial Arts I",
+    "languages": [
+     "Basic"
+    ],
+    "mod_con": 2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "GAW",
+    "specials": [
+     "Iron Will",
+     "Strength of Conviction"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Zygerrian",
+    "will_bonus": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 133,
+     "ref": "Data!J133:BU133",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_amanin",
+   "entity": "species",
+   "name": "Amanin",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 50,
+    "age_old": 77,
+    "age_venerable": 90,
+    "age_young_adult": 12,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "fort_bonus": 1,
+    "languages": [
+     "Amanese"
+    ],
+    "mod_cha": -2,
+    "mod_int": -2,
+    "mod_str": 2,
+    "size": "m",
+    "source_tag": "WEB",
+    "specials": [
+     "Primitive",
+     "Roll",
+     "Expert Climber",
+     "Reach 2"
+    ],
+    "species_kind": "species",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!J4:BU4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_arcona",
+   "entity": "species",
+   "name": "Arcona",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 19,
+    "age_middle": 45,
+    "age_old": 77,
+    "age_venerable": 100,
+    "age_young_adult": 13,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "fort_bonus": 2,
+    "languages": [
+     "Arconese"
+    ],
+    "mod_cha": 2,
+    "mod_wis": -2,
+    "reroll_skill_1": "Persuasion",
+    "reroll_skill_1_mode": "better",
+    "size": "m",
+    "source_tag": "WEB",
+    "specials": [
+     "Scent"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Arcona"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!J7:BU7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_devaronian",
+   "entity": "species",
+   "name": "Devaronian",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 18,
+    "age_middle": 45,
+    "age_old": 65,
+    "age_venerable": 80,
+    "age_young_adult": 13,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "languages": [
+     "Basic",
+     "Deveronese"
+    ],
+    "mod_cha": 0,
+    "mod_dex": -2,
+    "mod_int": 2,
+    "mod_wis": 2,
+    "size": "m",
+    "skill_focus_1": "Deception",
+    "source_tag": "WEB",
+    "specials": [
+     "Natural Curiosity"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Devaronian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!J32:BU32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_nazren",
+   "entity": "species",
+   "name": "Nazren",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 31,
+    "age_middle": 201,
+    "age_old": 276,
+    "age_venerable": 300,
+    "age_young_adult": 16,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "languages": [
+     "Basic",
+     "Nazren"
+    ],
+    "mod_cha": -2,
+    "mod_con": 2,
+    "mod_dex": -2,
+    "mod_str": 2,
+    "size": "m",
+    "source_tag": "WEB",
+    "specials": [
+     "Nazren Resistance"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Nazren"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 77,
+     "ref": "Data!J77:BU77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_pau_an",
+   "entity": "species",
+   "name": "Pau'an",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 31,
+    "age_middle": 401,
+    "age_old": 501,
+    "age_venerable": 700,
+    "age_young_adult": 17,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "languages": [
+     "Basic",
+     "Utapese"
+    ],
+    "mod_cha": 2,
+    "mod_str": -2,
+    "mod_wis": 2,
+    "natural_weapons": [
+     {
+      "name": "horns",
+      "damage": "1d6",
+      "type": "piercing"
+     }
+    ],
+    "reroll_skill_1": "Initiative",
+    "reroll_skill_1_mode": "worse",
+    "size": "m",
+    "skill_focus_1": "Persuasion",
+    "source_tag": "WEB",
+    "specials": [
+     "Authority",
+     "Low-Light Vision"
+    ],
+    "species_kind": "species",
+    "speed": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 84,
+     "ref": "Data!J84:BU84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species"
+   ]
+  },
+  {
+   "id": "species_phindian",
+   "entity": "species",
+   "name": "Phindian",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 17,
+    "age_middle": 40,
+    "age_old": 55,
+    "age_venerable": 75,
+    "age_young_adult": 13,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "languages": [
+     "Phindian"
+    ],
+    "mod_cha": -2,
+    "mod_int": 2,
+    "size": "m",
+    "skill_focus_1": "Mechanics",
+    "source_tag": "WEB",
+    "specials": [],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Phindian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 85,
+     "ref": "Data!J85:BU85",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_polis_massan",
+   "entity": "species",
+   "name": "Polis Massan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "languages": [
+     "Massan",
+     "Basic (understand only)"
+    ],
+    "mod_str": -2,
+    "mod_wis": 2,
+    "reroll_skill_1": "Persuasion",
+    "reroll_skill_1_mode": "better",
+    "size": "s",
+    "skill_focus_1": "Treat Injury",
+    "source_tag": "WEB",
+    "specials": [
+     "Darkvision",
+     "Limited Telepathy",
+     "Mute"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Polis_Massan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 86,
+     "ref": "Data!J86:BU86",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_skakoan",
+   "entity": "species",
+   "name": "Skakoan",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 15,
+    "age_middle": 45,
+    "age_old": 60,
+    "age_venerable": 70,
+    "age_young_adult": 12,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "feat1": "Armor Proficiency (light)",
+    "languages": [
+     "Basic",
+     "Skakoverbal"
+    ],
+    "mod_dex": -2,
+    "mod_int": 2,
+    "size": "m",
+    "skill_focus_1": "Mechanics",
+    "source_tag": "WEB",
+    "specials": [
+     "Special Equipment (Skakoan)",
+     "Mechanical Savant"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Skakoan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 100,
+     "ref": "Data!J100:BU100",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "species_tusken_raider",
+   "entity": "species",
+   "name": "Tusken Raider",
+   "canon": "third_party",
+   "attrs": {
+    "age_adult": 14,
+    "age_middle": 45,
+    "age_old": 61,
+    "age_venerable": 75,
+    "age_young_adult": 9,
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "languages": [
+     "Tusken"
+    ],
+    "mod_con": 2,
+    "mod_int": -2,
+    "mod_wis": -2,
+    "size": "m",
+    "source_tag": "WEB",
+    "specials": [
+     "Survival Instinct",
+     "Sneaky"
+    ],
+    "species_kind": "species",
+    "speed": 6,
+    "url": "https://swse.miraheze.org/wiki/Tusken_Raider"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_species",
+     "sheet": "Data",
+     "row": 115,
+     "ref": "Data!J115:BU115",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "species:species",
+    "url:matched_by_name"
+   ]
+  }
+ ]
+}

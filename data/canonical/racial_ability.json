@@ -1,0 +1,4773 @@
+{
+ "entity": "racial_ability",
+ "label": "racial_ability",
+ "role": "option",
+ "count": 215,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "racial_ability_beast_traits",
+   "entity": "racial_ability",
+   "name": "--- Beast Traits ---",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 193,
+     "ref": "Data!BO193:BV193",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_ability_adjustment",
+   "entity": "racial_ability",
+   "name": "Ability adjustment",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Increase one ability score by 2 and reduce another by 2 to account for emphasis in certain attributes (such as strength or intelligence)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!BO3:BV3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_able_healer",
+   "entity": "racial_ability",
+   "name": "Able Healer",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Other characters healed by the character gain an additional 5 hit points; once per encounter as a swift action, grant an adjacent ally 10 + character level bonus hit points until the end of the encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!BO4:BV4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_acrobatic_prowess",
+   "entity": "racial_ability",
+   "name": "Acrobatic Prowess",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Trianii can reroll any Acrobatics check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!BO5:BV5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_additional_arms",
+   "entity": "racial_ability",
+   "name": "Additional arms",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Up to 2 additional arms. When making multiple attacks, the character can reduce the penalty to the attack roll by 2."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!BO6:BV6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_adept_diplomat",
+   "entity": "racial_ability",
+   "name": "Adept Diplomat",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Persuasion checks, keeping the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!BO7:BV7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_aerobatics",
+   "entity": "racial_ability",
+   "name": "Aerobatics",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As part of its move action, a flying beast uses the Tumble ability of the Acrobatics skill (see page 63 of the Saga Edition core rulebook) to fly through a threatened area or the fighting space of an enemy without provoking an attack of opportunity. The beast must make a successful DC 15 Acrobatics check and is considered trained in Acrobatics for the purpose of using this special quality."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 209,
+     "ref": "Data!BO209:BV209",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_airborne",
+   "entity": "racial_ability",
+   "name": "Airborne",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll initiative checks but must keep second roll"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!BO8:BV8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_ambush",
+   "entity": "racial_ability",
+   "name": "Ambush",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast deals an additional 2d6 points of damage with its natural weapons against an enemy that is flat-footed or that is denied its Dexterity bonus."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 194,
+     "ref": "Data!BO194:BV194",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_ancient_knowledge",
+   "entity": "racial_ability",
+   "name": "Ancient Knowledge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Reduced armor and weapon proficiency penalties; may use a trained-only use of Mechanics, Pilot, Treat Injury or Use Computer once per encounter even if untrained"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!BO9:BV9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_animal_handler",
+   "entity": "racial_ability",
+   "name": "Animal Handler",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll any Ride check, but the result of the reroll must be accepted even it is worse; may make Persuasion checks to change the attitude of an undomesticated creature of Intelligence 2 or lower"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!BO10:BV10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_antennapalps",
+   "entity": "racial_ability",
+   "name": "Antennapalps",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "At close range (within 10 squares) ignore cover and concealment for the purposes of Perception checks. While antennapalps are extended suffer a -2 penalty to defenses against sonic attacks"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!BO11:BV11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_aquatic",
+   "entity": "racial_ability",
+   "name": "Aquatic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can't drown in water and doesn't need to make Swim checks; low-light vision"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!BO12:BV12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_arctic",
+   "entity": "racial_ability",
+   "name": "Arctic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll Survival checks to resist extreme cold, keep the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!BO13:BV13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_armor_training",
+   "entity": "racial_ability",
+   "name": "Armor Training",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Increase maximum Dexterity bonus to armor worn by 1"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!BO15:BV15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_armored_scales",
+   "entity": "racial_ability",
+   "name": "Armored Scales",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The naturally tough scales of the Ssi-Ruuk grant them a +2 Natural Armor bonus to their Reflex Defense. A Natural Armor bonus stacks with an Armor bonus."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!BO14:BV14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_athletic",
+   "entity": "racial_ability",
+   "name": "Athletic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Reroll any Climb or Jump check, but the result must be accepted, even if worse. Take 10 on Climb and Jump checks."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!BO16:BV16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_authority",
+   "entity": "racial_ability",
+   "name": "Authority",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Add +1 to any insight or morale bonuses granted to themselves or other characters"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!BO17:BV17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_bellow",
+   "entity": "racial_ability",
+   "name": "Bellow",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can open all four throats as a standard action (1d20 + character level) against the Fortitude Defense of all creatures and unattended objects in a 6-square cone, dealing 3d6 sonic damage and moving the character a step down the condition track; for each extra d6 of damage added the character moves a further step down the condition track"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!BO18:BV18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_biotech_augmentation",
+   "entity": "racial_ability",
+   "name": "Biotech augmentation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Augmented with biotechnology. Select one bio-implant (see pages 67-68 of the Legacv Era Campaign Guide)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!BO19:BV19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_bonus_feat",
+   "entity": "racial_ability",
+   "name": "Bonus Feat",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Choose one additional feat"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!BO20:BV20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_bonus_trained_skill",
+   "entity": "racial_ability",
+   "name": "Bonus Trained Skill",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Choose one additional class skill to train"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!BO21:BV21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_breathe_underwater",
+   "entity": "racial_ability",
+   "name": "Breathe Underwater",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Cannot drown in water"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!BO22:BV22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_broadcast_telepath",
+   "entity": "racial_ability",
+   "name": "Broadcast Telepath",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Use Telepathy application of the Use the Force skill untrained, automatically succeed to communicate with targets within 60 squares and line of sight"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!BO23:BV23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_brutal",
+   "entity": "racial_ability",
+   "name": "Brutal",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, may treat an opponent's damage threshold as if it were 5 points lower when determining the result of a melee attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!BO24:BV24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_camouflage",
+   "entity": "racial_ability",
+   "name": "Camouflage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast's natural coloration changes to mimic its surroundings. The beast ignores its size modifier when it makes Stealth checks."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 204,
+     "ref": "Data!BO204:BV204",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_carapace",
+   "entity": "racial_ability",
+   "name": "Carapace",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Krevaaki gain a +1 natural armor bonus to Reflex Defense and a +1 bonus to Fortitude Defense"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!BO25:BV25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_careful_worker",
+   "entity": "racial_ability",
+   "name": "Careful Worker",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Sluissi who takes twice the normal amount of time required to use the Mechanics skill gains a + 10 circumstance bonus to the Mechanics check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!BO26:BV26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_cathar_instincts",
+   "entity": "racial_ability",
+   "name": "Cathar Instincts",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Climb and Stealth are class skills"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!BO27:BV27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_climate_adaptation",
+   "entity": "racial_ability",
+   "name": "Climate adaptation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Resistant to a specific climate. Select one: freezing, rarefied atmosphere, searing, smoky, tropical, or watery. When challenged by an environmental factor in that climate (chosen from those listed, or others at the Gamemaster's discretion), can reroll an Endurance or a Survival check, taking the better result."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!BO28:BV28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_climber_s_heritage",
+   "entity": "racial_ability",
+   "name": "Climber's Heritage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Climb is a class skill"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!BO29:BV29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_cold_blooded",
+   "entity": "racial_ability",
+   "name": "Cold Blooded",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "-2 to Fortitude Defense against extreme cold, +5 against extreme heat"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!BO30:BV30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_cold_resistance",
+   "entity": "racial_ability",
+   "name": "Cold Resistance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+5 Fortitude Defense against extreme cold"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!BO31:BV31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_conductive",
+   "entity": "racial_ability",
+   "name": "Conductive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Naturally generate a small amount of electrical energy and use as a natural weapon in an unarmed attack, dealing 1d6 points of energy damage. Character is always considered armed with a natural weapon."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!BO32:BV32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_confusion",
+   "entity": "racial_ability",
+   "name": "Confusion",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter as a standard action, make a Deception check against the Will Defense of a target within 6 squares to stop them threatening any squares until your next turn"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!BO33:BV33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_connections",
+   "entity": "racial_ability",
+   "name": "Connections",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Forgo credit cost to learn secret information with a Gather Information check; can try again after failure, but must pay the regular price"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!BO34:BV34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_constrict",
+   "entity": "racial_ability",
+   "name": "Constrict",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "If the beast successfully grapples an enemy, it can use the Crush and Pin feats as normal. When crushing, however, the beast deals damage equal to 2d6 + its Strength modifier + half its beast class level rounded down."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 195,
+     "ref": "Data!BO195:BV195",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_cooperative",
+   "entity": "racial_ability",
+   "name": "Cooperative",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Automatically succeeds when attempting to aid another on a skill check for an adjacent and comprehending ally"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!BO35:BV35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_cooperative_spirit",
+   "entity": "racial_ability",
+   "name": "Cooperative Spirit",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can aid another, or be aided, as a swift action on adjacent opponents with Climb, Endurance, Gather Information, Jump, Knowledge, Mechanics, Pilot, Ride, Survival, Swim, Treat Injury, or Use Computer checks"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!BO36:BV36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_cultural_cybernetics",
+   "entity": "racial_ability",
+   "name": "Cultural cybernetics",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Culture commonly augments members with cybernetics fram birth. Select one cybernetic enhancement."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!BO37:BV37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_cyanogen_breather",
+   "entity": "racial_ability",
+   "name": "Cyanogen Breather",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Unless encased in a special environment chamber, Celegians suffocate"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!BO38:BV38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_darkvision",
+   "entity": "racial_ability",
+   "name": "Darkvision",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Ignore concealment from darkness; cannot perceive colors in total darkness"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!BO39:BV39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_deathstrike",
+   "entity": "racial_ability",
+   "name": "Deathstrike",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Any time a melee attack is made against an opponent that is denied its Dexterity bonus to Reflex Defense, the Blood Carver's attack, if successful, deals +1 die of damage"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!BO40:BV40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_deceptive",
+   "entity": "racial_ability",
+   "name": "Deceptive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Deception check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!BO41:BV41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_deductive_reasoning",
+   "entity": "racial_ability",
+   "name": "Deductive Reasoning",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Givin constantly evaluate data, discarding inconclusive results. A Givin can reroll any Knowledge check, but the resu lt of the reroll must be accepted, even if it is worse."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!BO42:BV42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_dependable_worker",
+   "entity": "racial_ability",
+   "name": "Dependable Worker",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May treat Climb, Endurance, Gather Information, Jump, Knowledge, Mechanics, Pilot, Ride, Survival, Swim, Treat Injury, or Use Computer checks as if taking 10 once per encounter after rolling"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 43,
+     "ref": "Data!BO43:BV43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_desert",
+   "entity": "racial_ability",
+   "name": "Desert",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll Survival checks to resist extreme heat, keep the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 44,
+     "ref": "Data!BO44:BV44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_desert_dweller",
+   "entity": "racial_ability",
+   "name": "Desert Dweller",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When making Survival checks to resist the effects of extreme heat, reroll the check and keep the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 45,
+     "ref": "Data!BO45:BV45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_determination",
+   "entity": "racial_ability",
+   "name": "Determination",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll a failed skill check with a trained skill once per encounter, but must take the second result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 46,
+     "ref": "Data!BO46:BV46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_devour",
+   "entity": "racial_ability",
+   "name": "Devour",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "If the beast hits with its bite attack against a target two size categories or more smaller than itself, it can automatically make a grapple check with its bite attack at its full bonus (even if it has already taken a full-round action). If the grapple check is successful, the beast can begin devouring its target, and each round the target is in the beast's mouth, the beast deals damage equal to 1d8 + its Strength modifier + half its beast class level rounded down. If the target reaches 0 hit points, it is swallowed by the beast and continues to take 1d6 points of acid damage each round."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 196,
+     "ref": "Data!BO196:BV196",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_diving_attack",
+   "entity": "racial_ability",
+   "name": "Diving Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The flying beast dives sharply to attack an enemy at a lower altitude. When making a Charge attack (see page 152 of the Saga Edition core rulebook. In addition to the competence bonus granted by the charge attack, the beast gains a + 1 circumstance bonus to its attack roll (up to a +5 total circumstance bonus) for every square the flying beast moves downward. Additionally, the beast can use a move action after resolving the charge attack. Until the end of its next turn, the beast takes a -2 penalty to its Reflex Defense because of the charge action."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 210,
+     "ref": "Data!BO210:BV210",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_driven",
+   "entity": "racial_ability",
+   "name": "Driven",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+5 species bonus to Will Defense against mind-affecting effects"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 47,
+     "ref": "Data!BO47:BV47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_droid_shell",
+   "entity": "racial_ability",
+   "name": "Droid Shell",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Maintenance as droid, immune to poison, disease, radiation, noncorrosive atmospheric hazards, vacuum, vulnerable to ion damage, use droid systems and accessories"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 48,
+     "ref": "Data!BO48:BV48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_droid_traits",
+   "entity": "racial_ability",
+   "name": "Droid Traits",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Behavioral Inhibitors, Ion Damage Vulnerability, Maintenance, Memory, Nonliving, Repair, Shut Down, Skills, Systems (see SECR page 187)"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 49,
+     "ref": "Data!BO49:BV49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_dustball",
+   "entity": "racial_ability",
+   "name": "Dustball",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast can kick up a huge cloud when in dusty, dirty, or sandy terrain. Any square the beast passes through, as well as any adjacent squares, provides concealment until the end of the beast's next turn. The beast can remain stationary, but it must expend a move action to produce the effect. Make an attack roll (1d20+5) against the Fortitude Defense of all targets within the cloud. If the attack is successful, the targets are blinded for as long as they remain in the cloud (see page 254 of the Saga Edition core rulebook)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 214,
+     "ref": "Data!BO214:BV214",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_duty_bound",
+   "entity": "racial_ability",
+   "name": "Duty Bound",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter upon receiving a morale bonus, gain bonus hit points equal to 4 x character level until the end of the encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 50,
+     "ref": "Data!BO50:BV50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_ecological_awareness",
+   "entity": "racial_ability",
+   "name": "Ecological Awareness",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Due to their conscientiousness and drive to protect the natural environment of their homeworld, Ishi lib can roll twice when making a Knowledge (life sciences) check, keeping the better result."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 51,
+     "ref": "Data!BO51:BV51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_electroshock",
+   "entity": "racial_ability",
+   "name": "Electroshock",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When in water or underwater, the beast produces a short-range electrical jolt. As a standard action, the beast makes an area attack (1d20+ 10) centered on one of its own squares against the Fortitude Defense of all creatures in adjacent squares. If the attack is successful, the target takes 4d6 points of energy damage. If unsuccessful, the target takes half damage."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 211,
+     "ref": "Data!BO211:BV211",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_empath",
+   "entity": "racial_ability",
+   "name": "Empath",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can use the telepathy application of the Use the Force ski ll untrained, and without having the Force Sensitivity feat. Additionally, can sense the emotions of a target if the Use the Force check equals or exceeds the target's Will Defense."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 52,
+     "ref": "Data!BO52:BV52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_energy_reading",
+   "entity": "racial_ability",
+   "name": "Energy Reading",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Gotals can read the emotions of any sentient being within 6 squares. As a standard action, a Gotal can make a Perception check against a target's Will Defense. A successful check reveals the target's emotional state (such as happy, sad, nervous, or scared)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 53,
+     "ref": "Data!BO53:BV53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_environmental_adaptation",
+   "entity": "racial_ability",
+   "name": "Environmental Adaptation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Dashade gain a +5 species bonus to their Fortitude Defense against the effect of extreme heat, extreme cold, and radiation"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 54,
+     "ref": "Data!BO54:BV54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_evolved_intellect",
+   "entity": "racial_ability",
+   "name": "Evolved Intellect",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Whenever a Bith spends a Force Point for any reason, the Bith gains a temporary Force Point that must be spent to add to an Intelligence-based skill check. If the temporary Force Point has not been used by the end of the encounter, it is lost."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 55,
+     "ref": "Data!BO55:BV55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_exoskeleton",
+   "entity": "racial_ability",
+   "name": "Exoskeleton",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The hard shells of Givin grant them DR 2 and a +2 species bonus to Fortitude Defense."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 56,
+     "ref": "Data!BO56:BV56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_expert_climber",
+   "entity": "racial_ability",
+   "name": "Expert Climber",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to take 10 on climb checks even when distracted or threatened"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 57,
+     "ref": "Data!BO57:BV57",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_expert_pilot",
+   "entity": "racial_ability",
+   "name": "Expert Pilot",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Pilot check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 58,
+     "ref": "Data!BO58:BV58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_expert_swimmer",
+   "entity": "racial_ability",
+   "name": "Expert Swimmer",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Swim check, but the result of the reroll must be accepted even if it is worse; may take 10 on Swim checks even when distracted or threatened"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 59,
+     "ref": "Data!BO59:BV59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_extra_arms",
+   "entity": "racial_ability",
+   "name": "Extra Arms",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can hold up to four tiems or weapons at a time. This ability doesn't grant extra attacks; howevr it does allow two two-handed weapons to be wielded at a time"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 60,
+     "ref": "Data!BO60:BV60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_fast_healing",
+   "entity": "racial_ability",
+   "name": "Fast Healing",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast automatically regains 5 (or 10 if the beast is Gargantuan or larger) hit points every round at the end of its turn, up to its normal maximum, until it is killed."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 205,
+     "ref": "Data!BO205:BV205",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_fearsome_reputation",
+   "entity": "racial_ability",
+   "name": "Fearsome Reputation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Dashade can reroll Persuasion checks made to intimidate another, keeping the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 61,
+     "ref": "Data!BO61:BV61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_ferocious",
+   "entity": "racial_ability",
+   "name": "Ferocious",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast can reroll a failed attack with one of its natural weapons."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 197,
+     "ref": "Data!BO197:BV197",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_flash_of_genius",
+   "entity": "racial_ability",
+   "name": "Flash of Genius",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can add +5 bonus to Knowledge, Mechanics or Use Computer skill check once per encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 62,
+     "ref": "Data!BO62:BV62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_fly_speed_6",
+   "entity": "racial_ability",
+   "name": "Fly Speed (6)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can move at a speed of 6 squares when flying"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 63,
+     "ref": "Data!BO63:BV63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_fly_speed_8",
+   "entity": "racial_ability",
+   "name": "Fly Speed (8)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can move at a speed of 8 squares when flying"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 64,
+     "ref": "Data!BO64:BV64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_force_blast",
+   "entity": "racial_ability",
+   "name": "Force Blast",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, make an untrained Use the Force check to activate Force blast",
+    "url": "https://swse.miraheze.org/wiki/Force_Blast"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 65,
+     "ref": "Data!BO65:BV65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_force_blind",
+   "entity": "racial_ability",
+   "name": "Force Blind",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can't take the Force Sensitivity feat and can't make Use the Force checks",
+    "url": "https://swse.miraheze.org/wiki/Force_Blind"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 66,
+     "ref": "Data!BO66:BV66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_force_immunity",
+   "entity": "racial_ability",
+   "name": "Force Immunity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can't take the Force Sensitivity feat, can't make Use the Force checks and can't gain Force Points; immune to Force effects targeting Will Defense"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 67,
+     "ref": "Data!BO67:BV67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_force_resistance",
+   "entity": "racial_ability",
+   "name": "Force Resistance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+5 species bonus to Will Defense against any Use the Force check"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 68,
+     "ref": "Data!BO68:BV68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_force_sight",
+   "entity": "racial_ability",
+   "name": "Force Sight",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can see through the Force despite being blind. This functions as the Force technique Improved Sense Surroundings"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 69,
+     "ref": "Data!BO69:BV69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_gen_dai_surge",
+   "entity": "racial_ability",
+   "name": "Gen'Dai Surge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Whenever a Gen'Dai takes a second wind, it regains 5 hit points at the end of its round, each round until it is killed, the end of the encounter, or it reaches half hit points"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 70,
+     "ref": "Data!BO70:BV70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_grasping_tentacles",
+   "entity": "racial_ability",
+   "name": "Grasping Tentacles",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Krevaaki gain a +2 species bonus on Climb checks and a +2 species bonus on grapple checks"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 71,
+     "ref": "Data!BO71:BV71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_hardy",
+   "entity": "racial_ability",
+   "name": "Hardy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Whenever Second Wind is used, gain an additional number of hit points equal to 5 + character level"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 72,
+     "ref": "Data!BO72:BV72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_healing_glands",
+   "entity": "racial_ability",
+   "name": "Healing Glands",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Fosh can exude a powerful fluid from their tear ducts that can aid in the healing process for most species. A Fosh is always considered to have a medpac or medical kit for the purposes of making Treat Injury checks, and can perform Trained Only applications of the Treat Injury skill even when untrained."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 73,
+     "ref": "Data!BO73:BV73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_heavy_lifting",
+   "entity": "racial_ability",
+   "name": "Heavy Lifting",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Reroll any Strength check or Strength-based skill check and keep either result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 74,
+     "ref": "Data!BO74:BV74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_heightened_awareness",
+   "entity": "racial_ability",
+   "name": "Heightened Awareness",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Perception check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 75,
+     "ref": "Data!BO75:BV75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_hibernation",
+   "entity": "racial_ability",
+   "name": "Hibernation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can enter a state similar to a Force Trance and use that application of the Use the Force skill untrained and can remain in the trance indefinately"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 76,
+     "ref": "Data!BO76:BV76",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_hold_breath",
+   "entity": "racial_ability",
+   "name": "Hold Breath",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can hold breath for number of rounds equal to 25 times Constitution score before needing to make Endurance checks to hold breath"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 77,
+     "ref": "Data!BO77:BV77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_hullepi",
+   "entity": "racial_ability",
+   "name": "Hullepi",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Do not suffer the effects of starvation except in sterile environments"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 78,
+     "ref": "Data!BO78:BV78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_icy_shock",
+   "entity": "racial_ability",
+   "name": "Icy Shock",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When the beast succeeds with a melee attack using its natural weapon and the attack deals damage greater than the target's damage threshold, the target takes an additional 5 points of damage and moves -1 step on the condition track. Targets with the arctic species trait are immune to this special quality."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 213,
+     "ref": "Data!BO213:BV213",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_inborn_resilience",
+   "entity": "racial_ability",
+   "name": "Inborn Resilience",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May use Second Wind even when unconscious and move +3 steps on the condition track",
+    "url": "https://swse.miraheze.org/wiki/Inborn_Resilience"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 79,
+     "ref": "Data!BO79:BV79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_ink_cloud",
+   "entity": "racial_ability",
+   "name": "Ink Cloud",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When in water or underwater, as a swift action, the beast produces an inky substance, which expands out from the creature in all directions at a rate of 1 square per round, up to a 3-square radius. The cloud grants concealment to characters within or behind it. Additionally, the beast makes an attack roll (1d20+5) against the Fortitude Defense of water-breathing creatures within the cloud. If the attack succeeds, the target takes 1d6 points of damage and moves -1 step on the condition track. If the attack fails, the target takes half damage and does not move on the condition track."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 212,
+     "ref": "Data!BO212:BV212",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_inspired",
+   "entity": "racial_ability",
+   "name": "Inspired",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Increase any insight or morale bonus received by 1"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 80,
+     "ref": "Data!BO80:BV80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_insulating_fur",
+   "entity": "racial_ability",
+   "name": "Insulating Fur",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Receive a +5 species bonus to Fortitude Defense to resist the effects of extreme cold"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 81,
+     "ref": "Data!BO81:BV81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_intellectual_reputation",
+   "entity": "racial_ability",
+   "name": "Intellectual Reputation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can use Intelligence modifier rather than Charisma modifier for Persuasion"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 82,
+     "ref": "Data!BO82:BV82",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_intimidating",
+   "entity": "racial_ability",
+   "name": "Intimidating",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll any Persuasion check made to intimidate others, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 83,
+     "ref": "Data!BO83:BV83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_intuitive_initiative",
+   "entity": "racial_ability",
+   "name": "Intuitive Initiative",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll any Initiative check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 84,
+     "ref": "Data!BO84:BV84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_keen_force_sense",
+   "entity": "racial_ability",
+   "name": "Keen Force Sense",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Use the Force check made to search their feelings or sense the Force, keeping the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 85,
+     "ref": "Data!BO85:BV85",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_keen_smell",
+   "entity": "racial_ability",
+   "name": "Keen Smell",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Ssi-Ruuk use their keen sense of smell to detect changes in a target's emotional state. When within 6 squares of a target in the same room or open area, a Ssi-Ruuk can reroll Persuasion checks against that target, keeping the better of the two results."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 86,
+     "ref": "Data!BO86:BV86",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_labor_droid",
+   "entity": "racial_ability",
+   "name": "Labor Droid",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Reroll any Strength check or Strength-based skill check and keep either result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 87,
+     "ref": "Data!BO87:BV87",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_light_sensitivity",
+   "entity": "racial_ability",
+   "name": "Light Sensitivity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Abrupt exposure to bright light (such as sunlight) blinds for 1 round; suffer a -1 penalty to all attack rolls, defenses and checks when operating in bright light without protective eyewear"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 88,
+     "ref": "Data!BO88:BV88",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_limb_regeneration",
+   "entity": "racial_ability",
+   "name": "Limb Regeneration",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Regrow a lost limb in 1d10 days"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 89,
+     "ref": "Data!BO89:BV89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_limited_precognition",
+   "entity": "racial_ability",
+   "name": "Limited Precognition",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, an Iktotchi can grant itself or any vehicle it pilots a +2 species bonus to Reflex Defense against a single attack (as a reaction)"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 90,
+     "ref": "Data!BO90:BV90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_limited_telepathy",
+   "entity": "racial_ability",
+   "name": "Limited Telepathy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can use the Telepathy aspect of the Use the Force skill untrained (even if not Force-sensitive). If the target is within 10 squares, no skill check is required to initiate the telepathic contact"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 91,
+     "ref": "Data!BO91:BV91",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_low_light_vision",
+   "entity": "racial_ability",
+   "name": "Low-Light Vision",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Ignore concealment (but not total concealment) from darkness"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 92,
+     "ref": "Data!BO92:BV92",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_mechanical_aptitude",
+   "entity": "racial_ability",
+   "name": "Mechanical Aptitude",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, a Yevetha can treat any single Mechanics check as if the die roll is a natural 20"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 93,
+     "ref": "Data!BO93:BV93",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_mechanical_savant",
+   "entity": "racial_ability",
+   "name": "Mechanical Savant",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, can make a standard action Mechanics or Use Computer check as a swift action."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 94,
+     "ref": "Data!BO94:BV94",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_mechanically_minded",
+   "entity": "racial_ability",
+   "name": "Mechanically Minded",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Mechanic droids can reroll any Mechanics check"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 95,
+     "ref": "Data!BO95:BV95",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_meditative_trance",
+   "entity": "racial_ability",
+   "name": "Meditative Trance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Instead of sleeping for 8 hours, can enter a trance that lasts 4 hours with the same results; can be used once a day; remains somewhat aware of surroundings and can make Perception checks to avoid being surprised"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 96,
+     "ref": "Data!BO96:BV96",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_memory_sharing",
+   "entity": "racial_ability",
+   "name": "Memory Sharing",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can share memories with adjacent Caamasi and Force-using characters (with a DC 15 Use the Force check) initiated as a full-round action to grant favorable circumstances to any Knowledge check related to the memory"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 97,
+     "ref": "Data!BO97:BV97",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_mender",
+   "entity": "racial_ability",
+   "name": "Mender",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "If trained in Treat Injury, reduce the Treat Injury DC for all applications of the skill by"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 98,
+     "ref": "Data!BO98:BV98",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_mental_instability",
+   "entity": "racial_ability",
+   "name": "Mental Instability",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "For each age category a Gen'Dai advances past Adult, it takes an additional loss of -1 Wisdom and never gains Wisdom due to age"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 99,
+     "ref": "Data!BO99:BV99",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_mesmerize",
+   "entity": "racial_ability",
+   "name": "Mesmerize",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 100,
+     "ref": "Data!BO100:BV100",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_moral_ambiguity",
+   "entity": "racial_ability",
+   "name": "Moral Ambiguity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "-5 penalty to Will Defense against Persuasion checks if promised profit or power"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 101,
+     "ref": "Data!BO101:BV101",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_multiple_personalities",
+   "entity": "racial_ability",
+   "name": "Multiple Personalities",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, as a free action at the start of his or her turn, negate or remove any mind-affecting effects"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 102,
+     "ref": "Data!BO102:BV102",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_musical_beak",
+   "entity": "racial_ability",
+   "name": "Musical Beak",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When using beak to immitate sounds or noises, can reroll Deception checks and take the better result; throw voice out to 10 squares; As a swift action, use ventriloquisim to create a diversion to hide"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 103,
+     "ref": "Data!BO103:BV103",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_mute",
+   "entity": "racial_ability",
+   "name": "Mute",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Polis Massans have no vocal chords, and must rely on a combination of sign language, computers and telepathy in order to communicate with others. When they learn new languages, they can understand but not speak them."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 104,
+     "ref": "Data!BO104:BV104",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_natural_armor",
+   "entity": "racial_ability",
+   "name": "Natural Armor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+1 natural armor bonus to Reflex Defense. A natural armor bonus stacks with an armor bonus"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 105,
+     "ref": "Data!BO105:BV105",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_natural_camouflage",
+   "entity": "racial_ability",
+   "name": "Natural Camouflage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll any Stealth checks made to sneak, keeping the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 106,
+     "ref": "Data!BO106:BV106",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_natural_curiosity",
+   "entity": "racial_ability",
+   "name": "Natural Curiosity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter as a standard action, a Devaronian can make a Perception check against a single target within line of sight (DC 15 or the result of an opposed Stealth check, if the target is actively attempting to hide). If successful, the Devaronian gains a +1 insight bonus on attack rolls against that target."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 107,
+     "ref": "Data!BO107:BV107",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_natural_diplomat",
+   "entity": "racial_ability",
+   "name": "Natural Diplomat",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Squib gains a +5 species bonus to Persuasion checks made to Haggle (see page 71 of the Saga Edition core rulebook). Additionally, Persuasion is always a class skill for Squibs."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 108,
+     "ref": "Data!BO108:BV108",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_natural_telepath",
+   "entity": "racial_ability",
+   "name": "Natural Telepath",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+5 species bonus to Telepathy aspect of Use the Force and can make untrained Use the Force checks without Force Sensitivity"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 109,
+     "ref": "Data!BO109:BV109",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_natural_weapon",
+   "entity": "racial_ability",
+   "name": "Natural weapon",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can use natural claws in an unarmed attack, dealing 1d6 points of slashing damage instead of normal unarmed damage. Character is always considered armed with the natural weapons."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 110,
+     "ref": "Data!BO110:BV110",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_naturally_acrobatic",
+   "entity": "racial_ability",
+   "name": "Naturally acrobatic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Considered trained in the Acrobatics skill, even if it is not normally a class skill for the character."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 111,
+     "ref": "Data!BO111:BV111",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_nazren_resistance",
+   "entity": "racial_ability",
+   "name": "Nazren Resistance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, upon taking damage equal to or exceeding to damage threshold, reduce number of steps moved down condition track by 1"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 112,
+     "ref": "Data!BO112:BV112",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_nomads",
+   "entity": "racial_ability",
+   "name": "Nomads",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can reroll any Survival check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 113,
+     "ref": "Data!BO113:BV113",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_observant",
+   "entity": "racial_ability",
+   "name": "Observant",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May use the Perception skill modifier in place of the Persuasion or Deception skill modifier once per encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 114,
+     "ref": "Data!BO114:BV114",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_pacifism",
+   "entity": "racial_ability",
+   "name": "Pacifism",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As a standard action, make a Persuasion check against Will Defense to move a target -1 step along the condition track if they make any attack before the character's next turn"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 115,
+     "ref": "Data!BO115:BV115",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_pack_hunter__sf_racial_abilities_116",
+   "entity": "racial_ability",
+   "name": "Pack Hunter",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Deal +2 damage on melee attacks against flanked opponents"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 116,
+     "ref": "Data!BO116:BV116",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "racial_ability_pack_hunter__sf_racial_abilities_198",
+   "entity": "racial_ability",
+   "name": "Pack Hunter",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast gives a +4 bonus instead of a +2 bonus when using the aid another action."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 198,
+     "ref": "Data!BO198:BV198",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "racial_ability_partial_invisibility",
+   "entity": "racial_ability",
+   "name": "Partial Invisibility",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The fur of a Defel helps bend all but ultraviolet light, rendering him or her nearly invisible. A Defel in shadowy illumination or darker conditions is treated as having total concealment. Defel are fu lly visible and gain no concealment against opponents with darkvision."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 117,
+     "ref": "Data!BO117:BV117",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_persistant",
+   "entity": "racial_ability",
+   "name": "Persistant",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Reroll any Endurance check, but ther result of the reroll must be accepted, even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 118,
+     "ref": "Data!BO118:BV118",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_persistent",
+   "entity": "racial_ability",
+   "name": "Persistent",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can reroll an Endurance check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 119,
+     "ref": "Data!BO119:BV119",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_persuasive",
+   "entity": "racial_ability",
+   "name": "Persuasive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Persuasion check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 120,
+     "ref": "Data!BO120:BV120",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_pheromonal_communication",
+   "entity": "racial_ability",
+   "name": "Pheromonal Communication",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can communicate with other members of same tribe by creating a scent that those with pheromonal Communication or Scent can detect, but only those of the same tribe can understand; Max rnage of 20 squares"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 121,
+     "ref": "Data!BO121:BV121",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_pheromonal_sensor",
+   "entity": "racial_ability",
+   "name": "Pheromonal Sensor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Perception checks to sense deceptions or sense influence, but the result of the reroll must be accepted even if it is worse; underwater, may instead reroll and keep the better result"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 122,
+     "ref": "Data!BO122:BV122",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_pheromone_acclimation",
+   "entity": "racial_ability",
+   "name": "Pheromone Acclimation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Gain a +5 species bonus to Fortitude Defense against the pheromones of other Falleen"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 123,
+     "ref": "Data!BO123:BV123",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_pheromones",
+   "entity": "racial_ability",
+   "name": "Pheromones",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As a standard action, make a special attack against adjacent creature (character level + Charisma modifier vs. Fortitude Defense). If the attack succeeds, the target moves -1 step down the condition track. Instead of falling into unconsciousness at -5 steps, it instead becomes friendly in attitude. A failed attack renders the target immune to pheromones for 24 hours"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 124,
+     "ref": "Data!BO124:BV124",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_physically_intimidating__sf_racial_abilities_125",
+   "entity": "racial_ability",
+   "name": "Physically Intimidating",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May use Strength modifier instead of Charisma modifier to make Persuasion checks to intimidate others"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 125,
+     "ref": "Data!BO125:BV125",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "racial_ability_physically_intimidating__sf_racial_abilities_126",
+   "entity": "racial_ability",
+   "name": "Physically Intimidating",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Yuzzem use their Strength modifier instead of their Charisma modifier for Persuasion checks made to intimidate others"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 126,
+     "ref": "Data!BO126:BV126",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "racial_ability_placid",
+   "entity": "racial_ability",
+   "name": "Placid",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, as a free action, remove one Fear effect currently effecting you"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 127,
+     "ref": "Data!BO127:BV127",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_poison",
+   "entity": "racial_ability",
+   "name": "Poison",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast delivers poison through a bite, a claw, or a sting natural weapon attack. If the beast deals damage to a living ta rget, the target is also poisoned. If the poison succeeds on an attack roll (1d20+ 10) against the target's Fortitude Defense, the target moves -1 step along the condition track. A target moved to the bottom of the condition track by the poison is immobilized but not un conscious. The poison attacks each round until cured with a successful DC 5, 10,15, or 20 (select one) Treat Injury check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 199,
+     "ref": "Data!BO199:BV199",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_poison_claws",
+   "entity": "racial_ability",
+   "name": "Poison Claws",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Living targets damaged by claw attack are poisoned by an attack roll (1d20 + Savrip's character level) against Fortitude Defense to move -1 step down the condition track"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 128,
+     "ref": "Data!BO128:BV128",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_poison_resistance",
+   "entity": "racial_ability",
+   "name": "Poison Resistance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+5 species bonus to Fortitude Defense to resist the effects of poison",
+    "url": "https://swse.miraheze.org/wiki/Poison_Resistance"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 129,
+     "ref": "Data!BO129:BV129",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_pounce",
+   "entity": "racial_ability",
+   "name": "Pounce",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When long jumping, the beast does not require a running start for jumps of 4 squares or fewer and does not double the Jump DC when doing so (see page 68 of the Saga Edition core rulebook). lf the beast successfully jumps into or adjacent to a target enemy's square, the beast can make an immediate attack against the target. If the attack is successful, the beast can attempt to trip the target (as if using the Trip feat on page 88 of the Saga Edition core rulebook) as a free action that does not provoke attacks of opportunity."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 200,
+     "ref": "Data!BO200:BV200",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_predator_s_heritage",
+   "entity": "racial_ability",
+   "name": "Predator's Heritage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+2 bonus to damage rolls against a target that has been damaged since the beginning of the Kerkoiden's last turn"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 130,
+     "ref": "Data!BO130:BV130",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_prehensile_tail",
+   "entity": "racial_ability",
+   "name": "Prehensile Tail",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Effectively hold (but not wield) a Small or smaller item with tail; may hold a Medium or larger item, considered encumbered and carrying a heavy load"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 131,
+     "ref": "Data!BO131:BV131",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_presence_sense",
+   "entity": "racial_ability",
+   "name": "Presence Sense",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When making a Survival check to track a living creature, an Anzat gains a species bonus equal to the quarry's Force Point total."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 132,
+     "ref": "Data!BO132:BV132",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_primitive",
+   "entity": "racial_ability",
+   "name": "Primitive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Do not gain Weapon Proficiency (pistols, rifles, heavy weapons) as starting feats at 1st level"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 133,
+     "ref": "Data!BO133:BV133",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_quick",
+   "entity": "racial_ability",
+   "name": "Quick",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Gain +1 to speed."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 134,
+     "ref": "Data!BO134:BV134",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_quick_energy",
+   "entity": "racial_ability",
+   "name": "Quick Energy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, as a swift action, gain +2 to Dexterity-based skill checks and increase speed to 8 squares for as many rounds as Aleena's Constitution modifier, then move -1 step along the condition track"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 135,
+     "ref": "Data!BO135:BV135",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_quick_healing",
+   "entity": "racial_ability",
+   "name": "Quick healing",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "At the end of an encounter, regain hit points equal to 1d4 + Constitution modifier (minimum 1)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 136,
+     "ref": "Data!BO136:BV136",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_quick_reflexes",
+   "entity": "racial_ability",
+   "name": "Quick Reflexes",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Shistavanen can reroll any Initiative check, but the result of the reroll must be accepted even if it is worse."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 137,
+     "ref": "Data!BO137:BV137",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_radiation_resistance",
+   "entity": "racial_ability",
+   "name": "Radiation Resistance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+2 species bonus to Fortitude Defense against radiation"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 138,
+     "ref": "Data!BO138:BV138",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_rage",
+   "entity": "racial_ability",
+   "name": "Rage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May enter a rage once a day, gaining +2 bonus to melee attack rolls and damage rolls, but unable to use skills requiring concentration and patience; lasts 5 + Constitution rounds, and moves character -1 persistent step along the condition track until 10 minutes of relaxed recuperation have passed"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 139,
+     "ref": "Data!BO139:BV139",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_reactive_claw",
+   "entity": "racial_ability",
+   "name": "Reactive Claw",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May make a single melee attack with natural weapons as a swift action upon dealing damage with a melee attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 140,
+     "ref": "Data!BO140:BV140",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_rend",
+   "entity": "racial_ability",
+   "name": "Rend",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "If the beast hits with both of its claw attacks in the same turn, it rends the enemy for an additional 2d6 points of damage.",
+    "url": "https://swse.miraheze.org/wiki/Rend"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 201,
+     "ref": "Data!BO201:BV201",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_resilient_physiology",
+   "entity": "racial_ability",
+   "name": "Resilient Physiology",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Gen'Dai's Damage Threshold is considered doubled when determining whether the Gen'Dai is killed by an attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 141,
+     "ref": "Data!BO141:BV141",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_resistant",
+   "entity": "racial_ability",
+   "name": "Resistant",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Gain a +2 species bonus to Fortitude Defense against poison, disease, radiation, and other hazards that target physiology"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 142,
+     "ref": "Data!BO142:BV142",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_roar",
+   "entity": "racial_ability",
+   "name": "Roar",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As a move action, the beast produces a terrifying, rumbling sound and makes a Persuasion check to intimidate (see page 71 of the Saga Edition core rulebook) any enemy target within 6 squares of it. If the attempt succeeds, the target must move away from the beast on the target's next turn, and the target moves -1 step on the condition track. Th is is a mindaffecting effect."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 206,
+     "ref": "Data!BO206:BV206",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_roll",
+   "entity": "racial_ability",
+   "name": "Roll",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Travel in a straight line at double speed while rolled in a ball; -5 penalty to Perception while rolling"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 143,
+     "ref": "Data!BO143:BV143",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_roller",
+   "entity": "racial_ability",
+   "name": "Roller",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As a swift action, increase base speed by 4, but can take only move, withdraw, catch a second wind, drop an item, recover, and run actions; swift action to end"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 144,
+     "ref": "Data!BO144:BV144",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_rumble",
+   "entity": "racial_ability",
+   "name": "Rumble",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As a full-round action, the beast violently shakes the ground around it, making an attack roll (1d20+ 10) against the Reflex Defense of all characters on (or under) the ground within 6 squares of the beast. If the attack is successful, standing or sitting targets are knocked prone. If the attack fails, the cost of all movement on or through the ground is doubled until the end of the beast's next turn (or until it is killed or incapacitated). Underground targets caught in a successful rumble attack cannot move. Any target that is knocked prone can get up as a full-round action, but the target is subject to further rumble attacks. The rumble lasts for a number of rounds equal to the beast's Constitution bonus (minimum 21. making an attack each round. The beast can extend the duration with a successful DC 20 Endurance check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 215,
+     "ref": "Data!BO215:BV215",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_scavenger",
+   "entity": "racial_ability",
+   "name": "Scavenger",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Whenever damaging a droid or vehicle with an ion weapon, add half level as an ion bonus to damage",
+    "url": "https://swse.miraheze.org/wiki/Scavenger"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 145,
+     "ref": "Data!BO145:BV145",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_scent__sf_racial_abilities_146",
+   "entity": "racial_ability",
+   "name": "Scent",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Withing 10 squares, ignore concealment and cover for purposes of Perception checks; no penalty from poor visibility when tracking"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 146,
+     "ref": "Data!BO146:BV146",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "racial_ability_scent__sf_racial_abilities_207",
+   "entity": "racial_ability",
+   "name": "Scent",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast ignores concealment and cover when making Perception checks to notice enemies within 10 squares, and takes no penalty from poor visibility when tracking (see the Survival skill on page 73 of the Saga Edition core rulebook)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 207,
+     "ref": "Data!BO207:BV207",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "racial_ability_scholarly_inclination",
+   "entity": "racial_ability",
+   "name": "Scholarly Inclination",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "At 1st level, a Mrlssi gains anyone trained Knowledge skill as a bonus skill."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 147,
+     "ref": "Data!BO147:BV147",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_screech",
+   "entity": "racial_ability",
+   "name": "Screech",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As a swift action, the beast produces a piercing, high-pitched sound. The beast makes an attack roll (1d20+ 10) against the Fortitude Defense of every character within 6 squares of it. If the attack succeeds, the target takes a -5 circumstance penalty against Perception checks and skill checks requiring concentration, and the target has difficulty hearing until the end of the beast's next turn."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 208,
+     "ref": "Data!BO208:BV208",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_sensor_cones",
+   "entity": "racial_ability",
+   "name": "Sensor Cones",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Gotal can use the Sense Force and Sense Surroundings applications of the Use the Force skill untrained."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 148,
+     "ref": "Data!BO148:BV148",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_serpentine",
+   "entity": "racial_ability",
+   "name": "Serpentine",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "By coiling their serpentine bodies, Sluissi are able to make long jumps without getting a running start. Sluissi are always considered to have a running start for Jump checks. They also gain a +5 stability bonus when making grapple checks against the Trip feat."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 149,
+     "ref": "Data!BO149:BV149",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_shadow_swiftness",
+   "entity": "racial_ability",
+   "name": "Shadow Swiftness",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "If a Nelvaanian begins its turn with concealment from a target or with the target unaware of it, the Nelvaanian does not provoke attacks of opportunity when moving through the target's threatened spaces until the end of its turn."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 150,
+     "ref": "Data!BO150:BV150",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_shapeshift",
+   "entity": "racial_ability",
+   "name": "Shapeshift",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Alter appearance at will, gaining a +10 species bonus on Deception checks made to disguise appearance. Disguise appearance as full-round action with no penalty"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 151,
+     "ref": "Data!BO151:BV151",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_skilled_grappler",
+   "entity": "racial_ability",
+   "name": "Skilled Grappler",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "+5 Species bonus to grab attacks"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 152,
+     "ref": "Data!BO152:BV152",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_skills",
+   "entity": "racial_ability",
+   "name": "Skills",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "s can reroll a Persuasion check, but must accept the result of the second roll, even if it is worse than the first",
+    "url": "https://swse.miraheze.org/wiki/Skills"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 153,
+     "ref": "Data!BO153:BV153",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_sneaky",
+   "entity": "racial_ability",
+   "name": "Sneaky",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll any Stealth check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 154,
+     "ref": "Data!BO154:BV154",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_social_cunning",
+   "entity": "racial_ability",
+   "name": "Social Cunning",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May use Wisdom instead of Charisma modifier for Deception and Persuasion skills"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 155,
+     "ref": "Data!BO155:BV155",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_soothing_voice",
+   "entity": "racial_ability",
+   "name": "Soothing Voice",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May choose to reroll any Persuasion check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 156,
+     "ref": "Data!BO156:BV156",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_soup_drinking",
+   "entity": "racial_ability",
+   "name": "Soup Drinking",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "As a swift action once per round, an Anzat can use its proboscis to drain energy from a grabbed target, moving the target -1 step on the condition track as a persistent condition and granting the Anzat +5 bonus hit points. If the target survives, the persistent condition is removed after 8 hours of rest."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 157,
+     "ref": "Data!BO157:BV157",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_spatial_awareness",
+   "entity": "racial_ability",
+   "name": "Spatial Awareness",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May ignore the effects of cover and concealment when using Perception against any target within 10 squares"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 158,
+     "ref": "Data!BO158:BV158",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_special_equipment",
+   "entity": "racial_ability",
+   "name": "Special Equipment",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Require protective goggles outside natural atmosphere or blind; require antiox breath mask or suffocates"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 159,
+     "ref": "Data!BO159:BV159",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_special_equipment_defel",
+   "entity": "racial_ability",
+   "name": "Special Equipment (Defel)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The eyes of Defel have evolved in such a way that they can see only in the ultraviolet spectrum. Defel that leave Af'EI must wear special ultraviolet visors to see in normal light. Without such a visor, a Defel is considered blind (see \"Blindness\" on page 254 of the Saga Edition core rulebookJ. An ultraviolet visor costs 2,000 credits. A Defel character begins play with th is item at no cost."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 160,
+     "ref": "Data!BO160:BV160",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_special_equipment_gand",
+   "entity": "racial_ability",
+   "name": "Special Equipment (Gand)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Require breathing apparatus outside natural atmosphere or suffocate, require transliterator or can speak only Gand"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 161,
+     "ref": "Data!BO161:BV161",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_special_equipment_skakoan",
+   "entity": "racial_ability",
+   "name": "Special Equipment (Skakoan)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Require a pressure suit outside native atmosphere or takes 1d6 damge per round and suffocates"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 162,
+     "ref": "Data!BO162:BV162",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_special_equipment_ubese",
+   "entity": "racial_ability",
+   "name": "Special Equipment (Ubese)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Require breath mask or suffocate; voice modulator masks ubese's gender"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 163,
+     "ref": "Data!BO163:BV163",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_spring_step",
+   "entity": "racial_ability",
+   "name": "Spring step",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When using the High Jump or Long Jump applications of the Jump skill, reduce the number of squares required for a running start by 2."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 164,
+     "ref": "Data!BO164:BV164",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_startle",
+   "entity": "racial_ability",
+   "name": "Startle",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, as a reaction to being attacked, make a Deception check against the target's Will Defense. If successful, the attacker takes a -5 penalty on the attack roll"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 165,
+     "ref": "Data!BO165:BV165",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_stoic",
+   "entity": "racial_ability",
+   "name": "Stoic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Any creature attempting to use the Sense Motive application of the Perception skill on a Krevaaki takes a -5 penalty on the skill check"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 166,
+     "ref": "Data!BO166:BV166",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_streetwise",
+   "entity": "racial_ability",
+   "name": "Streetwise",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Gather Information is a class skill"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 167,
+     "ref": "Data!BO167:BV167",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_strength_of_conviction",
+   "entity": "racial_ability",
+   "name": "Strength of Conviction",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Zygerrians can use their Charisma modifier in place of their Wisdom modifier when calculating Will Defense"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 168,
+     "ref": "Data!BO168:BV168",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_strength_surge",
+   "entity": "racial_ability",
+   "name": "Strength surge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, can rerall one Strength-based ability or skill check, doubling the character's Strength modifier (minimum +1), or can add 2 to a single damage roll on a successful melee attack, when Strength normally adds to the roll. This does not apply when Weapon Finesse is used."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 169,
+     "ref": "Data!BO169:BV169",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_stronger_by_age",
+   "entity": "racial_ability",
+   "name": "Stronger By Age",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Physical attributes increase with age, but mental attributes do not increase"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 170,
+     "ref": "Data!BO170:BV170",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_sturdy",
+   "entity": "racial_ability",
+   "name": "Sturdy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Herglics are solidly built and literally have tough skin. This trait lets them ignore punishment that might knock other beings flat. Whenever a Herglic catches a second wind, he or she regains a number of additional hit points equal to 5 + one-half its level."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 171,
+     "ref": "Data!BO171:BV171",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_subterranean",
+   "entity": "racial_ability",
+   "name": "Subterranean",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll Perception checks, but must keep the second roll; darkvision"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 172,
+     "ref": "Data!BO172:BV172",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_superior_defenses",
+   "entity": "racial_ability",
+   "name": "Superior Defenses",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Zabrak receive a +1 bonus to all of their defenses"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 173,
+     "ref": "Data!BO173:BV173",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_supreme_stability",
+   "entity": "racial_ability",
+   "name": "Supreme Stability",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Cannot be tripped or knocked prone"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 174,
+     "ref": "Data!BO174:BV174",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_survival_instinct",
+   "entity": "racial_ability",
+   "name": "Survival Instinct",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "May reroll any Survival check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 175,
+     "ref": "Data!BO175:BV175",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_swim_speed_4",
+   "entity": "racial_ability",
+   "name": "Swim Speed (4)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can move at 4 squares while swimming"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 176,
+     "ref": "Data!BO176:BV176",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_swim_speed_6",
+   "entity": "racial_ability",
+   "name": "Swim Speed (6)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can move at 6 squares while swimming"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 177,
+     "ref": "Data!BO177:BV177",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_target_awareness",
+   "entity": "racial_ability",
+   "name": "Target Awareness",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Take no distance penalties on Perception checks made to notice targets up to 50 squares away"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 178,
+     "ref": "Data!BO178:BV178",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_tech_savvy",
+   "entity": "racial_ability",
+   "name": "Tech Savvy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Squib can reroll any Knowledge (technology) check, but the result of the reroll must be accepted even if it is worse. A Squib is not limited to common knowledge when making an untrained Knowledge (technology) check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 179,
+     "ref": "Data!BO179:BV179",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_technophobic",
+   "entity": "racial_ability",
+   "name": "Technophobic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Do not gain Weapon Proficiency (pistols, rifles, heavy weapons) as starting feats at 1st level"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 180,
+     "ref": "Data!BO180:BV180",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_tentacles",
+   "entity": "racial_ability",
+   "name": "Tentacles",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Krevaaki use their two dominant tentacles like the arms and hands of a humanoid . Krevaaki ga in a +2 species bonus to Climb checks and a +2 species bonus to grapple checks."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 181,
+     "ref": "Data!BO181:BV181",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_tinkerer",
+   "entity": "racial_ability",
+   "name": "Tinkerer",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When a Chadra-Fan repairs or jury-rigs a droid or a device using a Mechanics check, the droid or device regains an additional 1d8 hit points."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 182,
+     "ref": "Data!BO182:BV182",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_tremorsense",
+   "entity": "racial_ability",
+   "name": "Tremorsense",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast automatically senses the location of anything that is in contact with the ground and with in 100 squares (no Perception check required)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 202,
+     "ref": "Data!BO202:BV202",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_trip",
+   "entity": "racial_ability",
+   "name": "Trip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "If the beast hits with a tail attack, it can attempt to trip an enemy (as if using the Trip feat) as a free action that does not provoke attacks of opportunity.",
+    "url": "https://swse.miraheze.org/wiki/Trip"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 203,
+     "ref": "Data!BO203:BV203",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "racial_ability_triple_vision",
+   "entity": "racial_ability",
+   "name": "Triple Vision",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, aim with a single swift action"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 183,
+     "ref": "Data!BO183:BV183",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_uncanny_tracker",
+   "entity": "racial_ability",
+   "name": "Uncanny Tracker",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Survival is a class skill for Shistavanens."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 184,
+     "ref": "Data!BO184:BV184",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_underground_speed",
+   "entity": "racial_ability",
+   "name": "Underground Speed",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The beast can move underground, burrowing through dirt and rocky soil but not solid rock. Typically, the beast's speed is 3 squares when moving underground, although you can alter its speed due to the soil conditions."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 216,
+     "ref": "Data!BO216:BV216",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_undertow_subterranean",
+   "entity": "racial_ability",
+   "name": "Undertow (Subterranean)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "This beast can pull its prey under the surface of the ground. As an attack action, the beast makes an attack against a target's Fortitude Defense. If the attack is successful, the target is pulled below the surface of the ground and moves -1 step on the condition track. The target is unable to take any additional actions until it succeeds on a DC 15 Climb check as a standard action."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 217,
+     "ref": "Data!BO217:BV217",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_unique_physiology",
+   "entity": "racial_ability",
+   "name": "Unique Physiology",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Givin have sealed exoskeletons and do not breathe in a conventional sense. They are immune to the effects of vacuum and to the effects of inhaled chemicals and poisons."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 185,
+     "ref": "Data!BO185:BV185",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_verpine_communication",
+   "entity": "racial_ability",
+   "name": "Verpine Communication",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Verpine can mentally communicate with any Verpine within a 1-kilometer range."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 186,
+     "ref": "Data!BO186:BV186",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_visually_striking",
+   "entity": "racial_ability",
+   "name": "Visually striking",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Character's appearance is visually surprising or stunning. The character's Charisma bonus is doubled when using the Persuasion skill on Humans, near-Humans, and similar humanoids (such as Twi'leks)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 187,
+     "ref": "Data!BO187:BV187",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_warrior_culture",
+   "entity": "racial_ability",
+   "name": "Warrior Culture",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Taungs can reroll any Knowledge (tactics) check, but the result of the reroll must be accepted even if it is worse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 188,
+     "ref": "Data!BO188:BV188",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_warrior_s_awareness",
+   "entity": "racial_ability",
+   "name": "Warrior's Awareness",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter as a swift action, gain the benefit of Uncanny Dodge I or II until the beginning of next turn"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 189,
+     "ref": "Data!BO189:BV189",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_weapon_familiarity",
+   "entity": "racial_ability",
+   "name": "Weapon Familiarity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Treat the lanvarok as a simple weapon"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 190,
+     "ref": "Data!BO190:BV190",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_xenophobia",
+   "entity": "racial_ability",
+   "name": "Xenophobia",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Yevetha have an intense distrust of all species other than their own, and gain a +2 species bonus to Will Defense against Persuasion checks made to improve the ir attitude by any creature of a different species"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 191,
+     "ref": "Data!BO191:BV191",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "racial_ability_zeltron_pheromones",
+   "entity": "racial_ability",
+   "name": "Zeltron Pheromones",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "A Zeltron gains a +5 species bonus on Persuasion checks made to change the attitudes of of other creatures. This bonus doesn't apply to other Zeltrons"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_racial_abilities",
+     "sheet": "Data",
+     "row": 192,
+     "ref": "Data!BO192:BV192",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,198 @@
+{
+ "entity": "range_increment",
+ "label": "range_increment",
+ "role": "option",
+ "count": 7,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "range_increment_range_increments_heavy",
+   "entity": "range_increment",
+   "name": "Range increments (heavy)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "long": 500,
+    "medium": 250,
+    "point_blank": 50,
+    "short": 100,
+    "sort": 2,
+    "weapon_group": "heavy"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_range_increments",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!A36:F36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "range_increment_range_increments_melee",
+   "entity": "range_increment",
+   "name": "Range increments (melee)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "long": 0,
+    "medium": 0,
+    "point_blank": 0,
+    "short": 0,
+    "sort": 7,
+    "weapon_group": "melee"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_range_increments",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!A41:F41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "range_increment_range_increments_penalty",
+   "entity": "range_increment",
+   "name": "Range increments (penalty)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "long": -10,
+    "medium": -5,
+    "point_blank": 0,
+    "short": -2,
+    "sort": 1,
+    "weapon_group": "penalty"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_range_increments",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!A35:F35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "range_increment_range_increments_pistols",
+   "entity": "range_increment",
+   "name": "Range increments (pistols)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "long": 80,
+    "medium": 60,
+    "point_blank": 20,
+    "short": 40,
+    "sort": 4,
+    "weapon_group": "pistols"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_range_increments",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!A38:F38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "range_increment_range_increments_rifles",
+   "entity": "range_increment",
+   "name": "Range increments (rifles)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "long": 300,
+    "medium": 150,
+    "point_blank": 30,
+    "short": 60,
+    "sort": 3,
+    "weapon_group": "rifles"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_range_increments",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!A37:F37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "range_increment_range_increments_simple",
+   "entity": "range_increment",
+   "name": "Range increments (simple)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "long": 80,
+    "medium": 60,
+    "point_blank": 20,
+    "short": 40,
+    "sort": 5,
+    "weapon_group": "simple"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_range_increments",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!A39:F39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "range_increment_range_increments_thrown",
+   "entity": "range_increment",
+   "name": "Range increments (thrown)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "long": 12,
+    "medium": 10,
+    "point_blank": 6,
+    "short": 8,
+    "sort": 6,
+    "weapon_group": "thrown"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_range_increments",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!A40:F40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

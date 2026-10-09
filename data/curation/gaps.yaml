@@ -1,0 +1,207 @@
+# ---------------------------------------------------------------------------
+# Curation: known-missing data, declared so validation can distinguish
+# "we know this is absent" from "we failed to extract this".
+#
+# Shape:
+#   gaps:
+#     - id: GAP-001
+#       entity: talent
+#       field: tier
+#       summary: "Talent tier within a tree is not present in either source."
+#       impact: "Blocks exact level-gating of talents in enumeration."
+#       workaround: "swse.space treats all talents in a tree as available once
+#                    the tree is granted; `layout_column` is recorded but unused."
+#       task: TASK-005
+#       status: open            # open | in_progress | resolved | wont_fix
+#
+# Every gap below was found by inspecting the sources, not guessed. `evidence`
+# says where to look to confirm it is still true.
+# ---------------------------------------------------------------------------
+gaps:
+  - id: GAP-001
+    entity: talent
+    field: tier
+    summary: >-
+      Talent tier (which rank inside a tree a talent sits at) is absent from both
+      sources. Talents!E-I in the Master Reference are a *visual* layout grid, not
+      tier columns; SagaForge's Talents sheet has tier-like columns but they are
+      empty in v1.53.
+    impact: >-
+      Talents cannot be level-gated exactly. The enumerator treats every talent in
+      a granted tree as selectable, which over-counts high-tier talents at low levels.
+    workaround: >-
+      `talent.attrs.layout_column` is preserved but unused; `swse.space` counts
+      tree membership only. Flagged in reports as an assumption.
+    evidence: "Master Reference Talents!B7:N1318 header row; SagaForge Talents sheet columns"
+    task: TASK-005
+    status: open
+
+  - id: GAP-002
+    entity: class
+    field: progression_schedule
+    summary: >-
+      The per-level grant schedule (a feat at 1st and every odd level, a talent at
+      every even level) is in neither workbook. SagaForge's `Class` sheet is a blank
+      character-sheet UI grid (rows 6-25 are all empty), and Data!CT:CY per-level
+      columns are all zeros.
+    impact: "Every count above level 1 depends on this schedule."
+    workaround: "Declared in config/analysis.yaml:progression with verified: false."
+    evidence: "SagaForge Class!A6:V25 (all None); Data!CT:CY (all zeros)"
+    task: TASK-011
+    status: open
+
+  - id: GAP-003
+    entity: character
+    field: ability_score_generation
+    summary: >-
+      How ability scores are generated is not in the sources. SagaForge has an
+      ability grid and a Point Buy cell but no cost curve and no printed array.
+    impact: "The ability-score dimension of the decision space is modelled, not sourced."
+    workaround: >-
+      config/analysis.yaml:ability_scores declares three methods; all are
+      verified: false and each count is labelled as an assumption in reports.
+    evidence: "SagaForge Character & Species sheet ability grid"
+    task: TASK-012
+    status: open
+
+  - id: GAP-004
+    entity: force_power
+    field: powers_known
+    summary: >-
+      How many Force powers a character knows (and how Force Training adds them) is
+      not encoded; the powers-known formula in config is a placeholder.
+    impact: "Force builds are scored by power count, not by a sourced allowance."
+    workaround: "swse.evaluate counts known powers from the build; the enumerator grants 1 + CHA mod."
+    evidence: "SagaForge 'The Force' sheet has power rows but no per-level allowance column"
+    task: TASK-013
+    status: open
+
+  - id: GAP-005
+    entity: class
+    field: prestige_defense_encoding
+    summary: >-
+      Prestige classes store defence values on a different scale from heroic classes
+      (Ace Pilot 4/2/0, Force Disciple 3/3/6 vs heroic 0-2). The value looks like
+      double the printed level-1 bonus, i.e. an encoded progression rate.
+    impact: "Defence metrics for multiclass builds reaching prestige classes are approximate."
+    workaround: >-
+      config/analysis.yaml:defense_progression.prestige divides by 2 and the
+      evaluator flags every defence metric as unverified.
+    evidence: >-
+      Heroic values cross-check exactly against the Master Reference's printed
+      DEFENSE BONUS column (see tests/test_canonical_data.py); prestige values
+      have no printed counterpart in either source.
+    task: TASK-014
+    status: open
+
+  - id: GAP-006
+    entity: weapon
+    field: damage
+    summary: >-
+      One weapon's damage cell holds "28" with no die size (Power lance, Data!
+      row 10). Almost certainly "2d8" typed into the multiplier column.
+    impact: "Offense scoring for that one weapon reads 28 flat damage."
+    workaround: >-
+      Flagged `damage_suspected_concatenation` with `suspected_dice: 2d8` recorded
+      in attrs; not rewritten. Fix in data/curation/overrides.yaml once confirmed.
+    evidence: "data/raw/sf_weapons.jsonl row for 'Power lance': mult1=28, die1=null"
+    task: TASK-004
+    status: open
+
+  - id: GAP-007
+    entity: multiple
+    field: name_collisions
+    summary: >-
+      21 records share a name with another record from the same source (three feats
+      called "Staggering Attack", three "Force Storm" powers, three "Replica droid"
+      chassis sizes, two "Scent" traits, ...). All were inspected and are genuinely
+      distinct options, so none were merged.
+    impact: "Name-based lookups are ambiguous; ids carry disambiguating suffixes."
+    workaround: >-
+      Kept separate with flag `name_collision` and a gap note per name. Declared
+      here so `validate` reports a warning rather than an error.
+    evidence: "data/reports/canonicalisation.md 'Other gaps detected during canonicalisation'"
+    task: TASK-003
+    status: wont_fix
+
+  - id: GAP-008
+    entity: feat
+    field: prerequisites
+    summary: >-
+      8 prerequisite fragments still do not resolve to a record: droid system
+      components ("Heuristic Processor", "Basic Processor", "Shield Generator
+      System"), "Cyborg Hybrid with Subcutaneous Comlink", "larger Droid with 2+
+      Appendages/Tool Mounts", "or Tracked Locomotion", and "Gamemaster's Approval".
+    impact: "0.7% of prerequisite edges are unresolved; those gates are ignored in legality checks."
+    workaround: >-
+      Listed in data/reports/prerequisite-graph.md and validation.md. Droid system
+      components need a droid_system entity; "Gamemaster's Approval" is a rule, not
+      an option, and should become a `gm_approval` predicate type.
+    evidence: "swse validate -> prereq_parse_coverage 98.5%"
+    task: TASK-010
+    status: open
+
+  - id: GAP-009
+    entity: reference_link
+    field: url_content
+    summary: >-
+      The Master Reference carries 812 wiki URLs (swse.miraheze.org, and
+      swse.fandom.com for Force powers). None of that content is in this repository
+      and neither host is reachable from the analysis sandbox.
+    impact: "Rule text beyond the two workbooks is unavailable; summaries are terse."
+    workaround: >-
+      URLs are attached to records (`attrs.url`) so a future ingest can join on
+      them. config/sources.yaml lists the wikis under planned_sources.
+    evidence: "data/canonical/reference_link.json; Master Reference Links sheet"
+    task: TASK-001
+    status: open
+
+  - id: GAP-010
+    entity: droid_option
+    field: cost_budget
+    summary: >-
+      Droid options have cost/weight columns but the *budget* a droid character gets
+      to spend is not in either source (the builder computes it in VBA).
+    impact: "Droid builds cannot be cost-checked; the droid sub-space is counted, not budgeted."
+    workaround: "swse.space counts droid option combinations without a budget constraint."
+    evidence: "SagaForge Data! droid option tables; `final_cost` columns dropped as builder scratch"
+    task: TASK-006
+    status: open
+
+  - id: GAP-011
+    entity: character
+    field: starting_gear
+    summary: >-
+      Starting credits are present per class, but no rule ties them to a gear
+      allowance, and equipment availability/rarity gating is only partly encoded.
+    impact: "Gear combinations are excluded from the decision space by default."
+    workaround: "`--gear` on the space/enumerate commands multiplies in weapons x armor x equipment."
+    evidence: "class.attrs.starting_credits; weapon.attrs.availability"
+    task: TASK-008
+    status: open
+
+  - id: GAP-012
+    entity: species
+    field: age_bounds
+    summary: >-
+      Age categories exist as a table of ability modifiers, but which categories are
+      legal for which species is not in the sources.
+    impact: "The age dimension is counted as 6 options for every species."
+    workaround: "swse.space flags the age dimension as ungated; reports note it."
+    evidence: "Data!A3:G8 age table; species rows carry no age range columns"
+    task: TASK-015
+    status: open
+
+  - id: GAP-013
+    entity: class
+    field: homebrew_progression
+    summary: >-
+      The two homebrew classes (Technician, Force Prodigy) exist only in the Master
+      Reference, which gives prose but no hit die, BAB rate or defence numbers.
+    impact: "Builds using them score 0 for BAB/defence/durability contributions."
+    workaround: >-
+      `canon: homebrew` records are excludable with `--no-homebrew`; the evaluator
+      reports a warning when a class has no hit die.
+    evidence: "Master Reference 'Heroic Classes' row 7 divider and rows 8-9"
+    task: TASK-016
+    status: open

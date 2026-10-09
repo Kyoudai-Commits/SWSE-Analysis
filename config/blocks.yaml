@@ -1,0 +1,898 @@
+# ---------------------------------------------------------------------------
+# Extraction map: every logical table ("block") inside the source workbooks.
+#
+# Each block becomes data/raw/<id>.jsonl with one JSON object per row.
+# Field names come from `rename` (by column letter) > `rename_header` (by header
+# text) > the slugified header text.
+#
+# Conventions
+#   id        <source-prefix>_<thing>   e.g. sf_ = SagaForge, mr_ = Master Reference
+#   entity    the canonical entity this block feeds (see config/entities.yaml)
+#   canon     official | third_party | homebrew  (per-record default)
+#   forward_fill  carry a value down through blank cells (tree/section grouping)
+#   last_row  pin the extent explicitly when the workbook's own defined name gives it
+#
+# How to add a block: run `python -m swse.cli discover --sheet Data` to see the
+# header/column census for a sheet, then add an entry here and re-run `make raw`.
+# ---------------------------------------------------------------------------
+
+blocks:
+
+  # =========================================================================
+  # SWSE Master Reference (wiki-derived tables + homebrew section)
+  # =========================================================================
+  - id: mr_heroic_classes
+    entity: class
+    source: swse-master-reference-2026-10-08
+    sheet: Heroic Classes
+    header_row: 1
+    first_row: 2
+    columns: "A:H"
+    last_row: 9
+    key_column: A
+    canon: official          # row 7 opens a `Homebrew` section; see swse/hooks.py
+    notes: >-
+      Rows 2-6 are the five core heroic classes. Row 7 is a bare section label
+      ("Homebrew") and rows 8-9 (Technician, Force Prodigy) are homebrew; the
+      hook `mr_heroic_homebrew_section` re-tags them.
+
+  - id: mr_prestige_classes
+    entity: class
+    source: swse-master-reference-2026-10-08
+    sheet: Prestige Classes
+    header_row: 1
+    first_row: 2
+    columns: "A:C"
+    key_column: A
+    canon: official
+
+  - id: mr_feats
+    entity: feat
+    source: swse-master-reference-2026-10-08
+    sheet: Feats
+    header_row: 1
+    first_row: 2
+    columns: "A:D"
+    key_column: A
+    canon: official
+
+  - id: mr_force_powers
+    entity: force_power
+    source: swse-master-reference-2026-10-08
+    sheet: Force Powers
+    header_row: 1
+    first_row: 2
+    columns: "A:E"
+    key_column: A
+    canon: official
+    notes: "Column B is the power's type/descriptor (Telekinetic, Dark Side, N/A)."
+
+  - id: mr_talent_trees
+    entity: talent_tree
+    source: swse-master-reference-2026-10-08
+    sheet: Talents
+    header_row: 1
+    first_row: 2
+    columns: "A:D"
+    key_column: A
+    canon: official
+    notes: "AVAILABILITY lists the classes/prestige classes that grant the tree."
+
+  - id: mr_links
+    entity: reference_link
+    source: swse-master-reference-2026-10-08
+    sheet: Links
+    header_row: 1
+    first_row: 2
+    columns: "A:A"
+    rename: {A: url}
+    key_column: A
+    canon: official
+    notes: "831 wiki URLs; used to attach `url` provenance to canonical entities."
+
+  # =========================================================================
+  # SagaForge - Feats / Talents / Force
+  # =========================================================================
+  - id: sf_feats
+    entity: feat
+    source: sagaforge-1.53
+    sheet: Feats
+    header_row: 8
+    first_row: 9
+    last_row: 361            # defined name FeatTable = Feats!$C$9:$N$361
+    columns: "C:N"
+    rename:
+      C: name
+      D: col_d
+      E: prerequisites
+      F: description
+      G: met_flag
+      L: taken_flag
+      M: times_taken
+      N: page
+    key_column: C
+    canon: third_party
+    notes: "page holds `<sourcebook abbrev> <page>` e.g. 'TotG 64'."
+
+  - id: sf_talents
+    entity: talent
+    source: sagaforge-1.53
+    sheet: Talents
+    header_row: 6
+    first_row: 7
+    last_row: 1318           # defined name TalentsTableEnd = Talents!$N$1318
+    columns: "B:N"
+    rename:
+      B: name
+      C: class_group
+      D: tree
+      E: layout_t1
+      F: layout_t2
+      G: layout_t3
+      H: layout_t4
+      I: layout_t5
+      J: description
+      K: available_flag
+      L: taken_flag
+      M: times_taken
+      N: page
+    forward_fill: [C, D]
+    key_column: B
+    canon: third_party
+    notes: >-
+      One row per talent, ordered tree by tree. C (owning class) and D (talent
+      tree) are only written on the first row of their group and are
+      forward-filled. E-I repeat the talent name in the column that matches its
+      visual tier in the builder; hook `talent_tree_layout` derives
+      `tree`, `layout_tier` and fills `name` when B is blank.
+
+  # 'Talents 2' holds one repeatable-special-talent list per class, each with
+  # its own header row, so each section is its own block with the owning class
+  # carried in `state`.
+  - id: sf_special_talents_soldier
+    entity: special_talent
+    source: sagaforge-1.53
+    sheet: Talents 2
+    header_row: 13
+    first_row: 14
+    last_row: 20
+    columns: ["C", "D"]
+    rename: {C: name, D: uses}
+    key_column: C
+    state: {special_talent_class: Soldier, choice_axis: weapon group}
+    canon: third_party
+    notes: "Soldier repeatable special talents; chosen per weapon group (row 8)."
+
+  - id: sf_special_talents_ace_pilot
+    entity: special_talent
+    source: sagaforge-1.53
+    sheet: Talents 2
+    header_row: 30
+    first_row: 31
+    last_row: 31
+    columns: ["C", "D"]
+    rename: {C: name, D: uses}
+    key_column: C
+    state: {special_talent_class: Ace Pilot, choice_axis: vehicle type}
+    canon: third_party
+
+  - id: sf_special_talents_elite_trooper
+    entity: special_talent
+    source: sagaforge-1.53
+    sheet: Talents 2
+    header_row: 41
+    first_row: 42
+    last_row: 48
+    columns: ["C", "D"]
+    rename: {C: name, D: uses}
+    key_column: C
+    state: {special_talent_class: Elite Trooper, choice_axis: weapon group}
+    canon: third_party
+
+  - id: sf_special_talents_gladiator
+    entity: special_talent
+    source: sagaforge-1.53
+    sheet: Talents 2
+    header_row: 58
+    first_row: 59
+    last_row: 59
+    columns: ["C", "D"]
+    rename: {C: name, D: uses}
+    key_column: C
+    state: {special_talent_class: Gladiator, choice_axis: weapon group}
+    canon: third_party
+
+  - id: sf_lightsaber_forms
+    entity: lightsaber_form
+    source: sagaforge-1.53
+    sheet: Talents 2
+    header_row: 63
+    first_row: 64
+    last_row: 75
+    columns: ["G", "H"]
+    rename: {G: name, H: alternate}
+    key_column: G
+    canon: third_party
+    notes: >-
+      Lightsaber combat forms selectable by form-based talents (Sith Apprentice /
+      Lightsaber Combat trees). Column H holds the forms the builder lists as
+      alternates (Vaapad, Jar'Kai).
+
+  - id: sf_force_powers
+    entity: force_power
+    source: sagaforge-1.53
+    sheet: The Force
+    header_row: 8
+    first_row: 10
+    last_row: 74             # defined name ForcePowersTable = 'The Force'!$C$10:$J$74
+    columns: "C:V"
+    rename:
+      C: name
+      E: slug
+      F: descriptor_telekinetic
+      G: descriptor_mind_affecting
+      H: descriptor_light_side
+      I: descriptor_dark_side
+      J: uses
+      K: suite_mastery
+      L: suite_adept
+      M: suite_dark_side
+      N: suite_prodigy
+      O: suite_exertion
+      P: taken_count
+      Q: supp_kotor
+      R: supp_tfu
+      S: supp_cwcs
+      T: supp_lecg
+      U: supp_jatm
+      V: page
+    key_column: C
+    canon: third_party
+    notes: >-
+      Q-U are marked 'x' under the supplement headers on row 6 (KOTOR, TFU,
+      CWCS, LECG, JATM) - SagaForge's record of which supplement introduced the
+      power. K-O are Force-power suite columns whose headers sit on row 8.
+
+  - id: sf_force_techniques
+    entity: force_technique
+    source: sagaforge-1.53
+    sheet: The Force
+    header_row: 8
+    first_row: 10
+    columns: ["AH", "AI", "AJ", "AK", "AL"]
+    rename: {AH: name, AK: taken_flag, AL: page}
+    key_column: AH
+    canon: third_party
+
+  - id: sf_force_secrets
+    entity: force_secret
+    source: sagaforge-1.53
+    sheet: The Force
+    header_row: 8
+    first_row: 10
+    columns: ["AW", "AX", "AY", "AZ"]
+    rename: {AW: name, AY: taken_flag, AZ: page}
+    key_column: AW
+    canon: third_party
+
+  - id: sf_force_regimens
+    entity: force_regimen
+    source: sagaforge-1.53
+    sheet: Regimens-Tactics-Unleashed
+    header_row: 5
+    first_row: 6
+    columns: ["C", "D"]
+    rename: {C: group, D: name}
+    forward_fill: [C]
+    key_column: D
+    last_row: 33
+    canon: third_party
+    notes: "C is a section label ('Force Training Regimens', 'Lightsaber Training Regime')."
+
+  - id: sf_starship_maneuvers
+    entity: starship_maneuver
+    source: sagaforge-1.53
+    sheet: Regimens-Tactics-Unleashed
+    header_row: 5
+    first_row: 6
+    columns: ["M", "N", "O", "P"]
+    rename: {M: name, P: descriptor}
+    key_column: M
+    last_row: 33
+    canon: third_party
+
+  - id: sf_unleashed_abilities
+    entity: unleashed_ability
+    source: sagaforge-1.53
+    sheet: Regimens-Tactics-Unleashed
+    header_row: 5
+    first_row: 6
+    columns: ["W", "X", "Y", "Z", "AA"]
+    rename: {W: name, X: unleashed_name, AA: qualify}
+    key_column: W
+    last_row: 33
+    canon: third_party
+    notes: "The Force Unleashed era alternate versions of feats and force powers."
+
+  # =========================================================================
+  # SagaForge - Data sheet blocks (header row 1, data from row 3)
+  # =========================================================================
+  - id: sf_species
+    entity: species
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    last_row: 133            # 131 species: Data!J3 -> Data!J133 ('Zygerrian')
+    # BO and BV are deliberately EXCLUDED: they belong to the alphabetical
+    # racial-ability glossary (sf_racial_abilities), which starts on the same
+    # row and overlaps this block. Reading them as species fields silently
+    # attaches the wrong ability to every species.
+    columns: ["J:BN", "BP:BU"]
+    rename:
+      J: key
+      K: source_tag
+      L: name
+      M: mod_str
+      N: mod_dex
+      O: mod_con
+      P: mod_int
+      Q: mod_wis
+      R: mod_cha
+      S: languages
+      T: language_2
+      U: language_3
+      V: size
+      W: age_young_adult
+      X: age_adult
+      Y: age_middle
+      Z: age_old
+      AA: age_venerable
+      AB: speed
+      AN: natural_armor
+      AO: ref_bonus
+      AP: fort_bonus
+      AQ: will_bonus
+      AR: damage_reduction
+      BP: reroll_skill_1
+      BQ: reroll_skill_1_mode
+      BR: reroll_skill_2
+      BS: reroll_skill_2_mode
+      BT: take10_skill_1
+      BU: take10_skill_2
+    key_column: L
+    require_key: true
+    canon: third_party
+    notes: >-
+      The single richest block in the corpus: ability mods, size, age brackets,
+      speed, up to 5 named specials, skill focus/training grants, defense
+      bonuses, granted feats (including conditional grants), exotic weapon
+      familiarity, natural weapons with damage and type, and structured
+      skill-reroll / take-10 grants. The names in `special_1..special_5` are
+      keys into the sf_racial_abilities glossary, which supplies their text.
+
+  - id: sf_racial_abilities
+    entity: racial_ability
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    last_row: 222
+    columns: ["BO", "BV"]
+    rename: {BO: name, BV: description}
+    key_column: BO
+    require_key: true
+    canon: third_party
+    notes: "Alphabetical glossary of species/racial ability name -> rules text."
+
+  - id: sf_classes
+    entity: class
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "BW:CS"
+    rename:
+      BX: name
+      BY: source_tag
+      BZ: base_attack
+      CA: reflex_progression
+      CB: fortitude_progression
+      CC: will_progression
+      CD: hit_die
+      CE: trained_skills
+      CF: starting_credits
+      CG: force_points
+      CH: min_level
+      CI: prereq_1
+      CJ: prereq_2
+      CK: prereq_3
+      CL: prereq_4
+      CM: prereq_5
+      CN: prereq_6
+      CO: special
+      CP: validation
+      CQ: statblock_key
+    key_column: BX
+    require_key: true
+    canon: third_party
+    notes: >-
+      Heroic and prestige classes in one table. `min_level` 1 = heroic class,
+      >1 = prestige class. Progression numbers are per-level increments
+      (base_attack 1 or 0.75; reflex/fort/will 0/1/2 per level tier).
+
+  - id: sf_class_features
+    entity: class_feature
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: ["CZ"]
+    rename: {CZ: name}
+    key_column: CZ
+    canon: third_party
+
+  - id: sf_ages
+    entity: age_category
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "A:G"
+    last_row: 8
+    rename: {A: name, B: mod_str, C: mod_dex, D: mod_con, E: mod_int, F: mod_wis, G: mod_cha}
+    key_column: A
+    canon: third_party
+
+  - id: sf_availability_types
+    entity: availability
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 16
+    first_row: 17
+    columns: "A:F"
+    last_row: 22
+    rename: {A: abbr, B: name, C: license_dc_mod, D: black_market_mod, E: dc, F: price_multiplier}
+    key_column: A
+    canon: third_party
+
+  - id: sf_size_types
+    entity: size_category
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 24
+    first_row: 25
+    columns: "A:I"
+    last_row: 33
+    rename: {A: abbr, B: name, C: sort, D: die_size, E: stealth_mod, F: ref_mod, G: hp_mod, H: damage_threshold_mod, I: carrying_capacity_mult}
+    key_column: A
+    canon: third_party
+
+  - id: sf_range_increments
+    entity: range_increment
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 34
+    first_row: 35
+    columns: "A:F"
+    last_row: 41
+    rename: {A: weapon_group, B: point_blank, C: short, D: medium, E: long, F: sort}
+    name_field: weapon_group
+    name_template: "Range increments ({value})"
+    key_column: A
+    canon: third_party
+
+  - id: sf_armor_sizes
+    entity: armor_size
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 65
+    first_row: 66
+    columns: ["A", "B", "C"]
+    last_row: 68
+    rename: {A: abbr, B: name, C: sort}
+    key_column: A
+    canon: third_party
+
+  - id: sf_droid_degrees
+    entity: droid_degree
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 79
+    first_row: 80
+    columns: "A:F"
+    last_row: 84
+    rename: {A: name, B: mod_str, C: mod_dex, D: mod_int, E: mod_wis, F: mod_cha}
+    key_column: A
+    canon: third_party
+
+  - id: sf_droid_locomotion
+    entity: droid_locomotion
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 88
+    first_row: 89
+    columns: "A:F"
+    last_row: 95
+    rename: {A: name, B: speed_small, C: speed_medium, D: speed_large, E: cost, F: weight}
+    key_column: A
+    canon: third_party
+
+  - id: sf_droid_shield_ratings
+    entity: droid_shield_rating
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 97
+    first_row: 98
+    columns: "A:D"
+    last_row: 101
+    rename: {A: sr, B: cost, C: weight, D: size_restriction}
+    name_field: sr
+    name_template: "Shield rating {value}"
+    key_column: A
+    canon: third_party
+
+  - id: sf_droid_translators
+    entity: droid_translator
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 103
+    first_row: 104
+    columns: "A:C"
+    last_row: 107
+    rename: {A: dc, B: cost, C: weight}
+    name_field: dc
+    name_template: "Translator (DC {value})"
+    key_column: A
+    canon: third_party
+
+  - id: sf_armor
+    entity: armor
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "DC:EM"
+    rename: {DC: name, DD: type, DE: ref_bonus, DF: fort_bonus, DG: max_dex, DH: slots, DI: source_tag}
+    key_column: DC
+    require_key: true
+    canon: third_party
+
+  - id: sf_weapons
+    entity: weapon
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "EN:FS"
+    rename: {EN: name, EO: source_tag, EP: range_increment, EQ: proficiency_feat, ER: group, ES: size, ET: handedness, EZ: damage_type, FA: availability, FB: rarity, FC: special, FL: price, FM: weight, FN: ammo}
+    key_column: EN
+    require_key: true
+    canon: third_party
+
+  - id: sf_grenade_launchers
+    entity: ammunition
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "FW:GB"
+    rename: {FW: launcher, FX: name, FY: price, FZ: weight, GA: statblock, GB: statblock_plural}
+    key_column: FX
+    require_key: true
+    canon: third_party
+    notes: >-
+      Ordnance/ammunition entries for grenade launchers. Kept separate from the
+      weapon entity: 'Grenade, frag' appears both here (as launcher ammunition,
+      20 cr) and in sf_weapons (as the thrown grenade, 200 cr) and those are two
+      different purchasable items.
+
+  - id: sf_equipment
+    entity: equipment
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "GC:GI"
+    rename: {GC: name, GD: source_tag, GE: price, GF: weight, GG: size}
+    key_column: GC
+    require_key: true
+    canon: third_party
+
+  - id: sf_head_devices
+    entity: cybernetic
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "GJ:GO"
+    rename: {GJ: name, GK: source_tag, GL: price, GM: weight}
+    key_column: GJ
+    canon: third_party
+    notes: "Head/sensory devices; part of the cybernetics & biotech entity."
+
+  - id: sf_implants
+    entity: cybernetic
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "GP:GS"
+    rename: {GP: name, GQ: source_tag, GR: price}
+    key_column: GP
+    canon: third_party
+
+  - id: sf_weapon_templates
+    entity: weapon_template
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "GT:HC"
+    rename: {GT: name, GU: source_tag, GV: price_percent, GW: price_minimum, HC: effect}
+    key_column: GT
+    canon: third_party
+
+  - id: sf_armor_templates
+    entity: armor_template
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "HD:HH"
+    rename: {HD: name, HE: source_tag, HF: price_percent, HG: price_minimum, HH: effect}
+    key_column: HD
+    canon: third_party
+
+  - id: sf_weapon_accessories
+    entity: weapon_accessory
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "HI:HM"
+    rename: {HI: name, HJ: source_tag, HK: price, HL: slots, HM: effect}
+    key_column: HI
+    canon: third_party
+
+  - id: sf_armor_accessories
+    entity: armor_accessory
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "HN:HT"
+    rename: {HN: name, HO: source_tag, HP: price, HQ: slots, HR: weight, HS: description, HT: effect}
+    key_column: HN
+    canon: third_party
+
+  - id: sf_shield_templates
+    entity: shield_template
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: "HU:HY"
+    rename: {HU: name, HV: source_tag, HW: price_percent, HX: price_minimum, HY: effect}
+    key_column: HU
+    canon: third_party
+
+  - id: sf_supplements
+    entity: sourcebook
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    columns: ["IA", "IB"]
+    rename: {IA: title, IB: abbreviation}
+    name_field: [title, abbreviation]
+    key_column: IB
+    canon: third_party
+    notes: "Partial: the abbreviation column is complete, titles have gaps (see config/sourcebooks.yaml)."
+
+  - id: sf_exotic_weapon_listing
+    entity: exotic_weapon_group
+    source: sagaforge-1.53
+    sheet: Data
+    header_row: 1
+    first_row: 3
+    last_row: 40
+    columns: "IC:IG"
+    rename: {IC: group, ID: weapon_list, IE: index, IF: source_row_ref, IG: weapon}
+    name_field: weapon
+    key_column: IG
+    require_key: true
+    canon: third_party
+    notes: >-
+      Builder helper table: explodes each Exotic Weapon Proficiency group (IC/ID)
+      into one row per weapon it covers (IG), with the Weapons-sheet row it maps
+      to (IF). Used to resolve which weapons a species' Weapon Familiarity or an
+      Exotic Weapon Proficiency feat actually grants.
+
+  # =========================================================================
+  # SagaForge - Lists sheet blocks (header row 1, data from row 2)
+  # =========================================================================
+  - id: sf_destinies
+    entity: destiny
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "AD:AG"
+    last_row: 90             # defined name DestinyList = Lists!$AD$2:$AD$90
+    rename: {AD: name, AE: bonus, AF: penalty, AG: completed_effect}
+    key_column: AD
+    require_key: true
+    canon: third_party
+
+  - id: sf_languages
+    entity: language
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: ["AH"]
+    rename: {AH: name}
+    key_column: AH
+    canon: third_party
+
+  - id: sf_equipment_accessories
+    entity: equipment_accessory
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "AI:AR"
+    rename: {AI: name, AJ: source_tag, AK: price, AL: slots, AQ: description}
+    key_column: AI
+    canon: third_party
+
+  - id: sf_weapon_feat_mods
+    entity: weapon_mod
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "AS:AZ"
+    last_row: 136
+    rename: {AS: name, AT: attack_mod, AU: damage_mod, AV: damage_mod_2, AW: damage_dice_mod, AX: prerequisite_proficiency, AY: prerequisite_type, AZ: single}
+    key_column: AS
+    canon: third_party
+    notes: "Feats/talents that numerically modify weapons - the backbone of damage-stacking analysis."
+
+  - id: sf_weapon_mod_details
+    entity: weapon_mod
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "EV:GH"
+    rename: {EV: name, EW: attack_mod, EX: damage_mod, EY: damage_mod_2, EZ: damage_dice_mod, FA: prerequisite_proficiency, FB: prerequisite_type, FC: autofire, FD: single, FE: action, FF: ignore_bonuses, FG: condition, FH: standalone, FJ: source_tag, FK: kind, FL: is_attack, FM: tags, FN: sort_tags, FO: action_2, FP: action_3, FQ: condition_2, GG: combat_description, GH: ref}
+    key_column: EV
+    require_key: true
+    canon: third_party
+
+  - id: sf_sith_weapon_traits
+    entity: weapon_template
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "BJ:BM"
+    rename: {BJ: name, BK: group_1, BL: group_2, BM: effect}
+    key_column: BJ
+    canon: third_party
+
+  - id: sf_droid_appendages
+    entity: droid_option
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "BN:BP"
+    rename: {BN: name, BO: cost, BP: weight}
+    key_column: BN
+    canon: third_party
+    notes: "option_group = appendage (set by hook)."
+
+  - id: sf_droid_armor
+    entity: droid_option
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 2
+    first_row: 3
+    columns: "BT:CB"
+    last_row: 19
+    rename: {BT: name, BU: cost, BV: ref_bonus, BW: max_dex, BX: weight, BY: availability, BZ: rarity, CA: type, CB: statblock}
+    key_column: BT
+    canon: third_party
+
+  - id: sf_droid_chassis
+    entity: droid_option
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "ED:EE"
+    rename: {ED: name, EE: description}
+    key_column: ED
+    canon: third_party
+
+  - id: sf_droid_quirks
+    entity: droid_option
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "EF:EI"
+    last_row: 41
+    rename: {EF: name, EG: hardware, EH: software, EI: description}
+    key_column: EF
+    canon: third_party
+
+  - id: sf_droid_manufacturers
+    entity: droid_option
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "EJ:EK"
+    last_row: 15
+    rename: {EJ: name, EK: trait}
+    key_column: EJ
+    canon: third_party
+
+  - id: sf_droid_accessories
+    entity: droid_option
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "EL:EU"
+    last_row: 38
+    rename: {EL: name, EM: cost, EN: weight, ER: final_cost, ES: final_weight}
+    key_column: EL
+    canon: third_party
+
+  - id: sf_backgrounds
+    entity: background
+    source: sagaforge-1.53
+    sheet: Lists
+    header_row: 1
+    first_row: 2
+    columns: "GL:GO"
+    last_row: 48
+    rename: {GL: name, GM: skills, GN: language, GO: notes}
+    key_column: GL
+    require_key: true
+    canon: third_party
+
+  # =========================================================================
+  # SagaForge - misc UI sheets that hold real option lists
+  # =========================================================================
+  - id: sf_skills
+    entity: skill
+    source: sagaforge-1.53
+    sheet: Skills
+    header_row: 10
+    first_row: 11
+    columns: "C:L"
+    last_row: 35             # defined name SkillList = Skills!$C$11:$C$35
+    rename: {C: name, D: ability, E: class_skill_flag, F: trained_only, H: background_grant, K: armor_check_penalty}
+    key_column: C
+    canon: third_party
+
+  - id: sf_near_human_traits
+    entity: near_human_trait
+    source: sagaforge-1.53
+    sheet: Near-Humans
+    header_row: 3
+    first_row: 4
+    columns: ["P", "Q"]
+    last_row: 27
+    rename: {P: name, Q: description}
+    key_column: P
+    canon: third_party
+    notes: >-
+      Near-Humans are a custom-species option: pick a base species, remove a
+      trait, add near-human traits. The trait menu lives in P:Q.

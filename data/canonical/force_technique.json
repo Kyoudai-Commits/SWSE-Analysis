@@ -1,0 +1,1981 @@
+{
+ "entity": "force_technique",
+ "label": "force_technique",
+ "role": "option",
+ "count": 58,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "force_technique_advanced_vital_transfer",
+   "entity": "force_technique",
+   "name": "Advanced Vital Transfer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 10,
+     "ref": "The Force!AH10:AL10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_cure_disease",
+   "entity": "force_technique",
+   "name": "Cure Disease",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 36,
+    "page_ref": "JATM 36"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 36
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 11,
+     "ref": "The Force!AH11:AL11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_detoxify_poison",
+   "entity": "force_technique",
+   "name": "Detoxify Poison",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 55,
+    "page_ref": "LECG 55"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 55
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 12,
+     "ref": "The Force!AH12:AL12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_dominate_mind",
+   "entity": "force_technique",
+   "name": "Dominate Mind",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 53,
+    "page_ref": "KOTOR 53"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 53
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 13,
+     "ref": "The Force!AH13:AL13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_extended_blind",
+   "entity": "force_technique",
+   "name": "Extended Blind",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 36,
+    "page_ref": "JATM 36"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 36
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 14,
+     "ref": "The Force!AH14:AL14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_extended_force_disarm",
+   "entity": "force_technique",
+   "name": "Extended Force Disarm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 36,
+    "page_ref": "JATM 36"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 36
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 15,
+     "ref": "The Force!AH15:AL15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_extended_force_grip",
+   "entity": "force_technique",
+   "name": "Extended Force Grip",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 36,
+    "page_ref": "JATM 36"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 36
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 16,
+     "ref": "The Force!AH16:AL16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_extended_force_thrust",
+   "entity": "force_technique",
+   "name": "Extended Force Thrust",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 36,
+    "page_ref": "JATM 36"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 36
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 17,
+     "ref": "The Force!AH17:AL17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_extended_move_object",
+   "entity": "force_technique",
+   "name": "Extended Move Object",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 36,
+    "page_ref": "JATM 36"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 36
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 18,
+     "ref": "The Force!AH18:AL18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_force_point_recovery",
+   "entity": "force_technique",
+   "name": "Force Point Recovery",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 102,
+    "page_ref": 102
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 102
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 19,
+     "ref": "The Force!AH19:AL19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_force_power_mastery",
+   "entity": "force_technique",
+   "name": "Force Power Mastery",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 102,
+    "page_ref": 102
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 102
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 20,
+     "ref": "The Force!AH20:AL20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_ballistakinesis",
+   "entity": "force_technique",
+   "name": "Improved Ballistakinesis",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 55,
+    "page_ref": "LECG 55"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 55
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 21,
+     "ref": "The Force!AH21:AL21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_battle_strike",
+   "entity": "force_technique",
+   "name": "Improved Battle Strike",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 88,
+    "page_ref": "FUCG 88"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 88
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 22,
+     "ref": "The Force!AH22:AL22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_cloak",
+   "entity": "force_technique",
+   "name": "Improved Cloak",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 23,
+     "ref": "The Force!AH23:AL23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_convection",
+   "entity": "force_technique",
+   "name": "Improved Convection",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 36,
+    "page_ref": "JATM 36"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 36
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 24,
+     "ref": "The Force!AH24:AL24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_crucitorn",
+   "entity": "force_technique",
+   "name": "Improved Crucitorn",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 37,
+    "page_ref": "JATM 37"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 37
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 25,
+     "ref": "The Force!AH25:AL25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_cryokinesis",
+   "entity": "force_technique",
+   "name": "Improved Cryokinesis",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 37,
+    "page_ref": "JATM 37"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 37
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 26,
+     "ref": "The Force!AH26:AL26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_dark_rage",
+   "entity": "force_technique",
+   "name": "Improved Dark Rage",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 88,
+    "page_ref": "FUCG 88"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 88
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 27,
+     "ref": "The Force!AH27:AL27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_dark_transfer",
+   "entity": "force_technique",
+   "name": "Improved Dark Transfer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 55,
+    "page_ref": "LECG 55"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 55
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 28,
+     "ref": "The Force!AH28:AL28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_detonate",
+   "entity": "force_technique",
+   "name": "Improved Detonate",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 56,
+    "page_ref": "LECG 56"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 56
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 29,
+     "ref": "The Force!AH29:AL29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_energy_resistance",
+   "entity": "force_technique",
+   "name": "Improved Energy Resistance",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 53,
+    "page_ref": "KOTOR 53"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 53
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 30,
+     "ref": "The Force!AH30:AL30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_enlighten",
+   "entity": "force_technique",
+   "name": "Improved Enlighten",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 56,
+    "page_ref": "LECG 56"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 56
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 31,
+     "ref": "The Force!AH31:AL31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_fold_space",
+   "entity": "force_technique",
+   "name": "Improved Fold Space",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 37,
+    "page_ref": "JATM 37"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 37
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 32,
+     "ref": "The Force!AH32:AL32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_disarm",
+   "entity": "force_technique",
+   "name": "Improved Force Disarm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 88,
+    "page_ref": "FUCG 88"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 88
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 33,
+     "ref": "The Force!AH33:AL33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_grip",
+   "entity": "force_technique",
+   "name": "Improved Force Grip",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 88,
+    "page_ref": "FUCG 88"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 88
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 34,
+     "ref": "The Force!AH34:AL34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_light",
+   "entity": "force_technique",
+   "name": "Improved Force Light",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 37,
+    "page_ref": "JATM 37"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 37
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 35,
+     "ref": "The Force!AH35:AL35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_lightning",
+   "entity": "force_technique",
+   "name": "Improved Force Lightning",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 88,
+    "page_ref": "FUCG 88"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 88
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 36,
+     "ref": "The Force!AH36:AL36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_shield",
+   "entity": "force_technique",
+   "name": "Improved Force Shield",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 56,
+    "page_ref": "LECG 56"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 56
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 37,
+     "ref": "The Force!AH37:AL37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_slam",
+   "entity": "force_technique",
+   "name": "Improved Force Slam",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 38,
+     "ref": "The Force!AH38:AL38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_storm",
+   "entity": "force_technique",
+   "name": "Improved Force Storm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 88,
+    "page_ref": "FUCG 88"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 88
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 39,
+     "ref": "The Force!AH39:AL39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_storm_jatm",
+   "entity": "force_technique",
+   "name": "Improved Force Storm (JATM)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 37,
+    "page_ref": "JATM 37"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 37
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 40,
+     "ref": "The Force!AH40:AL40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_stun",
+   "entity": "force_technique",
+   "name": "Improved Force Stun",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 41,
+     "ref": "The Force!AH41:AL41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_thrust",
+   "entity": "force_technique",
+   "name": "Improved Force Thrust",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 88,
+    "page_ref": "FUCG 88"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 88
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 42,
+     "ref": "The Force!AH42:AL42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_force_trance",
+   "entity": "force_technique",
+   "name": "Improved Force Trance",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 102,
+    "page_ref": 102
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 102
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 43,
+     "ref": "The Force!AH43:AL43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_ionize",
+   "entity": "force_technique",
+   "name": "Improved Ionize",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 44,
+     "ref": "The Force!AH44:AL44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_kinetic_combat",
+   "entity": "force_technique",
+   "name": "Improved Kinetic Combat",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 45,
+     "ref": "The Force!AH45:AL45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_levitate",
+   "entity": "force_technique",
+   "name": "Improved Levitate",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 46,
+     "ref": "The Force!AH46:AL46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_lightning_burst",
+   "entity": "force_technique",
+   "name": "Improved Lightning Burst",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 56,
+    "page_ref": "LECG 56"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 56
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 47,
+     "ref": "The Force!AH47:AL47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_malacia",
+   "entity": "force_technique",
+   "name": "Improved Malacia",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 48,
+     "ref": "The Force!AH48:AL48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_mind_trick",
+   "entity": "force_technique",
+   "name": "Improved Mind Trick",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 89,
+    "page_ref": "FUCG 89"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 89
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 49,
+     "ref": "The Force!AH49:AL49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_move_light_object",
+   "entity": "force_technique",
+   "name": "Improved Move Light Object",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 103,
+    "page_ref": 103
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 103
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 50,
+     "ref": "The Force!AH50:AL50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_obscure",
+   "entity": "force_technique",
+   "name": "Improved Obscure",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 56,
+    "page_ref": "LECG 56"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 56
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 51,
+     "ref": "The Force!AH51:AL51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_phase",
+   "entity": "force_technique",
+   "name": "Improved Phase",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 52,
+     "ref": "The Force!AH52:AL52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_plant_surge",
+   "entity": "force_technique",
+   "name": "Improved Plant Surge",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 37,
+    "page_ref": "JATM 37"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 37
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 53,
+     "ref": "The Force!AH53:AL53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_rebuke",
+   "entity": "force_technique",
+   "name": "Improved Rebuke",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 89,
+    "page_ref": "FUCG 89"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 89
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 54,
+     "ref": "The Force!AH54:AL54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_rend",
+   "entity": "force_technique",
+   "name": "Improved Rend",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 55,
+     "ref": "The Force!AH55:AL55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_repulse",
+   "entity": "force_technique",
+   "name": "Improved Repulse",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 89,
+    "page_ref": "FUCG 89"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 89
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 56,
+     "ref": "The Force!AH56:AL56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_resist_force",
+   "entity": "force_technique",
+   "name": "Improved Resist Force",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 57,
+     "ref": "The Force!AH57:AL57",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_sense_force",
+   "entity": "force_technique",
+   "name": "Improved Sense Force",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 103,
+    "page_ref": 103
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 103
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 58,
+     "ref": "The Force!AH58:AL58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_sense_surroundings",
+   "entity": "force_technique",
+   "name": "Improved Sense Surroundings",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 103,
+    "page_ref": 103
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 103
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 59,
+     "ref": "The Force!AH59:AL59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_shatterpoint",
+   "entity": "force_technique",
+   "name": "Improved Shatterpoint",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 60,
+     "ref": "The Force!AH60:AL60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_stagger",
+   "entity": "force_technique",
+   "name": "Improved Stagger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 56,
+    "page_ref": "LECG 56"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 56
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 61,
+     "ref": "The Force!AH61:AL61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_technometry",
+   "entity": "force_technique",
+   "name": "Improved Technometry",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 54,
+    "page_ref": "CWCG 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 62,
+     "ref": "The Force!AH62:AL62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_telepathy",
+   "entity": "force_technique",
+   "name": "Improved Telepathy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 103,
+    "page_ref": 103
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 103
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 63,
+     "ref": "The Force!AH63:AL63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_thought_bomb",
+   "entity": "force_technique",
+   "name": "Improved Thought Bomb",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 37,
+    "page_ref": "JATM 37"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 37
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 64,
+     "ref": "The Force!AH64:AL64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_valor",
+   "entity": "force_technique",
+   "name": "Improved Valor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 65,
+     "ref": "The Force!AH65:AL65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_improved_vital_transfer",
+   "entity": "force_technique",
+   "name": "Improved Vital Transfer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 66,
+     "ref": "The Force!AH66:AL66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_technique_language_absorption",
+   "entity": "force_technique",
+   "name": "Language Absorption",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 54,
+    "page_ref": "KOTOR 54"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_techniques",
+     "sheet": "The Force",
+     "row": 67,
+     "ref": "The Force!AH67:AL67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,959 @@
+{
+ "entity": "exotic_weapon_group",
+ "label": "exotic_weapon_group",
+ "role": "option",
+ "count": 38,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "exotic_weapon_group_amphistaff",
+   "entity": "exotic_weapon_group",
+   "name": "Amphistaff",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 1,
+    "source_row_ref": 11,
+    "weapon": "Amphistaff",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!IC3:IG3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_amphistaff_quarterstaff_form",
+   "entity": "exotic_weapon_group",
+   "name": "Amphistaff (quarterstaff form)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 2,
+    "source_row_ref": 42,
+    "weapon": "Amphistaff (quarterstaff form)",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!IC4:IG4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_amphistaff_spear_form",
+   "entity": "exotic_weapon_group",
+   "name": "Amphistaff (spear form)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 3,
+    "source_row_ref": 66,
+    "weapon": "Amphistaff (spear form)",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!IC5:IG5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_amphistaff_spit",
+   "entity": "exotic_weapon_group",
+   "name": "Amphistaff (spit)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 35,
+    "source_row_ref": 520,
+    "weapon": "Amphistaff (spit)",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!IC37:IG37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_amphistaff_whip_form",
+   "entity": "exotic_weapon_group",
+   "name": "Amphistaff (whip form)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 4,
+    "source_row_ref": 89,
+    "weapon": "Amphistaff (whip form)",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!IC6:IG6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_arg_garok",
+   "entity": "exotic_weapon_group",
+   "name": "Arg'garok",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 5,
+    "source_row_ref": 99,
+    "weapon": "Arg'garok",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!IC7:IG7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_atlatl",
+   "entity": "exotic_weapon_group",
+   "name": "Atlatl",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 33,
+    "source_row_ref": 491,
+    "weapon": "Atlatl",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!IC35:IG35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_aurial_blaster",
+   "entity": "exotic_weapon_group",
+   "name": "Aurial blaster",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 36,
+    "source_row_ref": 535,
+    "weapon": "Aurial blaster",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!IC38:IG38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_blast_cannon",
+   "entity": "exotic_weapon_group",
+   "name": "Blast cannon",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 37,
+    "source_row_ref": 548,
+    "weapon": "Blast cannon",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!IC39:IG39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_blastsword",
+   "entity": "exotic_weapon_group",
+   "name": "Blastsword",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 34,
+    "source_row_ref": 502,
+    "weapon": "Blastsword",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!IC36:IG36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_bowcaster",
+   "entity": "exotic_weapon_group",
+   "name": "Bowcaster",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 38,
+    "source_row_ref": 558,
+    "weapon": "Bowcaster",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!IC40:IG40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_cesta",
+   "entity": "exotic_weapon_group",
+   "name": "Cesta",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 6,
+    "source_row_ref": 105,
+    "weapon": "Cesta",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!IC8:IG8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_concealed_dart_launcher",
+   "entity": "exotic_weapon_group",
+   "name": "Concealed dart launcher",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 19,
+    "source_row_ref": 272,
+    "weapon": "Concealed dart launcher",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!IC21:IG21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_darkstick",
+   "entity": "exotic_weapon_group",
+   "name": "Darkstick",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 7,
+    "source_row_ref": 115,
+    "weapon": "Darkstick",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!IC9:IG9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_deck_sweeper",
+   "entity": "exotic_weapon_group",
+   "name": "Deck sweeper",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 20,
+    "source_row_ref": 285,
+    "weapon": "Deck sweeper",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!IC22:IG22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_discblade",
+   "entity": "exotic_weapon_group",
+   "name": "Discblade",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 21,
+    "source_row_ref": 295,
+    "weapon": "Discblade",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!IC23:IG23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_felucian_skullblade",
+   "entity": "exotic_weapon_group",
+   "name": "Felucian skullblade",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 8,
+    "source_row_ref": 135,
+    "weapon": "Felucian skullblade",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!IC10:IG10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_fira",
+   "entity": "exotic_weapon_group",
+   "name": "Fira",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 9,
+    "source_row_ref": 140,
+    "weapon": "Fira",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!IC11:IG11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_flamethrower",
+   "entity": "exotic_weapon_group",
+   "name": "Flamethrower",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 22,
+    "source_row_ref": 308,
+    "weapon": "Flamethrower",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!IC24:IG24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_garrote",
+   "entity": "exotic_weapon_group",
+   "name": "Garrote",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 10,
+    "source_row_ref": 148,
+    "weapon": "Garrote",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!IC12:IG12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_lanvarok_massassi_disc",
+   "entity": "exotic_weapon_group",
+   "name": "Lanvarok, Massassi (disc)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 23,
+    "source_row_ref": 334,
+    "weapon": "Lanvarok, Massassi (disc)",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!IC25:IG25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_lanvarok_massassi_melee",
+   "entity": "exotic_weapon_group",
+   "name": "Lanvarok, Massassi (melee)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 11,
+    "source_row_ref": 175,
+    "weapon": "Lanvarok, Massassi (melee)",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!IC13:IG13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_lanvarok_sith",
+   "entity": "exotic_weapon_group",
+   "name": "Lanvarok, Sith",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 24,
+    "source_row_ref": 349,
+    "weapon": "Lanvarok, Sith",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!IC26:IG26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_magna_caster",
+   "entity": "exotic_weapon_group",
+   "name": "Magna caster",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 25,
+    "source_row_ref": 362,
+    "weapon": "Magna caster",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!IC27:IG27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_neural_inhibitor",
+   "entity": "exotic_weapon_group",
+   "name": "Neural inhibitor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 26,
+    "source_row_ref": 379,
+    "weapon": "Neural inhibitor",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!IC28:IG28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_neuronic_whip",
+   "entity": "exotic_weapon_group",
+   "name": "Neuronic whip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 12,
+    "source_row_ref": 189,
+    "weapon": "Neuronic whip",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!IC14:IG14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_pulse_rifle",
+   "entity": "exotic_weapon_group",
+   "name": "Pulse rifle",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 27,
+    "source_row_ref": 391,
+    "weapon": "Pulse rifle",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!IC29:IG29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_ryyk_blade",
+   "entity": "exotic_weapon_group",
+   "name": "Ryyk blade",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 13,
+    "source_row_ref": 200,
+    "weapon": "Ryyk blade",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!IC15:IG15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_shyarn",
+   "entity": "exotic_weapon_group",
+   "name": "Shyarn",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 14,
+    "source_row_ref": 207,
+    "weapon": "Shyarn",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!IC16:IG16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_siang_lance",
+   "entity": "exotic_weapon_group",
+   "name": "Siang lance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 28,
+    "source_row_ref": 403,
+    "weapon": "Siang lance",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!IC30:IG30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_squib_tensor_rifle",
+   "entity": "exotic_weapon_group",
+   "name": "Squib tensor rifle",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 29,
+    "source_row_ref": 422,
+    "weapon": "Squib tensor rifle",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!IC31:IG31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_tehk_la_blade",
+   "entity": "exotic_weapon_group",
+   "name": "Tehk'la blade",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 15,
+    "source_row_ref": 221,
+    "weapon": "Tehk'la blade",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!IC17:IG17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_verpine_shatter_gun",
+   "entity": "exotic_weapon_group",
+   "name": "Verpine shatter gun",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 30,
+    "source_row_ref": 442,
+    "weapon": "Verpine shatter gun",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!IC32:IG32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_vibro_saw",
+   "entity": "exotic_weapon_group",
+   "name": "Vibro-saw",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 16,
+    "source_row_ref": 231,
+    "weapon": "Vibro-saw",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!IC18:IG18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_wan_shen",
+   "entity": "exotic_weapon_group",
+   "name": "Wan-shen",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 17,
+    "source_row_ref": 240,
+    "weapon": "Wan-shen",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!IC19:IG19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_wrist_rocket_launcher",
+   "entity": "exotic_weapon_group",
+   "name": "Wrist rocket launcher",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 31,
+    "source_row_ref": 464,
+    "weapon": "Wrist rocket launcher",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!IC33:IG33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_xerrol_nightstinger",
+   "entity": "exotic_weapon_group",
+   "name": "Xerrol nightstinger",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 32,
+    "source_row_ref": 484,
+    "weapon": "Xerrol nightstinger",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!IC34:IG34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "exotic_weapon_group_zhaboka",
+   "entity": "exotic_weapon_group",
+   "name": "Zhaboka",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "index": 18,
+    "source_row_ref": 248,
+    "weapon": "Zhaboka",
+    "weapon_list": "Amphistaff;Amphistaff (quarterstaff form);Amphistaff (spear form);Amphistaff (whip form);Arg'garok;Cesta;Darkstick;Felucian skullblade;Fira;Garrote;Lanvarok, Massassi (melee);Neuronic whip;Ryyk blade;Shyarn;Tehk'la blade;Vibro-saw;Wan-shen;Zhaboka;Concealed dart launcher;Deck sweeper;Discblade;Flamethrower;Lanvarok, Massassi (disc);Lanvarok, Sith;Magna caster;Neural inhibitor;Pulse rifle;Siang lance;Squib tensor rifle;Verpine shatter gun;Wrist rocket launcher;Xerrol nightstinger;Atlatl;Blastsword;Amphistaff (spit);Aurial blaster;Blast cannon;Bowcaster;"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_exotic_weapon_listing",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!IC20:IG20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+# ---------------------------------------------------------------------------
+# Curation: authoritative corrections to canonical records.
+#
+# This is the ONLY sanctioned way to change generated data. `data/canonical/*`
+# is regenerated from the source workbooks on every `make canonical`, so edits
+# made there are lost; edits made here are re-applied on every run and are
+# visible in git history.
+#
+# Shape:
+#   overrides:
+#     <entity>:
+#       <record id>:
+#         name: "Optional corrected display name"
+#         canon: official | third_party | homebrew
+#         attrs: {field: value, ...}          # merged into attrs
+#         prerequisites: "Replacement prereq text (re-parsed)"
+#         relations: {relation_name: [ids]}
+#         flags: [flag, ...]                  # added to flags
+#         note: "Why - required. Cite the book/page or the ruling source."
+#
+# Every applied override sets the `curated:overridden` flag on the record, and
+# `python -m swse.cli validate` fails if an override has no `note`.
+# ---------------------------------------------------------------------------
+overrides: {}

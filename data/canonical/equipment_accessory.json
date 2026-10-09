@@ -1,0 +1,629 @@
+{
+ "entity": "equipment_accessory",
+ "label": "equipment_accessory",
+ "role": "option",
+ "count": 18,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "equipment_accessory_cheater",
+   "entity": "equipment_accessory",
+   "name": "Cheater",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "col_ar": "-5 to Use Computer checks to detect",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!AI2:AR2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_cloaked",
+   "entity": "equipment_accessory",
+   "name": "Cloaked",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "-5 to Use Computer checks to detect",
+    "price": 750,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!AI3:AR3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_droidification",
+   "entity": "equipment_accessory",
+   "name": "Droidification",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "col_ar": "Retrieve weapon from 6 squares as Move action",
+    "price": 2000,
+    "slots": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!AI4:AR4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_dual_gear",
+   "entity": "equipment_accessory",
+   "name": "Dual Gear",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!AI5:AR5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_electrograpple_handle",
+   "entity": "equipment_accessory",
+   "name": "Electrograpple Handle",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Retrieve weapon from 6 squares as Move action",
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!AI6:AR6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_environmental_sealing",
+   "entity": "equipment_accessory",
+   "name": "Environmental Sealing",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Environmentally sealed",
+    "price": 400,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!AI7:AR7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_extra_power_source",
+   "entity": "equipment_accessory",
+   "name": "Extra Power Source",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "col_ar": "Weapon deals double normal dice to 2-square radius and explodes",
+    "description": "Doubled lifetime",
+    "price": 200,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!AI8:AR8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_ion_shielding",
+   "entity": "equipment_accessory",
+   "name": "Ion-Shielding",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 1000,
+    "slots": 1,
+    "url": "https://swse.miraheze.org/wiki/Ion_Shielding"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!AI9:AR9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "equipment_accessory_memory_upgrade",
+   "entity": "equipment_accessory",
+   "name": "Memory Upgrade",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 4000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!AI10:AR10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_memory_upgrade_advanced",
+   "entity": "equipment_accessory",
+   "name": "Memory Upgrade, Advanced",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Miniaturized",
+    "price": 16000,
+    "slots": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!AI11:AR11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_miniaturized",
+   "entity": "equipment_accessory",
+   "name": "Miniaturized",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "col_ar": "+2 DR to item",
+    "description": "Weapon deals double normal dice to 2-square radius and explodes",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!AI12:AR12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_overload_switch",
+   "entity": "equipment_accessory",
+   "name": "Overload Switch",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "col_ar": "Quick Draw as free action",
+    "description": "Works only for you",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!AI13:AR13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_remote_activation",
+   "entity": "equipment_accessory",
+   "name": "Remote Activation",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Store 1 smaller item inside weapon",
+    "price": 100,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!AI14:AR14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_secret_compartment",
+   "entity": "equipment_accessory",
+   "name": "Secret Compartment",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "+2 DR to item",
+    "price": 600,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!AI15:AR15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_silverplate",
+   "entity": "equipment_accessory",
+   "name": "Silverplate",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Quick Draw as free action",
+    "price": 2500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!AI16:AR16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_spring_loaded",
+   "entity": "equipment_accessory",
+   "name": "Spring Loaded",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Store smaller items on weapon up to its weight",
+    "price": 300,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!AI17:AR17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_storage_capacity",
+   "entity": "equipment_accessory",
+   "name": "Storage Capacity",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 100,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!AI18:AR18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_accessory_stripping",
+   "entity": "equipment_accessory",
+   "name": "Stripping",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 0.5,
+    "slots": -1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment_accessories",
+     "sheet": "Lists",
+     "row": 20,
+     "ref": "Lists!AI20:AR20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

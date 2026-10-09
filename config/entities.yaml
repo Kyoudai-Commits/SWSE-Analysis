@@ -1,0 +1,518 @@
+# ---------------------------------------------------------------------------
+# Canonical entity model.
+#
+# Maps extracted blocks (config/blocks.yaml) onto canonical entities
+# (data/canonical/<entity>.json). Declarative by design: an agent adding a new
+# source block should only have to add an entry here.
+#
+# Per block:
+#   id         block id from config/blocks.yaml
+#   canon      official | third_party | homebrew (default for its records)
+#   fields     "*" = pass every extracted column through; or an explicit
+#              {canonical_field: extracted_field} map (unmapped columns dropped)
+#   row_hooks  swse.hooks.ROW_HOOKS applied to each raw row (return None to drop)
+#   state      values put on ctx.state while this block is processed
+#
+# Per entity:
+#   merge_on   field used to merge records across blocks (default: name)
+#   entity_hooks  swse.hooks.ENTITY_HOOKS applied after merging
+#   role       what the entity is for, used by swse.space to build the decision
+#              space. One of: option | modifier | reference | gear | rule
+# ---------------------------------------------------------------------------
+
+post_hooks:
+  - derive_talent_trees      # talent rows -> talent_tree records (must precede prereq_pass)
+  - skill_class_matrix       # heroic class skill lists -> skill records
+  - split_class_grants       # "Feat A Feat B (x)" -> ["Feat A", "Feat B (x)"]
+  - audit_class_grants       # verify every parsed grant against the vocabularies
+  - attach_urls              # Master Reference Links sheet -> entity urls
+  - derive_parameter_axes    # Weapon Proficiency / Skill Focus / ... -> option axes
+  - resolve_sourcebooks      # page refs + source tags -> normalised sourcebooks
+  - prereq_pass              # structured prerequisites (needs the full entity index)
+
+entities:
+
+  # ============================ character options ==========================
+  species:
+    label: Species
+    role: option
+    merge_on: name
+    entity_hooks: [species_kind]
+    blocks:
+      - id: sf_species
+        canon: third_party
+        row_hooks: [species_cleanup]
+        fields: "*"
+
+  racial_ability:
+    label: Racial / species ability
+    role: modifier
+    merge_on: name
+    blocks:
+      - id: sf_racial_abilities
+        canon: third_party
+        fields: "*"
+
+  class:
+    label: Class (heroic + prestige)
+    role: option
+    merge_on: name
+    entity_hooks: [class_kind, class_grants]
+    blocks:
+      - id: sf_classes
+        canon: third_party
+        row_hooks: [drop_section_labels, class_cleanup, tag_to_sourcebooks]
+        fields: "*"
+      - id: mr_heroic_classes
+        canon: official
+        row_hooks: [mr_heroic_homebrew_section, mr_class_columns]
+        fields: "*"
+      - id: mr_prestige_classes
+        canon: official
+        row_hooks: [mr_class_columns]
+        fields: "*"
+
+  class_feature:
+    label: Class feature
+    role: modifier
+    merge_on: name
+    blocks:
+      - id: sf_class_features
+        canon: third_party
+        fields: "*"
+
+  feat:
+    label: Feat
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_feats
+        canon: third_party
+        row_hooks: [drop_section_labels, feat_cleanup]
+        fields: "*"
+      - id: mr_feats
+        canon: official
+        row_hooks: [mr_feat_columns]
+        fields: "*"
+
+  talent:
+    label: Talent
+    role: option
+    merge_on: name_and_tree     # the same talent name can appear in two trees
+    entity_hooks: [talent_position]
+    blocks:
+      - id: sf_talents
+        canon: third_party
+        row_hooks: [drop_section_labels, talent_layout]
+        fields: "*"
+
+
+  special_talent:
+    label: Repeatable special talent (per-class)
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_special_talents_soldier
+        canon: third_party
+        row_hooks: [special_talent_context]
+        fields: "*"
+      - id: sf_special_talents_ace_pilot
+        canon: third_party
+        row_hooks: [special_talent_context]
+        fields: "*"
+      - id: sf_special_talents_elite_trooper
+        canon: third_party
+        row_hooks: [special_talent_context]
+        fields: "*"
+      - id: sf_special_talents_gladiator
+        canon: third_party
+        row_hooks: [special_talent_context]
+        fields: "*"
+
+  lightsaber_form:
+    label: Lightsaber combat form
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_lightsaber_forms
+        canon: third_party
+        row_hooks: [lightsaber_form_row]
+        fields: "*"
+
+  ammunition:
+    label: Ammunition / ordnance
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_grenade_launchers
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  talent_tree:
+    label: Talent tree
+    role: option
+    merge_on: name
+    blocks:
+      - id: mr_talent_trees
+        canon: official
+        row_hooks: [mr_talent_tree_columns]
+        fields: "*"
+
+  force_power:
+    label: Force power
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_force_powers
+        canon: third_party
+        row_hooks: [drop_section_labels, force_power_marks, page_to_sourcebooks]
+        fields: "*"
+      - id: mr_force_powers
+        canon: official
+        row_hooks: [mr_force_power_columns]
+        fields: "*"
+
+  force_technique:
+    label: Force technique
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_force_techniques
+        canon: third_party
+        row_hooks: [drop_section_labels, page_to_sourcebooks]
+        fields: "*"
+
+  force_secret:
+    label: Force secret
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_force_secrets
+        canon: third_party
+        row_hooks: [drop_section_labels, page_to_sourcebooks]
+        fields: "*"
+
+  force_regimen:
+    label: Force / lightsaber training regimen
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_force_regimens
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  starship_maneuver:
+    label: Starship maneuver
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_starship_maneuvers
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  unleashed_ability:
+    label: Force Unleashed alternate ability
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_unleashed_abilities
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  skill:
+    label: Skill
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_skills
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  destiny:
+    label: Destiny
+    role: option
+    merge_on: name
+    entity_hooks: [destiny_split]
+    blocks:
+      - id: sf_destinies
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  language:
+    label: Language
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_languages
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  background:
+    label: Background
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_backgrounds
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  near_human_trait:
+    label: Near-Human trait
+    role: option
+    merge_on: name
+    blocks:
+      - id: sf_near_human_traits
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  droid_option:
+    label: Droid build option
+    role: option
+    merge_on: name_and_group
+    blocks:
+      - id: sf_droid_chassis
+        canon: third_party
+        row_hooks: [droid_option_group]
+        state: {droid_group: chassis}
+        fields: "*"
+      - id: sf_droid_quirks
+        canon: third_party
+        row_hooks: [droid_option_group]
+        state: {droid_group: quirk}
+        fields: "*"
+      - id: sf_droid_manufacturers
+        canon: third_party
+        row_hooks: [droid_option_group]
+        state: {droid_group: manufacturer}
+        fields: "*"
+      - id: sf_droid_accessories
+        canon: third_party
+        row_hooks: [droid_option_group]
+        state: {droid_group: accessory}
+        fields: "*"
+      - id: sf_droid_armor
+        canon: third_party
+        row_hooks: [droid_option_group]
+        state: {droid_group: armor}
+        fields: "*"
+      - id: sf_droid_appendages
+        canon: third_party
+        row_hooks: [droid_option_group]
+        state: {droid_group: appendage}
+        fields: "*"
+
+  # ================================== gear =================================
+  weapon:
+    label: Weapon
+    role: gear
+    merge_on: name
+    entity_hooks: [weapon_stats]
+    blocks:
+      - id: sf_weapons
+        canon: third_party
+        row_hooks: [drop_section_labels, drop_placeholder_rows, tag_to_sourcebooks]
+        fields: "*"
+
+  armor:
+    label: Armor
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_armor
+        canon: third_party
+        row_hooks: [drop_section_labels, drop_placeholder_rows, tag_to_sourcebooks]
+        fields: "*"
+
+  equipment:
+    label: Equipment
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_equipment
+        canon: third_party
+        row_hooks: [drop_section_labels, drop_placeholder_rows, tag_to_sourcebooks]
+        fields: "*"
+
+  cybernetic:
+    label: Cybernetic / biotech upgrade
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_head_devices
+        canon: third_party
+        row_hooks: [drop_section_labels, tag_to_sourcebooks]
+        state: {cybernetic_group: head_device}
+        fields: "*"
+      - id: sf_implants
+        canon: third_party
+        row_hooks: [drop_section_labels, tag_to_sourcebooks]
+        state: {cybernetic_group: implant}
+        fields: "*"
+
+  weapon_template:
+    label: Weapon template (custom/premium weapon upgrade)
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_weapon_templates
+        canon: third_party
+        row_hooks: [drop_section_labels, tag_to_sourcebooks]
+        fields: "*"
+      - id: sf_sith_weapon_traits
+        canon: third_party
+        row_hooks: [drop_section_labels, tag_to_sourcebooks]
+        fields: "*"
+
+  armor_template:
+    label: Armor template
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_armor_templates
+        canon: third_party
+        row_hooks: [drop_section_labels, drop_placeholder_rows, tag_to_sourcebooks]
+        fields: "*"
+
+  shield_template:
+    label: Shield template
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_shield_templates
+        canon: third_party
+        row_hooks: [drop_section_labels, tag_to_sourcebooks]
+        fields: "*"
+
+  weapon_accessory:
+    label: Weapon accessory
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_weapon_accessories
+        canon: third_party
+        row_hooks: [drop_section_labels, tag_to_sourcebooks]
+        fields: "*"
+
+  armor_accessory:
+    label: Armor accessory
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_armor_accessories
+        canon: third_party
+        row_hooks: [drop_section_labels, drop_placeholder_rows, tag_to_sourcebooks]
+        fields: "*"
+
+  equipment_accessory:
+    label: Equipment accessory
+    role: gear
+    merge_on: name
+    blocks:
+      - id: sf_equipment_accessories
+        canon: third_party
+        row_hooks: [drop_section_labels, tag_to_sourcebooks]
+        fields: "*"
+
+  weapon_mod:
+    label: Feat/talent weapon modifier
+    role: modifier
+    merge_on: name
+    blocks:
+      - id: sf_weapon_feat_mods
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+      - id: sf_weapon_mod_details
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  exotic_weapon_group:
+    label: Exotic weapon proficiency group
+    role: modifier
+    merge_on: weapon
+    blocks:
+      - id: sf_exotic_weapon_listing
+        canon: third_party
+        row_hooks: [drop_section_labels]
+        fields: "*"
+
+  # =============================== rules data ============================
+  age_category:
+    label: Age category
+    role: rule
+    merge_on: name
+    blocks: [{id: sf_ages, canon: third_party, fields: "*"}]
+
+  size_category:
+    label: Size category
+    role: rule
+    merge_on: name
+    blocks: [{id: sf_size_types, canon: third_party, fields: "*"}]
+
+  availability:
+    label: Equipment availability
+    role: rule
+    merge_on: name
+    blocks: [{id: sf_availability_types, canon: third_party, fields: "*"}]
+
+  range_increment:
+    label: Range increment table
+    role: rule
+    merge_on: weapon_group
+    blocks: [{id: sf_range_increments, canon: third_party, fields: "*"}]
+
+  armor_size:
+    label: Armor size
+    role: rule
+    merge_on: name
+    blocks: [{id: sf_armor_sizes, canon: third_party, fields: "*"}]
+
+  droid_degree:
+    label: Droid degree
+    role: rule
+    merge_on: name
+    blocks: [{id: sf_droid_degrees, canon: third_party, fields: "*"}]
+
+  droid_locomotion:
+    label: Droid locomotion
+    role: rule
+    merge_on: name
+    blocks: [{id: sf_droid_locomotion, canon: third_party, fields: "*"}]
+
+  droid_shield_rating:
+    label: Droid shield rating
+    role: rule
+    merge_on: sr
+    blocks: [{id: sf_droid_shield_ratings, canon: third_party, fields: "*"}]
+
+  droid_translator:
+    label: Droid translator
+    role: rule
+    merge_on: dc
+    blocks: [{id: sf_droid_translators, canon: third_party, fields: "*"}]
+
+  sourcebook:
+    label: Sourcebook
+    role: reference
+    merge_on: abbreviation
+    blocks: [{id: sf_supplements, canon: third_party, fields: "*"}]
+
+  reference_link:
+    label: Wiki reference link
+    role: reference
+    merge_on: url
+    blocks:
+      - id: mr_links
+        canon: official
+        row_hooks: [link_row]
+        fields: "*"

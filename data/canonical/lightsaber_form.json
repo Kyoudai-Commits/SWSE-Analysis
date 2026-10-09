@@ -1,0 +1,273 @@
+{
+ "entity": "lightsaber_form",
+ "label": "lightsaber_form",
+ "role": "option",
+ "count": 12,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "lightsaber_form_ataru",
+   "entity": "lightsaber_form",
+   "name": "Ataru",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 64,
+     "ref": "Talents 2!G64:H64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_djem_so",
+   "entity": "lightsaber_form",
+   "name": "Djem So",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 65,
+     "ref": "Talents 2!G65:H65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_jar_kai",
+   "entity": "lightsaber_form",
+   "name": "Jar'Kai",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "alternate"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 70,
+     "ref": "Talents 2!G70:H70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_juyo",
+   "entity": "lightsaber_form",
+   "name": "Juyo",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 66,
+     "ref": "Talents 2!G66:H66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_makashi",
+   "entity": "lightsaber_form",
+   "name": "Makashi",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 68,
+     "ref": "Talents 2!G68:H68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_niman",
+   "entity": "lightsaber_form",
+   "name": "Niman",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 69,
+     "ref": "Talents 2!G69:H69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_shien",
+   "entity": "lightsaber_form",
+   "name": "Shien",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 71,
+     "ref": "Talents 2!G71:H71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_shii_cho",
+   "entity": "lightsaber_form",
+   "name": "Shii-Cho",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 72,
+     "ref": "Talents 2!G72:H72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_sokan",
+   "entity": "lightsaber_form",
+   "name": "Sokan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 73,
+     "ref": "Talents 2!G73:H73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_soresu",
+   "entity": "lightsaber_form",
+   "name": "Soresu",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 74,
+     "ref": "Talents 2!G74:H74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_trakata",
+   "entity": "lightsaber_form",
+   "name": "Trakata",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "primary"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 75,
+     "ref": "Talents 2!G75:H75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "lightsaber_form_vaapad",
+   "entity": "lightsaber_form",
+   "name": "Vaapad",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "form_slot": "alternate"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_lightsaber_forms",
+     "sheet": "Talents 2",
+     "row": 67,
+     "ref": "Talents 2!G67:H67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

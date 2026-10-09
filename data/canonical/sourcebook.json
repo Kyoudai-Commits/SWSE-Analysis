@@ -1,0 +1,238 @@
+{
+ "entity": "sourcebook",
+ "label": "sourcebook",
+ "role": "option",
+ "count": 10,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "sourcebook_clone_wars_campaign_guide",
+   "entity": "sourcebook",
+   "name": "Clone Wars Campaign Guide",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "CWCS",
+    "canon_basis": "block_declaration",
+    "title": "Clone Wars Campaign Guide"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!IA9:IB9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_jatm",
+   "entity": "sourcebook",
+   "name": "JATM",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "JATM",
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!IA12:IB12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_knights_of_the_old_republic_campaign_guide",
+   "entity": "sourcebook",
+   "name": "Knights of the Old Republic Campaign Guide",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "KotOR",
+    "canon_basis": "block_declaration",
+    "title": "Knights of the Old Republic Campaign Guide"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!IA5:IB5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_legacy_era_campaign_guide",
+   "entity": "sourcebook",
+   "name": "Legacy Era Campaign Guide",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "LECG",
+    "canon_basis": "block_declaration",
+    "title": "Legacy Era Campaign Guide"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!IA11:IB11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_saga_edition_com",
+   "entity": "sourcebook",
+   "name": "Saga-Edition.com",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "TAO",
+    "canon_basis": "block_declaration",
+    "title": "Saga-Edition.com"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!IA3:IB3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_scum_and_villainy",
+   "entity": "sourcebook",
+   "name": "Scum and Villainy",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "SaV",
+    "canon_basis": "block_declaration",
+    "title": "Scum and Villainy"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!IA8:IB8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_starships_of_the_galaxy",
+   "entity": "sourcebook",
+   "name": "Starships of the Galaxy",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "SotG",
+    "canon_basis": "block_declaration",
+    "title": "Starships of the Galaxy"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!IA7:IB7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_the_force_unleashed_campaign_guide",
+   "entity": "sourcebook",
+   "name": "The Force Unleashed Campaign Guide",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "TFU",
+    "canon_basis": "block_declaration",
+    "title": "The Force Unleashed Campaign Guide"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!IA4:IB4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_threats_of_the_galaxy",
+   "entity": "sourcebook",
+   "name": "Threats of the Galaxy",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "TotG",
+    "canon_basis": "block_declaration",
+    "title": "Threats of the Galaxy"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!IA6:IB6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "sourcebook_wotc_web_enhancements",
+   "entity": "sourcebook",
+   "name": "WotC Web Enhancements",
+   "canon": "third_party",
+   "attrs": {
+    "abbreviation": "WEB",
+    "canon_basis": "block_declaration",
+    "title": "WotC Web Enhancements"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_supplements",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!IA10:IB10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

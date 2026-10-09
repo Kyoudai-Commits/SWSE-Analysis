@@ -1,0 +1,128 @@
+{
+ "entity": "droid_degree",
+ "label": "droid_degree",
+ "role": "option",
+ "count": 5,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "droid_degree_1st",
+   "entity": "droid_degree",
+   "name": "1st",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_int": 2,
+    "mod_str": -2,
+    "mod_wis": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_degrees",
+     "sheet": "Data",
+     "row": 80,
+     "ref": "Data!A80:F80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_degree_2nd",
+   "entity": "droid_degree",
+   "name": "2nd",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": -2,
+    "mod_int": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_degrees",
+     "sheet": "Data",
+     "row": 81,
+     "ref": "Data!A81:F81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_degree_3rd",
+   "entity": "droid_degree",
+   "name": "3rd",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": 2,
+    "mod_str": -2,
+    "mod_wis": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_degrees",
+     "sheet": "Data",
+     "row": 82,
+     "ref": "Data!A82:F82",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_degree_4th",
+   "entity": "droid_degree",
+   "name": "4th",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": -2,
+    "mod_dex": 2,
+    "mod_int": -2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_degrees",
+     "sheet": "Data",
+     "row": 83,
+     "ref": "Data!A83:F83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_degree_5th",
+   "entity": "droid_degree",
+   "name": "5th",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": -4,
+    "mod_int": -4,
+    "mod_str": 4
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_degrees",
+     "sheet": "Data",
+     "row": 84,
+     "ref": "Data!A84:F84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,270 @@
+{
+ "entity": "size_category",
+ "label": "size_category",
+ "role": "option",
+ "count": 9,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "size_category_colossal",
+   "entity": "size_category",
+   "name": "Colossal",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "c",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 20,
+    "damage_threshold_mod": 50,
+    "die_size": 12,
+    "hp_mod": 100,
+    "ref_mod": -10,
+    "sort": 9,
+    "stealth_mod": -20
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!A33:I33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_diminutive",
+   "entity": "size_category",
+   "name": "Diminutive",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "d",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 0.25,
+    "damage_threshold_mod": 0,
+    "die_size": 1,
+    "hp_mod": 0,
+    "ref_mod": 5,
+    "sort": 2,
+    "stealth_mod": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!A26:I26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_fine",
+   "entity": "size_category",
+   "name": "Fine",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "f",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 0.01,
+    "damage_threshold_mod": 0,
+    "die_size": 0,
+    "hp_mod": 0,
+    "ref_mod": 10,
+    "sort": 1,
+    "stealth_mod": 20
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!A25:I25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_gargantuan",
+   "entity": "size_category",
+   "name": "Gargantuan",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "g",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 10,
+    "damage_threshold_mod": 20,
+    "die_size": 10,
+    "hp_mod": 50,
+    "ref_mod": -5,
+    "sort": 8,
+    "stealth_mod": -15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!A32:I32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_huge",
+   "entity": "size_category",
+   "name": "Huge",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "h",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 5,
+    "damage_threshold_mod": 10,
+    "die_size": 8,
+    "hp_mod": 20,
+    "ref_mod": -2,
+    "sort": 7,
+    "stealth_mod": -10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!A31:I31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_large",
+   "entity": "size_category",
+   "name": "Large",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "l",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 2,
+    "damage_threshold_mod": 5,
+    "die_size": 6,
+    "hp_mod": 10,
+    "ref_mod": -1,
+    "sort": 6,
+    "stealth_mod": -5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!A30:I30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_medium",
+   "entity": "size_category",
+   "name": "Medium",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "m",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 1,
+    "damage_threshold_mod": 0,
+    "die_size": 4,
+    "hp_mod": 0,
+    "ref_mod": 0,
+    "sort": 5,
+    "stealth_mod": 0
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!A29:I29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_small",
+   "entity": "size_category",
+   "name": "Small",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "s",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 0.75,
+    "damage_threshold_mod": 0,
+    "die_size": 3,
+    "hp_mod": 0,
+    "ref_mod": 1,
+    "sort": 4,
+    "stealth_mod": 5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!A28:I28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "size_category_tiny",
+   "entity": "size_category",
+   "name": "Tiny",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "t",
+    "canon_basis": "block_declaration",
+    "carrying_capacity_mult": 0.5,
+    "damage_threshold_mod": 0,
+    "die_size": 2,
+    "hp_mod": 0,
+    "ref_mod": 2,
+    "sort": 3,
+    "stealth_mod": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_size_types",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!A27:I27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

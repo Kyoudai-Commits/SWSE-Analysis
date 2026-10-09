@@ -1,0 +1,105 @@
+{
+ "entity": "droid_translator",
+ "label": "droid_translator",
+ "role": "option",
+ "count": 4,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "droid_translator_translator_dc_10",
+   "entity": "droid_translator",
+   "name": "Translator (DC 10)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 1000,
+    "dc": 10,
+    "weight": 4
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_translators",
+     "sheet": "Data",
+     "row": 106,
+     "ref": "Data!A106:C106",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_translator_translator_dc_15",
+   "entity": "droid_translator",
+   "name": "Translator (DC 15)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 500,
+    "dc": 15,
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_translators",
+     "sheet": "Data",
+     "row": 105,
+     "ref": "Data!A105:C105",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_translator_translator_dc_20",
+   "entity": "droid_translator",
+   "name": "Translator (DC 20)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 200,
+    "dc": 20,
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_translators",
+     "sheet": "Data",
+     "row": 104,
+     "ref": "Data!A104:C104",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_translator_translator_dc_5",
+   "entity": "droid_translator",
+   "name": "Translator (DC 5)",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 2000,
+    "dc": 5,
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_translators",
+     "sheet": "Data",
+     "row": 107,
+     "ref": "Data!A107:C107",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

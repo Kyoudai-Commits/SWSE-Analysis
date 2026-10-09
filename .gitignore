@@ -1,0 +1,37 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# --- Generated / derived data (rebuildable with `make data`) ---
+# Raw sheet dumps are reproducible from the source workbooks, so they are not committed.
+data/raw/
+# SQLite index is derived from data/canonical/
+data/index/
+# Enumerated build dumps are pipeline intermediates between `enumerate` and
+# `evaluate`; they are large (builds-level1.jsonl is ~3 MB) and regenerate
+# deterministically with `make analysis`. The .md digests are committed.
+analysis/out/*.jsonl
+# Scratch space for agents
+scratch/
+*.sqlite3
+*.db
+
+# --- Large working copies of source books ---
+sources/incoming/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# --- Office lock files ---
+~$*.xls*

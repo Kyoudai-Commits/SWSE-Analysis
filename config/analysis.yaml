@@ -1,0 +1,148 @@
+# ---------------------------------------------------------------------------
+# Analysis assumptions.
+#
+# EVERY number the enumeration and evaluation engines use that does not come
+# straight out of a source workbook is declared here, with a `verified` flag.
+#
+#   verified: true   - taken directly from the canonical data (a `source` field
+#                      names the entity/record or block it came from)
+#   verified: false  - asserted from general SWSE knowledge and NOT yet checked
+#                      against a primary source. Treat as a hypothesis: analysis
+#                      output that depends on it must say so, and there is a task
+#                      in tasks/ to confirm or correct it.
+#
+# Changing a value here changes enumeration counts. Never hard-code one of these
+# in Python.
+# ---------------------------------------------------------------------------
+
+level_range:
+  min: 1
+  max: 20
+  verified: true
+  source: "SWSE heroic levels 1-20; Data!BX3:CS42 class table"
+
+first_level_must_be_heroic:
+  value: true
+  verified: false
+  note: "Rule of thumb: a 1st-level character takes a heroic class, not a prestige class."
+
+prestige_entry_uses_own_min_level:
+  value: true
+  verified: true
+  source: "class.attrs.min_level (Data!CH) - e.g. Ace Pilot 7, Force Disciple 12"
+
+# --- per-level grant schedule ---------------------------------------------
+# Not present in either workbook (SagaForge's Class sheet is a blank UI grid).
+progression:
+  feats_at_levels: [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+  feats_per_grant: 1
+  talents_at_levels: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+  talents_per_grant: 1
+  trained_skills_at_every_level: true
+  verified: false
+  note: >-
+    SWSE heroic progression grants a feat at 1st level and every odd level, and a
+    talent at every even level. Class-specific bonus feats (Soldier, Jedi) and
+    prestige-class schedules are handled separately via `class.attrs`.
+  task: TASK-011
+
+# --- ability scores -------------------------------------------------------
+ability_scores:
+  abilities: [STR, DEX, CON, INT, WIS, CHA]
+  methods:
+    - id: distinct_vectors
+      description: "Every ordered 6-tuple of scores in [min, max]"
+      min: 3
+      max: 18
+      count_formula: "(max - min + 1) ** 6"
+      verified: false
+      note: >-
+        The 3-18 range is the classic dice span, not a rule quoted from either
+        source. Neither workbook states how ability scores are generated; this
+        method exists so the space can be counted at all.
+      task: TASK-012
+    - id: standard_array
+      description: "Assign a fixed array of scores to the six abilities"
+      array: [13, 12, 11, 10, 9, 8]
+      count_formula: "6! permutations = 720"
+      verified: false
+      note: >-
+        Array chosen by the analyst for tractable enumeration; SagaForge's
+        Character sheet has an ability-score grid but no printed array.
+      task: TASK-012
+    - id: point_buy
+      description: "Spend a budget using a cost curve"
+      budget: 13
+      cost_curve: {}          # score -> cumulative cost; NOT PRESENT IN SOURCES
+      verified: false
+      note: "SagaForge's Character & Species sheet has a Point Buy cell but the cost table is not in the workbook."
+      task: TASK-012
+  default_method: distinct_vectors
+  species_modifiers_apply: true
+  age_modifiers_apply: true
+  source_for_modifiers: "species.attrs.mod_* and age_category.attrs.mod_*"
+
+# --- starting resources ---------------------------------------------------
+starting:
+  credits_from_class: true
+  credits_source: "class.attrs.starting_credits (Data!CF)"
+  force_points_from_class: true
+  force_points_source: "class.attrs.force_points (Data!CG)"
+  # VERIFIED: every heroic class's printed starting HP equals 3 x its hit die
+  # plus the CON modifier (Jedi d10 -> "30+Con", Noble d6 -> "18+Con",
+  # Soldier d10 -> "30+Con", Scout d8 -> "24+Con", Scoundrel d6 -> "18+Con").
+  hit_points_level1: "3 x class.attrs.hit_die + CON modifier"
+  hit_points_per_level: "class.attrs.hit_die + CON modifier"
+  hit_points_verified: true
+  hit_points_evidence: "class.attrs.starting_hit_points vs 3 x class.attrs.hit_die, 5/5 heroic classes"
+  hit_die_source: "class.attrs.hit_die (Data!CD); Master Reference gives '18+Con' style text"
+  trained_skills_formula: "class.attrs.trained_skills_per_level (Master Reference, e.g. '6+Int')"
+  verified: true
+  evidence: >-
+    Every figure in this block is read straight out of the sources rather than
+    assumed: credits from Data!CF, Force points from Data!CG, hit dice from
+    Data!CD, trained-skill formulas from the Master Reference class table. The
+    3 x hit die rule for 1st level was cross-checked against the printed
+    "starting hit points" text of all five heroic classes (see
+    hit_points_evidence, and tests/test_canonical_data.py).
+
+# --- Force sensitivity ----------------------------------------------------
+force:
+  requires_feat: "feat_force_sensitivity"
+  training_feat: "feat_force_training"
+  powers_known_formula: "1 + Cha modifier at first Force Training, +1 per later Force Training"
+  verified: false
+  task: TASK-013
+
+# --- enumeration policy ---------------------------------------------------
+enumeration:
+  exact_level1_limit: 250000     # emit at most this many exact level-1 builds
+  sample_default: 1000
+  seed_default: 20261008
+  prune_infeasible: true         # drop builds that cannot satisfy a prerequisite
+  include_gear: false            # gear multiplies the space by ~1e6; opt-in
+  include_homebrew: true         # flagged, never silently mixed in
+  canon_filter: null             # null = all; or "official"
+
+# --- evaluation weights (see swse/evaluate.py) -----------------------------
+# Heuristic scoring model. These weights are a starting point for analysis, not
+# an official balance statement.
+# Keys must be metric names produced by swse/evaluate.py (see METRICS); a key
+# that matches no metric is silently weight 0, and tests/test_evaluate checks
+# that the weighted total actually moves when the weights change.
+scoring:
+  weights:
+    offense: 1.0
+    defense_reflex: 0.5
+    defense_fortitude: 0.5
+    defense_will: 0.5
+    durability: 0.4
+    skill_breadth: 0.6
+    versatility: 0.5
+    force_power: 1.0
+    synergy: 0.8
+    redundancy: -0.5          # the metric is already negative; this rewards clean builds
+    unlock_depth: 0.3
+    bab: 0.2
+  verified: false
+  note: "Weights are analyst-chosen. Reports must state the weights used."

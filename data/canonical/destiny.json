@@ -1,0 +1,2043 @@
+{
+ "entity": "destiny",
+ "label": "destiny",
+ "role": "option",
+ "count": 88,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "destiny_bacca_suffix_legacy_denied",
+   "entity": "destiny",
+   "name": "-bacca (suffix) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 19,
+     "ref": "Lists!AD19:AG19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_bacca_suffix_legacy_embraced",
+   "entity": "destiny",
+   "name": "-bacca (suffix) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 20,
+     "ref": "Lists!AD20:AG20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_ackbar_legacy_denied",
+   "entity": "destiny",
+   "name": "Ackbar Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!AD12:AG12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_ackbar_legacy_embraced",
+   "entity": "destiny",
+   "name": "Ackbar Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!AD13:AG13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_antares_legacy_embraced",
+   "entity": "destiny",
+   "name": "Antares Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!AD14:AG14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_antilles_legacy_denied",
+   "entity": "destiny",
+   "name": "Antilles Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!AD15:AG15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_antilles_legacy_embraced",
+   "entity": "destiny",
+   "name": "Antilles Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!AD16:AG16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_askar_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Askar (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!AD17:AG17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_askar_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Askar (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!AD18:AG18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_bomu_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Bomu (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 21,
+     "ref": "Lists!AD21:AG21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_bomu_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Bomu (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 22,
+     "ref": "Lists!AD22:AG22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_champion",
+   "entity": "destiny",
+   "name": "Champion",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+1 to all defenses",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to all defenses"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!AD2:AG2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_chattza_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Chattza (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 23,
+     "ref": "Lists!AD23:AG23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_chattza_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Chattza (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 24,
+     "ref": "Lists!AD24:AG24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_chekkoo_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Chekkoo (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 25,
+     "ref": "Lists!AD25:AG25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_chekkoo_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Chekkoo (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 26,
+     "ref": "Lists!AD26:AG26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_corruption",
+   "entity": "destiny",
+   "name": "Corruption",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+1 skills and ability checks",
+    "canon_basis": "block_declaration",
+    "completed_effect": "+1 to two ability scores",
+    "penalty": "-2 skills and ability checks",
+    "url": "https://swse.miraheze.org/wiki/Corruption"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!AD3:AG3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "destiny_cracken_legacy_denied",
+   "entity": "destiny",
+   "name": "Cracken Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 27,
+     "ref": "Lists!AD27:AG27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_cracken_legacy_embraced",
+   "entity": "destiny",
+   "name": "Cracken Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 28,
+     "ref": "Lists!AD28:AG28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_creation",
+   "entity": "destiny",
+   "name": "Creation",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+1 skills and ability checks",
+    "canon_basis": "block_declaration",
+    "completed_effect": "Spend 2 Force points per round with object",
+    "penalty": "-2 skills and ability checks"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!AD4:AG4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_darklighter_legacy_denied",
+   "entity": "destiny",
+   "name": "Darklighter Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 29,
+     "ref": "Lists!AD29:AG29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_darklighter_legacy_embraced",
+   "entity": "destiny",
+   "name": "Darklighter Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 30,
+     "ref": "Lists!AD30:AG30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_destruction",
+   "entity": "destiny",
+   "name": "Destruction",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 damage",
+    "canon_basis": "block_declaration",
+    "completed_effect": "+2 to one ability score",
+    "penalty": "-2 damage"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!AD5:AG5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_discovery",
+   "entity": "destiny",
+   "name": "Discovery",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+1 to all defenses",
+    "canon_basis": "block_declaration",
+    "completed_effect": "+1 to all defenses",
+    "penalty": "-2 to all defenses"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!AD6:AG6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_dodonna_legacy_denied",
+   "entity": "destiny",
+   "name": "Dodonna Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 31,
+     "ref": "Lists!AD31:AG31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_dodonna_legacy_embraced",
+   "entity": "destiny",
+   "name": "Dodonna Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 32,
+     "ref": "Lists!AD32:AG32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_doneeta_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Doneeta (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 33,
+     "ref": "Lists!AD33:AG33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_doneeta_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Doneeta (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 34,
+     "ref": "Lists!AD34:AG34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_draco_legacy_denied",
+   "entity": "destiny",
+   "name": "Draco Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 35,
+     "ref": "Lists!AD35:AG35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_draco_legacy_embraced",
+   "entity": "destiny",
+   "name": "Draco Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 36,
+     "ref": "Lists!AD36:AG36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_education",
+   "entity": "destiny",
+   "name": "Education",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+1 skills and ability checks",
+    "canon_basis": "block_declaration",
+    "completed_effect": "+5 bounus to one class skill",
+    "penalty": "-2 skills and ability checks"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!AD7:AG7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_farlander_legacy_denied",
+   "entity": "destiny",
+   "name": "Farlander Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 37,
+     "ref": "Lists!AD37:AG37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_farlander_legacy_embraced",
+   "entity": "destiny",
+   "name": "Farlander Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 38,
+     "ref": "Lists!AD38:AG38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fel_legacy_denied",
+   "entity": "destiny",
+   "name": "Fel Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 39,
+     "ref": "Lists!AD39:AG39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fel_legacy_embraced",
+   "entity": "destiny",
+   "name": "Fel Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 40,
+     "ref": "Lists!AD40:AG40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fett_legacy_denied",
+   "entity": "destiny",
+   "name": "Fett Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 41,
+     "ref": "Lists!AD41:AG41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fett_legacy_embraced",
+   "entity": "destiny",
+   "name": "Fett Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 42,
+     "ref": "Lists!AD42:AG42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fey_lya_legacy_denied",
+   "entity": "destiny",
+   "name": "Fey'lya Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 43,
+     "ref": "Lists!AD43:AG43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fey_lya_legacy_embraced",
+   "entity": "destiny",
+   "name": "Fey'lya Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 44,
+     "ref": "Lists!AD44:AG44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fortuna_legacy_denied",
+   "entity": "destiny",
+   "name": "Fortuna Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 45,
+     "ref": "Lists!AD45:AG45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_fortuna_legacy_embraced",
+   "entity": "destiny",
+   "name": "Fortuna Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 46,
+     "ref": "Lists!AD46:AG46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_gahan_legacy_denied",
+   "entity": "destiny",
+   "name": "Gahan Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 47,
+     "ref": "Lists!AD47:AG47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_gahan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Gahan Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 48,
+     "ref": "Lists!AD48:AG48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_gakfedd_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Gakfedd (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 49,
+     "ref": "Lists!AD49:AG49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_gakfedd_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Gakfedd (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 50,
+     "ref": "Lists!AD50:AG50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_halcyon_legacy_denied",
+   "entity": "destiny",
+   "name": "Halcyon Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 51,
+     "ref": "Lists!AD51:AG51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_halcyon_legacy_embraced",
+   "entity": "destiny",
+   "name": "Halcyon Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 52,
+     "ref": "Lists!AD52:AG52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_horn_legacy_denied",
+   "entity": "destiny",
+   "name": "Horn Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 53,
+     "ref": "Lists!AD53:AG53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_horn_legacy_embraced",
+   "entity": "destiny",
+   "name": "Horn Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 54,
+     "ref": "Lists!AD54:AG54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_ilya_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Ilya (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 55,
+     "ref": "Lists!AD55:AG55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_ilya_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Ilya (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 56,
+     "ref": "Lists!AD56:AG56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_klagg_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Klagg (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 57,
+     "ref": "Lists!AD57:AG57",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_klagg_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Klagg (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 58,
+     "ref": "Lists!AD58:AG58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_liberation",
+   "entity": "destiny",
+   "name": "Liberation",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 damage",
+    "canon_basis": "block_declaration",
+    "completed_effect": "+1 to all defenses",
+    "penalty": "-2 damage"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!AD8:AG8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_madine_legacy_denied",
+   "entity": "destiny",
+   "name": "Madine Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 59,
+     "ref": "Lists!AD59:AG59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_madine_legacy_embraced",
+   "entity": "destiny",
+   "name": "Madine Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 60,
+     "ref": "Lists!AD60:AG60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_nep_legacy_denied",
+   "entity": "destiny",
+   "name": "Nep Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 61,
+     "ref": "Lists!AD61:AG61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_nep_legacy_embraced",
+   "entity": "destiny",
+   "name": "Nep Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 62,
+     "ref": "Lists!AD62:AG62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_nunb_legacy_denied",
+   "entity": "destiny",
+   "name": "Nunb Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 63,
+     "ref": "Lists!AD63:AG63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_nunb_legacy_embraced",
+   "entity": "destiny",
+   "name": "Nunb Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 64,
+     "ref": "Lists!AD64:AG64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_organa_legacy_denied",
+   "entity": "destiny",
+   "name": "Organa Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 65,
+     "ref": "Lists!AD65:AG65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_organa_legacy_embraced",
+   "entity": "destiny",
+   "name": "Organa Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 66,
+     "ref": "Lists!AD66:AG66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_qel_droma_legacy_denied",
+   "entity": "destiny",
+   "name": "Qel Droma Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 89,
+     "ref": "Lists!AD89:AG89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_qel_droma_legacy_embraced",
+   "entity": "destiny",
+   "name": "Qel Droma Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 90,
+     "ref": "Lists!AD90:AG90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_redemption",
+   "entity": "destiny",
+   "name": "Redemption",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "Gain a Force point",
+    "canon_basis": "block_declaration",
+    "penalty": "Lose a Force point or -1 on attack until you gain a level"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!AD9:AG9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_rescue",
+   "entity": "destiny",
+   "name": "Rescue",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 damage",
+    "canon_basis": "block_declaration",
+    "completed_effect": "+1 to two ability scores",
+    "penalty": "-2 attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!AD10:AG10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_rogak_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Rogak (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 67,
+     "ref": "Lists!AD67:AG67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_rogak_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Rogak (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 68,
+     "ref": "Lists!AD68:AG68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_secura_legacy_denied",
+   "entity": "destiny",
+   "name": "Secura Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 69,
+     "ref": "Lists!AD69:AG69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_secura_legacy_embraced",
+   "entity": "destiny",
+   "name": "Secura Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 70,
+     "ref": "Lists!AD70:AG70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_skywalker_legacy_denied",
+   "entity": "destiny",
+   "name": "Skywalker Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 71,
+     "ref": "Lists!AD71:AG71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_skywalker_legacy_embraced",
+   "entity": "destiny",
+   "name": "Skywalker Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 72,
+     "ref": "Lists!AD72:AG72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_solo_legacy_denied",
+   "entity": "destiny",
+   "name": "Solo Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 73,
+     "ref": "Lists!AD73:AG73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_solo_legacy_embraced",
+   "entity": "destiny",
+   "name": "Solo Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 74,
+     "ref": "Lists!AD74:AG74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_solusar_legacy_denied",
+   "entity": "destiny",
+   "name": "Solusar Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 75,
+     "ref": "Lists!AD75:AG75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_solusar_legacy_embraced",
+   "entity": "destiny",
+   "name": "Solusar Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 76,
+     "ref": "Lists!AD76:AG76",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_tetsu_clan_legacy_denied",
+   "entity": "destiny",
+   "name": "Tetsu (clan) Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 77,
+     "ref": "Lists!AD77:AG77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_tetsu_clan_legacy_embraced",
+   "entity": "destiny",
+   "name": "Tetsu (clan) Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 78,
+     "ref": "Lists!AD78:AG78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_tion_legacy_denied",
+   "entity": "destiny",
+   "name": "Tion Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 79,
+     "ref": "Lists!AD79:AG79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_tion_legacy_embraced",
+   "entity": "destiny",
+   "name": "Tion Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 80,
+     "ref": "Lists!AD80:AG80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_try_lis_legacy_denied",
+   "entity": "destiny",
+   "name": "Try'lis Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 81,
+     "ref": "Lists!AD81:AG81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_try_lis_legacy_embraced",
+   "entity": "destiny",
+   "name": "Try'lis Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 82,
+     "ref": "Lists!AD82:AG82",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_vao_legacy_denied",
+   "entity": "destiny",
+   "name": "Vao Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 83,
+     "ref": "Lists!AD83:AG83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_vao_legacy_embraced",
+   "entity": "destiny",
+   "name": "Vao Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 84,
+     "ref": "Lists!AD84:AG84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_whitesun_legacy_denied",
+   "entity": "destiny",
+   "name": "Whitesun Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 85,
+     "ref": "Lists!AD85:AG85",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_whitesun_legacy_embraced",
+   "entity": "destiny",
+   "name": "Whitesun Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 86,
+     "ref": "Lists!AD86:AG86",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_yage_legacy_denied",
+   "entity": "destiny",
+   "name": "Yage Legacy (Denied)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 87,
+     "ref": "Lists!AD87:AG87",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "destiny_yage_legacy_embraced",
+   "entity": "destiny",
+   "name": "Yage Legacy (Embraced)",
+   "canon": "third_party",
+   "attrs": {
+    "bonus": "+2 to single attack or skill roll",
+    "canon_basis": "block_declaration",
+    "penalty": "-2 to first attack in every encounter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_destinies",
+     "sheet": "Lists",
+     "row": 88,
+     "ref": "Lists!AD88:AG88",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,574 @@
+{
+ "entity": "starship_maneuver",
+ "label": "starship_maneuver",
+ "role": "option",
+ "count": 26,
+ "generated_utc": "2026-10-09T04:43:36+00:00",
+ "records": [
+  {
+   "id": "starship_maneuver_ackbar_slash",
+   "entity": "starship_maneuver",
+   "name": "Ackbar Slash",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 6,
+     "ref": "Regimens-Tactics-Unleashed!M6:P6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_afterburn",
+   "entity": "starship_maneuver",
+   "name": "Afterburn",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 7,
+     "ref": "Regimens-Tactics-Unleashed!M7:P7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_angle_deflector_shields",
+   "entity": "starship_maneuver",
+   "name": "Angle Deflector Shields",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "attack patern"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 8,
+     "ref": "Regimens-Tactics-Unleashed!M8:P8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_attack_formation_zeta_nine",
+   "entity": "starship_maneuver",
+   "name": "Attack Formation Zeta Nine",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "attack patern"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 9,
+     "ref": "Regimens-Tactics-Unleashed!M9:P9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_attack_pattern_delta",
+   "entity": "starship_maneuver",
+   "name": "Attack Pattern Delta",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "attack patern"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 10,
+     "ref": "Regimens-Tactics-Unleashed!M10:P10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_corellian_slip",
+   "entity": "starship_maneuver",
+   "name": "Corellian Slip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 11,
+     "ref": "Regimens-Tactics-Unleashed!M11:P11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_counter",
+   "entity": "starship_maneuver",
+   "name": "Counter",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "dogfight"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 12,
+     "ref": "Regimens-Tactics-Unleashed!M12:P12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_darklighter_spin",
+   "entity": "starship_maneuver",
+   "name": "Darklighter Spin",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 13,
+     "ref": "Regimens-Tactics-Unleashed!M13:P13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_devastating_hit",
+   "entity": "starship_maneuver",
+   "name": "Devastating Hit",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "gunner"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 14,
+     "ref": "Regimens-Tactics-Unleashed!M14:P14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_engine_hit",
+   "entity": "starship_maneuver",
+   "name": "Engine Hit",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "gunner"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 15,
+     "ref": "Regimens-Tactics-Unleashed!M15:P15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_evasive_action",
+   "entity": "starship_maneuver",
+   "name": "Evasive Action",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "dogfight"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 16,
+     "ref": "Regimens-Tactics-Unleashed!M16:P16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_explosive_shot",
+   "entity": "starship_maneuver",
+   "name": "Explosive Shot",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "gunner"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 17,
+     "ref": "Regimens-Tactics-Unleashed!M17:P17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_howlrunner_formation",
+   "entity": "starship_maneuver",
+   "name": "Howlrunner Formation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "attack patern"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 18,
+     "ref": "Regimens-Tactics-Unleashed!M18:P18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_i_have_you_now",
+   "entity": "starship_maneuver",
+   "name": "I Have You Now",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 19,
+     "ref": "Regimens-Tactics-Unleashed!M19:P19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_intercept",
+   "entity": "starship_maneuver",
+   "name": "Intercept",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Intercept"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 20,
+     "ref": "Regimens-Tactics-Unleashed!M20:P20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "starship_maneuver_overwhelming_assault",
+   "entity": "starship_maneuver",
+   "name": "Overwhelming Assault",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "attack pattern"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 21,
+     "ref": "Regimens-Tactics-Unleashed!M21:P21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_segnor_s_loop",
+   "entity": "starship_maneuver",
+   "name": "Segnor's Loop",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 22,
+     "ref": "Regimens-Tactics-Unleashed!M22:P22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_shield_hit",
+   "entity": "starship_maneuver",
+   "name": "Shield Hit",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "gunner"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 23,
+     "ref": "Regimens-Tactics-Unleashed!M23:P23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_skim_the_surface",
+   "entity": "starship_maneuver",
+   "name": "Skim the Surface",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 24,
+     "ref": "Regimens-Tactics-Unleashed!M24:P24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_skywalker_loop",
+   "entity": "starship_maneuver",
+   "name": "Skywalker Loop",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "dogfight"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 25,
+     "ref": "Regimens-Tactics-Unleashed!M25:P25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_snap_roll",
+   "entity": "starship_maneuver",
+   "name": "Snap Roll",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 26,
+     "ref": "Regimens-Tactics-Unleashed!M26:P26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_tallon_roll",
+   "entity": "starship_maneuver",
+   "name": "Tallon Roll",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "attack pattern"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 27,
+     "ref": "Regimens-Tactics-Unleashed!M27:P27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_target_lock",
+   "entity": "starship_maneuver",
+   "name": "Target Lock",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "dogfight"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 28,
+     "ref": "Regimens-Tactics-Unleashed!M28:P28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_target_sense",
+   "entity": "starship_maneuver",
+   "name": "Target Sense",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "Force"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 29,
+     "ref": "Regimens-Tactics-Unleashed!M29:P29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_thruster_hit",
+   "entity": "starship_maneuver",
+   "name": "Thruster Hit",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "gunner"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 30,
+     "ref": "Regimens-Tactics-Unleashed!M30:P30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "starship_maneuver_wotan_weave",
+   "entity": "starship_maneuver",
+   "name": "Wotan Weave",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_starship_maneuvers",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 31,
+     "ref": "Regimens-Tactics-Unleashed!M31:P31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}
