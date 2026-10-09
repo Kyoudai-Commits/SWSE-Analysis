@@ -36,7 +36,7 @@ common way to conclude wrongly that a fix "didn't work".
 Use the CLI, the Makefile and the tests - not throwaway shell scripts:
 
 ```bash
-make test                                     # 142 tests, ~1 minute
+make test                                     # the full suite, ~75 seconds
 python -m swse.cli validate --show 5          # errors first
 python -m swse.cli stats --json               # did the corpus shape change?
 python -m swse.cli graph --json               # dangling edges, cycles
@@ -72,6 +72,32 @@ A change is done when all of these hold:
 Never let a report imply more confidence than the data supports. "This number is
 exact given assumption X, which is unverified" is the house style.
 
+## Two rules about regenerating reports
+
+**Reports must be deterministic.** `tests/test_determinism.py` runs the report
+producers in subprocesses under two different `PYTHONHASHSEED` values and requires
+byte-identical output. Set iteration order depends on the hash seed, so *sort the
+whole collection before slicing it* - `sorted(names)[:6]`, never
+`list(some_set)[:6]` then sorted. `unlock_ranking` had exactly that bug: its counts
+were stable but its sample column reshuffled on every run, which made report diffs
+unreadable.
+
+**Timestamp churn is not a change.** Regenerating rewrites `generated_utc` in every
+canonical file and the `Generated:` line in every report, so `make data` alone shows
+~48 modified files. Before committing, keep only the files with a real content diff:
+
+```bash
+for f in $(git diff --name-only -- data analysis); do
+  git diff -U0 -- "$f" | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' \
+    | grep -qvE 'generated_utc|^[+-]Generated:' && echo "CONTENT $f" || echo "noise   $f"
+done
+git checkout -- <the noise files>
+```
+
+`data/canonical/index.json` records a sha256 per entity file, so it must be reverted
+*together with* the files it summarises - reverting one without the other makes
+`validate` fail its index-consistency check.
+
 ## Where things live
 
 ```
@@ -99,7 +125,7 @@ swse/
   evaluate.py       METRICS, Evaluator, rank(), summary_table()
   report.py         the markdown/jsonl reports
   cli.py            argparse entry point
-tests/              9 modules; conftest.py holds session-scoped fixtures
+tests/              10 modules; conftest.py holds session-scoped fixtures
 tasks/              the backlog: TASK-nnn.md, one file per task
 docs/               hand-written docs (+ generated data-dictionary.md)
 ```

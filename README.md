@@ -23,7 +23,7 @@ pip install -e ".[dev]"        # or: pip install openpyxl pyyaml jsonschema pyte
 python -m swse.cli doctor      # are the sources, config and dependencies in place?
 make data                      # extract -> canonicalize -> db -> validate
 make analysis                  # graph -> space -> enumerate -> evaluate -> report
-make test                      # 142 tests
+make test                      # the full suite, ~75s
 ```
 
 `make all` runs everything. Individual stages:

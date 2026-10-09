@@ -106,8 +106,9 @@ permissive, never illegal.
 
 ## Regression tests
 
-`make test` runs 142 tests across 9 modules. Several exist specifically to pin down
-a bug that was already fixed once:
+`make test` runs the full suite across 10 modules (`pytest --collect-only -q` prints
+the current count). Several tests exist specifically to pin down a bug that was
+already fixed once:
 
 | test | what it protects |
 |---|---|
@@ -117,6 +118,8 @@ a bug that was already fixed once:
 | `test_config.py` metric/hook coverage | `scoring.weights` keys must match `evaluate.METRICS`; every registered hook must be referenced |
 | `test_prereq.py` labelled/unlabelled cases | the label and bracket splitting rules |
 | `test_space.py` level-1 exactness | the analytic model matches exact enumeration at level 1 |
+| `test_docs_and_tasks.py` reference checks | every `TASK-nnn` in config/curation has a file, every `GAP-nnn` is documented, every relative link in the prose resolves, and every count quoted in the README's dataset tables is a real corpus count |
+| `test_determinism.py` hash-seed stability | reports are byte-identical under two `PYTHONHASHSEED` values - no set is sliced before being sorted |
 
 The two config-coverage tests were added after real drift: `scoring.weights`
 contained metric names the evaluator never produced (so those metrics silently

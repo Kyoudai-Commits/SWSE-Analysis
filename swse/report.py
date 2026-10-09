@@ -249,14 +249,16 @@ def unlock_ranking(db: Dataset, limit: int = 40) -> str:
         rec = db.by_id.get(rec_id)
         if not rec:
             continue
-        unlocked = g.unlocks(rec_id)
-        rows.append((len(unlocked), rec))
-    rows.sort(key=lambda t: (-t[0], t[1]["name"].lower()))
+        rows.append((len(g.unlocks(rec_id)), rec))
+    # Deterministic ordering, ties included: set iteration order depends on
+    # PYTHONHASHSEED, so slicing a set before sorting made this table change
+    # between runs of identical data.
+    rows.sort(key=lambda t: (-t[0], t[1]["name"].lower(), t[1]["id"]))
     table_rows = []
     for i, (n, r) in enumerate(rows[:limit], 1):
-        sample = sorted(db.by_id[u]["name"] for u in list(g.unlocks(r["id"]))[:8] if u in db.by_id)
+        names = sorted({db.by_id[u]["name"] for u in g.unlocks(r["id"]) if u in db.by_id})
         table_rows.append([i, r["name"], f"`{r['entity']}`", r.get("canon"), n,
-                           ", ".join(sample[:6]) or "-"])
+                           ", ".join(names[:6]) or "-"])
     lines += _table(["rank", "option", "entity", "canon", "unlocks", "sample of what it unlocks"],
                     table_rows)
     lines += ["", f"{len(rows)} options are named as a prerequisite by something else; "

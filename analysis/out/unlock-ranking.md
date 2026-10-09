@@ -6,15 +6,15 @@ Number of other options that become reachable when a character takes this one (t
 
 | rank | option | entity | canon | unlocks | sample of what it unlocks |
 |---|---|---|---|---|---|
-| 1 | Weapon Proficiency | `feat` | official | 22 | Autofire Barrage, Critical Strike, Gunslinger, Improvised Weapon Mastery, Jedi Knight, Return Fire |
-| 2 | Mechanics | `skill` | third_party | 17 | Expert Droid Repair, Hold Together, Improviser, Shaper, Shield Surge, Signature Device |
-| 3 | Point-Blank Shot | `feat` | official | 17 | Aiming Accuracy, Assassin, Deadeye, Deadly Sniper, Elite Trooper, Pinpoint Accuracy |
-| 4 | Martial Arts I | `feat` | official | 13 | Elite Trooper, Hijkata Training, K'tara Training, Martial Arts III, Martial Arts Master, Stava Training |
-| 5 | Stealth | `skill` | third_party | 11 | Assassin, Covert Operatives, Deadly Sniper, Duck and Cover, Improved Sleight of Hand, Infiltrator |
-| 6 | Pilot | `skill` | third_party | 10 | A Few Maneuvers, Ace Pilot, Master Privateer, Momentum Strike, Starship Tactics, Tactical Genius |
-| 7 | Use the Force | `skill` | third_party | 10 | Force Adept, Force Disciple, Force Training, Forceful Recovery, Imperial Knight, Jedi Knight |
-| 8 | Endurance | `skill` | third_party | 9 | Burst of Speed, Never Surrender, Resurgence, Shake It Off, Stay Up, Tireless Squad |
-| 9 | Precise Shot | `feat` | official | 9 | Aiming Accuracy, Assassin, Crossfire, Deadeye, Deadly Sniper, Meat Shield |
+| 1 | Weapon Proficiency | `feat` | official | 22 | Autofire Barrage, Autofire Sweep, Burst Fire, Critical Strike, Forceful Blast, Gladiator |
+| 2 | Mechanics | `skill` | third_party | 17 | Biotech Specialist, Droid Focus, Droidcraft, Expert Droid Repair, Hasty Modification, Hold Together |
+| 3 | Point-Blank Shot | `feat` | official | 17 | Aiming Accuracy, Assassin, Careful Shot, Crossfire, Deadeye, Deadly Sniper |
+| 4 | Martial Arts I | `feat` | official | 13 | Echani Training, Elite Trooper, Hijkata Training, K'tara Training, K'thri Training, Martial Arts II |
+| 5 | Stealth | `skill` | third_party | 11 | Advantageous Cover, Assassin, Covert Operatives, Deadly Sniper, Duck and Cover, Improved Sleight of Hand |
+| 6 | Pilot | `skill` | third_party | 10 | A Few Maneuvers, Ace Pilot, Master Privateer, Momentum Strike, Mounted Defense, Starship Tactics |
+| 7 | Use the Force | `skill` | third_party | 10 | Force Adept, Force Disciple, Force Regimen Mastery, Force Training, Forceful Recovery, Imperial Knight |
+| 8 | Endurance | `skill` | third_party | 9 | Burst of Speed, Extra Second Wind, Never Surrender, Resurgence, Shake It Off, Stay Up |
+| 9 | Precise Shot | `feat` | official | 9 | Aiming Accuracy, Assassin, Crossfire, Deadeye, Deadly Sniper, Gunslinger |
 | 10 | Deception | `skill` | third_party | 8 | Charlatan, Combat Trickery, Crime Lord, Disturbing Presence, Master Privateer, Master of Disguise |
 | 11 | Dodge | `feat` | official | 8 | A Few Maneuvers, Acrobatic Dodge, Erratic Target, Improved Charge, Mobility, Moving Target |
 | 12 | Use Computer | `skill` | third_party | 8 | Droid Commander, Droid Focus, Hyperblazer, Improviser, Independent Droid, Military Engineer |

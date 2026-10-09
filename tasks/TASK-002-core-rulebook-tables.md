@@ -12,6 +12,29 @@ that say what a character gets at each level.
 Closing this single task unblocks TASK-005, TASK-007, TASK-011, TASK-012, TASK-013
 and TASK-014.
 
+## Evidence
+
+The absence is directly observable in both workbooks:
+
+```bash
+# SagaForge's Class sheet is a blank character-sheet UI grid
+python -c "
+from swse.sources import load_registry, workbook
+wb=workbook(load_registry()['sagaforge-1.53'])
+rows=list(wb['Class'].iter_rows(min_row=6,max_row=25,values_only=True))
+print('non-empty cells in Class!A6:V25:', sum(1 for r in rows for c in r if c is not None))"
+
+# the per-level progression columns are all zeros
+python -c "
+from swse.sources import load_registry, workbook
+wb=workbook(load_registry()['sagaforge-1.53'])
+cols=list(wb['Data'].iter_rows(min_row=3,max_row=43,min_col=98,max_col=103,values_only=True))
+print('distinct values in Data!CT:CY:', sorted({c for r in cols for c in r if c is not None}))"
+
+# and the schedule in force is a declared assumption, not a fact
+grep -n -B 3 -A 14 "^progression:" config/analysis.yaml
+```
+
 ## What is needed
 
 | table | where it is used | current state |
