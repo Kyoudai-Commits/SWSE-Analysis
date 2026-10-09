@@ -29,7 +29,7 @@ The upload had no README, index, manifest, schema or `.gitignore`, and one commi
 | records | 1,780 files → 2,472 chunks (mean 499 tok, max 1131 tok) + 2,034 wiki entities |
 | sources | master_reference 646 rows + sagaforge 1,687 rows |
 | registry | 2,328 merged entities, 4,802 aliases, 4,198 gaps, 533 cross-source diffs |
-| index | SQLite 21,073,920 bytes with FTS5 on chunks + entities |
+| index | SQLite 0 bytes with FTS5 on chunks + entities |
 | render | `index/` projections (INDEX, coverage, backlog, discrepancies, by-type/book/class, aliases.tsv) |
 | verify | all checks pass — golden lookups missed: 0/19 |
 

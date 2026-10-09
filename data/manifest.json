@@ -1,9 +1,9 @@
 {
   "meta": {
     "build_version": "1.0.0",
-    "built_at": "2026-10-09T10:59:34Z",
+    "built_at": "2026-10-09T11:01:24Z",
     "chunk_tokens": 1235424,
-    "commit": "72ffb30",
+    "commit": "87b373c",
     "n_aliases": 4802,
     "n_children": 857,
     "n_chunks": 2472,
@@ -38,24 +38,6 @@
     "total_tokens": 1277528
   },
   "stats": {
-    "index": {
-      "alias": 4802,
-      "book": 15,
-      "category": 513,
-      "chunk": 2472,
-      "chunk_fts": 2472,
-      "db_bytes": 21073920,
-      "discrepancy": 533,
-      "entity": 2328,
-      "entity_fts": 2328,
-      "field": 7636,
-      "gap": 4198,
-      "link": 25578,
-      "page": 923,
-      "resolved_link": 1201,
-      "seconds": 0.72,
-      "section": 1780
-    },
     "records": {
       "chunk_tokens_max": 1131,
       "chunk_tokens_mean": 499,
@@ -100,7 +82,7 @@
       },
       "gaps": 4198,
       "resolved_links": 1201,
-      "seconds": 0.59
+      "seconds": 0.56
     },
     "render": {
       "aliases_rows": 4802,
@@ -108,7 +90,7 @@
       "by_book_files": 15,
       "by_class_files": 42,
       "by_type_files": 27,
-      "seconds": 4.23
+      "seconds": 4.46
     },
     "sources": {
       "master_reference_counts": {
@@ -127,14 +109,14 @@
         "talent": 1092
       },
       "sagaforge_entities": 1687,
-      "seconds": 1.42
+      "seconds": 1.24
     },
     "verify": {
       "checks": {
         "artifact:data/chunks.jsonl": 6037272,
         "artifact:data/entities/feat.jsonl": 1002293,
         "artifact:data/pages.jsonl": 1425851,
-        "artifact:index/INDEX.md": 5619,
+        "artifact:index/INDEX.md": 5995,
         "artifact:index/aliases.tsv": 387556,
         "artifact:index/coverage.md": 4068,
         "artifact:index/crawl-backlog.md": 62323,
@@ -199,7 +181,7 @@
       "normalized_bytes": 5109607,
       "raw_bytes": 12008799,
       "raw_files": 1074,
-      "seconds": 1.6,
+      "seconds": 1.72,
       "section_files": 857,
       "split_pages": 44
     }
@@ -209,7 +191,7 @@
       "artifact:data/chunks.jsonl": 6037272,
       "artifact:data/entities/feat.jsonl": 1002293,
       "artifact:data/pages.jsonl": 1425851,
-      "artifact:index/INDEX.md": 5619,
+      "artifact:index/INDEX.md": 5995,
       "artifact:index/aliases.tsv": 387556,
       "artifact:index/coverage.md": 4068,
       "artifact:index/crawl-backlog.md": 62323,

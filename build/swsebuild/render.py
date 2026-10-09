@@ -79,7 +79,9 @@ def index_md(ctx: dict) -> str:
         f"| `index/aliases.tsv` | {m['n_aliases']} name variants → canonical id | resolving user phrasing |",
         f"| `index/crawl-backlog.md` | {m['n_gaps']} referenced-but-uncrawled pages, ranked | knowing what is *not* here |",
         "| `index/discrepancies.md` | where the three sources disagree | not answering with false confidence |",
-        "| `docs/` | audit, mapping rationale, schema, retrieval recipes | understanding the system |",
+        "| `AGENTS.md` | the playbook: lookup ladder, answer rules, traps | **read this first if you are an agent** |",
+        "| `docs/` | [mapping rationale](../docs/MAPPING.md) · [schema](../docs/SCHEMA.md) · "
+        "[retrieval recipes](../docs/RETRIEVAL.md) · [audit](../docs/AUDIT.md) | understanding and extending the system |",
         "",
         "## Corpus at a glance",
         "",
@@ -103,14 +105,16 @@ def index_md(ctx: dict) -> str:
         "",
         "## How to answer a rules question",
         "",
-        "1. **Name lookup** — `grep -i \"<term>\" index/aliases.tsv` to map the player's phrasing to a canonical id.",
-        "2. **Exact record** — `python3 build/query.py lookup \"<name>\"` (or grep `data/entities/<family>.jsonl`).",
+        "1. **Exact record** — `python3 build/query.py lookup \"<name>\"` resolves player phrasing through the alias layer "
+        "(add `--type feat` when a name exists in several families; `index/aliases.tsv` is the raw lexicon).",
+        "2. **Structured fields** — `data/entities/<family>.jsonl` for prereqs, damage, categories, book+page citations.",
         "3. **Rules prose** — open the `file` (and `:line`s) the record cites; quote, don't paraphrase.",
         "4. **Set questions** (\"all Soldier feats that …\") — `python3 build/query.py sql \"…\"` against `index/swse.db`.",
         "5. **Fuzzy/unknown** — `python3 build/query.py search \"<phrasing>\"` (FTS5, porter stemmer).",
         "6. If the entity carries `has-field-diffs`, say which source says what. If it is in the backlog, say it is uncrawled rather than guessing.",
         "",
-        "Full recipes and worked examples: [`docs/RETRIEVAL.md`](../docs/RETRIEVAL.md).",
+        "Agent playbook: [`AGENTS.md`](../AGENTS.md) · full recipes and worked examples: "
+        "[`docs/RETRIEVAL.md`](../docs/RETRIEVAL.md).",
         "",
     ]
     return "\n".join(lines)
