@@ -1,0 +1,32 @@
+---
+title: "The Force — Temptations and Atonement"
+parent_title: "The Force"
+id: "wiki:The_Force#009"
+type: "rule"
+parent: "wiki:The_Force"
+heading: "Temptations and Atonement"
+heading_path: ["The Force", "Temptations and Atonement"]
+source_url: "https://swse.miraheze.org/wiki/The_Force#Temptations_and_Atonement"
+revision_id: "24972"
+categories: ["Core Rulebook", "Knights of the Old Republic Campaign Guide", "Force Unleashed Campaign Guide", "Clone Wars Campaign Guide", "Legacy Era Campaign Guide", "Jedi Academy Training Manual", "Web Enhancements"]
+---
+
+# Temptations and Atonement
+
+In addition to making The Dark Side more tempting, some Gamemasters might want to make it more difficult for a character to reduce his or her Dark Side Score. Any GM who wants to make Atonement more meaningful can use the following optional rule to reduce the heroes' ability to avoid the effects of their misdeeds.
+
+Any character who wants to spend a Force Point to reduce their Dark Side Score must spend at least 24 hours in meditation, contemplating the effects of The Dark Side. Additionally, all characters can spend a Force Point to reduce their Dark Side Score only once per level.
+
+The power of The Dark Side is an insidious thing, which many Jedi liken to a disease or poison- its presence is subtle and weak at first, but eventually it corrupts everything around it. Dark Side Sites represent this analogy well. Although The Force touches all places, there are places where The Dark Side holds more sway. These places of evil and corruption tempt those who enter with promises of unlimited power and lures of greatness. Those connected to [[The_Light_Side]] of The Force find their powers diminished in these places, while those who wield The Dark Side are amazed at the strength that they gain, even as that energy overwhelms them.
+
+There are several reasons why a Dark Side Site might come into being. The most common is when a great act of evil or violence occurs, corrupting a location with a jolt of Dark Side energy. The sheer vileness of the event "traumatizes" the location, much like a wound, although unlike an injury, haling a Dark Side Site is no simple matter. Dark Side Sites also come into being slowly by the corrupting influence of an individual or group associated with The Dark Side. Sith alchemical labs, the inner sanctum of a Sith Lord, or a torture chamber of Dark Side witches can leave an indelible mark in the very walls and stone of a place.
+
+The Dark Side degrades locations that it pervades. Walls begin to crumble, water turns brackish and poisonous, shadows seem longer and darker, and so forth. Animals are either driven away, die off completely, or are mutated by the foul presence, creating new species notorious for their vicious and cruel nature. The power of The Dark Side is such that even if every stone of a building tainted by The Dark Side crumbles and turns to dust, the spot would continue to hold its corruption for hundreds or even thousands of years to come.
+
+For individuals corrupted with The Dark Side, these locations stand out like beacons, calling them with the lure of easy power and greater understanding of The Force. Darksiders feel more energized in a Dark Side Site. However, like anything affiliated with The Dark Side, the more power that it grants, the more it corrupts. Only the most strong-willed can survive, and an individual who relies too much on the power of The Dark Side quickly succumbs to its degenerative influence. These sites are particularly dangerous for anyone with the [[Force_Sensitivity]] Feat. Force-sensitive beings who enter a Dark Side Site are haunted by whispering voices, ephemeral touches, and other maddening events that eventually cause them to lose their minds or succumb to their temptations.
+
+Not every Dark Side Site is equal, and each is rated as a Minor Site, Major Site, or Extreme Site. Minor Sites include the ancient tomb of a Sith Lord or the lair of a particularly powerful Sith creature. Major Sites include the Valley of the Sith Lords on [[Korriban]] or the Cave on [[Dagobah]]. Extreme Sites are very rare and reserved for the most horrible of places, such as the demon moon of [[Dxun]] or battlefields where thousands of innocents were slaughtered or the blood of untold Sith and Jedi mingled, such as [[Ruusan]]. A Dark Side Site can grow in power, particularly as darksiders are drawn to it and commit unspeakable acts within its confines, adding to the raw energy of the place.
+
+- **Dark Side Sites and Non-Force Sensitives:** Those without a connection to The Force find Dark Side Sites filled with lingering dread and malice, similar to what they would feel in an old battleground, a "haunted" building, or a crumbling structure where a murder took place. Dark Side Sites are creepy, to be sure, but have little impact on a non-Force sensitive character. Dark Side Sites are noted for being "unlucky," where confidence fails, equipment breaks, and concentrating on the task at hand becomes considerably more difficult.
+- **Dark Side Sites and Force-Sensitives:** Dark Side Sites have a corrupting effect on characters with the [[Force_Sensitivity]] Feat. In these places, The Dark Side goes beyond the spooky and becomes both intrusive and dangerous. Whenever a character with the [[Force_Sensitivity]] Feat spends a Force Point within a Dark Side Site, it must either increase its Dark Side Score by 1 or move -1 step down the [[Condition_Track]]. If the character spends a [[Destiny_Point]] in a Dark Side Site, it must increase its Dark Side Score by 2 or move -2 steps down the [[Condition_Track]].
+- **Dark Side Sites and Darksiders:** A character with a Dark Side Score equal to one-half or more of their [[Wisdom]] score is bolstered and energized while within the confines of a Dark Side Site. The character gains a bonus on [[Use_the_Force]] checks made to activate [[Force_Powers]] with the [*[[Dark_Side]]*] descriptor. The bonus depends on the power of the Dark Side Site: Minor, +1; Major, +2; Extreme, +5. Furthermore, the character can activate [[Dark_Side_Talent_Tree|Dark Side Talents]] requiring one to spend a Force Point without actually expending one; doing so, however, increases the character's Dark Side Score by 1. For those reason, many darksiders build lairs or temples on Dark Side Sites. However, though these places enhance one's power, they also corrupt much more quickly.

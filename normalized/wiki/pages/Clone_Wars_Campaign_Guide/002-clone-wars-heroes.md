@@ -1,0 +1,28 @@
+---
+title: "Clone Wars Campaign Guide (Compilation) — Clone Wars Heroes"
+parent_title: "Clone Wars Campaign Guide (Compilation)"
+id: "wiki:Category:Clone_Wars_Campaign_Guide#002"
+type: "compilation"
+parent: "wiki:Category:Clone_Wars_Campaign_Guide"
+heading: "Clone Wars Heroes"
+heading_path: ["Clone Wars Campaign Guide (Compilation)", "Clone Wars Heroes"]
+source_url: "https://swse.miraheze.org/wiki/Category:Clone_Wars_Campaign_Guide#Clone_Wars_Heroes"
+revision_id: "23866"
+categories: ["Reference Books"]
+---
+
+# Clone Wars Heroes
+
+During [[The_Clone_Wars]], few worlds are untouched by the tide of battle. From these affected worlds rise heroes whose actions shake the foundations of the galaxy. These are your heroes, and your actions can affect how systems, sectors, and even the entire galaxy endures the hardships of [[The_Clone_Wars]].
+
+Creating heroes for a [[Clone_Wars_Campaign]] is just like creating characters for any campaign. However, this book provides new [[Talents]], [[Feats]], and [[Skill]] uses to help tailor your hero to best fit a [[Clone_Wars_Campaign]]. Heroes who come to prominence against the background of [[The_Clone_Wars]] likely have strong ties to the Separatists or to the Republic, and most have at least a passing familiarity with [[The_Jedi]] and their powers. Even in the farthest reaches of the galaxy, [[The_Clone_Wars]] disturb and destroy the lives of beings that otherwise have no interest in- or knowledge of- the politics and events of the center of the galaxy. Many heroes are thrust into their role by war coming to their homes, and unlikely heroes can be created in the fire fights on distant Outer Rim planets. The mechanics in this chapter help you build heroes who reflect the unique environment and themes of [[The_Clone_Wars]], but you can use mechanics from other supplements as well.
+
+When you create your character, consider not only how [[The_Clone_Wars]] have shaped his or her life but also where your character is going in the future. Your callous smuggler who has become wealthy running weapons for the Separatists behind Republic lines will not be a neutral third party forever. As your hero becomes entangled in the conflicts and plots that surround [[The_Clone_Wars]], the hero's station in life, capabilities, and even personality might change accordingly. You might begin your career running weapons with little interest in which side emerges victorious, but when your [[Clone_Wars_Campaign]] begins, you join other heroes and engage in adventures of your own. Think not only about how [[The_Clone_Wars]] affect your character at the time of creation but also how it may affect your character five, ten, even twenty levels into the campaign.
+
+Followers are Nonheroic characters that act as your allies and agents during adventures. Unlike other NPC allies, Followers are obtained through [[Talents]] an augmented by abilities of your choosing. A player that selects Follower-granting Talents (**[[Inspire_Loyalty]]**, **[[Reconnaissance_Team_Leader]]**, **[[Commanding_Officer]]**, and **[[Akk_Dog_Master]]**) can choose the role, function, and abilities of those Followers through further Talent selection. Unlike a Crime Lord's **[[Minions]]**, Followers do not gain [[Skills]] or [[Feats]] as they advance in level, and many of their statistics are tied directly to the hero who spent [[Talents]] and [[Feats]] to gain them. However, Followers go on adventures with you and provide assistance, both in combat and in noncombat encounters, and otherwise function as members of your party. Followers are considered your allies, as well as the allies of your party members.
+
+In a [[Clone_Wars_Campaign]], Followers give the heroes an opportunity to lead troops into battle, command a crack squad of Republic Commandos, control a group of mercenaries hired to do reconnaissance, or retain a retinue of guards fitting for a individual of stature. Though they serve the same functions as [[Nonheroic]] allies, they are different in that their actions are typically under the direct control of one of the heroes. A [[Jedi]] hero might lead [[Clone_Trooper]] Followers into battle, while a [[Noble]] might have a team of loyal protectors and decoys accompanying them as they travel the galaxy. These Followers are not just mindless, faceless drones who obey the hero's every bidding, but they do represent the many background characters that assist heroes in one way or another throughout the *Star Wars* saga.
+
+For an individual hero, the presence of Followers represents a significant part of that character's development: leadership. When a hero takes a [[Talent]] that grants Followers, that hero has become a leader to a single Follower of a group of NPCs. Gamemasters that allow heroes to take Follower-granting [[Talents]] should encourage these heroes to act as good leaders should, taking care of their Followers, ensuring they are healthy and prepared, and watching out for their emotional and physical welfare.
+
+Each individual Gamemaster can determine how much or how little time they devote to fleshing out the personalities and mannerisms of a hero's Followers. For some, assigning a name to a Follower is enough, but some Gamemasters might wish to flesh out the Followers as thoroughly as they would major NPCs for a campaign. Gamemasters should also consult with their players to determine how much detail they would like for their Followers. For example, a hero leading a squad of [[Republic_Clones]] as Followers might not care about their Followers' thoughts and motivations, and Gamemasters should be aware of how much attention their players want paid to Followers' personality details.

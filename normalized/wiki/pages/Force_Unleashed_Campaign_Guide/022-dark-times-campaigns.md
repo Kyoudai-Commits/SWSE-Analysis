@@ -1,0 +1,36 @@
+---
+title: "Force Unleashed Campaign Guide (Compilation) — Dark Times Campaigns"
+parent_title: "Force Unleashed Campaign Guide (Compilation)"
+id: "wiki:Category:Force_Unleashed_Campaign_Guide#022"
+type: "compilation"
+parent: "wiki:Category:Force_Unleashed_Campaign_Guide"
+heading: "Dark Times Campaigns"
+heading_path: ["Force Unleashed Campaign Guide (Compilation)", "Dark Times Campaigns"]
+source_url: "https://swse.miraheze.org/wiki/Category:Force_Unleashed_Campaign_Guide#Dark_Times_Campaigns"
+revision_id: "21998"
+categories: ["Reference Books"]
+---
+
+# Dark Times Campaigns
+
+The heroes in a Dark Times Campaign rise to the occasion to fight the growing threat of Imperial oppression. When Supreme Chancellor Palpatine declares his New Order, few realize its sinister, oppressive intention. Many people accept it as a reasonable solution to the turmoil caused by the Separatist uprising. The average, law-abiding citizen who views galactic government as a distant concern sees Palpatine's speech as yet another seemingly meaningless policy announcement, heralding at most a gradual change in daily life. Some who have misgivings about the declaration of the New Order keep quiet, either because they fear Imperial reprisals or because they feel powerless to oppose such a galaxy-spanning tyranny. Those aware of the brutality of Order 66, people who recognize Palpatine's true Intentions, and the growing number of galactic citizens who witness or experience the Empire's increasing oppression and brutality realize that they must risk their lives and sacrifice their way of life to fight Imperial domination.
+
+These heroes can make a difference in the galaxy. This is a time when general sentiment gradually shifts from perceiving the Empire as the rightful government of the galaxy to seeing it as an oppressive tyranny that pushes the galaxy to the brink of civil war. A Dark Times Campaign focuses on the heroes who become aware of this threat early in the struggle and quickly move to oppose Imperial treachery. These daring few stand out from those who feel too complacent or too intimidated to devote their lives to take action against an increasingly cruel Empire. Through the heroes' actions, galactic sentiment begins to shift against the Empire, eventually creating the climate in which [[The_Rebel_Alliance]] will be founded in the years to come.
+
+The heroes become protagonists not only of their own campaign story, but of the grander history of resistance against tyranny. Ultimately, the heroes' seditious actions will give rise to the birth of the Rebellion. They make conscious choices to take action: the heroes do not sit back and allow the Empire to squeeze freedom from the galaxy: instead, they oppose tyranny in every way possible.
+
+This decision pits them directly against a government and a society structured to root out dissension and crush any threat to authority. They must fight not only the visible soldiers of the Empire- [[Clone_Troopers]], [[ISB_Agents]], [[Stormtroopers]], [[Imperial_Inquisitors]]- but average, well-meaning people who believe they're upholding a legitimate government by reporting suspicious activities or subversive actions, and more sinister elements of the civilian population who value profits made from the Empire's tyranny over the freedom and well-being of innocent people.
+
+This chapter explores the major themes that drive a Dark Times Campaign and offers advice for Gamemasters on using them as a basis for exciting adventures opposing the expanding Empire. It offers players ideas on how their heroes first decided to join the fight against Imperial tyranny. Gamemasters can find resources on creating encounters, adventures, and broad storylines incorporating the growing Imperial oppression and the effect it has on everyday life in the galaxy. A sample adventure with three encounters at the end of the chapter puts these tips to use and provides an example that the Gamemaster can use in creating his or her own scenarios.
+
+Upon announcing his New Order, Palpatine immediately seeks to solidify his hold on systems vital to the Empire's survival. Imperial forces spearheaded by ISB agents descend on [[Salliche]], an agricultural planet that supports many neighboring [[Core_Worlds]] with its abundant crops and efficient harvesting corporation.
+
+Although Imperial military units quickly deploy to key residential, commercial, and transport centers, undercover agents set traps to cull potential malcontents and future political troublemakers out of the general population of disgruntled laborers and transient travelers. Palpatine intends to make sure [[The_Core_Worlds]]- and, more important, his military personnel deploying to key trouble spots throughout the galaxy- continue to receive food stores from [[Salliche]].
+
+This adventure serves as a starting point for a [[Dark_Times_Campaign]]. If the heroes previously met and decided to band together, they can dive right into the action as a team of freedom fighters intent on opposing the Empire. The Gamemaster can use the introductory setup and opening encounter to bring together heroes who have yet to meet, forging them into a team by experiencing a common incident of Imperial treachery that galvanizes them into action.
+
+Each hero- individually or as a group- hears of a meeting of sympathetic citizens disgruntled by the sudden change in galactic government and the Empire's military presence on this formerly quiet, industrious Core World. Rumors claim [[Graaf_Savraan]], a noble relative of Salliche's governor who is critical of Palpatine's rise to power and his actions during [[The_Clone_Wars]], backs the meeting; he has a solid base of resources on [[Salliche]], enough to establish his own resistance group if necessary. The heroes might have picked up gossip at a local club, seen graffiti scratched into a wall or sprayed in an alley, overheard some reliable people talking in public, or noticed a small advertisement flashed across a news ticker. All these clues point to a meeting at Docking Bay 723, an abandoned landing bay in an unused corner of Salliche's starport... where Imperial forces wait to ambush and arrest them. Some might walk into the trap, while more cautious heroes might watch and try to help fleeing fugitives escape from hiding places nearby.
+
+The heroes then follow the guarded caravan of speeder trucks as Imperial forces transport imprisoned dissenters away from the starport and into the countryside. After predicting that the prisoners are heading out to the Graaf's rural estate, the heroes prepare an ambush at a suitable location. Any heroes who fell into the trap at the docking bay have a chance to try breaking out of the secure speeder truck's passenger bay during the commotion.
+
+Whether or not the heroes successfully ambush the prisoner transport caravan, they can proceed to the remote country estate. Imperial forces have hastily converted the main house and surrounding grounds into a fenced detention camp for processing citizens suspected of surreptitiously opposing the New Order. The heroes must reconnoiter the defenses and plan a breakout for as many prisoners as they can... each of whom might serve as a vital member in their growing resistance movement.

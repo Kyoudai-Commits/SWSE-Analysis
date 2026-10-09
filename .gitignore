@@ -1,0 +1,8 @@
+# Python caches (the build writes no other temporary files)
+__pycache__/
+*.py[cod]
+
+# Local scratch, never the derived layers: normalized/, data/, index/ and docs/AUDIT.md
+# are committed on purpose so a fresh clone is agent-usable without running the build.
+.DS_Store
+*.swp

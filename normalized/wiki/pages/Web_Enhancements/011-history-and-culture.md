@@ -1,0 +1,22 @@
+---
+title: "Web Enhancements (Compilation) — History and Culture"
+parent_title: "Web Enhancements (Compilation)"
+id: "wiki:Category:Web_Enhancements#011"
+type: "compilation"
+parent: "wiki:Category:Web_Enhancements"
+heading: "History and Culture"
+heading_path: ["Web Enhancements (Compilation)", "History and Culture"]
+source_url: "https://swse.miraheze.org/wiki/Category:Web_Enhancements#History_and_Culture"
+revision_id: "26287"
+categories: ["Reference Books"]
+---
+
+# History and Culture
+
+Almost no records exist of the time before the [[Pau'ans]] moved underground and into sinkholes. Only verbal histories tell of an age when clusters of [[Pau'an]] civilization dotted the planet's surface. Before that, however, the [[Pau'ans]] were actually members of another [[Species]] entirely. Tales of the settling of [[Utapau]] are vague and can be only tangentially corroborated by records from other civilizations of the time period. Still, it is clear that the Pau'ans' progenitors came to [[Utapau]] to make it a permanent settlement, possibly following the destruction of their original homeworld. At least some of these settlers sought shelter in the planet's natural sinkholes, and xenoanthropologists believe that this is when the genetic split occurred. The settlers who went underground became the [[Utai]], and those who remained on the surface became the [[Pau'ans]]. Additionally, shortly after the world was settled, the first rumors began to spread that [[Utapau]] was the original home planet of [[The_Jedi]].
+
+For millennia the [[Pau'ans]] lived in small villages and cities on the surface of [[Utapau]], believing themselves to be the dominant [[Species]]. When climate changes created powerful and destructive wind storms that blew unabated across the surface, the [[Pau'ans]] were forced to find safer environments. They descended into the planet's natural sinkholes and reestablished their civilization underground. During this period of transition, the [[Pau'ans]] encountered the [[Utai]] once again, who were more than willing to assist the [[Pau'ans]] in their relocation efforts. Very quickly, the [[Utai]] and the [[Pau'ans]] formed a symbiotic relationship, and the [[Pau'ans]] drifted naturally into a position of authority. The [[Utai]] seemed to accept this change easily, and the [[Pau'ans]] became the civilization's administrators and leaders.
+
+The relocation of [[Pau'an]] civilization underground led to the creation of several large city-states that were, on the whole, self sustaining and self governing. However, the relationship between the city-states was a bit rockier than that between the [[Pau'ans]] and the [[Utai]]. For the most part, the city-states tended to avoid contact with one another because philosophical differences were likely to lead them into conflict. Such conflicts were usually the result of cultural differences more than malice or wrongdoing, and few of the clashes came to violence- and even those that did were little more than small fights or skirmishes. Still, the differences among the city-states were enough to keep them in relative isolation except for their representatives to the planetary committee (see "Politics," below). The only time the city-states worked together was to fend off outside threats, and when they united in this manner, they showed remarkable solidarity for a civilization with so much internal isolationism. However, once the external threat was dealt with, each city-state went back to its old habits of ignoring the others.
+
+Much of that changed as a result of [[The_Clone_Wars]] and the eventual rise of the Empire. When the battles of [[The_Clone_Wars]] came to [[Utapau]], the planet's citizens found themselves unable to resist the might of the Confederacy, and for a time the world was under Separatist control. When the Republic liberated the planet, the [[Pau'ans]] rose up in celebration for their freedom. Sadly, these celebrations were short lived. Soon the Empire replaced the Republic, and [[Utapau]] remained under Imperial control. The planet's resources were harvested without any thought of the repercussions to the [[Pau'ans]] and the [[Utai]], and the forceful hand of the Empire supplanted the peaceful leadership of the [[Pau'ans]]. During this time, the city-states began to work together more closely, and the [[Pau'ans]] and the [[Utai]] formed underground resistance groups. Just as the planet was never more unified than in the face of external danger, so was the planet never more united than under the threat of the Empire.

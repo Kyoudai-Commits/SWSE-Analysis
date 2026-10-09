@@ -1,0 +1,32 @@
+---
+title: "Legacy Era Campaign Guide (Compilation) — The Galactic Empire"
+parent_title: "Legacy Era Campaign Guide (Compilation)"
+id: "wiki:Category:Legacy_Era_Campaign_Guide#055"
+type: "compilation"
+parent: "wiki:Category:Legacy_Era_Campaign_Guide"
+heading: "The Galactic Empire"
+heading_path: ["Legacy Era Campaign Guide (Compilation)", "The Galactic Empire"]
+source_url: "https://swse.miraheze.org/wiki/Category:Legacy_Era_Campaign_Guide#The_Galactic_Empire"
+revision_id: "24706"
+categories: ["Reference Books"]
+---
+
+# The Galactic Empire
+
+The Galactic Empire is one of the most feared, hated, and despised governments in the history of the *Star Wars* saga. In [[The_Legacy_Era]], the Empire has risen again, despite having once been reduced to a mere fraction of its power following the heroics of [[Luke_Skywalker]] and his generation of heroes. With the Empire once again in control of the galaxy, innocent lives are lost, freedom is repressed, and the galaxy is once again in the hands of a totalitarian dictator and his corrupt, power-mad servants who abuse the rights of those they rule over. The galaxy has been plunged into darkness once more, and the atrocities of [[The_Rebellion_Era]] have returned, this time at the hands of a Dark Lord of [[The_Sith]] who wears his title overtly, letting the galaxy know that, while the Empire is their government, [[The_Sith]] are their masters.
+
+Imperial LegacyImperial Legacy
+
+One of the most appealing aspects of [[The_Legacy_Era]] is the fact that items from the past have just as much of a place in the present as they did in bygone eras. Nowhere is this more true than in the case of the Empire. Almost any weapon, piece of technology, character archetype, or concept that held true in [[The_Dark_Times]], [[The_Rebellion_Era]], or [[The_New_Jedi_Order_Era]] is perfectly acceptable for use in [[The_Legacy_Era]]. For example, The Galactic Empire under Palpatine had dozens of different types of [[Stormtroopers]], including Imperial [[Radtroopers]], [[Storm_Commandos]], [[Jumptroopers]], and so forth. The Empire under [[Darth_Krayt]] has all of these things as well, and more. Gamemasters might need to adapt some concepts to the realities of [[The_Legacy_Era]], but for the most part anything that has existed in the past for the Empire can exist for the Empire in [[The_Legacy_Era]].
+
+Darth Krayt’s EmpireThe Sith LordsImperial PersonnelInfluential PersonalitiesImperial EquipmentImperial Vehicles
+
+When most citizens of the galaxy speak of The Galactic Empire, they are referring to the Empire ruled by [[Darth_Krayt]]. This Empire is vast and galaxy spanning, just like the Empire from which it was originally born. The Galactic Empire stretches from [[The_Deep_Core]] to [[The_Outer_Rim]], and through a resurgence in Imperial influence, there is hardly a world that is untouched in some way by Krayt's Empire. The Empire ruled by [[Darth_Krayt]] is known to almost all sentient beings in the galaxy, though the farther one gets from [[The_Core]] the less an individual is likely to have interacted with the Empire in some way. Only in [[The_Unknown_Regions]] and in [[Wild_Space]] are there entire sectors free of Imperial influence; even distant Outer Rim worlds have Imperial garrisons and regional governors.
+
+Darth Krayt's Empire is nearly identical in philosophy, form, and function to Palpatine's Galactic Empire, as the former is merely a continuation of the latter. After Palpatine's death, The Galactic Empire is reduced to controlling a small number of sectors. After the Yuuzhan Vong Invasion, the Empire begins slowly regaining popularity, even after joining [[The_Galactic_Alliance]]. Meanwhile, [[The_Sith]] are secretly growing more powerful on [[Coruscant]], awaiting a moment to emerge and reclaim the galaxy. With the spectacular failure of [[The_Ossus_Project]] (orchestrated by [[The_Sith]] to throw blame upon the [[Yuuzhan_Vong]]), the Empire is spurred into action, drawing a number of new worlds into its fold. These are but the first pebbles in an avalanche, and soon all-out war breaks out between the newly resurgent Empire and [[The_Galactic_Alliance]]. Along the way, [[The_Sith]] approach Moff [[Nyna_Calixte]] with a proposal, promising to join the war on the side of the Empire and counter [[The_Jedi]], who were tipping the war in The Galactic Alliance's favor. Calixte brings the proposal before the Council of Moffs, who pressure Emperor [[Roan_Fel]] into accepting the Sith proposal, just as they had pressured him into the war in the first place. With that acceptance, [[The_Sith]] join the war.
+
+By the end of the war, [[The_Sith]] have revealed themselves, the Alliance is shattered, and the galaxy is under Imperial control. The decisive battle comes at [[Caamas]], where the Empire forces [[The_Galactic_Alliance]] to surrender. [[Darth_Krayt]] deposes Emperor Fel and takes the throne for himself, completing the transition from a galaxy under Alliance rule to one under the sole domination of The Galactic Empire. In most ways, The Galactic Empire is the same as it has been: the Empire uses oppression and tyranny to ensure order, and [[The_Sith]] rule the galaxy. There are a few significant differences between Palpatine's Empire and Darth Krayt's Empire, however.
+
+Krayt's Sith Lords operate in the open, unlike the secret apprentices and dark Force-users that served under [[Emperor_Palpatine]] and [[Darth_Vader]]. Similarly, this new Empire has abandoned much of its humanocentrism, and is far more accepting of alien [[Species]] within its ranks. Perhaps this is a lesson learned from both the actions of [[Grand_Admiral_Thrawn]] and the strength of [[The_Rebel_Alliance]], but Darth Krayt's Empire knows few [[Species]]-based prejudices (though by sheer numbers [[Humans]] remain the most common agents of the Empire).
+
+By and large, The Galactic Empire following [[The_Sith-Imperial_War]] is philosophically, organizationally, and functionally similar to The Galactic Empire under Palpatine. Noting the exceptions listed later in this section, Gamemasters can feel free to pull almost any concept from The Galactic Empire under Palpatine and bring it forward to use in a [[Legacy_Era_Campaign]]. For example, just because this section does not delve into the organization of [[Imperial_Intelligence]] doesn't mean you shouldn't use [[Imperial_Intelligence]] in your games; after all, this is the Empire risen to power once more, and many things that worked for Palpatine continue to work for [[Darth_Krayt]].

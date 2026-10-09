@@ -1,0 +1,34 @@
+---
+title: "Legacy Era Campaign Guide (Compilation) — The Galactic Alliance Army"
+parent_title: "Legacy Era Campaign Guide (Compilation)"
+id: "wiki:Category:Legacy_Era_Campaign_Guide#047"
+type: "compilation"
+parent: "wiki:Category:Legacy_Era_Campaign_Guide"
+heading: "The Galactic Alliance Army"
+heading_path: ["Legacy Era Campaign Guide (Compilation)", "The Galactic Alliance Army"]
+source_url: "https://swse.miraheze.org/wiki/Category:Legacy_Era_Campaign_Guide#The_Galactic_Alliance_Army"
+revision_id: "24706"
+categories: ["Reference Books"]
+---
+
+# The Galactic Alliance Army
+
+Very little of the Galactic Alliance Army remains intact. Most units are absorbed into the Imperial military after The Galactic Alliance surrenders. A few squads remain active within the Galactic Alliance Core Fleet, but they lack the numbers or equipment to fight much more than small raids. These units' numbers continue to dwindle as very few recruits are added to their ranks, going instead to the fleet itself. The remaining squads are tough, individualistic, and extremely proud.
+
+Galactic Alliance Commando (GAC) forces are divided into two types of teams: Ad Hoc and Dedicated. Missions are always planned to the highest degree possible. The Galactic Alliance Core Fleet cannot afford to lose any personnel, let alone highly trained combatants, in ill-advised strikes.
+
+Ad Hoc teams are formed as needed, and usually pull together members from various other teams. Such units might include pilots, troopers, naval personnel, or even sympathizers and associated allies. Critical or high-profile missions might include members of [[Rogue_Squadron]] or another elite force. In keeping with their temporary nature, Ad Hoc teams are typically named for each individual mission, such as Dac's Hammer or Rancor 4. Two recurring Ad Hoc mission types include Imperial Infiltration and Sith Elimination.
+
+- **Imperial Infiltration:** Imperial Infiltration includes any mission requiring the insertion of Alliance forces into an Imperial planet or stronghold, for the purposes of rescuing, capturing, or destroying a specific target. The skill and aptitude of the team personnel varies widely and depends on the mission's difficulty or the importance of success.
+- **Sith Elimination:** Occasionally, The Galactic Alliance gets the opportunity to target a specific Sith commander or even the occasional Sith Lord. These extremely dangerous missions are always looked upon as great opportunities to make a significant impact against the Imperial command and control structure. Additionally, successful missions prove that [[The_Sith]] can be defeated, even by rank-and-file soldiers.
+
+Two mission types have become so frequent over the years that they require established, Dedicated GAC Teams. Unlike the Ad Hoc Teams, members of Dedicated Teams are assigned to their units for extended periods of time, or a certain number of missions. They develop an expertise for their mission type, giving them a significant advantage each time they are deployed. Most Dedicated Teams are either numbered (such as MCR-10) or named (such as Antares' Womp Rats).
+
+- **Womp Rats:** Womp Rat teams specialize in acquiring material and ordinance from protected targets, either covertly or by force. The target might be a former Galactic Alliance facility, to which they sometimes have blueprints or access codes. As The Galactic Alliance is absorbed into [[The_Galactic_Empire]], these facilities become harder to breach. However, Womp Rats quickly develop an expertise for entering the Imperial supply stores that replace them. Womp Rats occasionally work in conjunction with the regular supply acquisition teams that specialize in acquiring material from civilian or [[Black_Market]] sources.
+- **Mon Calamari Rescue:** MCR teams are a recent addition to the commando forces, dedicated to rescuing [[Mon_Calamari]] personnel from Imperial concentration camps and detention areas. While the Galactic Alliance Core Fleet cannot often render large-scale aid, exceptions are made when the right target becomes available. Usually, MCR teams attempt to liberate high-profile individuals, or those with significant knowledge or abilities that the Alliance finds useful. If the circumstances are exactly right, the Alliance will even deploy [[Sabertooth-Class_Assault/Rescue_Vessel|Sabertooth-Class Assault/Rescue Vessels]] to capture and board an inadequately armed or escorted Imperial prison ships, in order to rescue a large number of [[Mon_Calamari]] in a single operation. Most, but not all, MCR teams include [[Mon_Calamari]] members in their ranks. Refugees or other Mon Calamari not suitable (or unwilling) to serve in the Alliance fleet are handed off to [[The_Mon_Calamari_Resistance]], usually via the Ackbar Trail.
+
+Venom Assault Squads are specialized boarding parties deployed through the "teeth" of the Alliance [[Sabertooth-Class_Assault/Rescue_Vessel|Sabertooth-Class Assault/Rescue Vessel]]. Trained in zero-g, close-quarters combat techniques, the Venom squads pour out of the *Sabertooth's* teeth, entering the captured vessel at multiple levels. Leading squads plow through enemy defenses and combat debris with the help of [[Venom_Assault_Armor]]. Once the boarding area has been secured from enemy attack and environmental integrity has been ensured, secondary units are deployed in typical [[Galactic_Alliance_Armor]], carrying additional arms or breaching equipment as needed. These squads are better suited for pursuing fleeing crew members or fighting in the tight spaces common aboard [[Starships]].
+
+Aside from the armor, Venom squads carry equipment and weaponry suited to shipboard combat. [[Blaster_Carbines]], [[Vibroswords]], [[Stun_Grenades]], and [[Concussion_Grenades]] are typical load-outs. If the enemy crew must be subdued, [[Gas_Grenades]] are used while the Venom squads are protected in their armor, or carrying [[Breath_Masks]]. Small, floating Surveillance Droids are typically deployed early in a fight, and they are programmed to slip around the defenders to seize up the ship's defenses and crew. Some may be programmed as self-guided weapons platforms or carry [[Explosives]]. Venom slicers tap directly into shipboard computer systems to attempt to wrest control away from the vessel's command centers, or to disable the ship's systems.
+
+Venom squads are typically numbered sequentially, per ship. Thus, the first squad from The *Redclaw* would be *Redclaw* Venom One. The exception to this is the elite Venom squad, designated simply as Venom Zero or VZ. Venom Zero is not permanently housed on any single [[Sabertooth-Class_Assault/Rescue_Vessel|Sabertooth-Class Assault/Rescue Vessel]], but is instead moved from ship to ship as missions warrant. When not deployed in combat, VZ also provides advanced training to Venom squads permanently assigned to the ship the VZs are currently serving aboard.
