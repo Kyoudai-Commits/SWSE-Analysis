@@ -124,6 +124,7 @@ swse/
   enumerate.py      Constraints, Builder, iter_level1_builds, sample_builds, check_build
   evaluate.py       METRICS, Evaluator, rank(), summary_table()
   report.py         the markdown/jsonl reports
+  audit.py          canon-balance audit: tier distributions, rank-sum, outlier verdicts
   cli.py            argparse entry point
 tests/              10 modules; conftest.py holds session-scoped fixtures
 tasks/              the backlog: TASK-nnn.md, one file per task

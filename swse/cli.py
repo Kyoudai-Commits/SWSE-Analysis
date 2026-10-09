@@ -303,6 +303,29 @@ def cmd_report(args) -> int:
     return 0
 
 
+def cmd_audit(args) -> int:
+    """Canon-balance audit. Writes analysis/out/canon-balance.md and summarises."""
+    from .audit import canon_balance
+    from .report import _write
+    from .store import Dataset
+
+    db = Dataset.load()
+    text = canon_balance(db, top=args.top)
+    out = _write(text, Path(args.out) if args.out
+                 else paths.ANALYSIS_DIR / "out" / "canon-balance.md")
+    differing = text.count("**tiers differ**")
+    comparisons = text.count(" vs third_party (n=")
+    if args.json:
+        _emit({"report": paths.rel(out), "records": db.total(), "comparisons": comparisons,
+               "differing_proxies": differing, "uninspected_outliers": text.count("| - |")}, args)
+    else:
+        print(f"wrote {paths.rel(out)}")
+        print(f"  comparisons: {comparisons}, differing at p < 0.01: {differing}")
+        if differing:
+            print("  mixed-canon rankings should be treated as provisional - see the report")
+    return 0
+
+
 def cmd_all(args) -> int:
     stages = [cmd_extract, cmd_canonicalize, cmd_db, cmd_validate, cmd_graph, cmd_space, cmd_report]
     for stage in stages:
@@ -387,6 +410,9 @@ def build_parser() -> argparse.ArgumentParser:
     s.add_argument("--out", help="write the digest elsewhere")
 
     add("report", cmd_report, "write every dataset + analysis report")
+    s = add("audit", cmd_audit, "canon-balance audit: are the canon tiers comparable?")
+    s.add_argument("--top", type=int, default=8, help="outliers to list per tier (default 8)")
+    s.add_argument("--out", help="write the report elsewhere")
     s = add("all", cmd_all, "extract -> canonicalize -> db -> validate -> graph -> space -> report")
     s.add_argument("--keep-going", action="store_true")
     return p

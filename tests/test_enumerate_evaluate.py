@@ -207,6 +207,44 @@ def test_bonus_signatures_are_extracted():
     assert ev.bonuses_in("") == []
 
 
+def _ev():
+    ev = Evaluator.__new__(Evaluator)
+    ev._bonus_cache = {}
+    return ev
+
+
+@pytest.mark.parametrize("text", [
+    # Found by the canon-balance audit (TASK-018): a bare number before "to"/"on"
+    # is not a bonus. These three are real rules text from the corpus.
+    "Once per encounter, take 20 on a trained Knowledge check or 10 on an untrained check",
+    "You regain all starship maneuvers at the end of any round you roll a natural 20 on an attack roll",
+    "Reroll any Climb or Jump check. Take 10 on Climb and Jump checks.",
+])
+def test_take_n_and_natural_n_are_not_bonuses(text):
+    """The 'natural 20 on an attack roll' case used to add +20 to `offense`."""
+    assert _ev().bonuses_in(text) == []
+
+
+@pytest.mark.parametrize("text,expected", [
+    ("+2 competence bonus to attack rolls", ("competence", "attack rolls", 2)),
+    ("2 bonus to Reflex Defense", ("untyped", "Reflex Defense", 2)),
+    ("-2 penalty to Stealth checks", ("penalty", "Stealth checks", -2)),
+    ("+1 dodge bonus to Reflex Defense", ("dodge", "Reflex Defense", 1)),
+    ("gain a +10 bonus on your attack roll to disarm", ("untyped", "your attack roll to disarm", 10)),
+])
+def test_real_bonus_wordings_still_parse(text, expected):
+    btype, target, amount = expected
+    found = _ev().bonuses_in(text)
+    assert (btype, target, amount) in found, f"{text!r} -> {found}"
+
+
+def test_a_signed_penalty_is_not_also_read_as_an_unsigned_bonus():
+    """"-2 penalty to X" must yield one signature, not (-2, penalty) and (+2, untyped)."""
+    found = _ev().bonuses_in("-2 penalty to Stealth checks")
+    assert len(found) == 1, found
+    assert found[0][2] == -2
+
+
 def test_metrics_are_documented():
     assert len(METRICS) >= 10
     for name, label, formula, verified in METRICS:

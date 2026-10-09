@@ -49,9 +49,20 @@ METRICS: list[tuple[str, str, str, bool]] = [
     ("option_count", "how many choices the build commits to", "feats + talents + powers + skills + classes", True),
 ]
 
-_BONUS_RE = re.compile(
-    r"(?P<sign>[+-]?\d+)\s*(?P<type>competence|morale|dodge|circumstance|insight|luck|penalty|equipment|armor)?"
-    r"\s*(?:bonus|penalty)?\s*(?:to|on)\s*(?P<target>[a-z ,()/-]{2,60})", re.I)
+_BONUS_TYPES = r"competence|morale|dodge|circumstance|insight|luck|penalty|equipment|armor"
+_TARGET = r"[a-z ,()/-]{2,60}"
+
+# A bonus must be *either* explicitly signed ("+2 to Reflex", "-2 penalty to ...")
+# *or* explicitly labelled ("2 bonus to attack rolls"). Matching any bare number
+# before "to"/"on" read "take 20 on a trained Knowledge check" and "roll a natural
+# 20 on an attack roll" as +20 bonuses - the second one landed in `offense`, because
+# its target contains "attack". Found by the canon-balance audit (TASK-018).
+_BONUS_SIGNED_RE = re.compile(
+    rf"(?P<sign>[+-]\d+)\s*(?P<type>{_BONUS_TYPES})?\s*(?:bonus|penalty)?\s*(?:to|on)\s*(?P<target>{_TARGET})",
+    re.I)
+_BONUS_LABELLED_RE = re.compile(
+    rf"(?<![+-])\b(?P<sign>\d+)\s*(?P<type>{_BONUS_TYPES})?\s*(?:bonus|penalty)\s+(?:to|on)\s*(?P<target>{_TARGET})",
+    re.I)
 _DIE_RE = re.compile(r"\b(?P<n>\d+)d(?P<sides>\d+)(?P<plus>\+\d+)?\b")
 
 
@@ -90,12 +101,15 @@ class Evaluator:
         if key in self._bonus_cache:
             return self._bonus_cache[key]
         out = []
-        for m in _BONUS_RE.finditer(s):
-            amt = int(m.group("sign").replace("+", "") or 0)
-            btype = (m.group("type") or "untyped").lower()
-            target = fold(m.group("target")).strip(" .,")[:40]
-            if target:
-                out.append((btype, target, amt))
+        seen = set()
+        for regex in (_BONUS_SIGNED_RE, _BONUS_LABELLED_RE):
+            for m in regex.finditer(s):
+                amt = int(m.group("sign").replace("+", "") or 0)
+                btype = (m.group("type") or "untyped").lower()
+                target = fold(m.group("target")).strip(" .,")[:40]
+                if target and (btype, target, amt) not in seen:
+                    seen.add((btype, target, amt))
+                    out.append((btype, target, amt))
         self._bonus_cache[key] = out
         return out
 

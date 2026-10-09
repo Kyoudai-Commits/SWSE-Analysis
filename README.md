@@ -41,6 +41,7 @@ make test                      # the full suite, ~75s
 | `swse enumerate` | exact level-1 builds, or sampled builds at any level | `analysis/out/builds-levelN.jsonl` |
 | `swse evaluate` | scores builds and digests a sample | `analysis/out/builds-levelN.md` |
 | `swse report` | every dataset and analysis document | `data/reports/`, `analysis/out/`, `docs/` |
+| `swse audit` | are the official / third-party / homebrew tiers comparable? | `analysis/out/canon-balance.md` |
 
 Every stage accepts `--json` for machine-readable output, so stages can be chained
 without scraping prose.

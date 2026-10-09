@@ -120,6 +120,10 @@ already fixed once:
 | `test_space.py` level-1 exactness | the analytic model matches exact enumeration at level 1 |
 | `test_docs_and_tasks.py` reference checks | every `TASK-nnn` in config/curation has a file, every `GAP-nnn` is documented, every relative link in the prose resolves, and every count quoted in the README's dataset tables is a real corpus count |
 | `test_determinism.py` hash-seed stability | reports are byte-identical under two `PYTHONHASHSEED` values - no set is sliced before being sorted |
+| `test_take_n_and_natural_n_are_not_bonuses` | "take 20 on a check" and "roll a natural 20 on an attack roll" are rules text, not +20 bonuses; the second one used to be added to `offense` |
+| `test_audit_never_quotes_a_p_value_from_a_tiny_group` | a comparison with fewer than `MIN_COMPARABLE_N` records per tier reports "insufficient overlap", never a p-value |
+| `test_homebrew_classes_really_are_unscoreable` | the audit's claim about GAP-013 stays true; if those classes gain progression numbers the test fails and the audit text must be updated |
+| `test_verdicts_cover_the_outliers_the_report_shows` | every outlier the audit prints has been hand-inspected and has a verdict in `data/curation/audit-verdicts.yaml` |
 
 The two config-coverage tests were added after real drift: `scoring.weights`
 contained metric names the evaluator never produced (so those metrics silently

@@ -27,7 +27,7 @@ pytestmark = pytest.mark.slow
 SCRIPT = r"""
 import hashlib, re
 from swse.store import Dataset
-from swse import report
+from swse import audit, report
 from swse.graph import PrereqGraph
 
 db = Dataset.load()
@@ -38,10 +38,13 @@ parts = [
     report.prestige_paths(db),
     report.unlock_ranking(db),
     report.data_dictionary(db),
+    # the record-level half of the canon-balance audit; the build half samples,
+    # which is seeded and therefore already reproducible
+    audit.canon_balance(db, top=3, include_builds=False),
 ]
 text = "\n".join(parts)
-# the header carries a generation timestamp; that is expected to differ
-text = re.sub(r"(?m)^Generated:.*$", "", text)
+# headers carry a generation date/timestamp; those are expected to differ
+text = re.sub(r"(?m)^_?Generated.*$", "", text)
 graph_json = g.to_json()
 for key in ("generated_utc", "generated"):
     graph_json.pop(key, None)

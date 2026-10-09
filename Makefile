@@ -11,11 +11,11 @@
 PY ?= python3
 CLI := $(PY) -m swse.cli
 
-.PHONY: help doctor extract canonicalize db validate data graph space enumerate evaluate report analysis all test clean hashes
+.PHONY: help doctor extract canonicalize db validate data graph space enumerate evaluate report audit analysis all test clean hashes
 
 help:
 	@echo "targets: doctor extract canonicalize db validate data graph space"
-	@echo "         enumerate evaluate report analysis all test clean hashes"
+	@echo "         enumerate evaluate report audit analysis all test clean hashes"
 
 doctor:
 	$(CLI) doctor
@@ -57,7 +57,12 @@ evaluate:
 report:
 	$(CLI) report
 
-analysis: graph space enumerate evaluate report
+# Canon-balance audit: are the official / third-party / homebrew tiers comparable?
+# Runs two 300-build samples per level, so it is slower than the other reports.
+audit:
+	$(CLI) audit
+
+analysis: graph space enumerate evaluate report audit
 
 all: data analysis
 

@@ -23,6 +23,7 @@ that would close it.
 | GAP-011 | `character.starting_gear` | no rule ties starting credits to a gear allowance | TASK-008 | open |
 | GAP-012 | `species.age_bounds` | which age categories are legal per species is absent | TASK-015 | open |
 | GAP-013 | `class.homebrew_progression` | Technician / Force Prodigy have prose only | TASK-016 | open |
+| GAP-014 | `weapon_mod.builder_combination_rows` | 101 of 156 weapon mods are the builder's pre-computed combinations | TASK-019 | open |
 
 ## The ones that change answers
 
@@ -90,6 +91,17 @@ to github/pypi/npm only, so none were fetched and nothing in this repository is
 copied from either site. The URLs are attached to the records they describe
 (`attrs.url`) so a future ingest can join on them; `config/sources.yaml` lists both
 wikis under `planned_sources`.
+
+**GAP-014 - builder combination rows.** 101 of the 156 `weapon_mod` records are not
+distinct game options: they are the builder's pre-computed *combinations* of two real
+modifications ("Dreadful Rage", then "Dreadful Rage and Power Attack (-1)" through
+"(-10)"), materialised as rows so the builder's UI can offer them from a list. The
+entity is entirely third-party, so the rows inflate that tier's gear counts and, wherever
+gear is counted, the decision space. Found by the canon-balance audit, which reports the
+family as an `artefact` with verdicts in `data/curation/audit-verdicts.yaml`. Gear is
+excluded from the headline space figures by default, so nothing quoted in `README.md` is
+affected. TASK-019 flags them `builder_combination` rather than deleting them - the fact
+that the builder offers the combination is itself information.
 
 **GAP-010 - droid budgets.** Droid options carry cost and weight, but the allowance
 a droid character gets to spend is computed in the builder's VBA, not stored in a

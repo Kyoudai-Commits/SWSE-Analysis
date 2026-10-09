@@ -192,6 +192,28 @@ gaps:
     task: TASK-015
     status: open
 
+  - id: GAP-014
+    entity: weapon_mod
+    field: builder_combination_rows
+    summary: >-
+      101 of the 156 weapon_mod records are the builder's pre-computed *combinations*
+      of two real modifications ("Dreadful Rage", then "Dreadful Rage and Power Attack
+      (-1)" through "(-10)" and further permutations), materialised as rows so the
+      builder UI can offer them from a list. They are not distinct game options.
+    impact: >-
+      Inflates the third-party weapon_mod count (the entity is 100% third-party, so it
+      also skews any per-tier comparison), and multiplies the gear decision space by
+      counting one choice many times.
+    workaround: >-
+      The canon-balance audit reports the family as an artefact with verdicts in
+      data/curation/audit-verdicts.yaml. Gear is excluded from the decision space by
+      default, so the inflated count does not reach the headline figures.
+    evidence: >-
+      Lists!r18 onward; `weapon_mod` records whose name matches "<mod> and <mod> (-N)".
+      21 records contain dreadful_rage, 80 contain power_attack.
+    task: TASK-019
+    status: open
+
   - id: GAP-013
     entity: class
     field: homebrew_progression

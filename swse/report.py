@@ -462,12 +462,14 @@ def write_all(db: Dataset | None = None) -> list[Path]:
     """Every dataset-level report. Analysis reports are written by the CLI stages."""
     db = db or Dataset.load()
     from . import graph as graph_mod, validate
+    from .audit import write_canon_balance
     out = [
         write_option_catalog(db),
         write_data_dictionary(db),
         write_species_class_matrix(db),
         write_prestige_paths(db),
         write_unlock_ranking(db),
+        write_canon_balance(db),
         graph_mod.write_report(PrereqGraph(db)),
         validate.write_report(validate.validate(db)),
     ]

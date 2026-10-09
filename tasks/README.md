@@ -29,7 +29,9 @@ Task ids are stable and referenced from `config/analysis.yaml`,
 | [TASK-015](TASK-015-species-age-bounds.md) | Gate age categories per species | low | - | open |
 | [TASK-016](TASK-016-homebrew-progression.md) | Give the homebrew classes a progression | low | homebrew author intent | open |
 | [TASK-017](TASK-017-level1-pareto.md) | Rank every legal level-1 build and publish the frontier | medium | - | open |
-| [TASK-018](TASK-018-canon-balance-audit.md) | Audit metric distributions across canon tiers | medium | - | open |
+| [TASK-018](TASK-018-canon-balance-audit.md) | Audit metric distributions across canon tiers | medium | - | **resolved** |
+| [TASK-019](TASK-019-builder-combination-rows.md) | Flag the builder's combination rows | medium | - | open |
+| [TASK-020](TASK-020-targeted-tier-comparisons.md) | Targeted tier comparisons with real statistical power | medium | - | open |
 
 ## Priority
 
@@ -53,6 +55,14 @@ Task ids are stable and referenced from `config/analysis.yaml`,
 
 ## Completed
 
-None yet. This backlog was filed after the dataset, the decision space and the
-evaluator were built and green; every task here is a real limitation found while
-building them, not a wishlist.
+- **TASK-018** - canon-balance audit (`swse/audit.py`, `analysis/out/canon-balance.md`).
+  Found no evidence that third-party content inflates rankings, found that the
+  published top decile is dominated by builds using unscoreable homebrew classes, and
+  turned up a real scoring bug (a bonus regex that read "roll a natural 20 on an attack
+  roll" as a +20 attack bonus) plus a corpus artefact (GAP-014). It also spawned
+  TASK-019 and TASK-020. Its report is the model for how a finding should be written
+  up: distributions, sample sizes, what could not be compared, and verdicts for every
+  outlier that was inspected by hand.
+
+Every other task here is a real limitation found while building the dataset, the
+decision space or the evaluator - not a wishlist.
