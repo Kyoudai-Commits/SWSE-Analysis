@@ -9,7 +9,7 @@ You do **not** need to edit `targets.txt` or any code. The GUI lets you use the 
 - **Windows:** double-click [`run_swse_scraper.bat`](run_swse_scraper.bat). It creates a private Python environment if needed, checks/installs the packages, then opens the GUI.
 - **macOS / Linux:** from the repository folder, run `./run_swse_scraper.sh`. It prepares the environment and packages, then opens the GUI.
 
-The GUI starts with the included SWSE page set selected. You can paste the full Markdown link list you already have directly into the box; the app extracts and de-duplicates the addresses. Choose **Add pasted link(s)**, or paste them and press **Start download**. Turn off the built-in set if you only want your own URLs. Use the optional “fetch links” checkbox only for an index/list page. The GUI defaults to **25 parallel workers** and lets you choose 1–50; if the wiki rate-limits you, lower the worker count or add a request-start delay. After the download, choose **Open export folder** to view the result.
+The GUI starts with the included SWSE page set selected. You can paste the full Markdown link list you already have directly into the box; the app extracts and de-duplicates the addresses. Choose **Add pasted link(s)**, or paste them and press **Start download**. Turn off the built-in set if you only want your own URLs. Use the optional “fetch links” checkbox only for an index/list page. The GUI defaults to **25 parallel workers** and lets you choose 1–50; if the wiki rate-limits you, lower the worker count or add a request-start delay. If any pages fail, click **Retry failed pages** to retry only the failed URLs from the latest `report.json`; previously saved pages are skipped during index discovery. After the download, choose **Open export folder** to view the result.
 
 Supported source hosts are `swse.miraheze.org` and `swse.fandom.com`. Links to other domains are rejected rather than fetched. The GUI accepts individual page addresses and multiple pasted URLs; it does not require manual manifest editing.
 
@@ -61,6 +61,7 @@ python scripts/scrape_swse_wiki.py --workers 50             # use up to 50 concu
 python scripts/scrape_swse_wiki.py --skip-discovery         # only exact URLs in targets.txt
 python scripts/scrape_swse_wiki.py --refresh                # ignore HTTP cache validators
 python scripts/scrape_swse_wiki.py --delay 0.1              # space request starts by 0.1 seconds
+python scripts/scrape_swse_wiki.py --skip-cached-success    # don't expand into already-exported pages
 python scripts/scrape_swse_wiki.py --output ./my-export
 ```
 

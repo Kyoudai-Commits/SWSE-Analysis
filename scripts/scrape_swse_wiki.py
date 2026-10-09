@@ -570,6 +570,8 @@ def make_parser() -> argparse.ArgumentParser:
                         help="ignore ETag/Last-Modified cache validators and fetch every target")
     parser.add_argument("--skip-discovery", action="store_true",
                         help="fetch only the explicit URLs; do not expand @discover entries")
+    parser.add_argument("--skip-cached-success", action="store_true",
+                        help="during discovery, skip pages already present in the cache; useful for retrying failures")
     parser.add_argument("--dry-run", action="store_true",
                         help="validate and summarize the manifest without making requests")
     return parser
@@ -602,6 +604,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"One-level discovery pages: {len(discovery_seeds) if not args.skip_discovery else 0}")
         print(f"Concurrent workers: {args.workers} (maximum 50)")
         print(f"Request-start delay: {args.delay} seconds")
+        print(f"Skip cached pages during discovery: {args.skip_cached_success}")
         print(f"Allowed hosts: {', '.join(sorted(ALLOWED_HOSTS))}")
         print(f"Output: {args.output}")
         return 0
@@ -669,7 +672,11 @@ def main(argv: list[str] | None = None) -> int:
                         print("  unchanged (HTTP 304)")
                 except Exception as exc:  # Keep the batch moving; include failures in report.
                     counts["failed"] += 1
-                    errors.append({"url": url, "error": str(exc)})
+                    errors.append({
+                        "url": url,
+                        "error": str(exc),
+                        "discovery_seed": bool(not args.skip_discovery and url in discovery_seeds),
+                    })
                     print(f"  failed: {exc}", file=sys.stderr)
             return results
 
@@ -678,6 +685,12 @@ def main(argv: list[str] | None = None) -> int:
         direct_results = download_batch(targets)
         discovery_queue: list[str] = []
         queued_set = set(targets)
+        if args.skip_cached_success:
+            queued_set.update(
+                cached_url
+                for cached_url, cached_record in state.items()
+                if content_exists(output_dir, cached_record)
+            )
         if not args.skip_discovery:
             for seed_url in targets:
                 seed_result = direct_results.get(seed_url)
@@ -717,8 +730,12 @@ def main(argv: list[str] | None = None) -> int:
         "counts": counts,
         "workers": args.workers,
         "request_start_delay_seconds": args.delay,
+        "skip_cached_success": args.skip_cached_success,
         "indexed_pages": indexed_pages,
         "discovery_seeds": len(discovery_seeds) if not args.skip_discovery else 0,
+        "discovery_seed_urls": sorted(
+            seed_url for seed_url in targets if not args.skip_discovery and seed_url in discovery_seeds
+        ),
         "discovered_pages_queued": discovered_pages_queued,
         "errors": errors,
     }
