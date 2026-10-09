@@ -201,18 +201,24 @@ gaps:
       (-1)" through "(-10)" and further permutations), materialised as rows so the
       builder UI can offer them from a list. They are not distinct game options.
     impact: >-
-      Inflates the third-party weapon_mod count (the entity is 100% third-party, so it
-      also skews any per-tier comparison), and multiplies the gear decision space by
-      counting one choice many times.
+      Inflated the third-party weapon_mod count (the entity is 100% third-party, so it
+      also skewed any per-tier comparison) and dominated the audit's attack_mod and
+      damage_mod proxies with 113 near-duplicate rows. It did not reach the headline
+      decision-space figures: the gear dimension is opt-in and counts only weapon x
+      armor x equipment, never weapon_mod.
     workaround: >-
-      The canon-balance audit reports the family as an artefact with verdicts in
-      data/curation/audit-verdicts.yaml. Gear is excluded from the decision space by
-      default, so the inflated count does not reach the headline figures.
+      Resolved. The `flag_builder_combinations` post hook now marks 72 rows
+      `builder_combination` (with `relations.combines` naming the real options) and 101
+      rows `builder_parameter_variant` (with `attrs.parameter_base` / `parameter_value`);
+      43 of the 156 remain distinct options. Nothing was deleted or merged - the rows
+      keep their cell citations. `report.option_catalog` prints records and distinct
+      options side by side, and the audit's distributions and outliers are computed over
+      distinct options only.
     evidence: >-
-      Lists!r18 onward; `weapon_mod` records whose name matches "<mod> and <mod> (-N)".
-      21 records contain dreadful_rage, 80 contain power_attack.
+      Lists!AS:AZ; `weapon_mod` records whose name matches "<mod> and <mod>" or carries a
+      trailing "(-N)". 7 bases have more than one parameter variant, covering 105 rows.
     task: TASK-019
-    status: open
+    status: resolved
 
   - id: GAP-013
     entity: class

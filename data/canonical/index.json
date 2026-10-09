@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-09T04:43:36+00:00",
+ "generated_utc": "2026-10-09T07:17:39+00:00",
  "sources": [
   "sagaforge-1.53",
   "swse-master-reference-2026-10-08"
@@ -8,7 +8,7 @@
   "age_category": {
    "count": 6,
    "file": "data/canonical/age_category.json",
-   "sha256": "8a41f4f84a7773a9",
+   "sha256": "0730908212312d3f",
    "canon": {
     "official": 0,
     "third_party": 6,
@@ -18,7 +18,7 @@
   "ammunition": {
    "count": 21,
    "file": "data/canonical/ammunition.json",
-   "sha256": "a8ee868bcb47c404",
+   "sha256": "2baeab258c42082e",
    "canon": {
     "official": 0,
     "third_party": 21,
@@ -28,7 +28,7 @@
   "armor": {
    "count": 92,
    "file": "data/canonical/armor.json",
-   "sha256": "afdead6a990bbea1",
+   "sha256": "a36dccf4fe2d92e9",
    "canon": {
     "official": 88,
     "third_party": 4,
@@ -38,7 +38,7 @@
   "armor_accessory": {
    "count": 48,
    "file": "data/canonical/armor_accessory.json",
-   "sha256": "3cdaf82865c7335f",
+   "sha256": "388d020d2b80227d",
    "canon": {
     "official": 44,
     "third_party": 4,
@@ -48,7 +48,7 @@
   "armor_size": {
    "count": 3,
    "file": "data/canonical/armor_size.json",
-   "sha256": "c6173804aec72a0a",
+   "sha256": "e123d13eb8f2b576",
    "canon": {
     "official": 0,
     "third_party": 3,
@@ -58,7 +58,7 @@
   "armor_template": {
    "count": 27,
    "file": "data/canonical/armor_template.json",
-   "sha256": "846667c7b8a5b693",
+   "sha256": "eec7eafab43db233",
    "canon": {
     "official": 27,
     "third_party": 0,
@@ -68,7 +68,7 @@
   "availability": {
    "count": 6,
    "file": "data/canonical/availability.json",
-   "sha256": "ccee442c39ddd33c",
+   "sha256": "8bc4de5ad13208bf",
    "canon": {
     "official": 0,
     "third_party": 6,
@@ -78,7 +78,7 @@
   "background": {
    "count": 46,
    "file": "data/canonical/background.json",
-   "sha256": "8590114e87f1d634",
+   "sha256": "56f988d624ae1114",
    "canon": {
     "official": 0,
     "third_party": 46,
@@ -88,7 +88,7 @@
   "class": {
    "count": 41,
    "file": "data/canonical/class.json",
-   "sha256": "cc7a7531a83bf0ce",
+   "sha256": "c31bcbbbdf98b6bd",
    "canon": {
     "official": 39,
     "third_party": 0,
@@ -98,7 +98,7 @@
   "class_feature": {
    "count": 41,
    "file": "data/canonical/class_feature.json",
-   "sha256": "0d654433fcddcf7f",
+   "sha256": "4de367b2f9e16eeb",
    "canon": {
     "official": 0,
     "third_party": 41,
@@ -108,7 +108,7 @@
   "cybernetic": {
    "count": 19,
    "file": "data/canonical/cybernetic.json",
-   "sha256": "44da74c9ca8565ff",
+   "sha256": "eedfe89cc2a70456",
    "canon": {
     "official": 18,
     "third_party": 1,
@@ -118,7 +118,7 @@
   "destiny": {
    "count": 88,
    "file": "data/canonical/destiny.json",
-   "sha256": "dc2618fa4cfb31d8",
+   "sha256": "60c14b1a41a87575",
    "canon": {
     "official": 0,
     "third_party": 88,
@@ -128,7 +128,7 @@
   "droid_degree": {
    "count": 5,
    "file": "data/canonical/droid_degree.json",
-   "sha256": "9aab03099fc32cda",
+   "sha256": "ef46c8984f892b31",
    "canon": {
     "official": 0,
     "third_party": 5,
@@ -138,7 +138,7 @@
   "droid_locomotion": {
    "count": 7,
    "file": "data/canonical/droid_locomotion.json",
-   "sha256": "c073c4026c709c7a",
+   "sha256": "64e6a0f3e5cdb0ab",
    "canon": {
     "official": 0,
     "third_party": 7,
@@ -148,7 +148,7 @@
   "droid_option": {
    "count": 121,
    "file": "data/canonical/droid_option.json",
-   "sha256": "44216ee0ba780763",
+   "sha256": "05aadfe316623a8e",
    "canon": {
     "official": 0,
     "third_party": 121,
@@ -158,7 +158,7 @@
   "droid_shield_rating": {
    "count": 4,
    "file": "data/canonical/droid_shield_rating.json",
-   "sha256": "4a7de7f3b1569a15",
+   "sha256": "f6cce329a6f8353e",
    "canon": {
     "official": 0,
     "third_party": 4,
@@ -168,7 +168,7 @@
   "droid_translator": {
    "count": 4,
    "file": "data/canonical/droid_translator.json",
-   "sha256": "3f76fd23b5dbb5a2",
+   "sha256": "7e5ab0c019228a07",
    "canon": {
     "official": 0,
     "third_party": 4,
@@ -178,7 +178,7 @@
   "equipment": {
    "count": 226,
    "file": "data/canonical/equipment.json",
-   "sha256": "dab0ab3b601fb4a5",
+   "sha256": "faf180456f0b8132",
    "canon": {
     "official": 184,
     "third_party": 42,
@@ -188,7 +188,7 @@
   "equipment_accessory": {
    "count": 18,
    "file": "data/canonical/equipment_accessory.json",
-   "sha256": "490046c85c663a02",
+   "sha256": "249731d6a4a877a0",
    "canon": {
     "official": 17,
     "third_party": 1,
@@ -198,7 +198,7 @@
   "exotic_weapon_group": {
    "count": 38,
    "file": "data/canonical/exotic_weapon_group.json",
-   "sha256": "eae3fb6368d54dd7",
+   "sha256": "c82bb5f9b2576749",
    "canon": {
     "official": 0,
     "third_party": 38,
@@ -208,7 +208,7 @@
   "feat": {
    "count": 387,
    "file": "data/canonical/feat.json",
-   "sha256": "026cb1ee24031085",
+   "sha256": "b99d766b4509d969",
    "canon": {
     "official": 385,
     "third_party": 2,
@@ -218,7 +218,7 @@
   "force_power": {
    "count": 92,
    "file": "data/canonical/force_power.json",
-   "sha256": "187a68ead4af5cec",
+   "sha256": "61f0fe8f1ec72c27",
    "canon": {
     "official": 92,
     "third_party": 0,
@@ -228,7 +228,7 @@
   "force_regimen": {
    "count": 12,
    "file": "data/canonical/force_regimen.json",
-   "sha256": "1a470e4dcac6bda4",
+   "sha256": "520e1afda501aac4",
    "canon": {
     "official": 0,
     "third_party": 12,
@@ -238,7 +238,7 @@
   "force_secret": {
    "count": 15,
    "file": "data/canonical/force_secret.json",
-   "sha256": "8a503da27367cbbb",
+   "sha256": "3747110e18807743",
    "canon": {
     "official": 15,
     "third_party": 0,
@@ -248,7 +248,7 @@
   "force_technique": {
    "count": 58,
    "file": "data/canonical/force_technique.json",
-   "sha256": "459882a2a2d9a122",
+   "sha256": "02bf2f2ff6523465",
    "canon": {
     "official": 58,
     "third_party": 0,
@@ -258,7 +258,7 @@
   "language": {
    "count": 102,
    "file": "data/canonical/language.json",
-   "sha256": "da95109b506742ac",
+   "sha256": "55f4d637ffdaf84d",
    "canon": {
     "official": 0,
     "third_party": 102,
@@ -268,7 +268,7 @@
   "lightsaber_form": {
    "count": 12,
    "file": "data/canonical/lightsaber_form.json",
-   "sha256": "7fee298d35c6c3f3",
+   "sha256": "39b8bc6f4bc69d69",
    "canon": {
     "official": 0,
     "third_party": 12,
@@ -278,7 +278,7 @@
   "near_human_trait": {
    "count": 24,
    "file": "data/canonical/near_human_trait.json",
-   "sha256": "1b91135336a66073",
+   "sha256": "3380fe0b5ec0cc1b",
    "canon": {
     "official": 0,
     "third_party": 24,
@@ -288,7 +288,7 @@
   "racial_ability": {
    "count": 215,
    "file": "data/canonical/racial_ability.json",
-   "sha256": "984c1e862c7453d9",
+   "sha256": "edd5ae007615b44a",
    "canon": {
     "official": 0,
     "third_party": 215,
@@ -298,7 +298,7 @@
   "range_increment": {
    "count": 7,
    "file": "data/canonical/range_increment.json",
-   "sha256": "4846443743c540d7",
+   "sha256": "30f9a5ab9012ef80",
    "canon": {
     "official": 0,
     "third_party": 7,
@@ -308,7 +308,7 @@
   "reference_link": {
    "count": 812,
    "file": "data/canonical/reference_link.json",
-   "sha256": "15cac9f2ce2800db",
+   "sha256": "dcad7bbe5d2bf2cb",
    "canon": {
     "official": 812,
     "third_party": 0,
@@ -318,7 +318,7 @@
   "shield_template": {
    "count": 4,
    "file": "data/canonical/shield_template.json",
-   "sha256": "d89bdc21b40426e2",
+   "sha256": "930fa37851f32f41",
    "canon": {
     "official": 4,
     "third_party": 0,
@@ -328,7 +328,7 @@
   "size_category": {
    "count": 9,
    "file": "data/canonical/size_category.json",
-   "sha256": "f0eb7cd8aa624851",
+   "sha256": "355248829600693b",
    "canon": {
     "official": 0,
     "third_party": 9,
@@ -338,7 +338,7 @@
   "skill": {
    "count": 25,
    "file": "data/canonical/skill.json",
-   "sha256": "ab75ad7c6c3dcb2e",
+   "sha256": "ce1d3e5919dc4162",
    "canon": {
     "official": 0,
     "third_party": 25,
@@ -348,7 +348,7 @@
   "sourcebook": {
    "count": 10,
    "file": "data/canonical/sourcebook.json",
-   "sha256": "f53a3fa7b5a0b33a",
+   "sha256": "b524e6b807282bed",
    "canon": {
     "official": 0,
     "third_party": 10,
@@ -358,7 +358,7 @@
   "special_talent": {
    "count": 16,
    "file": "data/canonical/special_talent.json",
-   "sha256": "539a2f586a59d53f",
+   "sha256": "d76afb97ed11d54a",
    "canon": {
     "official": 0,
     "third_party": 16,
@@ -368,7 +368,7 @@
   "species": {
    "count": 130,
    "file": "data/canonical/species.json",
-   "sha256": "86c06f90440a5895",
+   "sha256": "3a943435b3737d85",
    "canon": {
     "official": 121,
     "third_party": 9,
@@ -378,7 +378,7 @@
   "starship_maneuver": {
    "count": 26,
    "file": "data/canonical/starship_maneuver.json",
-   "sha256": "e2b8ba15dec60c00",
+   "sha256": "084a339c57681813",
    "canon": {
     "official": 0,
     "third_party": 26,
@@ -388,7 +388,7 @@
   "talent": {
    "count": 1311,
    "file": "data/canonical/talent.json",
-   "sha256": "afba8127f8f798be",
+   "sha256": "3bffffea949f0804",
    "canon": {
     "official": 1307,
     "third_party": 4,
@@ -398,7 +398,7 @@
   "talent_tree": {
    "count": 192,
    "file": "data/canonical/talent_tree.json",
-   "sha256": "a45dae38e1fe0109",
+   "sha256": "8789e24866c1d326",
    "canon": {
     "official": 167,
     "third_party": 25,
@@ -408,7 +408,7 @@
   "unleashed_ability": {
    "count": 27,
    "file": "data/canonical/unleashed_ability.json",
-   "sha256": "80917c73e9b38218",
+   "sha256": "050c0370018b1915",
    "canon": {
     "official": 0,
     "third_party": 27,
@@ -418,7 +418,7 @@
   "weapon": {
    "count": 246,
    "file": "data/canonical/weapon.json",
-   "sha256": "6b4499a2d6470085",
+   "sha256": "d7fc09eadac70303",
    "canon": {
     "official": 239,
     "third_party": 7,
@@ -428,7 +428,7 @@
   "weapon_accessory": {
    "count": 46,
    "file": "data/canonical/weapon_accessory.json",
-   "sha256": "cd4b12280b7156cc",
+   "sha256": "151a0eca930e6a68",
    "canon": {
     "official": 46,
     "third_party": 0,
@@ -438,7 +438,7 @@
   "weapon_mod": {
    "count": 156,
    "file": "data/canonical/weapon_mod.json",
-   "sha256": "aa1bb7dadbe31ee7",
+   "sha256": "ab6f2ff628eb79fc",
    "canon": {
     "official": 0,
     "third_party": 156,
@@ -448,7 +448,7 @@
   "weapon_template": {
    "count": 35,
    "file": "data/canonical/weapon_template.json",
-   "sha256": "6d1c4a1cf4310f36",
+   "sha256": "acfdd4ed506f7c5a",
    "canon": {
     "official": 26,
     "third_party": 9,

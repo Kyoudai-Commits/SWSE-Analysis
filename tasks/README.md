@@ -30,7 +30,7 @@ Task ids are stable and referenced from `config/analysis.yaml`,
 | [TASK-016](TASK-016-homebrew-progression.md) | Give the homebrew classes a progression | low | homebrew author intent | open |
 | [TASK-017](TASK-017-level1-pareto.md) | Rank every legal level-1 build and publish the frontier | medium | - | open |
 | [TASK-018](TASK-018-canon-balance-audit.md) | Audit metric distributions across canon tiers | medium | - | **resolved** |
-| [TASK-019](TASK-019-builder-combination-rows.md) | Flag the builder's combination rows | medium | - | open |
+| [TASK-019](TASK-019-builder-combination-rows.md) | Flag the builder's combination rows | medium | - | **resolved** |
 | [TASK-020](TASK-020-targeted-tier-comparisons.md) | Targeted tier comparisons with real statistical power | medium | - | open |
 
 ## Priority
@@ -63,6 +63,15 @@ Task ids are stable and referenced from `config/analysis.yaml`,
   TASK-019 and TASK-020. Its report is the model for how a finding should be written
   up: distributions, sample sizes, what could not be compared, and verdicts for every
   outlier that was inspected by hand.
+
+- **TASK-019** - flag the builder's combination rows (GAP-014). The
+  `flag_builder_combinations` post hook marks 72 `weapon_mod` rows as combinations of two
+  real options (with `relations.combines`) and 101 as parameter variants of one option,
+  leaving 43 distinct choices out of 156 - flagged, never deleted, so each row keeps its
+  cell citation. Its real finding is the scoping: an entity-agnostic version also flagged
+  "Battle armor, heavy" and "Datapad, basic", which are item-plus-qualifier names that only
+  look like combinations because the corpus holds reference records called "heavy" and
+  "basic". The hook now applies to `weapon_mod` alone and says why in its docstring.
 
 Every other task here is a real limitation found while building the dataset, the
 decision space or the evaluator - not a wishlist.

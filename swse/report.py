@@ -99,9 +99,20 @@ def option_catalog(db: Dataset) -> str:
             recs = db.all(entity)
         if not recs:
             continue
+        # A builder row that combines or parameterises options that each exist
+        # elsewhere is not another thing to choose (GAP-014). Report both numbers:
+        # `records` is what the corpus holds, `distinct` is what a player picks from.
+        distinct = sum(1 for r in recs if not ({"builder_combination", "builder_parameter_variant"}
+                                               & set(r.get("flags") or [])))
         rows.append([label, f"`{entity}`", len(recs),
+                     distinct if distinct != len(recs) else "-",
                      Counter(r.get("canon") for r in recs).most_common(1)[0][0]])
-    lines += _table(["decision", "entity", "options", "dominant canon"], rows)
+    lines += _table(["decision", "entity", "records", "distinct options", "dominant canon"], rows)
+    lines += ["", "`distinct options` is blank where it equals the record count. Where it "
+              "differs, the gap is builder artefacts: rows that combine two options that each "
+              "exist on their own (`builder_combination`) or enumerate one option across a "
+              "numeric dial (`builder_parameter_variant`). They are flagged, not deleted - "
+              "see GAP-014.", ""]
 
     lines += ["", "## Provenance summary", ""]
     lines += _table(["canon", "records", "share"],

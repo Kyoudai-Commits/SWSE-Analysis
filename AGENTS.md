@@ -89,14 +89,19 @@ canonical file and the `Generated:` line in every report, so `make data` alone s
 ```bash
 for f in $(git diff --name-only -- data analysis); do
   git diff -U0 -- "$f" | grep -E '^[+-]' | grep -vE '^(\+\+\+|---)' \
-    | grep -qvE 'generated_utc|^[+-]Generated:' && echo "CONTENT $f" || echo "noise   $f"
+    | grep -qvE 'generated_utc|^[+-]_?Generated:' && echo "CONTENT $f" || echo "noise   $f"
 done
 git checkout -- <the noise files>
 ```
 
-`data/canonical/index.json` records a sha256 per entity file, so it must be reverted
-*together with* the files it summarises - reverting one without the other makes
-`validate` fail its index-consistency check.
+Reports (`data/reports/*.md`, `analysis/out/*.md`) are safe to revert: nothing hashes
+them. **Canonical files are not.** `data/canonical/index.json` records a `sha256` per
+entity file, so the 46 canonical files and the index are one hashed set - commit them
+together or not at all. Reverting the entity files while keeping a regenerated index
+leaves a stale hash for each reverted file, and `validate` will *not* catch it: its
+index-consistency check compares record counts only. A wrong hash is worse than a noisy
+diff, so when `canonicalize` has run, commit the whole set. (Verify the claim rather
+than trusting this note: `grep -n "_check_index_consistency" -A 14 swse/validate.py`.)
 
 ## Where things live
 

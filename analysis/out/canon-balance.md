@@ -189,9 +189,9 @@ insufficient overlap to compare (official n=215, third_party n=5, needs 8 in eac
 
 | tier | n | median | p25 | p75 | max | mean |
 |---|---|---|---|---|---|---|
-| `third_party` | 85 | 4 | 1 | 6 | 10 | 4.4 |
+| `third_party` | 15 | 2 | 1.5 | 3.5 | 10 | 2.733 |
 
-insufficient overlap to compare (official n=0, third_party n=85, needs 8 in each tier)
+insufficient overlap to compare (official n=0, third_party n=15, needs 8 in each tier)
 
 ## Outliers (top decile per tier)
 
@@ -454,18 +454,12 @@ Each row names the cell the value came from, so it can be checked against the wo
 
 > Highest third-party weapon damage (21 average): an antiarmor missile launcher with 1-square splash and penetration 10. Heavy ordnance, correctly excluded from character offense scoring by the empty weapon_group rule.
 
-### `weapon_mod` / mod_bonus - `third_party` (top 8 of 85)
+### `weapon_mod` / mod_bonus - `third_party` (top 2 of 15)
 
 | value | record | name | source cell | verdict |
 |---|---|---|---|---|
 | 10 | `weapon_mod_dreadful_rage` | Dreadful Rage | Lists!r18 | artefact |
-| 10 | `weapon_mod_dreadful_rage_and_power_attack_1` | Dreadful Rage and Power Attack (-1) | Lists!r19 | artefact |
-| 10 | `weapon_mod_dreadful_rage_and_power_attack_10` | Dreadful Rage and Power Attack (-10) | Lists!r20 | artefact |
-| 10 | `weapon_mod_dreadful_rage_and_power_attack_11` | Dreadful Rage and Power Attack (-11) | Lists!r21 | artefact |
-| 10 | `weapon_mod_dreadful_rage_and_power_attack_12` | Dreadful Rage and Power Attack (-12) | Lists!r22 | - |
-| 10 | `weapon_mod_dreadful_rage_and_power_attack_13` | Dreadful Rage and Power Attack (-13) | Lists!r23 | - |
-| 10 | `weapon_mod_dreadful_rage_and_power_attack_14` | Dreadful Rage and Power Attack (-14) | Lists!r24 | - |
-| 10 | `weapon_mod_dreadful_rage_and_power_attack_15` | Dreadful Rage and Power Attack (-15) | Lists!r25 | - |
+| 4 | `weapon_mod_powerful_charge` | Powerful Charge | Lists!r107 | real |
 
 > The Dreadful Rage / Power Attack family is 101 of the 156 weapon_mod records: "Dreadful Rage", then "Dreadful Rage and Power Attack (-1)" through "(-10)" and further permutations. These are the builder's *pre-computed combinations* of two real modifications, materialised as rows so its UI can offer them from a list. They are not distinct game options, they inflate the third-party weapon_mod count, and they multiply the gear decision space. Tracked as GAP-014 / TASK-019: flag them `builder_combination` and count the two underlying mods instead.
 
@@ -478,6 +472,12 @@ Numeric attributes whose name is a bare number are unnamed spreadsheet columns, 
 | `droid_option` | `6` | 37 |
 | `droid_option` | `9` | 37 |
 | `droid_option` | `5` | 26 |
+
+Rows flagged as builder combinations or parameter variants (GAP-014) are excluded from every distribution above. They are rows the builder materialised so its UI could offer a pre-computed choice, not options a player picks independently, so counting them measures the builder.
+
+| entity | records | distinct options | builder rows |
+|---|---|---|---|
+| `weapon_mod` | 156 | 43 | 113 |
 
 ## Build-level audit
 

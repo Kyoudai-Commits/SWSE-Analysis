@@ -1,6 +1,43 @@
 # TASK-019 - Flag the builder's combination rows
 
-**Status:** open | **Priority:** medium | **Gap:** GAP-014
+**Status:** resolved (2026-10-09) | **Priority:** medium | **Gap:** GAP-014
+
+## Outcome
+
+The `flag_builder_combinations` post hook (`swse/hooks.py`, registered in
+`config/entities.yaml`) now marks the artefacts instead of leaving counts to guess:
+
+- **72** rows carry `builder_combination`, with `relations.combines` naming the real
+  options and `attrs.combination_of` their source-book names. A component may resolve
+  outside the entity: `Dreadful Rage and Power Attack (-1)` combines
+  `weapon_mod_dreadful_rage` with `feat_power_attack`, because there is no bare
+  `Power Attack` modification row.
+- **101** carry `builder_parameter_variant`, with `attrs.parameter_base` and
+  `attrs.parameter_value`; 7 bases have more than one variant, covering 105 rows.
+- **43** of the 156 remain distinct options. Nothing was deleted or merged and every row
+  keeps its cell citation.
+
+The counts changed shape as a result. The audit's `weapon_mod` proxies are now computed
+over distinct options only (`swse.audit.distinct_options`), and the top `attack_mod`
+outlier moved from a builder combination to `weapon_mod_powerful_charge` (+4 attack on a
+charge, `single: Yes`) - verdict recorded in `data/curation/audit-verdicts.yaml`.
+`report.option_catalog` prints `records` and `distinct options` side by side with a
+footnote, so the corpus size and the choice size are no longer the same number.
+
+**The scoping is the finding.** An entity-agnostic first run flagged 19 more rows across
+`armor`, `weapon`, `equipment` and `armor_accessory`, and all 19 were false positives:
+"Battle armor, heavy", "Blaster pistol, snap shot" and "Datapad, basic" are
+item-plus-qualifier *names*, and they only look like combinations because the corpus holds
+reference records called "heavy", "basic" and "miniaturized" (`armor_size`, `availability`).
+`racial_ability`'s "Fly Speed (6)" / "(8)" are different species grants, not one ability on
+a dial. So the hook applies to `BUILDER_ARTEFACT_ENTITIES = ("weapon_mod",)` and the
+docstring records what was inspected and why the others are excluded; extending the tuple
+means redoing that inspection. Pinned by
+`test_item_plus_qualifier_names_are_not_builder_artefacts` and
+`test_no_entity_outside_the_inspected_list_is_flagged`.
+
+The headline decision-space figures never moved: the gear dimension is opt-in and counts
+only weapons x armor x equipment.
 
 ## Problem
 

@@ -51,43 +51,46 @@ What exists to be chosen when building a character, counted from the canonical d
 | `unleashed_ability` | 27 | 0 | 27 | 0 | 0 | sagaforge-1.53:27 | `url:matched_by_name`=15 |
 | `weapon` | 246 | 239 | 7 | 0 | 0 | sagaforge-1.53:246 | `name_collision`=2, `damage_suspected_concatenation`=1 |
 | `weapon_accessory` | 46 | 46 | 0 | 0 | 0 | sagaforge-1.53:46 | - |
-| `weapon_mod` | 156 | 0 | 156 | 0 | 0 | sagaforge-1.53:212 | `duplicate_rows_collapsed`=56, `url:matched_by_name`=25, `name_collision`=4 |
+| `weapon_mod` | 156 | 0 | 156 | 0 | 0 | sagaforge-1.53:212 | `builder_parameter_variant`=101, `builder_combination`=72, `duplicate_rows_collapsed`=56 |
 | `weapon_template` | 35 | 26 | 9 | 0 | 0 | sagaforge-1.53:35 | `url:matched_by_name`=7 |
 
 ## Character-creation options
 
 The entities a player actually picks from, in the order a character sheet fills in:
 
-| decision | entity | options | dominant canon |
-|---|---|---|---|
-| 1. Species | `species` | 130 | official |
-| 1b. Age category (species-dependent modifiers) | `age_category` | 6 | third_party |
-| 2. Heroic class | `heroic` | 7 | official |
-| 3. Background | `background` | 46 | third_party |
-| 4. Destiny | `destiny` | 88 | third_party |
-| 5. Skills (trained) | `skill` | 25 | third_party |
-| 6. Feats | `feat` | 387 | official |
-| 7a. Talent trees (granted by class) | `talent_tree` | 192 | official |
-| 7b. Talents | `talent` | 1311 | official |
-| 8a. Force powers | `force_power` | 92 | official |
-| 8b. Force techniques | `force_technique` | 58 | official |
-| 8c. Force secrets | `force_secret` | 15 | official |
-| 8d. Force regimens | `force_regimen` | 12 | third_party |
-| 9. Class-specific special talents | `special_talent` | 16 | third_party |
-| 9b. Lightsaber forms | `lightsaber_form` | 12 | third_party |
-| 10a. Weapons | `weapon` | 246 | official |
-| 10b. Armor | `armor` | 92 | official |
-| 10c. Equipment | `equipment` | 226 | official |
-| 10d. Ammunition | `ammunition` | 21 | third_party |
-| 10e. Weapon modifications | `weapon_mod` | 156 | third_party |
-| 10f. Weapon accessories | `weapon_accessory` | 46 | official |
-| 10g. Armor accessories | `armor_accessory` | 48 | official |
-| 11. Cybernetics | `cybernetic` | 19 | official |
-| 12. Droid options | `droid_option` | 121 | third_party |
-| 13. Near-Human traits | `near_human_trait` | 24 | third_party |
-| 14. Languages | `language` | 102 | third_party |
-| Classes (heroic + prestige) | `class` | 41 | official |
-| Prestige classes | `prestige` | 32 | official |
+| decision | entity | records | distinct options | dominant canon |
+|---|---|---|---|---|
+| 1. Species | `species` | 130 | - | official |
+| 1b. Age category (species-dependent modifiers) | `age_category` | 6 | - | third_party |
+| 2. Heroic class | `heroic` | 7 | - | official |
+| 3. Background | `background` | 46 | - | third_party |
+| 4. Destiny | `destiny` | 88 | - | third_party |
+| 5. Skills (trained) | `skill` | 25 | - | third_party |
+| 6. Feats | `feat` | 387 | - | official |
+| 7a. Talent trees (granted by class) | `talent_tree` | 192 | - | official |
+| 7b. Talents | `talent` | 1311 | - | official |
+| 8a. Force powers | `force_power` | 92 | - | official |
+| 8b. Force techniques | `force_technique` | 58 | - | official |
+| 8c. Force secrets | `force_secret` | 15 | - | official |
+| 8d. Force regimens | `force_regimen` | 12 | - | third_party |
+| 9. Class-specific special talents | `special_talent` | 16 | - | third_party |
+| 9b. Lightsaber forms | `lightsaber_form` | 12 | - | third_party |
+| 10a. Weapons | `weapon` | 246 | - | official |
+| 10b. Armor | `armor` | 92 | - | official |
+| 10c. Equipment | `equipment` | 226 | - | official |
+| 10d. Ammunition | `ammunition` | 21 | - | third_party |
+| 10e. Weapon modifications | `weapon_mod` | 156 | 43 | third_party |
+| 10f. Weapon accessories | `weapon_accessory` | 46 | - | official |
+| 10g. Armor accessories | `armor_accessory` | 48 | - | official |
+| 11. Cybernetics | `cybernetic` | 19 | - | official |
+| 12. Droid options | `droid_option` | 121 | - | third_party |
+| 13. Near-Human traits | `near_human_trait` | 24 | - | third_party |
+| 14. Languages | `language` | 102 | - | third_party |
+| Classes (heroic + prestige) | `class` | 41 | - | official |
+| Prestige classes | `prestige` | 32 | - | official |
+
+`distinct options` is blank where it equals the record count. Where it differs, the gap is builder artefacts: rows that combine two options that each exist on their own (`builder_combination`) or enumerate one option across a numeric dial (`builder_parameter_variant`). They are flagged, not deleted - see GAP-014.
+
 
 ## Provenance summary
 
@@ -104,7 +107,9 @@ The entities a player actually picks from, in the order a character sheet fills 
 | `url:matched_by_name` | 316 |
 | `derived:from_talent_rows` | 176 |
 | `species:species` | 118 |
+| `builder_parameter_variant` | 101 |
 | `duplicate_rows_collapsed` | 75 |
+| `builder_combination` | 72 |
 | `class:prestige` | 32 |
 | `name_collision` | 21 |
 | `species:droid_chassis` | 12 |

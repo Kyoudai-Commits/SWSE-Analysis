@@ -908,3 +908,148 @@ def prereq_pass(ctx):
             if parsed["unresolved"]:
                 ctx.stat("prereq_fragments_unresolved", len(parsed["unresolved"]))
                 ctx.note_gap("prereq", f"{entity}:{rec['id']} unresolved {parsed['unresolved']}")
+
+
+# ---------------------------------------------------------------------------
+# Post hooks: builder artefacts
+# ---------------------------------------------------------------------------
+_COMBINATION_PARAM = re.compile(r"^(?P<base>.+?)\s*\((?P<param>[-+]?\d+)\)$")
+
+#: Entities whose records are pointers or registers rather than choices. A
+#: `reference_link` (a wiki URL) must never satisfy a component lookup, or every
+#: combination row would "resolve" against the 812 links and be flagged.
+_NOT_OPTIONS = {"reference_link", "sourcebook"}
+
+#: Where this artefact was verified by hand, and where it is therefore applied.
+#:
+#: The pattern was checked against every other builder-derived entity and is *not*
+#: the same thing elsewhere:
+#:
+#: - ``armor`` / ``weapon`` / ``equipment`` / ``armor_accessory``: "Battle armor,
+#:   heavy", "Blaster pistol, snap shot", "Datapad, basic", "Jet pack, miniaturized"
+#:   are item-plus-qualifier *names*, and they only look like combinations because
+#:   the corpus holds reference records called "heavy", "basic" and "miniaturized"
+#:   (armor_size, availability). Each is a genuinely distinct option.
+#: - ``racial_ability``: "Fly Speed (6)" and "Fly Speed (8)" are different species
+#:   grants, not one option enumerated across a dial - a species has one or the other.
+#:
+#: Extending this tuple means re-doing that inspection, not just adding a name.
+BUILDER_ARTEFACT_ENTITIES = ("weapon_mod",)
+
+
+def _split_top_level(name: str) -> list[str]:
+    """Split a combination name on top-level ``,`` and `` and `` (paren-aware).
+
+    ``"Careful Shot, Dead Eye and Point Blank Shot"`` -> three components. Parens are
+    tracked so a comma inside ``(pistol, blaster)`` does not split. The `` and ``
+    split is *not* paren-aware; no option name in the corpus needs it to be.
+    """
+    chunks: list[str] = []
+    depth, buf = 0, ""
+    for ch in name:
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth = max(0, depth - 1)
+        if ch == "," and depth == 0:
+            chunks.append(buf)
+            buf = ""
+            continue
+        buf += ch
+    if buf.strip():
+        chunks.append(buf)
+    pieces: list[str] = []
+    for chunk in chunks:
+        pieces.extend(re.split(r"\s+and\s+", chunk))
+    return [p.strip() for p in pieces if p.strip()]
+
+
+@post_hook("flag_builder_combinations")
+def flag_builder_combinations(ctx):
+    """Flag rows that are the builder's pre-computed combinations of real options.
+
+    SagaForge materialises combinations as their own rows so its UI can offer them
+    from a list: ``Careful Shot and Deadeye``, then ``Dreadful Rage and Power Attack
+    (-1)`` through ``(-16)``. They are not distinct game options - the 156
+    ``weapon_mod`` rows collapse to 43 real ones (GAP-014).
+
+    Flagged, never deleted or merged: that the builder offers a combination is itself
+    information, and each row still cites the cell it came from. Consumers that count
+    *distinct options* filter on the flags instead of re-deriving them from names.
+
+    Two independent flags, because the two artefacts co-occur:
+
+    ``builder_combination``
+        the name combines two or more options that each exist as their own record;
+        ``relations.combines`` names them.
+    ``builder_parameter_variant``
+        one option enumerated across a numeric parameter (``Power Attack (-1)`` ..
+        ``(-16)``); ``attrs.parameter_base`` and ``attrs.parameter_value`` say which.
+        Requires two or more variants of the same base, so the same-name collisions
+        kept under GAP-007 ("Double Attack", "Inquisition") are not swept up.
+    """
+    by_fold: dict[str, list[tuple[str, str]]] = {}
+    by_key: dict[str, list[tuple[str, str]]] = {}
+    for entity, recs in ctx.records.items():
+        if entity in _NOT_OPTIONS:
+            continue
+        for rec in recs:
+            by_fold.setdefault(fold(rec["name"]).lower(), []).append((entity, rec["id"]))
+            by_key.setdefault(norm_key(rec["name"]), []).append((entity, rec["id"]))
+
+    def resolve(component: str, prefer: str) -> str | None:
+        """Id of the option named ``component``, same entity first.
+
+        Falls back to the lossier ``norm_key`` so the builder's "Dead Eye" resolves
+        against the record called "Deadeye".
+        """
+        for table, key in ((by_fold, fold(component).lower()), (by_key, norm_key(component))):
+            hits = table.get(key)
+            if not hits:
+                continue
+            same = [rid for ent, rid in hits if ent == prefer]
+            if same:
+                return same[0]
+            other = [rid for ent, rid in hits if ent != prefer]
+            if other:
+                return other[0]
+        return None
+
+    combos = variants = 0
+    flagged_entities: Counter = Counter()
+    for entity, recs in ctx.records.items():
+        if entity in _NOT_OPTIONS or entity not in BUILDER_ARTEFACT_ENTITIES:
+            continue
+        families: dict[str, list[dict]] = {}
+        for rec in recs:
+            m = _COMBINATION_PARAM.match(rec["name"])
+            base, param = (m.group("base"), int(m.group("param"))) if m else (rec["name"], None)
+            if param is not None:
+                families.setdefault(fold(base).lower(), []).append(rec)
+                rec["attrs"]["parameter_base"] = base.strip()
+                rec["attrs"]["parameter_value"] = param
+            components = _split_top_level(base)
+            if len(components) < 2:
+                continue
+            resolved = [(c, resolve(c, entity)) for c in components]
+            if not all(rid for _c, rid in resolved):
+                continue                      # a component we cannot find: leave it alone
+            ids = sorted({rid for _c, rid in resolved if rid != rec["id"]})
+            if len(ids) < 2:
+                continue
+            rec["flags"] = dedupe(list(rec.get("flags") or []) + ["builder_combination"])
+            rec.setdefault("relations", {})["combines"] = ids
+            rec["attrs"]["combination_of"] = [c for c, _rid in resolved]
+            combos += 1
+            flagged_entities[entity] += 1
+        for group in families.values():
+            if len(group) < 2:
+                continue
+            for rec in group:
+                rec["flags"] = dedupe(list(rec.get("flags") or []) + ["builder_parameter_variant"])
+                variants += 1
+                flagged_entities[entity] += 1
+    ctx.stat("builder_combinations_flagged", combos)
+    ctx.stat("builder_parameter_variants_flagged", variants)
+    for entity, n in sorted(flagged_entities.items()):
+        ctx.stat(f"builder_artefacts:{entity}", n)

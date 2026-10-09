@@ -756,7 +756,7 @@ Every record in every entity file has this shape:
 
 ### `weapon_mod` - Feat/talent weapon modifier
 
-156 records, 40 distinct attributes.
+156 records, 43 distinct attributes.
 
 | attribute | filled | types | sample |
 |---|---:|---|---|
@@ -765,6 +765,8 @@ Every record in every entity file has this shape:
 | `attack_mod` | 136/156 | int | 2 |
 | `damage_mod` | 115/156 | int | 0 |
 | `damage_mod_2` | 101/156 | int | 7 |
+| `parameter_base` | 101/156 | str | Dreadful Rage and Power Attack |
+| `parameter_value` | 101/156 | int | -1 |
 | `is_attack` | 80/156 | int, str | Other |
 | `kind` | 80/156 | int, str | Improved Battle Strike |
 | `sort_tags` | 80/156 | int, str | Technique |
@@ -773,6 +775,7 @@ Every record in every entity file has this shape:
 | `tags` | 80/156 | int, str | Force, Technique |
 | `desc2` | 78/156 | int, str | // Improved Battle Strike• Force, Technique |
 | `ref` | 75/156 | int, str | FUCG 89 |
+| `combination_of` | 72/156 | list | ["Careful Shot", "Deadeye"] |
 | `action_2` | 56/156 | int, str | move |
 | `prerequisite_proficiency` | 56/156 | int, str | heavy |
 | `single` | 56/156 | str | Yes |

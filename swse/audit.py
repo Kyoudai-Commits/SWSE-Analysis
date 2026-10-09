@@ -180,6 +180,19 @@ def text_proxy(ev: Evaluator, rec: dict) -> dict:
     }
 
 
+#: Builder rows that combine or parameterise options which each exist on their own
+#: (GAP-014 / TASK-019). They are real records with real cell citations, but a
+#: distribution over them measures the builder's UI rather than the options, so the
+#: per-tier comparisons exclude them.
+BUILDER_ARTEFACT_FLAGS = frozenset({"builder_combination", "builder_parameter_variant"})
+
+
+def distinct_options(db: Dataset, entity: str) -> list[dict]:
+    """Records of ``entity`` that are separate choices, not builder combinations."""
+    return [r for r in db.all(entity)
+            if not (BUILDER_ARTEFACT_FLAGS & set(r.get("flags") or ()))]
+
+
 def measure_records(db: Dataset, ev: Evaluator) -> dict[str, dict[str, list[tuple[dict, float]]]]:
     """entity -> measure -> [(record, value)] for every proxy this audit computes."""
     out: dict[str, dict[str, list[tuple[dict, float]]]] = defaultdict(dict)
@@ -197,7 +210,7 @@ def measure_records(db: Dataset, ev: Evaluator) -> dict[str, dict[str, list[tupl
     for entity, proxies in NUMERIC_PROXIES.items():
         for measure, fields in proxies:
             fn = positive_ability_bonus if entity == "species" else numeric_proxy
-            out[entity][measure] = [(r, fn(r, fields)) for r in db.all(entity)]
+            out[entity][measure] = [(r, fn(r, fields)) for r in distinct_options(db, entity)]
     if "species" in out:
         out["species"]["ability_penalty"] = [
             (r, round(-sum(min(0.0, _num(r, f)) for f in NUMERIC_PROXIES["species"][0][1]), 3))
@@ -206,7 +219,7 @@ def measure_records(db: Dataset, ev: Evaluator) -> dict[str, dict[str, list[tupl
 
     # text-bearing entities: bonus signatures
     for entity in TEXT_ENTITIES:
-        recs = db.all(entity)
+        recs = distinct_options(db, entity)
         if not recs:
             continue
         by_measure: dict[str, list[tuple[dict, float]]] = {"bonus_sum": [], "bonus_max": [], "bonus_count": []}
@@ -507,6 +520,18 @@ def canon_balance(db: Dataset, top: int = 8, alpha: float = 0.01,
         lines += [""]
     else:
         lines += ["No unnamed numeric columns found.", ""]
+
+    artefacts = {e: (len(db.all(e)) - len(distinct_options(db, e))) for e in db.entities
+                 if len(db.all(e)) != len(distinct_options(db, e))}
+    if artefacts:
+        lines += ["Rows flagged as builder combinations or parameter variants (GAP-014) are "
+                  "excluded from every distribution above. They are rows the builder "
+                  "materialised so its UI could offer a pre-computed choice, not options a "
+                  "player picks independently, so counting them measures the builder.", ""]
+        lines += _table(["entity", "records", "distinct options", "builder rows"],
+                        [[f"`{e}`", len(db.all(e)), len(distinct_options(db, e)), n]
+                         for e, n in sorted(artefacts.items())])
+        lines += [""]
 
     # ---- build-level audit -------------------------------------------------
     lines += ["## Build-level audit", "",

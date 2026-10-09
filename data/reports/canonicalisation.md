@@ -1,6 +1,6 @@
 # Canonicalisation report
 
-Generated: 2026-10-09T04:43:35+00:00  
+Generated: 2026-10-09T07:17:38+00:00  
 Sources: sagaforge-1.53, swse-master-reference-2026-10-08
 
 ## Entities
@@ -58,6 +58,9 @@ Sources: sagaforge-1.53, swse-master-reference-2026-10-08
 ## Pipeline statistics
 
 - `aliases_applied`: 5
+- `builder_artefacts:weapon_mod`: 173
+- `builder_combinations_flagged`: 72
+- `builder_parameter_variants_flagged`: 101
 - `class_skills_resolved`: 73
 - `damage_suspected_concatenation`: 1
 - `duplicate_rows_collapsed`: 109

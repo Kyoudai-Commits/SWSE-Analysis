@@ -293,3 +293,87 @@ def test_entity_files_are_valid_json(db, entity):
     assert doc["entity"] == entity
     assert doc["count"] == len(doc["records"]) == db.count(entity)
     assert doc["records"][0]["entity"] == entity
+
+
+# --------------------------------------------------------------------------- #
+# builder artefacts (GAP-014 / TASK-019)
+# --------------------------------------------------------------------------- #
+BUILDER_FLAGS = {"builder_combination", "builder_parameter_variant"}
+
+
+def _flagged(db, entity, flag):
+    return [r for r in db.all(entity) if flag in (r.get("flags") or [])]
+
+
+def test_builder_combination_rows_are_flagged_not_deleted(db):
+    """The 101 Dreadful Rage / Power Attack rows stay in the corpus, marked as what they are."""
+    mods = db.all("weapon_mod")
+    combos = _flagged(db, "weapon_mod", "builder_combination")
+    variants = _flagged(db, "weapon_mod", "builder_parameter_variant")
+    assert len(mods) == 156                      # nothing was dropped or merged
+    assert len(combos) == 72
+    assert len(variants) == 101
+    assert len(mods) - len({r["id"] for r in combos + variants}) == 43
+
+    by_id = {r["id"]: r for r in mods}
+    combo = by_id["weapon_mod_careful_shot_and_deadeye"]
+    assert combo["attrs"]["combination_of"] == ["Careful Shot", "Deadeye"]
+    # the components must be real records, or the flag is an assertion about nothing
+    for cid in combo["relations"]["combines"]:
+        assert cid in by_id, cid
+    # a component may resolve outside the entity: there is no bare `Power Attack`
+    # weapon_mod (only its parameter variants), so the feat is the real option
+    dreadful = by_id["weapon_mod_dreadful_rage_and_power_attack_1"]
+    assert dreadful["attrs"]["combination_of"] == ["Dreadful Rage", "Power Attack"]
+    assert "weapon_mod_dreadful_rage" in dreadful["relations"]["combines"]
+    assert db.by_id["feat_power_attack"]["id"] in dreadful["relations"]["combines"]
+    assert set(dreadful["flags"]) >= {"builder_combination", "builder_parameter_variant"}
+    # flagged rows keep their provenance: they are still facts about the source
+    assert all(r["sources"] for r in combos + variants)
+
+
+def test_parameter_variants_name_their_base_and_value(db):
+    """`Power Attack (-1)` .. `(-16)` are one option on a dial, recorded as such."""
+    variants = _flagged(db, "weapon_mod", "builder_parameter_variant")
+    bases = {}
+    for r in variants:
+        base = r["attrs"]["parameter_base"]
+        bases.setdefault(base, set()).add(r["attrs"]["parameter_value"])
+        assert isinstance(r["attrs"]["parameter_value"], int)
+    assert bases["Power Attack"] >= {-1, -10, -16}
+    assert bases["Dreadful Rage and Power Attack"] >= {-1, -20}
+    # every base with variants really has more than one row, so the GAP-007
+    # same-name collisions ("Double Attack", "Inquisition") cannot be swept up
+    for base, values in bases.items():
+        assert len(values) >= 2, base
+
+
+@pytest.mark.parametrize("entity,name", [
+    ("armor", "Battle armor, heavy"),
+    ("weapon", "Blaster pistol, heavy"),
+    ("weapon", "Blaster rifle, assault"),
+    ("equipment", "Datapad, basic"),
+    ("equipment", "Jet pack, miniaturized"),
+    ("racial_ability", "Fly Speed (6)"),
+])
+def test_item_plus_qualifier_names_are_not_builder_artefacts(db, entity, name):
+    """A comma is a naming convention in this corpus, not a combination.
+
+    "Battle armor, heavy" looks like `Battle armor` + `heavy` and both halves exist as
+    records - `heavy` because the corpus holds armor_size and availability rows. It is
+    one item, and flagging it would delete real options from every count.
+    """
+    rec = next((r for r in db.all(entity) if r["name"] == name), None)
+    assert rec is not None, f"{entity}:{name} missing - rename the test, not the data"
+    assert not (BUILDER_FLAGS & set(rec.get("flags") or [])), rec["flags"]
+
+
+def test_no_entity_outside_the_inspected_list_is_flagged(db):
+    """The artefact was verified by hand for `weapon_mod` only; nothing else is touched."""
+    from swse.hooks import BUILDER_ARTEFACT_ENTITIES
+
+    for entity in db.entities:
+        if entity in BUILDER_ARTEFACT_ENTITIES:
+            continue
+        leaked = [r["id"] for r in db.all(entity) if BUILDER_FLAGS & set(r.get("flags") or [])]
+        assert not leaked, f"{entity}: {leaked[:5]}"

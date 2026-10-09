@@ -284,3 +284,14 @@ verdicts:
       1-square splash and penetration 10. Heavy ordnance, correctly excluded from
       character offense scoring by the empty weapon_group rule.
     checked_utc: "2026-10-09"
+  weapon_mod_powerful_charge:
+    verdict: real
+    note: >-
+      Highest attack_mod among the distinct (non-builder) weapon modifications: +4 to
+      attack on a charge, and the builder's own columns say `single: Yes` - it cannot
+      stack with the other charge mods. Saga's Powerful Charge is +2 attack / +2 damage
+      on a charging attack, so a +4 attack-only reading is in the right family, but it
+      is doubled relative to the print rule and cannot be checked against a page: the
+      row cites no sourcebook, only the wiki URL matched by name. Surfaced by the audit
+      once the 113 builder combination rows stopped dominating this measure.
+    checked_utc: "2026-10-09"

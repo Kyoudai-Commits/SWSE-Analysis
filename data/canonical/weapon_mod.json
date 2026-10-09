@@ -3,7 +3,7 @@
  "label": "weapon_mod",
  "role": "option",
  "count": 156,
- "generated_utc": "2026-10-09T04:43:36+00:00",
+ "generated_utc": "2026-10-09T07:17:39+00:00",
  "records": [
   {
    "id": "weapon_mod_acrobatic_strike",
@@ -333,11 +333,21 @@
    "attrs": {
     "attack_mod": 1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Deadeye"
+    ],
     "damage_dice_mod": 1,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_deadeye"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -348,7 +358,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_careful_shot_and_point_blank_shot",
@@ -358,11 +370,21 @@
    "attrs": {
     "attack_mod": 2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Point Blank Shot"
+    ],
     "damage_mod": 1,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_point_blank_shot"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -373,7 +395,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_careful_shot_and_zero_range",
@@ -383,12 +407,22 @@
    "attrs": {
     "attack_mod": 3,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Zero Range"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 1,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_zero_range"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -399,7 +433,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_careful_shot_dead_eye_and_point_blank_shot",
@@ -409,12 +445,24 @@
    "attrs": {
     "attack_mod": 2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Dead Eye",
+     "Point Blank Shot"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 1,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_deadeye",
+     "weapon_mod_point_blank_shot"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -425,7 +473,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_careful_shot_dead_eye_and_zero_range",
@@ -435,12 +485,24 @@
    "attrs": {
     "attack_mod": 3,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Dead Eye",
+     "Zero Range"
+    ],
     "damage_dice_mod": 2,
     "damage_mod": 1,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_deadeye",
+     "weapon_mod_zero_range"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -451,7 +513,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_charge",
@@ -719,12 +783,22 @@
    "attrs": {
     "attack_mod": 1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Deadeye",
+     "Point Blank Shot"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 1,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_deadeye",
+     "weapon_mod_point_blank_shot"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -735,7 +809,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_deadeye_and_zero_range",
@@ -745,12 +821,22 @@
    "attrs": {
     "attack_mod": 2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Deadeye",
+     "Zero Range"
+    ],
     "damage_dice_mod": 2,
     "damage_mod": 1,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_deadeye",
+     "weapon_mod_zero_range"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -761,7 +847,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_deadly_sniper",
@@ -1144,11 +1232,23 @@
    "attrs": {
     "attack_mod": 4,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 6,
     "damage_mod_2": 7,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -1,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1159,7 +1259,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_10",
@@ -1169,11 +1272,23 @@
    "attrs": {
     "attack_mod": -5,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 15,
     "damage_mod_2": 25,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -10,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1184,7 +1299,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_11",
@@ -1194,11 +1312,23 @@
    "attrs": {
     "attack_mod": -6,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 16,
     "damage_mod_2": 27,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -11,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1209,7 +1339,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_12",
@@ -1219,11 +1352,23 @@
    "attrs": {
     "attack_mod": -7,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 17,
     "damage_mod_2": 29,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -12,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1234,7 +1379,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_13",
@@ -1244,11 +1392,23 @@
    "attrs": {
     "attack_mod": -8,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 18,
     "damage_mod_2": 31,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -13,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1259,7 +1419,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_14",
@@ -1269,11 +1432,23 @@
    "attrs": {
     "attack_mod": -9,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 19,
     "damage_mod_2": 33,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -14,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1284,7 +1459,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_15",
@@ -1294,11 +1472,23 @@
    "attrs": {
     "attack_mod": -10,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 20,
     "damage_mod_2": 35,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -15,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1309,7 +1499,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_16",
@@ -1319,11 +1512,23 @@
    "attrs": {
     "attack_mod": -11,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 21,
     "damage_mod_2": 37,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -16,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1334,7 +1539,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_17",
@@ -1344,11 +1552,23 @@
    "attrs": {
     "attack_mod": -12,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 22,
     "damage_mod_2": 39,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -17,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1359,7 +1579,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_18",
@@ -1369,11 +1592,23 @@
    "attrs": {
     "attack_mod": -13,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 23,
     "damage_mod_2": 41,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -18,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1384,7 +1619,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_19",
@@ -1394,11 +1632,23 @@
    "attrs": {
     "attack_mod": -14,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 24,
     "damage_mod_2": 43,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -19,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1409,7 +1659,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_2",
@@ -1419,11 +1672,23 @@
    "attrs": {
     "attack_mod": 3,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 7,
     "damage_mod_2": 9,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -2,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1434,7 +1699,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_20",
@@ -1444,11 +1712,23 @@
    "attrs": {
     "attack_mod": -15,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 25,
     "damage_mod_2": 45,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -20,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1459,7 +1739,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_3",
@@ -1469,11 +1752,23 @@
    "attrs": {
     "attack_mod": 2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 8,
     "damage_mod_2": 11,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -3,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1484,7 +1779,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_4",
@@ -1494,11 +1792,23 @@
    "attrs": {
     "attack_mod": 1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 9,
     "damage_mod_2": 13,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -4,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1509,7 +1819,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_5",
@@ -1519,11 +1832,23 @@
    "attrs": {
     "attack_mod": 0,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 10,
     "damage_mod_2": 15,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -5,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1534,7 +1859,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_6",
@@ -1544,11 +1872,23 @@
    "attrs": {
     "attack_mod": -1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 11,
     "damage_mod_2": 17,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -6,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1559,7 +1899,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_7",
@@ -1569,11 +1912,23 @@
    "attrs": {
     "attack_mod": -2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 12,
     "damage_mod_2": 19,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -7,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1584,7 +1939,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_8",
@@ -1594,11 +1952,23 @@
    "attrs": {
     "attack_mod": -3,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 13,
     "damage_mod_2": 21,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -8,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1609,7 +1979,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dreadful_rage_and_power_attack_9",
@@ -1619,11 +1992,23 @@
    "attrs": {
     "attack_mod": -4,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
     "damage_mod": 14,
     "damage_mod_2": 23,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -9,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1634,7 +2019,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_dual_weapon_mastery",
@@ -1875,10 +2263,20 @@
    "attrs": {
     "attack_mod": -5,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Improved Rapid Strike",
+     "Inquisition"
+    ],
     "damage_dice_mod": 3,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_improved_rapid_strike",
+     "weapon_mod_inquisition__sf_weapon_feat_mods_42"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1889,7 +2287,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_inquisition__sf_weapon_feat_mods_42",
@@ -1958,11 +2358,21 @@
    "canon": "third_party",
    "attrs": {
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Inquisition",
+     "Mighty Swing"
+    ],
     "damage_dice_mod": 2,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_inquisition__sf_weapon_feat_mods_42",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1973,7 +2383,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_inquisition_and_rapid_strike",
@@ -1983,10 +2395,20 @@
    "attrs": {
     "attack_mod": -2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Inquisition",
+     "Rapid Strike"
+    ],
     "damage_dice_mod": 2,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_inquisition__sf_weapon_feat_mods_42",
+     "weapon_mod_rapid_strike"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -1997,7 +2419,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_master_of_the_great_hunt",
@@ -2089,13 +2513,25 @@
    "attrs": {
     "attack_mod": -1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 1,
     "damage_mod_2": 2,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -1,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2106,7 +2542,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_10",
@@ -2116,13 +2555,25 @@
    "attrs": {
     "attack_mod": -10,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 10,
     "damage_mod_2": 20,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -10,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2133,7 +2584,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_11",
@@ -2143,13 +2597,25 @@
    "attrs": {
     "attack_mod": -11,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 11,
     "damage_mod_2": 22,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -11,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2160,7 +2626,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_12",
@@ -2170,13 +2639,25 @@
    "attrs": {
     "attack_mod": -12,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 12,
     "damage_mod_2": 24,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -12,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2187,7 +2668,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_13",
@@ -2197,13 +2681,25 @@
    "attrs": {
     "attack_mod": -13,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 13,
     "damage_mod_2": 26,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -13,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2214,7 +2710,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_14",
@@ -2224,13 +2723,25 @@
    "attrs": {
     "attack_mod": -14,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 14,
     "damage_mod_2": 28,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -14,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2241,7 +2752,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_15",
@@ -2251,13 +2765,25 @@
    "attrs": {
     "attack_mod": -15,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 15,
     "damage_mod_2": 30,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -15,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2268,7 +2794,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_16",
@@ -2278,13 +2807,25 @@
    "attrs": {
     "attack_mod": -16,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 16,
     "damage_mod_2": 32,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -16,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2295,7 +2836,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_17",
@@ -2305,13 +2849,25 @@
    "attrs": {
     "attack_mod": -17,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 17,
     "damage_mod_2": 34,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -17,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2322,7 +2878,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_18",
@@ -2332,13 +2891,25 @@
    "attrs": {
     "attack_mod": -18,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 18,
     "damage_mod_2": 36,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -18,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2349,7 +2920,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_19",
@@ -2359,13 +2933,25 @@
    "attrs": {
     "attack_mod": -19,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 19,
     "damage_mod_2": 38,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -19,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2376,7 +2962,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_2",
@@ -2386,13 +2975,25 @@
    "attrs": {
     "attack_mod": -2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 2,
     "damage_mod_2": 4,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -2,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2403,7 +3004,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_20",
@@ -2413,13 +3017,25 @@
    "attrs": {
     "attack_mod": -20,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 20,
     "damage_mod_2": 40,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -20,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2430,7 +3046,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_3",
@@ -2440,13 +3059,25 @@
    "attrs": {
     "attack_mod": -3,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 3,
     "damage_mod_2": 6,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -3,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2457,7 +3088,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_4",
@@ -2467,13 +3101,25 @@
    "attrs": {
     "attack_mod": -4,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 4,
     "damage_mod_2": 8,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -4,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2484,7 +3130,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_5",
@@ -2494,13 +3143,25 @@
    "attrs": {
     "attack_mod": -5,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 5,
     "damage_mod_2": 10,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -5,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2511,7 +3172,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_6",
@@ -2521,13 +3185,25 @@
    "attrs": {
     "attack_mod": -6,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 6,
     "damage_mod_2": 12,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -6,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2538,7 +3214,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_7",
@@ -2548,13 +3227,25 @@
    "attrs": {
     "attack_mod": -7,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 7,
     "damage_mod_2": 14,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -7,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2565,7 +3256,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_8",
@@ -2575,13 +3269,25 @@
    "attrs": {
     "attack_mod": -8,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 8,
     "damage_mod_2": 16,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -8,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2592,7 +3298,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_mighty_swing_and_power_attack_9",
@@ -2602,13 +3311,25 @@
    "attrs": {
     "attack_mod": -9,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 9,
     "damage_mod_2": 18,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -9,
     "prerequisite_type": "melee",
     "single": "Yes"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -2619,7 +3340,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_point_blank_shot",
@@ -2686,6 +3410,8 @@
     "desc2": "// Advanced Vital Transfer (special; DP) • Force, Technique\nSpend Desiny Point to fully heal the target of all damage and remove all of the target's debilitating conditions",
     "is_attack": "Other",
     "kind": "Advanced Vital Transfer",
+    "parameter_base": "Power Attack",
+    "parameter_value": -1,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "LECG 56",
@@ -2714,6 +3440,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -2733,6 +3460,8 @@
     "desc2": "// Adversary Lore (standard; enemy that understands within 12 squares and line of sight) • Talent\n+0 vs. Will; give enemy a -2 penalty to Reflex against attacks from all your allies within range until end of 's next turn",
     "is_attack": "Other",
     "kind": "Adversary Lore",
+    "parameter_base": "Power Attack",
+    "parameter_value": -10,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "LECG 56",
@@ -2761,6 +3490,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -2780,6 +3510,8 @@
     "desc2": "// Aggressive Negotiator (special; whenever damages an opponent with a lightsaber) • Talent\nTake 10 on Persuasion checks until end of next turn",
     "is_attack": "Other",
     "kind": "Aggressive Negotiator",
+    "parameter_base": "Power Attack",
+    "parameter_value": -11,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "FUCG 88",
@@ -2808,6 +3540,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -2828,6 +3561,8 @@
     "desc2": "// Battle Meditation (full-round; FP; encounter; all allies within 6 squares) • Force, Talent\nand allies gain a +1 insight bonus to attack rolls until end of encounter",
     "is_attack": "Other",
     "kind": "Battle Meditation",
+    "parameter_base": "Power Attack",
+    "parameter_value": -12,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "JATM 36",
@@ -2856,6 +3591,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -2876,6 +3612,8 @@
     "desc2": "// Buried Presence (standard; FP) • Force, Talent\nAvoid Force detection for one hour, or a Use the Force check is made",
     "is_attack": "Other",
     "kind": "Buried Presence",
+    "parameter_base": "Power Attack",
+    "parameter_value": -13,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": 103,
@@ -2904,6 +3642,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -2925,6 +3664,8 @@
     "desc2": "// Channel Energy (reaction; FP; successfully negate damage with negate energy) • Force, Talent\nImmediately activate any Force Power currently in Force suite",
     "is_attack": "Other",
     "kind": "Channel Energy",
+    "parameter_base": "Power Attack",
+    "parameter_value": -14,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "JATM 16",
@@ -2953,6 +3694,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -2973,6 +3715,8 @@
     "desc2": "// Cleanse Mind (swift; one ally within line of sight) • Force, Talent\nRemove one mind-affecting effect from ally",
     "is_attack": "Other",
     "kind": "Cleanse Mind",
+    "parameter_base": "Power Attack",
+    "parameter_value": -15,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "FUCG",
@@ -3001,6 +3745,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3020,6 +3765,8 @@
     "desc2": "// Close Maneuvering (swift) • Talent\nDesignate a target; until the start of 's next turn, its movement does not provoke attacks of opportunity from that target, provided that it ends its movement adjacent to that target",
     "is_attack": "Other",
     "kind": "Close Maneuvering",
+    "parameter_base": "Power Attack",
+    "parameter_value": -16,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "RE 23",
@@ -3048,6 +3795,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3067,6 +3815,8 @@
     "desc2": "// Command Cover (special) • Class\nGain +1 bonust to Reflex for each adjacent ally (max +0)",
     "is_attack": "Other",
     "kind": "Command Cover",
+    "parameter_base": "Power Attack",
+    "parameter_value": -17,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "CWCG 55",
@@ -3095,6 +3845,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3113,6 +3864,8 @@
     "damage_mod_2": 36,
     "is_attack": "Other",
     "kind": "Consular's Vitality",
+    "parameter_base": "Power Attack",
+    "parameter_value": -18,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "CW 22",
@@ -3141,6 +3894,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3162,6 +3916,8 @@
     "desc2": "// Consular's Wisdom (swift; encounter; one ally within line of sight) • Talent\nAlly gains + bonus to Will against mind-affecting effects until end of the encounter",
     "is_attack": "Other",
     "kind": "Consular's Wisdom",
+    "parameter_base": "Power Attack",
+    "parameter_value": -19,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "Elite Trooper",
@@ -3190,6 +3946,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3210,6 +3967,8 @@
     "desc2": "// Corrupted Power (free action; FP/DP; non [light side] Force power) • Force, Secret\nSpend Force Point to give power the [dark side] descriptor and opponents with lower Dark Side Score take -2 penalty to defense scores against power; spend Destiny point to increase the penalty to opponents' defense scores to - 5",
     "is_attack": "Other",
     "kind": "Corrupted Power",
+    "parameter_base": "Power Attack",
+    "parameter_value": -2,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "JATM 37",
@@ -3238,6 +3997,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3258,6 +4018,8 @@
     "desc2": "// Cover Escape (reaction; FP) • Talent\nNegate a melee attack against an adjacent ally with the Block or Deflect talents; that ally can move up to 2 squares as a free action that does not provoke an attack of opportunity",
     "is_attack": "Other",
     "kind": "Cover Escape",
+    "parameter_base": "Power Attack",
+    "parameter_value": -20,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "GAW 18",
@@ -3286,6 +4048,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3302,6 +4065,8 @@
     "desc2": "// Cure Disease• Force, Technique",
     "is_attack": "Other",
     "kind": "Cure Disease",
+    "parameter_base": "Power Attack",
+    "parameter_value": -3,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "JATM 37",
@@ -3330,6 +4095,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3349,6 +4115,8 @@
     "desc2": "// Dampen Presence (swift) • Force, Mind-Affecting, Talent\n+0 vs. Will to cause creature to forget interaction afterwards; targets of higher level gain +5 bonus to Will",
     "is_attack": "Other",
     "kind": "Dampen Presence",
+    "parameter_base": "Power Attack",
+    "parameter_value": -4,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "TFU 24",
@@ -3377,6 +4145,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3398,6 +4167,8 @@
     "desc2": "// Dark Retaliation (reaction; FP; encounter; targeted by a dark-side Force power) • Force, Talent\nUpon being targeted by a dark side power, activate a Force power",
     "is_attack": "Other",
     "kind": "Dark Retaliation",
+    "parameter_base": "Power Attack",
+    "parameter_value": -5,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "KotOR 25",
@@ -3426,6 +4197,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3446,6 +4218,8 @@
     "desc2": "// Debilitating Power (free action; FP/DP; successfully damage target with Force power) • Force, Secret\nSpend Force Point to move the target -1 extra step along the condition track if Use the Force equals or exceeds Damage Threshold; spend Destiny Point to move -3 extra steps",
     "is_attack": "Other",
     "kind": "Debilitating Power",
+    "parameter_base": "Power Attack",
+    "parameter_value": -6,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "FUCG 88",
@@ -3474,6 +4248,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3493,6 +4268,8 @@
     "desc2": "// Defensive Circle (swift; all allies within range of Battle Meditation) • Force, Talent\nand allies within range gain +2 insight bonus to Reflex; gains a +1 bonus to Block and Deflect for each adjacent lightsaber-wielding ally",
     "is_attack": "Other",
     "kind": "Defensive Circle",
+    "parameter_base": "Power Attack",
+    "parameter_value": -7,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "JATM 36",
@@ -3521,6 +4298,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3541,6 +4319,8 @@
     "desc2": "// Delay Damage (reaction; encounter) • Class\nChoose to delay effect of attack, ability, or effect used against you; damage or effect does not take hold until the end of next turn",
     "is_attack": "Other",
     "kind": "Delay Damage",
+    "parameter_base": "Power Attack",
+    "parameter_value": -8,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": 103,
@@ -3569,6 +4349,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3585,6 +4366,8 @@
     "desc2": "// Detoxify Poison• Force, Technique",
     "is_attack": "Other",
     "kind": "Detoxify Poison",
+    "parameter_base": "Power Attack",
+    "parameter_value": -9,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "melee",
     "ref": "KOTOR 54",
@@ -3613,6 +4396,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3633,6 +4417,8 @@
     "desc2": "// Devastating Power (free action; FP/DP) • Force, Secret\nSpend a Force Point to increase power's damage dice by 50%; spend Destiny Point to double damage dice",
     "is_attack": "Other",
     "kind": "Devastating Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -1,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "JATM 37",
@@ -3662,6 +4448,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3682,6 +4469,8 @@
     "desc2": "// Distant Power (free action; FP/DP) • Force, Secret\nSpend a Force Point to multiply range of Force power by 10; spend Destiny Point to increase the range to anywhere in same star system",
     "is_attack": "Other",
     "kind": "Distant Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -10,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "LECG 55",
@@ -3711,6 +4500,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3728,6 +4518,8 @@
     "desc2": "// Dominate Mind• Force, Technique",
     "is_attack": "Other",
     "kind": "Dominate Mind",
+    "parameter_base": "Power Blast",
+    "parameter_value": -11,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "FUCG 88",
@@ -3757,6 +4549,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3778,6 +4571,8 @@
     "desc2": "// Enlarged Power (free action; FP/DP; area effect Force power) • Force, Secret\nSpend a Force Point to double distance of effect; spend Destiny Point to multiply the distance the effect extends by 5",
     "is_attack": "Other",
     "kind": "Enlarged Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -12,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "LECG 55",
@@ -3807,6 +4602,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3829,6 +4625,8 @@
     "desc2": "// Entreat Aid (swift; FP; one ally) • Force, Talent\nOnce per turn can grant an ally the the Aid Another as a reaction to help it with a skill check",
     "is_attack": "Other",
     "kind": "Entreat Aid",
+    "parameter_base": "Power Blast",
+    "parameter_value": -13,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "LE 26",
@@ -3858,6 +4656,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3878,6 +4677,8 @@
     "desc2": "// Extend Power (free action; FP/DP) • Force, Secret\nSpend Force Point to sustain a Force power that allows concentration as swift action for rounds",
     "is_attack": "Other",
     "kind": "Extend Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -14,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "JATM 37",
@@ -3907,6 +4708,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3924,6 +4726,8 @@
     "desc2": "// Extended Blind• Force, Technique",
     "is_attack": "Other",
     "kind": "Extended Blind",
+    "parameter_base": "Power Blast",
+    "parameter_value": -15,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": 102,
@@ -3953,6 +4757,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -3970,6 +4775,8 @@
     "desc2": "// Extended Force Disarm• Force, Technique",
     "is_attack": "Other",
     "kind": "Extended Force Disarm",
+    "parameter_base": "Power Blast",
+    "parameter_value": -16,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "KOTOR 54",
@@ -3999,6 +4806,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4016,6 +4824,8 @@
     "desc2": "// Extended Force Grip• Force, Technique",
     "is_attack": "Other",
     "kind": "Extended Force Grip",
+    "parameter_base": "Power Blast",
+    "parameter_value": -17,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "KOTOR 54",
@@ -4045,6 +4855,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4062,6 +4873,8 @@
     "desc2": "// Extended Force Thrust• Force, Technique",
     "is_attack": "Other",
     "kind": "Extended Force Thrust",
+    "parameter_base": "Power Blast",
+    "parameter_value": -18,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "CWCG 54",
@@ -4091,6 +4904,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4108,6 +4922,8 @@
     "desc2": "// Extended Move Object• Force, Technique",
     "is_attack": "Other",
     "kind": "Extended Move Object",
+    "parameter_base": "Power Blast",
+    "parameter_value": -19,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "LECG 56",
@@ -4137,6 +4953,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4158,6 +4975,8 @@
     "desc2": "// Familiar Foe (full-round; at-will) • Class\n+0 to Reflex and attack rolls against studied opponent until the end of the encounter",
     "is_attack": "Other",
     "kind": "Familiar Foe",
+    "parameter_base": "Power Blast",
+    "parameter_value": -2,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "CWCG 54",
@@ -4187,6 +5006,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4208,6 +5028,8 @@
     "desc2": "// Force Flow (reaction; natural 1 rolled on an attack or Use the Force check) • Force, Talent\nGain a temporary Force Point",
     "is_attack": "Other",
     "kind": "Force Flow",
+    "parameter_base": "Power Blast",
+    "parameter_value": -20,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "KotOR 52",
@@ -4228,7 +5050,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_power_blast_21",
@@ -4240,6 +5064,8 @@
     "canon_basis": "block_declaration",
     "damage_mod": 21,
     "damage_mod_2": 42,
+    "parameter_base": "Power Blast",
+    "parameter_value": -21,
     "prerequisite_type": "ranged",
     "single": "Yes"
    },
@@ -4254,7 +5080,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_power_blast_3",
@@ -4273,6 +5101,8 @@
     "desc2": "// Force Focus (full-round) • Force, Talent\n+0 vs. DC 15; regain one spent Force power of choice",
     "is_attack": "Other",
     "kind": "Force Focus",
+    "parameter_base": "Power Blast",
+    "parameter_value": -3,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": 101,
@@ -4302,6 +5132,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4323,6 +5154,8 @@
     "desc2": "// Force Harmony (free action; encounter) • Force, Talent\nActivate one Force talent that requires a Force Point to use without spending a Force Point",
     "is_attack": "Other",
     "kind": "Force Harmony",
+    "parameter_base": "Power Blast",
+    "parameter_value": -4,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "JATM 16",
@@ -4352,6 +5185,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4373,6 +5207,8 @@
     "desc2": "// Force Haze (standard; FP) • Force, Talent\n+0 vs. Will of any creature that comes into line of sight to grant 0 allies total concealment for up to 1 min from those opponents; if an concealed ally attacks, the effect ends",
     "is_attack": "Other",
     "kind": "Force Haze",
+    "parameter_base": "Power Blast",
+    "parameter_value": -5,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": 40,
@@ -4402,6 +5238,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4423,6 +5260,8 @@
     "desc2": "// Force Point Recovery (special; encounter) • Force, Technique\nAutomatically recover 1 Force Point per encounter",
     "is_attack": "Other",
     "kind": "Force Point Recovery",
+    "parameter_base": "Power Blast",
+    "parameter_value": -6,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "LECG 55",
@@ -4452,6 +5291,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4471,6 +5311,8 @@
     "desc2": "// Force Power Mastery (special) • Force, Technique\nTake 10 on Use the Force checks to activate chosen Force power even when distracted or threatened",
     "is_attack": "Other",
     "kind": "Force Power Mastery",
+    "parameter_base": "Power Blast",
+    "parameter_value": -7,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "KOTOR 54",
@@ -4500,6 +5342,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4522,6 +5365,8 @@
     "desc2": "// Force Revive (reaction; FP; ally affected by Battle Mediation is reduced to 0 hit points) • Force, Talent\nAlly can take its Second Wind as a reaction immediately (though the target still falls unconscious before the Second Wind is triggered)",
     "is_attack": "Other",
     "kind": "Force Revive",
+    "parameter_base": "Power Blast",
+    "parameter_value": -8,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "FUCG 89",
@@ -4551,6 +5396,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4572,6 +5418,8 @@
     "desc2": "// Force Suppression (reaction; fail to rebuke a Force power) • Force, Talent\nLessen the effect of the Force power one step",
     "is_attack": "Other",
     "kind": "Force Suppression",
+    "parameter_base": "Power Blast",
+    "parameter_value": -9,
     "prerequisite_proficiency": "NotMet",
     "prerequisite_type": "ranged",
     "ref": "KotOR 53",
@@ -4601,6 +5449,7 @@
     }
    ],
    "flags": [
+    "builder_parameter_variant",
     "duplicate_rows_collapsed"
    ]
   },
@@ -4758,11 +5607,23 @@
    "attrs": {
     "attack_mod": 1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 3,
     "damage_mod_2": 4,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -1,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4773,7 +5634,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_10",
@@ -4783,11 +5647,23 @@
    "attrs": {
     "attack_mod": -8,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 12,
     "damage_mod_2": 22,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -10,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4798,7 +5674,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_11",
@@ -4808,11 +5687,23 @@
    "attrs": {
     "attack_mod": -9,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 13,
     "damage_mod_2": 24,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -11,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4823,7 +5714,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_12",
@@ -4833,11 +5727,23 @@
    "attrs": {
     "attack_mod": -10,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 14,
     "damage_mod_2": 26,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -12,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4848,7 +5754,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_13",
@@ -4858,11 +5767,23 @@
    "attrs": {
     "attack_mod": -11,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 15,
     "damage_mod_2": 28,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -13,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4873,7 +5794,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_14",
@@ -4883,11 +5807,23 @@
    "attrs": {
     "attack_mod": -12,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 16,
     "damage_mod_2": 30,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -14,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4898,7 +5834,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_15",
@@ -4908,11 +5847,23 @@
    "attrs": {
     "attack_mod": -13,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 17,
     "damage_mod_2": 32,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -15,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4923,7 +5874,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_16",
@@ -4933,11 +5887,23 @@
    "attrs": {
     "attack_mod": -14,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 18,
     "damage_mod_2": 34,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -16,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4948,7 +5914,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_17",
@@ -4958,11 +5927,23 @@
    "attrs": {
     "attack_mod": -15,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 19,
     "damage_mod_2": 36,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -17,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4973,7 +5954,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_18",
@@ -4983,11 +5967,23 @@
    "attrs": {
     "attack_mod": -16,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 20,
     "damage_mod_2": 38,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -18,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -4998,7 +5994,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_19",
@@ -5008,11 +6007,23 @@
    "attrs": {
     "attack_mod": -17,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 21,
     "damage_mod_2": 40,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -19,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5023,7 +6034,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_2",
@@ -5033,11 +6047,23 @@
    "attrs": {
     "attack_mod": 0,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 4,
     "damage_mod_2": 6,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -2,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5048,7 +6074,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_20",
@@ -5058,11 +6087,23 @@
    "attrs": {
     "attack_mod": -18,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 22,
     "damage_mod_2": 42,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -20,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5073,7 +6114,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_3",
@@ -5083,11 +6127,23 @@
    "attrs": {
     "attack_mod": -1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 5,
     "damage_mod_2": 8,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -3,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5098,7 +6154,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_4",
@@ -5108,11 +6167,23 @@
    "attrs": {
     "attack_mod": -2,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 6,
     "damage_mod_2": 10,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -4,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5123,7 +6194,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_5",
@@ -5133,11 +6207,23 @@
    "attrs": {
     "attack_mod": -3,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 7,
     "damage_mod_2": 12,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -5,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5148,7 +6234,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_6",
@@ -5158,11 +6247,23 @@
    "attrs": {
     "attack_mod": -4,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 8,
     "damage_mod_2": 14,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -6,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5173,7 +6274,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_7",
@@ -5183,11 +6287,23 @@
    "attrs": {
     "attack_mod": -5,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 9,
     "damage_mod_2": 16,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -7,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5198,7 +6314,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_8",
@@ -5208,11 +6327,23 @@
    "attrs": {
     "attack_mod": -6,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 10,
     "damage_mod_2": 18,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -8,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5223,7 +6354,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rage_and_power_attack_9",
@@ -5233,11 +6367,23 @@
    "attrs": {
     "attack_mod": -7,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
     "damage_mod": 11,
     "damage_mod_2": 20,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -9,
     "prerequisite_type": "melee"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5248,7 +6394,10 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
   },
   {
    "id": "weapon_mod_rapid_shot",
@@ -5306,11 +6455,21 @@
    "attrs": {
     "attack_mod": -1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rapid Shot",
+     "Point Blank Shot"
+    ],
     "damage_dice_mod": 1,
     "damage_mod": 1,
     "prerequisite_type": "ranged"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_point_blank_shot",
+     "weapon_mod_rapid_shot"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5321,7 +6480,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_rapid_shot_and_zero_range",
@@ -5331,11 +6492,21 @@
    "attrs": {
     "attack_mod": -1,
     "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rapid Shot",
+     "Zero Range"
+    ],
     "damage_dice_mod": 2,
     "damage_mod": 1,
     "prerequisite_type": "ranged"
    },
    "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_rapid_shot",
+     "weapon_mod_zero_range"
+    ]
+   },
    "sources": [
     {
      "source": "sagaforge-1.53",
@@ -5346,7 +6517,9 @@
      "canon": "third_party"
     }
    ],
-   "flags": []
+   "flags": [
+    "builder_combination"
+   ]
   },
   {
    "id": "weapon_mod_rapid_strike",

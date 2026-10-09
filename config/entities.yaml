@@ -27,6 +27,7 @@ post_hooks:
   - audit_class_grants       # verify every parsed grant against the vocabularies
   - attach_urls              # Master Reference Links sheet -> entity urls
   - derive_parameter_axes    # Weapon Proficiency / Skill Focus / ... -> option axes
+  - flag_builder_combinations # builder rows combining or parameterising real options (GAP-014)
   - resolve_sourcebooks      # page refs + source tags -> normalised sourcebooks
   - prereq_pass              # structured prerequisites (needs the full entity index)
 
