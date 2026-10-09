@@ -187,3 +187,97 @@ def test_verdicts_cover_the_outliers_the_report_shows(db):
         f"Inspect them against their source cell and add an entry to "
         f"data/curation/audit-verdicts.yaml."
     )
+
+
+# --------------------------------------------------------------------------- #
+# targeted slot comparisons (TASK-020)
+# --------------------------------------------------------------------------- #
+def _slot_rows(text):
+    """Rows of the slot-comparison table as 8-cell lists."""
+    section = text.split("## Targeted slot comparisons", 1)[1].split("### Sourcebook control", 1)[0]
+    rows = []
+    for line in section.splitlines():
+        if not line.startswith("|") or line.startswith("|---") or "decision slot" in line:
+            continue
+        cells = [c.strip() for c in line.strip("|").split("|")]
+        if len(cells) == 8:
+            rows.append(cells)
+    return rows
+
+
+@pytest.fixture(scope="module")
+def slot_report(db):
+    return canon_balance(db, top=1, include_builds=False)
+
+
+def test_slot_comparisons_run_on_the_real_corpus(slot_report):
+    """Every declared slot appears, and the ones with power really are tested."""
+    from swse.audit import SLOT_COMPARISONS
+
+    rows = _slot_rows(slot_report)
+    assert len(rows) == len(SLOT_COMPARISONS), [r[0] for r in rows]
+    for (label, entity, measure, _why), row in zip(SLOT_COMPARISONS, rows):
+        assert row[0] == label and row[1] == f"`{measure}`", row
+    tested = [r for r in rows if "p=" in r[6]]
+    assert len(tested) >= 4, f"only {len(tested)} slots were testable - the corpus shrank"
+    # the four slots TASK-020 says have power must be among them
+    assert {"Talent tree", "Species", "Equipment"} <= {r[0] for r in tested}
+
+
+def test_no_slot_quotes_a_p_value_below_min_comparable_n(slot_report):
+    """The refusal is the feature, at slot level too."""
+    for row in _slot_rows(slot_report):
+        n_off, n_tp = int(row[2]), int(row[3])
+        if "p=" in row[6]:
+            assert min(n_off, n_tp) >= MIN_COMPARABLE_N, f"{row[0]} {row[1]} quotes p from {n_off}/{n_tp}"
+        else:
+            assert "n too small" in row[6], row[6]
+            assert min(n_off, n_tp) < MIN_COMPARABLE_N, f"{row[0]} {row[1]} refused a testable slot"
+
+
+def test_slot_sample_sizes_agree_with_the_dataset(db, slot_report):
+    """A measure that silently went empty would show as n=0, not as a failure."""
+    from swse.audit import SLOT_COMPARISONS, measure_records
+    from swse.evaluate import Evaluator
+    from swse.graph import PrereqGraph
+
+    ev = Evaluator(db)
+    ev._graph = PrereqGraph(db)
+    measured = measure_records(db, ev)
+    for (label, entity, measure, _why), row in zip(SLOT_COMPARISONS, _slot_rows(slot_report)):
+        pairs = measured[entity][measure]
+        for tier, cell in (("official", row[2]), ("third_party", row[3])):
+            expected = sum(1 for r, v in pairs if r.get("canon") == tier and v > 0)
+            assert int(cell) == expected, f"{label} {measure} {tier}: table {cell} vs dataset {expected}"
+
+
+def test_sourcebook_control_does_not_invent_a_confound(slot_report):
+    """Talent trees carry no citations in *either* tier, so there is nothing to control for.
+
+    Claiming a one-sided confound there would be a false finding; species, whose whole
+    third-party side is web-cited, is the case where the control really bites.
+    """
+    section = slot_report.split("### Sourcebook control", 1)[1].split("## Outliers", 1)[0]
+    trees = section.split("**Talent tree", 1)[1].split("**Species", 1)[0]
+    assert "no sourcebook control at all" in trees, trees[-400:]
+    assert "cannot be separated" not in trees
+    species = section.split("**Species / `ability_bonus`**", 1)[1].split("**Species / `ability_penalty`**", 1)[0]
+    assert "`WEB`" in species and "cannot be separated" in species, species[-400:]
+
+
+def test_slot_conclusion_is_supported_by_a_tested_comparison(slot_report):
+    """The conclusion may only call rankings safe if a slot with real n said so."""
+    conclusion = slot_report.split("## Conclusion", 1)[1]
+    m = re.search(r"\*\*Slot-level:\*\* (\d+) of (\d+) decision-slot comparisons had at least "
+                  rf"{MIN_COMPARABLE_N} records per tier", conclusion)
+    assert m, "the slot-level conclusion does not state its sample sizes"
+    tested, declared = int(m.group(1)), int(m.group(2))
+    assert tested == len([r for r in _slot_rows(slot_report) if "p=" in r[6]])
+    assert declared == len(_slot_rows(slot_report))
+    if tested == 0:
+        assert "nothing testable" in conclusion
+        assert "strongest support" not in conclusion
+    elif "differ at p <" in conclusion.split("**Slot-level:**", 1)[1].split("**", 1)[0]:
+        assert "not** safe to quote" in conclusion or "not safe to quote" in conclusion
+    else:
+        assert "absence of evidence" in conclusion, "a null result must not be sold as balance"

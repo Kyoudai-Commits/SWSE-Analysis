@@ -29,7 +29,7 @@ can carry them.
 from __future__ import annotations
 
 import math
-from collections import defaultdict
+from collections import Counter, defaultdict
 from typing import Any, Iterable, Sequence
 
 from . import paths
@@ -44,6 +44,31 @@ NUMERIC_PROXIES: dict[str, list[tuple[str, tuple[str, ...]]]] = {
     "species": [("ability_bonus", ("mod_str", "mod_dex", "mod_con", "mod_int", "mod_wis", "mod_cha"))],
 }
 
+#: Decision slots worth comparing directly (TASK-020), as
+#: ``(slot label, entity, measure, why it matters)``.
+#:
+#: The generic proxies above answer "which measures can be compared at all?" - the
+#: answer is 2 of 20, because canon tier and entity type nearly coincide. These are the
+#: slots where a reader's actual question can be asked: *within one decision a player
+#: makes, do the tiers differ?* Slots are listed even when one tier is too small to test,
+#: so the report shows the reader where power is missing instead of hiding it.
+SLOT_COMPARISONS: tuple[tuple[str, str, str, str], ...] = (
+    ("Talent tree", "talent_tree", "talents_per_tree",
+     "the 25 builder-only trees are the largest block of third-party character content"),
+    ("Species", "species", "ability_bonus",
+     "every level-1 build picks a species, so this is the most-used decision in the corpus"),
+    ("Species", "species", "ability_penalty",
+     "a tier that only grants and never charges would show up here and nowhere else"),
+    ("Equipment", "equipment", "price",
+     "the only slot with real overlap in both tiers; price is the game's own balance signal"),
+    ("Weapon", "weapon", "avg_damage",
+     "damage is exactly comparable and is what `offense` actually reads"),
+    ("Weapon", "weapon", "price",
+     "damage per credit: a tier that is cheaper for the same damage is inflated"),
+    ("Armor", "armor", "armor_bonus",
+     "reported, never tested - 4 third-party records cannot support a p-value"),
+)
+
 # entities whose power has to be read out of their rules text
 TEXT_ENTITIES = ("feat", "talent", "racial_ability", "force_power", "force_technique",
                  "force_secret", "class_feature", "droid_option", "special_talent",
@@ -54,6 +79,11 @@ TEXT_FIELDS = ("benefit", "effect", "description", "text", "rules_text", "specia
                "improvements", "notes", "ability_text", "power_text")
 
 TIERS = ("official", "third_party", "homebrew")
+
+#: Placeholder used in the sourcebook control when a record cites no sourcebook at
+#: all - talent trees, which are derived from talent rows, are the common case. It is
+#: deliberately not a valid abbreviation so it can never be mistaken for a real book.
+UNCITED = "(uncited)"
 
 #: Both tiers need at least this many records before a rank-sum p-value means
 #: anything. Below it the test reports "insufficient overlap" instead of a number:
@@ -216,6 +246,14 @@ def measure_records(db: Dataset, ev: Evaluator) -> dict[str, dict[str, list[tupl
             (r, round(-sum(min(0.0, _num(r, f)) for f in NUMERIC_PROXIES["species"][0][1]), 3))
             for r in db.all("species")
         ]
+
+    # slot comparisons (TASK-020): measures that exist for both tiers in one decision
+    out["talent_tree"]["talents_per_tree"] = [
+        (t, float(len(t["attrs"].get("talents") or [])))
+        for t in db.all("talent_tree")
+    ]
+    for entity in ("equipment", "weapon"):
+        out[entity]["price"] = [(r, _num(r, "price")) for r in db.all(entity)]
 
     # text-bearing entities: bonus signatures
     for entity in TEXT_ENTITIES:
@@ -380,6 +418,16 @@ def _fmt(x: Any) -> str:
     return str(x)
 
 
+def _p(p: float | None) -> str:
+    """A p-value to three decimals.
+
+    Not ``_fmt``: `%g` prints six significant digits, and `p=0.47282` implies a
+    precision that a 25-record sample cannot support. Three decimals is the least
+    that still separates 0.010 from 0.001 at the ``alpha`` this audit uses.
+    """
+    return "-" if p is None else f"{p:.3f}"
+
+
 def canon_balance(db: Dataset, top: int = 8, alpha: float = 0.01,
                   include_builds: bool = True) -> str:
     """Markdown audit of metric distributions across canon tiers.
@@ -470,7 +518,7 @@ def canon_balance(db: Dataset, top: int = 8, alpha: float = 0.01,
                     med_o, med_t = describe(by_tier["official"])["median"], describe(by_tier["third_party"])["median"]
                     higher = "third_party" if (med_t or 0) > (med_o or 0) else "official"
                 lines += ["", f"official (n={mw['n1']}) vs third_party (n={mw['n2']}): "
-                              f"U={_fmt(mw['U'])}, z={_fmt(mw['z'])}, p={_fmt(mw['p'])} -> {verdict}"
+                              f"U={_fmt(mw['U'])}, z={_fmt(mw['z'])}, p={_p(mw['p'])} -> {verdict}"
                           + (f" ({higher} higher)" if higher else ""),
                           ""]
                 comparisons.append({"entity": entity, "measure": measure, **mw,
@@ -479,6 +527,89 @@ def canon_balance(db: Dataset, top: int = 8, alpha: float = 0.01,
                                     "median_third_party": describe(by_tier["third_party"])["median"]})
             else:
                 lines += ["", "too few records in one tier to compare", ""]
+
+    # ---- targeted slot comparisons (TASK-020) ------------------------------
+    lines += ["## Targeted slot comparisons", "",
+              "The proxies above answer *which measures can be compared at all* - almost none, "
+              "because canon tier and entity type nearly coincide. These answer the question a "
+              "reader actually has: **within one decision a player makes, do the tiers differ?** "
+              f"A rank-sum is quoted only where each tier has at least {MIN_COMPARABLE_N} "
+              "records. Slots that miss that bar are shown with their sample sizes rather than "
+              "dropped, so where the evidence is missing stays visible.", ""]
+    slot_rows: list[list] = []
+    slot_tests: list[dict] = []
+    for label, entity, measure, why in SLOT_COMPARISONS:
+        pairs = measured.get(entity, {}).get(measure) or []
+        by_tier = {t: [v for r, v in pairs if r.get("canon") == t and v > 0] for t in TIERS}
+        n_off, n_tp = len(by_tier["official"]), len(by_tier["third_party"])
+        d_off, d_tp = describe(by_tier["official"]), describe(by_tier["third_party"])
+        if min(n_off, n_tp) < MIN_COMPARABLE_N:
+            slot_rows.append([label, f"`{measure}`", n_off, n_tp, _fmt(d_off["median"]),
+                              _fmt(d_tp["median"]), f"n too small (needs {MIN_COMPARABLE_N})", why])
+            continue
+        mw = mann_whitney_u(by_tier["official"], by_tier["third_party"])
+        differs = mw["p"] is not None and mw["p"] < alpha
+        slot_rows.append([label, f"`{measure}`", n_off, n_tp, _fmt(d_off["median"]),
+                          _fmt(d_tp["median"]),
+                          f"U={_fmt(mw['U'])}, p={_p(mw['p'])}" + (" **differs**" if differs else ""),
+                          why])
+        slot_tests.append({"slot": label, "entity": entity, "measure": measure,
+                           "differs": differs, "pairs": pairs, "p": mw["p"],
+                           "n_official": n_off, "n_third_party": n_tp})
+    lines += _table(["decision slot", "measure", "n official", "n 3rd", "median official",
+                     "median 3rd", "rank-sum", "why it matters"], slot_rows)
+    lines += [""]
+
+    # A tier difference is only evidence about *canon* if the tiers are not also
+    # separated by which book the records came from. Third-party content here is
+    # builder-derived, so this control decides whether a difference means anything.
+    shown = [s for s in slot_tests if s["differs"]] or slot_tests
+    lines += ["### Sourcebook control", "",
+              "Which sourcebooks the compared records actually cite. If one tier is a single "
+              "source, the comparison is really \"that source versus everything else\" and says "
+              "nothing about canonicity as such."
+              + ("" if shown else " No slot had enough overlap to test."), ""]
+    for s in shown:
+        counts: Counter = Counter()
+        for r, v in s["pairs"]:
+            if v <= 0:
+                continue
+            books = {b["abbreviation"] for b in (r.get("sourcebooks") or [])} or {UNCITED}
+            for b in books:
+                counts[(r.get("canon"), b)] += 1
+        books = sorted({b for _c, b in counts},
+                       key=lambda b: (-counts[("official", b)] - counts[("third_party", b)], b))
+        rows = [[f"`{b}`", counts[("official", b)], counts[("third_party", b)]] for b in books[:12]]
+        if len(books) > 12:
+            rest = books[12:]
+            rows.append([f"*{len(rest)} more*", sum(counts[("official", b)] for b in rest),
+                         sum(counts[("third_party", b)] for b in rest)])
+        lines += [f"**{s['slot']} / `{s['measure']}`** - official n={s['n_official']}, "
+                  f"third-party n={s['n_third_party']}, p={_p(s['p'])}"
+                  + (" (**tiers differ**)" if s["differs"] else ""), ""]
+        lines += _table(["sourcebook", "official", "third_party"], rows)
+        # `UNCITED` is a placeholder, not a sourcebook: counting it as one makes an
+        # all-derived slot look like a one-book confound ("spans 1 sourcebooks").
+        tp_books = sorted({b for (c, b) in counts if c == "third_party" and b != UNCITED})
+        off_books = sorted({b for (c, b) in counts if c == "official" and b != UNCITED})
+        if not tp_books and not off_books:
+            lines += ["", "Neither tier cites a sourcebook here, so this slot has no sourcebook "
+                          "control at all: the comparison is tier-only and cannot be "
+                          "cross-checked against print provenance.", ""]
+        elif not off_books or not tp_books:
+            lines += ["", "One tier has no cited records, so the control cannot be read.", ""]
+        elif len(tp_books) == 1:
+            lines += ["", f"The entire third-party side of this comparison cites `{tp_books[0]}` "
+                          f"while the official side spans {len(off_books)} sourcebooks. The tier "
+                          "difference and that one source's house style cannot be separated: a "
+                          "difference here would be evidence about "
+                          f"`{tp_books[0]}`, not about third-party content in general.", ""]
+        else:
+            lines += ["", f"Third-party records here cite {len(tp_books)} sourcebooks "
+                          f"({', '.join(f'`{b}`' for b in tp_books[:6])}"
+                          f"{'...' if len(tp_books) > 6 else ''}) against {len(off_books)} on the "
+                          "official side, so a difference would not reduce to one book.", ""]
+        lines += [""]
 
     # ---- outliers ----------------------------------------------------------
     lines += ["## Outliers (top decile per tier)", "",
@@ -575,7 +706,7 @@ def canon_balance(db: Dataset, top: int = 8, alpha: float = 0.01,
                        "**official-only builds score higher**" if mw["p"] < alpha else
                        "no evidence of a difference")
             lines += ["", f"official-only (n={mw['n1']}) vs third-party (n={mw['n2']}): "
-                          f"U={_fmt(mw['U'])}, z={_fmt(mw['z'])}, p={_fmt(mw['p'])} -> {verdict}", ""]
+                          f"U={_fmt(mw['U'])}, z={_fmt(mw['z'])}, p={_p(mw['p'])} -> {verdict}", ""]
         lines += [f"### Level {lvl} - taint sample ({full['sampled']} builds, homebrew allowed)",
                   "",
                   "Technician and Force Prodigy have no hit die, BAB rate or defence numbers "
@@ -624,6 +755,27 @@ def canon_balance(db: Dataset, top: int = 8, alpha: float = 0.01,
                  else "None shows a difference at p < " + f"{alpha}.")
               + " Either way this is weak evidence: the tiers barely overlap within an "
               "entity type, so absence of a difference here is not evidence of balance.", ""]
+    differing_slots = [s for s in slot_tests if s["differs"]]
+    if slot_tests:
+        sizes = ", ".join(f"{s['slot'].lower()} {s['measure']} {s['n_official']}/{s['n_third_party']}"
+                          for s in slot_tests)
+        lines += [f"**Slot-level:** {len(slot_tests)} of {len(SLOT_COMPARISONS)} decision-slot "
+                  f"comparisons had at least {MIN_COMPARABLE_N} records per tier ({sizes}). "
+                  + (f"{len(differing_slots)} differ at p < {alpha}: "
+                     + ", ".join(f"{s['slot']} `{s['measure']}` (p={_p(s['p'])})"
+                                 for s in differing_slots)
+                     + ". Mixed-canon rankings are **not** safe to quote until those slots are "
+                       "inspected record by record and given verdicts."
+                     if differing_slots else
+                     f"None differs at p < {alpha}. This is the strongest support the corpus "
+                     "offers for quoting mixed-canon rankings, and it is still absence of "
+                     "evidence rather than proof of balance: the slots that could not be tested "
+                     "are exactly the ones a player touches most often in combat."), ""]
+    else:
+        lines += ["**Slot-level: nothing testable.** No decision slot had "
+                  f"{MIN_COMPARABLE_N} records in both tiers, so the corpus cannot say whether "
+                  "the tiers differ where a player actually chooses. Mixed-canon rankings are "
+                  "unsupported by record-level evidence either way.", ""]
     inflated = [ba for ba in build_audits
                 if ba["mw"]["p"] is not None and ba["mw"]["p"] < alpha
                 and min(ba["n_official"], ba["n_third_party"]) >= MIN_COMPARABLE_N
@@ -636,7 +788,7 @@ def canon_balance(db: Dataset, top: int = 8, alpha: float = 0.01,
                          "taint sample: homebrew builds", "top decile using homebrew"],
                         [[ba["level"], f"{ba['n_official']} / {ba['n_third_party']}",
                           _fmt(ba["stats_official"]["median"]), _fmt(ba["stats_third_party"]["median"]),
-                          _fmt(ba["mw"]["p"]) if min(ba["n_official"], ba["n_third_party"]) >= MIN_COMPARABLE_N
+                          _p(ba["mw"]["p"]) if min(ba["n_official"], ba["n_third_party"]) >= MIN_COMPARABLE_N
                           else "n too small",
                           f"{ta['n_homebrew']} of {ta['sampled']}",
                           f"{ta['top_decile_homebrew']} of {ta['top_decile_size']}"]

@@ -124,6 +124,11 @@ already fixed once:
 | `test_audit_never_quotes_a_p_value_from_a_tiny_group` | a comparison with fewer than `MIN_COMPARABLE_N` records per tier reports "insufficient overlap", never a p-value |
 | `test_homebrew_classes_really_are_unscoreable` | the audit's claim about GAP-013 stays true; if those classes gain progression numbers the test fails and the audit text must be updated |
 | `test_verdicts_cover_the_outliers_the_report_shows` | every outlier the audit prints has been hand-inspected and has a verdict in `data/curation/audit-verdicts.yaml` |
+| `test_no_slot_quotes_a_p_value_below_min_comparable_n` | a decision-slot comparison with too few records prints "n too small" and no p-value; one with enough records may not be refused |
+| `test_slot_sample_sizes_agree_with_the_dataset` | the n per tier in the slot table is recomputed from the dataset, so a measure that silently went empty cannot pass as a null result |
+| `test_sourcebook_control_does_not_invent_a_confound` | a slot whose records cite no sourcebook in either tier reports "no control available"; only a genuinely one-sided slot may claim a confound |
+| `test_slot_conclusion_is_supported_by_a_tested_comparison` | the conclusion may call mixed-canon rankings safe only when a slot with >= `MIN_COMPARABLE_N` per tier actually ran, and a null result must stay worded as absence of evidence |
+| `test_builder_combination_rows_are_flagged_not_deleted` / `test_item_plus_qualifier_names_are_not_builder_artefacts` | 113 builder rows are flagged and 43 stay distinct, while "Battle armor, heavy" and "Datapad, basic" are *not* flagged (GAP-014) |
 
 The two config-coverage tests were added after real drift: `scoring.weights`
 contained metric names the evaluator never produced (so those metrics silently

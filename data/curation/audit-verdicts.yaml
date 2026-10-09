@@ -295,3 +295,105 @@ verdicts:
       row cites no sourcebook, only the wiki URL matched by name. Surfaced by the audit
       once the 113 builder combination rows stopped dominating this measure.
     checked_utc: "2026-10-09"
+
+  # --- slot-comparison outliers (TASK-020) ----------------------------------
+  # Every price and tree size below was checked against the raw extracted cell in
+  # data/raw/*.jsonl, not just against the canonical record. One finding applies to
+  # all gear rows and is recorded on the first of them: gear is extracted from the
+  # SagaForge builder sheets (sf_equipment, sf_weapons) whatever its tier, so
+  # `official` here means "the row cites a sourcebook" and `third_party` means "it
+  # cites none". A price difference between the tiers would therefore be a difference
+  # between cited and uncited gear, not between publishers.
+  equipment_bacta_tank_empty:
+    verdict: real
+    note: >-
+      Most expensive equipment in the corpus: 100,000 credits for an empty bacta tank,
+      confirmed against the raw cell (sf_equipment row 17, Data!GC17:GI17) and tagged
+      official because the row cites a sourcebook despite coming from the builder sheet.
+      Price is the measure, not power - medical infrastructure contributes nothing to any
+      build metric, so a high price here is not an inflation signal.
+    checked_utc: "2026-10-09"
+  equipment_comlink_encrypted_miniaturized_long_range_holo:
+    verdict: real
+    note: >-
+      7,500 credits, confirmed against sf_equipment row 43. The long name is the builder's
+      own: it stacks four independent modifiers (encrypted, miniaturized, long-range, holo)
+      into one catalogue entry. Distinct from the video variant below, not a duplicate.
+    checked_utc: "2026-10-09"
+  equipment_comlink_encrypted_miniaturized_long_range_video:
+    verdict: real
+    note: "6,000 credits, confirmed against sf_equipment row 44. Same family as the holo variant, one grade cheaper."
+    checked_utc: "2026-10-09"
+  equipment_holoshroud:
+    verdict: real
+    note: "25,000 credits, confirmed against sf_equipment row 100. Official by citation; a disguise projector, no combat statistic."
+    checked_utc: "2026-10-09"
+  equipment_subelectronic_converter:
+    verdict: real
+    note: >-
+      23,000 credits, confirmed against sf_equipment row 176. Third-party because the row
+      cites no sourcebook - not because a different publisher wrote it. The most expensive
+      uncited gear item, and still below the official bacta tank and holoshroud.
+    checked_utc: "2026-10-09"
+  equipment_universal_energy_cage:
+    verdict: real
+    note: "20,000 credits, confirmed against sf_equipment row 191. Official by citation; containment gear, no build statistic."
+    checked_utc: "2026-10-09"
+  talent_tree_brawler_talent_tree:
+    verdict: real
+    note: >-
+      22 talents, the largest official tree after Superior Skills, confirmed against
+      Talents!A6:D6. A Cantina Brawler tree: every listed talent is a distinct named
+      talent, not a parameterisation, so the count is a real tree size.
+    checked_utc: "2026-10-09"
+  talent_tree_jedi_consular_talent_tree:
+    verdict: real
+    note: "20 talents, confirmed against Talents!A24:D24. Core-rulebook tree; each entry is a distinct talent."
+    checked_utc: "2026-10-09"
+  talent_tree_superior_skills_talent_tree:
+    verdict: real
+    note: >-
+      127 talents - six times any other tree, and not an extraction artefact. The list is
+      roughly seven talent families (Assured Skill, Skill Confidence, Exceptional Skill,
+      Skill Boon, Skillful Recovery) crossed with the 18-skill list, so the tree really
+      does offer that many distinct named talents. It is the reason this comparison
+      reports medians and IQR rather than means: one parameterised tree would otherwise
+      drag the official average up and manufacture a tier difference that is really a
+      naming convention.
+    checked_utc: "2026-10-09"
+  talent_tree_fifth_degree_droid:
+    verdict: real
+    note: "7 talents, confirmed against Talents!D763. Builder-only droid tree; the small size is the norm for the 25 third-party trees, not a data loss."
+    checked_utc: "2026-10-09"
+  talent_tree_first_degree_droid:
+    verdict: real
+    note: "7 talents, confirmed against Talents!D735. Builder-only droid tree, same shape as the fifth-degree tree."
+    checked_utc: "2026-10-09"
+  talent_tree_pathfinder:
+    verdict: real
+    note: "10 talents, confirmed against Talents!D1258. Largest builder-only tree in the top decile and still half the size of Brawler."
+    checked_utc: "2026-10-09"
+  weapon_dc_19_stealth_carbine:
+    verdict: real
+    note: >-
+      Cheapest of the high-damage outliers at 3,500 credits for 3d8, confirmed against
+      sf_weapons row 185 (Data!EN185:FS185). Third-party because the row cites no
+      sourcebook; the DC-19 is a Republic military carbine, and its damage is identical
+      to the official rifles around it, so this is a price outlier, not a power outlier.
+    checked_utc: "2026-10-09"
+  weapon_squib_tensor_rifle:
+    verdict: real
+    note: "10,000 credits for 3d8, confirmed against sf_weapons row 245. Official by citation; exotic Squib manufacture explains the price at unremarkable damage."
+    checked_utc: "2026-10-09"
+  weapon_stokhli_spray_stick:
+    verdict: real
+    note: "14,000 credits for 3d8, confirmed against sf_weapons row 205. Official by citation; a Stokhli hunting weapon priced for its special abilities, not its damage."
+    checked_utc: "2026-10-09"
+  weapon_verpine_shatter_gun:
+    verdict: real
+    note: >-
+      15,000 credits for 3d10, confirmed against sf_weapons row 246 - the most expensive
+      and hardest-hitting rifle in the corpus, and the one outlier where price and damage
+      move together. Consistent with the printed Verpine shatter gun, which is famously
+      both. Official by citation.
+    checked_utc: "2026-10-09"

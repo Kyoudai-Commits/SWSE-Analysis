@@ -31,7 +31,7 @@ Task ids are stable and referenced from `config/analysis.yaml`,
 | [TASK-017](TASK-017-level1-pareto.md) | Rank every legal level-1 build and publish the frontier | medium | - | open |
 | [TASK-018](TASK-018-canon-balance-audit.md) | Audit metric distributions across canon tiers | medium | - | **resolved** |
 | [TASK-019](TASK-019-builder-combination-rows.md) | Flag the builder's combination rows | medium | - | **resolved** |
-| [TASK-020](TASK-020-targeted-tier-comparisons.md) | Targeted tier comparisons with real statistical power | medium | - | open |
+| [TASK-020](TASK-020-targeted-tier-comparisons.md) | Targeted tier comparisons with real statistical power | medium | - | **resolved** |
 
 ## Priority
 
@@ -72,6 +72,17 @@ Task ids are stable and referenced from `config/analysis.yaml`,
   "Battle armor, heavy" and "Datapad, basic", which are item-plus-qualifier names that only
   look like combinations because the corpus holds reference records called "heavy" and
   "basic". The hook now applies to `weapon_mod` alone and says why in its docstring.
+
+- **TASK-020** - targeted tier comparisons (`swse.audit.SLOT_COMPARISONS`, published as a
+  section of `analysis/out/canon-balance.md`). Four decision slots had enough overlap to
+  test - talent trees 151/25, species bonuses 109/9, species penalties 105/9, equipment
+  price 171/36 - and none differs at p < 0.01; weapons (5-6 third-party records) and armour
+  (4) are printed as untestable rather than dropped. Its real contribution is the sourcebook
+  control sitting next to each comparison: talent trees cite no sourcebook in either tier so
+  there is nothing to control for, and the whole third-party species side is one web citation
+  against 12 official books, so a difference there would be about that source and not about
+  canonicity. It also caught a false finding in its own first draft, which claimed a
+  one-book confound for talent trees because an "(uncited)" placeholder counted as a book.
 
 Every other task here is a real limitation found while building the dataset, the
 decision space or the evaluator - not a wishlist.

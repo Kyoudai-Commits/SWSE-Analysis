@@ -1,6 +1,63 @@
 # TASK-020 - Targeted tier comparisons with real statistical power
 
-**Status:** open | **Priority:** medium | **Follow-up from:** TASK-018
+**Status:** resolved (2026-10-09) | **Priority:** medium | **Follow-up from:** TASK-018
+
+## Outcome
+
+`analysis/out/canon-balance.md` gained a **Targeted slot comparisons** section and a
+**Sourcebook control** subsection, driven by `swse.audit.SLOT_COMPARISONS`. Four of the
+seven declared slots had enough overlap to test, and none differs at p < 0.01:
+
+| decision slot | measure | n official / 3rd | median official / 3rd | p |
+|---|---|---|---|---|
+| Talent tree | `talents_per_tree` | 151 / 25 | 5 / 5 | 0.473 |
+| Species | `ability_bonus` | 109 / 9 | 2 / 2 | 0.945 |
+| Species | `ability_penalty` | 105 / 9 | 2 / 2 | 0.958 |
+| Equipment | `price` | 171 / 36 | 400 / 200 | 0.256 |
+| Weapon | `avg_damage` | 215 / 5 | 9 / 13.5 | n too small |
+| Weapon | `price` | 228 / 6 | 800 / 1600 | n too small |
+| Armor | `armor_bonus` | 86 / 4 | 8 / 9 | n too small |
+
+The three untestable slots are printed with their sample sizes rather than dropped, so a
+reader can see that the corpus cannot speak about weapons or armour at all.
+
+**The sourcebook control is the part that changed the interpretation.**
+
+- Talent trees cite *no* sourcebook in either tier (they are derived from talent rows), so
+  that slot has no control available and the report says so. The first implementation
+  claimed a one-sided confound there - "the official side spans 1 sourcebooks" - because
+  the `(uncited)` placeholder counted as a book. `test_sourcebook_control_does_not_invent_a_confound`
+  caught it; `UNCITED` is now excluded from the book sets.
+- Species: the entire third-party side is `WEB` (webpage-only citation) against 12
+  sourcebooks on the official side. A difference there would be evidence about that one
+  source's house style, not about third-party content in general.
+- Gear carries a nuance the verdicts now record: weapons and equipment are extracted from
+  the SagaForge builder sheets whatever their tier, so `official` means "the row cites a
+  sourcebook" and `third_party` means "it cites none". A price difference between the
+  tiers would be a difference between *cited and uncited* gear, not between publishers.
+
+**Everything the new comparisons surfaced was hand-inspected against the raw cell**, not
+just against the canonical record: 16 new outliers, all verdict `real`, taking
+`data/curation/audit-verdicts.yaml` to 60 entries. Two are worth remembering:
+
+- `talent_tree_superior_skills_talent_tree` holds **127** talents, six times any other
+  tree, because it is roughly seven talent families (`Assured Skill`, `Skill Confidence`,
+  `Skillful Recovery`, ...) crossed with the 18-skill list. Not an artefact - but it is
+  why the slot table reports medians and IQR: one parameterised tree would otherwise drag
+  the official mean up and manufacture a tier difference out of a naming convention.
+- `weapon_verpine_shatter_gun` is the only outlier where price and damage move together
+  (15,000 credits, 3d10), and that matches the printed weapon.
+
+**Conclusion the report now states:** the four tested slots are the strongest support the
+corpus offers for quoting mixed-canon rankings, and it is still absence of evidence rather
+than proof of balance, because the slots that could not be tested are the ones a player
+touches most often in combat. Combined with TASK-018's build-level result (level 1
+p=0.495, level 10 p=0.562) there is no evidence of third-party inflation anywhere the
+corpus can measure - and the standing caveat about the unscoreable homebrew classes
+(GAP-013) is unchanged.
+
+Also in this pass: p-values print to three decimals via `swse.audit._p`. `_fmt`'s `%g`
+gave `p=0.47282`, which implies a precision a 25-record sample cannot support.
 
 ## Problem
 

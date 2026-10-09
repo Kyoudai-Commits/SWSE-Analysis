@@ -59,6 +59,15 @@ insufficient overlap to compare (official n=86, third_party n=4, needs 8 in each
 
 insufficient overlap to compare (official n=0, third_party n=8, needs 8 in each tier)
 
+### `equipment` - price
+
+| tier | n | median | p25 | p75 | max | mean |
+|---|---|---|---|---|---|---|
+| `official` | 171 | 400 | 100 | 1625 | 100000 | 2114.33 |
+| `third_party` | 36 | 200 | 50 | 1137.5 | 23000 | 1666.11 |
+
+official (n=171) vs third_party (n=36): U=2706.5, z=1.137, p=0.256 -> no evidence of a difference
+
 ### `feat` - bonus_count
 
 | tier | n | median | p25 | p75 | max | mean |
@@ -138,7 +147,7 @@ insufficient overlap to compare (official n=0, third_party n=11, needs 8 in each
 | `official` | 109 | 2 | 2 | 4 | 8 | 2.697 |
 | `third_party` | 9 | 2 | 2 | 4 | 4 | 2.667 |
 
-official (n=109) vs third_party (n=9): U=484.5, z=0.069, p=0.94497 -> no evidence of a difference
+official (n=109) vs third_party (n=9): U=484.5, z=0.069, p=0.945 -> no evidence of a difference
 
 ### `species` - ability_penalty
 
@@ -147,7 +156,7 @@ official (n=109) vs third_party (n=9): U=484.5, z=0.069, p=0.94497 -> no evidenc
 | `official` | 105 | 2 | 2 | 4 | 14 | 2.8 |
 | `third_party` | 9 | 2 | 2 | 4 | 4 | 2.667 |
 
-official (n=105) vs third_party (n=9): U=468, z=0.052, p=0.95844 -> no evidence of a difference
+official (n=105) vs third_party (n=9): U=468, z=0.052, p=0.958 -> no evidence of a difference
 
 ### `talent` - bonus_count
 
@@ -176,6 +185,15 @@ insufficient overlap to compare (official n=138, third_party n=1, needs 8 in eac
 
 insufficient overlap to compare (official n=138, third_party n=1, needs 8 in each tier)
 
+### `talent_tree` - talents_per_tree
+
+| tier | n | median | p25 | p75 | max | mean |
+|---|---|---|---|---|---|---|
+| `official` | 151 | 5 | 5 | 8 | 127 | 7.748 |
+| `third_party` | 25 | 5 | 5 | 6 | 10 | 5.64 |
+
+official (n=151) vs third_party (n=25): U=1722, z=0.718, p=0.473 -> no evidence of a difference
+
 ### `weapon` - avg_damage
 
 | tier | n | median | p25 | p75 | max | mean |
@@ -185,6 +203,15 @@ insufficient overlap to compare (official n=138, third_party n=1, needs 8 in eac
 
 insufficient overlap to compare (official n=215, third_party n=5, needs 8 in each tier)
 
+### `weapon` - price
+
+| tier | n | median | p25 | p75 | max | mean |
+|---|---|---|---|---|---|---|
+| `official` | 228 | 800 | 293.75 | 2000 | 15000 | 1647.54 |
+| `third_party` | 6 | 1600 | 1050 | 2000 | 3500 | 1741.67 |
+
+insufficient overlap to compare (official n=228, third_party n=6, needs 8 in each tier)
+
 ### `weapon_mod` - mod_bonus
 
 | tier | n | median | p25 | p75 | max | mean |
@@ -192,6 +219,96 @@ insufficient overlap to compare (official n=215, third_party n=5, needs 8 in eac
 | `third_party` | 15 | 2 | 1.5 | 3.5 | 10 | 2.733 |
 
 insufficient overlap to compare (official n=0, third_party n=15, needs 8 in each tier)
+
+## Targeted slot comparisons
+
+The proxies above answer *which measures can be compared at all* - almost none, because canon tier and entity type nearly coincide. These answer the question a reader actually has: **within one decision a player makes, do the tiers differ?** A rank-sum is quoted only where each tier has at least 8 records. Slots that miss that bar are shown with their sample sizes rather than dropped, so where the evidence is missing stays visible.
+
+| decision slot | measure | n official | n 3rd | median official | median 3rd | rank-sum | why it matters |
+|---|---|---|---|---|---|---|---|
+| Talent tree | `talents_per_tree` | 151 | 25 | 5 | 5 | U=1722, p=0.473 | the 25 builder-only trees are the largest block of third-party character content |
+| Species | `ability_bonus` | 109 | 9 | 2 | 2 | U=484.5, p=0.945 | every level-1 build picks a species, so this is the most-used decision in the corpus |
+| Species | `ability_penalty` | 105 | 9 | 2 | 2 | U=468, p=0.958 | a tier that only grants and never charges would show up here and nowhere else |
+| Equipment | `price` | 171 | 36 | 400 | 200 | U=2706.5, p=0.256 | the only slot with real overlap in both tiers; price is the game's own balance signal |
+| Weapon | `avg_damage` | 215 | 5 | 9 | 13.5 | n too small (needs 8) | damage is exactly comparable and is what `offense` actually reads |
+| Weapon | `price` | 228 | 6 | 800 | 1600 | n too small (needs 8) | damage per credit: a tier that is cheaper for the same damage is inflated |
+| Armor | `armor_bonus` | 86 | 4 | 8 | 9 | n too small (needs 8) | reported, never tested - 4 third-party records cannot support a p-value |
+
+### Sourcebook control
+
+Which sourcebooks the compared records actually cite. If one tier is a single source, the comparison is really "that source versus everything else" and says nothing about canonicity as such.
+
+**Talent tree / `talents_per_tree`** - official n=151, third-party n=25, p=0.473
+
+| sourcebook | official | third_party |
+|---|---|---|
+| `(uncited)` | 151 | 25 |
+
+Neither tier cites a sourcebook here, so this slot has no sourcebook control at all: the comparison is tier-only and cannot be cross-checked against print provenance.
+
+
+**Species / `ability_bonus`** - official n=109, third-party n=9, p=0.945
+
+| sourcebook | official | third_party |
+|---|---|---|
+| `SECR` | 18 | 0 |
+| `TFU` | 12 | 0 |
+| `CW` | 11 | 0 |
+| `KotOR` | 11 | 0 |
+| `SaV` | 11 | 0 |
+| `GAW` | 9 | 0 |
+| `UR` | 9 | 0 |
+| `WEB` | 0 | 9 |
+| `GoI` | 8 | 0 |
+| `SGtD` | 7 | 0 |
+| `TotG` | 7 | 0 |
+| `LECG` | 6 | 0 |
+| *1 more* | 3 | 0 |
+
+The entire third-party side of this comparison cites `WEB` while the official side spans 12 sourcebooks. The tier difference and that one source's house style cannot be separated: a difference here would be evidence about `WEB`, not about third-party content in general.
+
+
+**Species / `ability_penalty`** - official n=105, third-party n=9, p=0.958
+
+| sourcebook | official | third_party |
+|---|---|---|
+| `SECR` | 18 | 0 |
+| `CW` | 11 | 0 |
+| `TFU` | 11 | 0 |
+| `KotOR` | 10 | 0 |
+| `SaV` | 10 | 0 |
+| `WEB` | 0 | 9 |
+| `GAW` | 8 | 0 |
+| `GoI` | 8 | 0 |
+| `SGtD` | 8 | 0 |
+| `UR` | 8 | 0 |
+| `TotG` | 7 | 0 |
+| `LECG` | 5 | 0 |
+| *1 more* | 3 | 0 |
+
+The entire third-party side of this comparison cites `WEB` while the official side spans 12 sourcebooks. The tier difference and that one source's house style cannot be separated: a difference here would be evidence about `WEB`, not about third-party content in general.
+
+
+**Equipment / `price`** - official n=171, third-party n=36, p=0.256
+
+| sourcebook | official | third_party |
+|---|---|---|
+| `SECR` | 62 | 0 |
+| `(uncited)` | 0 | 36 |
+| `UR` | 25 | 0 |
+| `GAW` | 16 | 0 |
+| `KotOR` | 16 | 0 |
+| `GoI` | 14 | 0 |
+| `SaV` | 9 | 0 |
+| `TotG` | 8 | 0 |
+| `TFU` | 6 | 0 |
+| `CW` | 5 | 0 |
+| `JATM` | 5 | 0 |
+| `LECG` | 3 | 0 |
+| *1 more* | 2 | 0 |
+
+One tier has no cited records, so the control cannot be read.
+
 
 ## Outliers (top decile per tier)
 
@@ -227,6 +344,32 @@ Each row names the cell the value came from, so it can be checked against the wo
 | 1 | `droid_option_alien_appearance` | Alien Appearance | Lists!r3 | real |
 
 > Carries both a -2 penalty to Charisma-based interaction and a +2 bonus to Persuasion in some contexts; the proxy counts only the positive, so its bonus_sum understates the trade. Data sheet droid option table.
+
+### `equipment` / price - `official` (top 8 of 171)
+
+| value | record | name | source cell | verdict |
+|---|---|---|---|---|
+| 100000 | `equipment_bacta_tank_empty` | Bacta tank (empty) | Data!r17 | real |
+| 25000 | `equipment_holoshroud` | Holoshroud | Data!r100 | real |
+| 20000 | `equipment_universal_energy_cage` | Universal energy cage | Data!r191 | real |
+| 12500 | `equipment_plasma_bridge` | Plasma bridge | Data!r136 | - |
+| 10000 | `equipment_shield_cage` | Shield cage | Data!r162 | - |
+| 8000 | `equipment_lock_breaking_kit` | Lock breaking kit | Data!r115 | - |
+| 8000 | `equipment_man_trap` | Man trap | Data!r116 | - |
+| 7000 | `equipment_force_cage` | Force cage | Data!r84 | - |
+
+> Most expensive equipment in the corpus: 100,000 credits for an empty bacta tank, confirmed against the raw cell (sf_equipment row 17, Data!GC17:GI17) and tagged official because the row cites a sourcebook despite coming from the builder sheet. Price is the measure, not power - medical infrastructure contributes nothing to any build metric, so a high price here is not an inflation signal.
+
+### `equipment` / price - `third_party` (top 4 of 36)
+
+| value | record | name | source cell | verdict |
+|---|---|---|---|---|
+| 23000 | `equipment_subelectronic_converter` | Subelectronic converter | Data!r176 | real |
+| 7500 | `equipment_comlink_encrypted_miniaturized_long_range_holo` | Comlink, encrypted miniaturized long-range holo | Data!r43 | real |
+| 6000 | `equipment_comlink_encrypted_miniaturized_long_range_video` | Comlink, encrypted miniaturized long-range video | Data!r44 | real |
+| 5000 | `equipment_comlink_encrypted_miniaturized_long_range` | Comlink, encrypted miniaturized long-range | Data!r42 | - |
+
+> 23,000 credits, confirmed against sf_equipment row 176. Third-party because the row cites no sourcebook - not because a different publisher wrote it. The most expensive uncited gear item, and still below the official bacta tank and holoshroud.
 
 ### `feat` / bonus_count - `official` (top 6 of 56)
 
@@ -431,6 +574,31 @@ Each row names the cell the value came from, so it can be checked against the wo
 
 > Highest-scoring third-party talent (+1 attack, +2 Use the Force, +2 Will while the spirit stays within 12 squares). Conditional on a summon staying in range, and still below the official top talents - no sign of builder inflation.
 
+### `talent_tree` / talents_per_tree - `official` (top 8 of 151)
+
+| value | record | name | source cell | verdict |
+|---|---|---|---|---|
+| 127 | `talent_tree_superior_skills_talent_tree` | Superior Skills Talent Tree | Talents!r162 | real |
+| 22 | `talent_tree_brawler_talent_tree` | Brawler Talent Tree | Talents!r6 | real |
+| 20 | `talent_tree_jedi_consular_talent_tree` | Jedi Consular Talent Tree | Talents!r24 | real |
+| 19 | `talent_tree_jedi_sentinel_talent_tree` | Jedi Sentinel Talent Tree | Talents!r26 | - |
+| 18 | `talent_tree_bounty_hunter_talent_tree` | Bounty Hunter Talent Tree | Talents!r5 | - |
+| 17 | `talent_tree_misfortune_talent_tree` | Misfortune Talent Tree | Talents!r34 | - |
+| 16 | `talent_tree_expert_pilot_talent_tree` | Expert Pilot Talent Tree | Talents!r14 | - |
+| 16 | `talent_tree_gunslinger_talent_tree` | Gunslinger Talent Tree | Talents!r20 | - |
+
+> 127 talents - six times any other tree, and not an extraction artefact. The list is roughly seven talent families (Assured Skill, Skill Confidence, Exceptional Skill, Skill Boon, Skillful Recovery) crossed with the 18-skill list, so the tree really does offer that many distinct named talents. It is the reason this comparison reports medians and IQR rather than means: one parameterised tree would otherwise drag the official average up and manufacture a tier difference that is really a naming convention.
+
+### `talent_tree` / talents_per_tree - `third_party` (top 3 of 25)
+
+| value | record | name | source cell | verdict |
+|---|---|---|---|---|
+| 10 | `talent_tree_pathfinder` | Pathfinder | Talents!r1258 | real |
+| 7 | `talent_tree_fifth_degree_droid` | Fifth-Degree Droid | Talents!r763 | real |
+| 7 | `talent_tree_first_degree_droid` | First-Degree Droid | Talents!r735 | real |
+
+> 10 talents, confirmed against Talents!D1258. Largest builder-only tree in the top decile and still half the size of Brawler.
+
 ### `weapon` / avg_damage - `official` (top 8 of 215)
 
 | value | record | name | source cell | verdict |
@@ -453,6 +621,29 @@ Each row names the cell the value came from, so it can be checked against the wo
 | 21 | `weapon_hh_15_projectile_launcher` | HH-15 projectile launcher | Data!r118 | real |
 
 > Highest third-party weapon damage (21 average): an antiarmor missile launcher with 1-square splash and penetration 10. Heavy ordnance, correctly excluded from character offense scoring by the empty weapon_group rule.
+
+### `weapon` / price - `official` (top 8 of 228)
+
+| value | record | name | source cell | verdict |
+|---|---|---|---|---|
+| 15000 | `weapon_verpine_shatter_gun` | Verpine shatter gun | Data!r246 | real |
+| 14000 | `weapon_stokhli_spray_stick` | Stokhli spray stick | Data!r205 | real |
+| 10000 | `weapon_squib_tensor_rifle` | Squib tensor rifle | Data!r245 | real |
+| 9500 | `weapon_missile_launcher_e_web` | Missile launcher, E-web | Data!r123 | - |
+| 8500 | `weapon_tehk_la_blade` | Tehk'la blade | Data!r104 | - |
+| 8000 | `weapon_blaster_e_web_repeating` | Blaster, E-web repeating | Data!r112 | - |
+| 8000 | `weapon_tactical_tractor_beam` | Tactical tractor beam | Data!r125 | - |
+| 7000 | `weapon_guard_shoto` | Guard Shoto | Data!r27 | - |
+
+> 15,000 credits for 3d10, confirmed against sf_weapons row 246 - the most expensive and hardest-hitting rifle in the corpus, and the one outlier where price and damage move together. Consistent with the printed Verpine shatter gun, which is famously both. Official by citation.
+
+### `weapon` / price - `third_party` (top 1 of 6)
+
+| value | record | name | source cell | verdict |
+|---|---|---|---|---|
+| 3500 | `weapon_dc_19_stealth_carbine` | DC-19 "Stealth" Carbine | Data!r185 | real |
+
+> Cheapest of the high-damage outliers at 3,500 credits for 3d8, confirmed against sf_weapons row 185 (Data!EN185:FS185). Third-party because the row cites no sourcebook; the DC-19 is a Republic military carbine, and its damage is identical to the official rifles around it, so this is a price outlier, not a power outlier.
 
 ### `weapon_mod` / mod_bonus - `third_party` (top 2 of 15)
 
@@ -490,7 +681,7 @@ Record-level comparisons are weak here because the tiers barely overlap within a
 | official content only | 276 | 45.2 | 43.1 | 47.8 | 53.2 |
 | third-party content | 24 | 46 | 43.375 | 48.425 | 50.8 |
 
-official-only (n=276) vs third-party (n=24): U=3033.5, z=0.682, p=0.49519 -> no evidence of a difference
+official-only (n=276) vs third-party (n=24): U=3033.5, z=0.682, p=0.495 -> no evidence of a difference
 
 ### Level 1 - taint sample (300 builds, homebrew allowed)
 
@@ -532,7 +723,7 @@ Highest-scoring builds that use non-official content:
 | official content only | 278 | 112.35 | 108.325 | 116.4 | 129.8 |
 | third-party content | 22 | 112.95 | 109.3 | 117.675 | 128.3 |
 
-official-only (n=278) vs third-party (n=22): U=2828, z=0.586, p=0.5579 -> no evidence of a difference
+official-only (n=278) vs third-party (n=22): U=2828, z=0.586, p=0.558 -> no evidence of a difference
 
 ### Level 10 - taint sample (300 builds, homebrew allowed)
 
@@ -569,12 +760,14 @@ Highest-scoring builds that use non-official content:
 
 ## Conclusion
 
-**Record-level:** 2 of 18 power proxies could be compared at all; 16 were skipped because one tier had fewer than 8 records. None shows a difference at p < 0.01. Either way this is weak evidence: the tiers barely overlap within an entity type, so absence of a difference here is not evidence of balance.
+**Record-level:** 4 of 21 power proxies could be compared at all; 17 were skipped because one tier had fewer than 8 records. None shows a difference at p < 0.01. Either way this is weak evidence: the tiers barely overlap within an entity type, so absence of a difference here is not evidence of balance.
+
+**Slot-level:** 4 of 7 decision-slot comparisons had at least 8 records per tier (talent tree talents_per_tree 151/25, species ability_bonus 109/9, species ability_penalty 105/9, equipment price 171/36). None differs at p < 0.01. This is the strongest support the corpus offers for quoting mixed-canon rankings, and it is still absence of evidence rather than proof of balance: the slots that could not be tested are exactly the ones a player touches most often in combat.
 
 | level | balance sample: n official / n 3rd-party | median official | median 3rd-party | p | taint sample: homebrew builds | top decile using homebrew |
 |---|---|---|---|---|---|---|
-| 1 | 276 / 24 | 45.2 | 46 | 0.49519 | 83 of 300 | 0 of 30 |
-| 10 | 278 / 22 | 112.35 | 112.95 | 0.5579 | 287 of 300 | 26 of 30 |
+| 1 | 276 / 24 | 45.2 | 46 | 0.495 | 83 of 300 | 0 of 30 |
+| 10 | 278 / 22 | 112.35 | 112.95 | 0.558 | 287 of 300 | 26 of 30 |
 
 **Build-level: no evidence that third-party content inflates the ranking.** Where the two groups are large enough to compare, official-only builds score the same or higher, so mixed-canon rankings are not being quietly dominated by builder-only content.
 
