@@ -178,26 +178,21 @@ class ScraperWindow:
         ttk.Label(options, text="Save Markdown to:").grid(row=0, column=0, sticky="w")
         ttk.Entry(options, textvariable=self.output_dir).grid(row=0, column=1, sticky="ew", padx=8)
         ttk.Button(options, text="Browse…", command=self.choose_output).grid(row=0, column=2, sticky="e")
-        ttk.Label(options, text="Parallel workers (1–50):").grid(row=1, column=0, sticky="w", pady=(8, 0))
-        ttk.Spinbox(options, from_=1, to=50, increment=1, textvariable=self.workers, width=8).grid(
-            row=1, column=1, sticky="w", padx=8, pady=(8, 0)
+        worker_options = ttk.Frame(options)
+        worker_options.grid(row=1, column=0, columnspan=3, sticky="w", pady=(8, 0))
+        ttk.Label(worker_options, text="Parallel workers (1–50; default 25):").pack(side="left")
+        ttk.Spinbox(worker_options, from_=1, to=50, increment=1, textvariable=self.workers, width=6).pack(
+            side="left", padx=(6, 16)
         )
-        ttk.Label(options, text="Minimum delay between request starts (seconds):").grid(
-            row=2, column=0, sticky="w", pady=(8, 0)
-        )
-        ttk.Spinbox(options, from_=0.0, to=30.0, increment=0.1, textvariable=self.delay, width=8).grid(
-            row=2, column=1, sticky="w", padx=8, pady=(8, 0)
+        ttk.Label(worker_options, text="Request-start delay (seconds):").pack(side="left")
+        ttk.Spinbox(worker_options, from_=0.0, to=30.0, increment=0.1, textvariable=self.delay, width=6).pack(
+            side="left", padx=(6, 0)
         )
         ttk.Checkbutton(
             options,
             text="Refresh all pages instead of using the HTTP cache",
             variable=self.refresh,
-        ).grid(row=3, column=0, columnspan=3, sticky="w", pady=(7, 0))
-        ttk.Label(
-            options,
-            text="The default is 25 concurrent page downloads. If the wiki rate-limits requests, lower this or add a delay.",
-            wraplength=780,
-        ).grid(row=4, column=0, columnspan=3, sticky="w", pady=(6, 0))
+        ).grid(row=2, column=0, columnspan=3, sticky="w", pady=(7, 0))
 
         actions = ttk.Frame(outer)
         actions.grid(row=5, column=0, sticky="ew", pady=(0, 5))
