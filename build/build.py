@@ -447,6 +447,18 @@ STAGES = {
 }
 ORDER = list(STAGES)
 
+#: what each stage needs to have run before it, so `--stage verify` cannot write a
+#: manifest full of zeros and call it a build
+STAGE_DEPS = {
+    "wiki": (),
+    "records": ("wiki",),
+    "sources": ("records",),
+    "registry": ("sources",),
+    "index": ("registry",),
+    "render": ("index",),
+    "verify": ("render",),
+}
+
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -461,15 +473,18 @@ def main(argv=None) -> int:
     if args.report:
         summarize(ctx)
         return 0
-    # full run is stateless; partial runs still need the wiki + records inputs
+    # every stage's artifacts are committed, so a partial run must still produce a
+    # complete manifest/index/AUDIT: pull in the dependency closure, not just the stage asked for
     run = set(wanted)
-    if run != set(ORDER):
-        for need in ("wiki", "records", "sources", "registry"):
-            if need in run or run - {"wiki", "records", "sources", "registry"}:
-                run.add(need)
-    for name in ORDER:
-        if name not in run:
-            continue
+    changed = True
+    while changed:  # transitive closure
+        changed = False
+        for name, needs in STAGE_DEPS.items():
+            if name in run and not set(needs) <= run:
+                run |= set(needs)
+                changed = True
+    run = [name for name in ORDER if name in run]
+    for name in run:
         t0 = time.time()
         STAGES[name](ctx)
         print(f"[{name:<9}] ok, {time.time() - t0:.1f}s")

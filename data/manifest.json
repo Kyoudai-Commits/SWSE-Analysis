@@ -1,9 +1,9 @@
 {
   "meta": {
     "build_version": "1.0.0",
-    "built_at": "2026-10-09T11:01:24Z",
+    "built_at": "2026-10-09T11:02:21Z",
     "chunk_tokens": 1235424,
-    "commit": "87b373c",
+    "commit": "59b20e8",
     "n_aliases": 4802,
     "n_children": 857,
     "n_chunks": 2472,
@@ -38,12 +38,30 @@
     "total_tokens": 1277528
   },
   "stats": {
+    "index": {
+      "alias": 4802,
+      "book": 15,
+      "category": 513,
+      "chunk": 2472,
+      "chunk_fts": 2472,
+      "db_bytes": 21073920,
+      "discrepancy": 533,
+      "entity": 2328,
+      "entity_fts": 2328,
+      "field": 7636,
+      "gap": 4198,
+      "link": 25578,
+      "page": 923,
+      "resolved_link": 1201,
+      "seconds": 0.56,
+      "section": 1780
+    },
     "records": {
       "chunk_tokens_max": 1131,
       "chunk_tokens_mean": 499,
       "chunks": 2472,
       "files_reloaded": 1780,
-      "seconds": 0.69,
+      "seconds": 0.75,
       "sections": 1780,
       "wiki_entities": 2034
     },
@@ -82,7 +100,7 @@
       },
       "gaps": 4198,
       "resolved_links": 1201,
-      "seconds": 0.56
+      "seconds": 0.62
     },
     "render": {
       "aliases_rows": 4802,
@@ -90,7 +108,7 @@
       "by_book_files": 15,
       "by_class_files": 42,
       "by_type_files": 27,
-      "seconds": 4.46
+      "seconds": 4.5
     },
     "sources": {
       "master_reference_counts": {
@@ -109,7 +127,7 @@
         "talent": 1092
       },
       "sagaforge_entities": 1687,
-      "seconds": 1.24
+      "seconds": 1.41
     },
     "verify": {
       "checks": {
@@ -181,7 +199,7 @@
       "normalized_bytes": 5109607,
       "raw_bytes": 12008799,
       "raw_files": 1074,
-      "seconds": 1.72,
+      "seconds": 1.73,
       "section_files": 857,
       "split_pages": 44
     }
