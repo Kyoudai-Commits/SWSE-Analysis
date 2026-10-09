@@ -16,7 +16,9 @@ import re
 import sys
 import time
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
+from threading import Lock, local
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -348,23 +350,37 @@ def content_exists(output_dir: Path, record: dict[str, Any] | None) -> bool:
 
 class WikiClient:
     def __init__(self, user_agent: str, delay: float, timeout: float, retries: int):
-        self.session = requests.Session()
-        self.session.headers.update({
-            "User-Agent": user_agent,
-            "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.8",
-        })
+        self.user_agent = user_agent
         self.delay = max(0.0, delay)
         self.timeout = timeout
         self.retries = retries
         self.last_request_at = 0.0
+        self._rate_lock = Lock()
+        self._thread_local = local()
+
+    def _session(self) -> requests.Session:
+        # requests.Session is not guaranteed thread-safe. Reuse one connection
+        # pool per worker thread rather than sharing mutable session state.
+        session = getattr(self._thread_local, "session", None)
+        if session is None:
+            session = requests.Session()
+            session.headers.update({
+                "User-Agent": self.user_agent,
+                "Accept": "text/html,application/xhtml+xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.8",
+            })
+            self._thread_local.session = session
+        return session
 
     def _request(self, url: str, headers: dict[str, str]) -> requests.Response:
-        wait = self.delay - (time.monotonic() - self.last_request_at)
-        if wait > 0:
-            time.sleep(wait)
-        self.last_request_at = time.monotonic()
-        return self.session.get(url, headers=headers, timeout=self.timeout, allow_redirects=False)
+        # Optional global start-rate limit. With the default zero delay, the
+        # --workers limit controls parallel in-flight requests.
+        with self._rate_lock:
+            wait = self.delay - (time.monotonic() - self.last_request_at)
+            if wait > 0:
+                time.sleep(wait)
+            self.last_request_at = time.monotonic()
+        return self._session().get(url, headers=headers, timeout=self.timeout, allow_redirects=False)
 
     def fetch(self, url: str, cached: dict[str, Any] | None, force: bool = False) -> tuple[requests.Response | None, str, bool]:
         """Fetch a page, validating each redirect stays on an allowed host.
@@ -473,10 +489,12 @@ def scrape_one(
     output_dir: Path,
     state: dict[str, dict[str, Any]],
     existing_paths: dict[str, str],
+    state_lock: Any,
     force: bool,
     collect_links: bool,
 ) -> tuple[dict[str, Any] | None, list[str], str]:
-    previous = state.get(url)
+    with state_lock:
+        previous = state.get(url)
     response, final_url, not_modified = client.fetch(url, previous, force=force)
     if not_modified:
         if content_exists(output_dir, previous):
@@ -501,26 +519,28 @@ def scrape_one(
     if previous and previous.get("content_sha256") == content_hash:
         fetched_at = previous.get("retrieved_at_utc") or fetched_at
 
-    relpath = make_page_path(page, url, existing_paths)
-    document = render_document(page, fetched_at, content_hash)
-    atomic_write(output_dir / relpath, document)
-    record = {
-        "source_url": url,
-        "canonical_url": page.canonical_url,
-        "source_host": page.host,
-        "title": page.title,
-        "revision_id": page.revision_id,
-        "retrieved_at_utc": fetched_at,
-        "path": relpath,
-        "content_sha256": content_hash,
-        "character_count": len(page.body_markdown),
-        "categories": page.categories,
-        "discovered_links": links if collect_links else (previous or {}).get("discovered_links", []),
-        "etag": page.etag,
-        "last_modified": page.last_modified,
-    }
-    state[url] = record
-    existing_paths[relpath] = url
+    record: dict[str, Any]
+    with state_lock:
+        relpath = make_page_path(page, url, existing_paths)
+        document = render_document(page, fetched_at, content_hash)
+        atomic_write(output_dir / relpath, document)
+        record = {
+            "source_url": url,
+            "canonical_url": page.canonical_url,
+            "source_host": page.host,
+            "title": page.title,
+            "revision_id": page.revision_id,
+            "retrieved_at_utc": fetched_at,
+            "path": relpath,
+            "content_sha256": content_hash,
+            "character_count": len(page.body_markdown),
+            "categories": page.categories,
+            "discovered_links": links if collect_links else (previous or {}).get("discovered_links", []),
+            "etag": page.etag,
+            "last_modified": page.last_modified,
+        }
+        state[url] = record
+        existing_paths[relpath] = url
     return record, links, "downloaded"
 
 
@@ -532,8 +552,10 @@ def make_parser() -> argparse.ArgumentParser:
                         help=f"one URL per line; default: {DEFAULT_TARGETS}")
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT,
                         help=f"export directory; default: {DEFAULT_OUTPUT}")
-    parser.add_argument("--delay", type=float, default=1.0,
-                        help="minimum seconds between HTTP requests (default: 1.0)")
+    parser.add_argument("--workers", type=int, default=25,
+                        help="concurrent page requests, from 1 to 50 (default: 25)")
+    parser.add_argument("--delay", type=float, default=0.0,
+                        help="minimum seconds between request starts across workers (default: 0)")
     parser.add_argument("--timeout", type=float, default=30.0,
                         help="HTTP timeout in seconds (default: 30)")
     parser.add_argument("--retries", type=int, default=3,
@@ -555,8 +577,17 @@ def make_parser() -> argparse.ArgumentParser:
 
 def main(argv: list[str] | None = None) -> int:
     args = make_parser().parse_args(argv)
-    if args.delay < 0 or args.timeout <= 0 or args.retries < 0 or args.max_pages <= 0:
-        print("Error: delay must be >= 0; timeout/max-pages must be > 0; retries must be >= 0", file=sys.stderr)
+    if (
+        not 1 <= args.workers <= 50
+        or args.delay < 0
+        or args.timeout <= 0
+        or args.retries < 0
+        or args.max_pages <= 0
+    ):
+        print(
+            "Error: workers must be 1-50; delay must be >= 0; timeout/max-pages must be > 0; retries must be >= 0",
+            file=sys.stderr,
+        )
         return 2
 
     try:
@@ -569,6 +600,8 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Manifest: {args.targets}")
         print(f"Explicit pages: {len(targets)}")
         print(f"One-level discovery pages: {len(discovery_seeds) if not args.skip_discovery else 0}")
+        print(f"Concurrent workers: {args.workers} (maximum 50)")
+        print(f"Request-start delay: {args.delay} seconds")
         print(f"Allowed hosts: {', '.join(sorted(ALLOWED_HOSTS))}")
         print(f"Output: {args.output}")
         return 0
@@ -583,63 +616,92 @@ def main(argv: list[str] | None = None) -> int:
         if record.get("path")
     }
     client = WikiClient(args.user_agent, args.delay, args.timeout, args.retries)
+    state_lock = Lock()
 
-    # Explicit targets are downloaded first. Discovery runs only on pages marked
-    # @discover in the manifest, and newly found links are never expanded again.
-    queued = list(targets)
-    queued_set = set(queued)
-    discovery_queue: list[str] = []
+    # Keep explicit targets ahead of any discovered links if the safety cap is hit.
+    if len(targets) > args.max_pages:
+        print(
+            f"Warning: {len(targets) - args.max_pages} explicit pages omitted due to --max-pages={args.max_pages}",
+            file=sys.stderr,
+        )
+        targets = targets[:args.max_pages]
+
     errors: list[dict[str, str]] = []
     counts = {"downloaded": 0, "not_modified": 0, "failed": 0}
     discovered_pages_queued = 0
     started_at = utc_now()
+    print(f"Downloading {len(targets)} explicit pages with up to {args.workers} concurrent workers.")
+    if args.delay:
+        print(f"Global request-start delay: {args.delay:g} seconds.")
 
-    position = 0
-    while position < len(queued):
-        if len(queued) > args.max_pages:
-            print(f"Warning: page queue exceeds --max-pages={args.max_pages}; truncating", file=sys.stderr)
-            queued = queued[:args.max_pages]
-        url = queued[position]
-        position += 1
-        print(f"[{position}/{len(queued)}] {url}")
-        try:
-            record, discovered, status = scrape_one(
-                url,
-                client,
-                output_dir,
-                state,
-                existing_paths,
-                force=args.refresh,
-                collect_links=not args.skip_discovery and url in discovery_seeds,
-            )
-            if status == "downloaded":
-                counts["downloaded"] += 1
-                print(f"  saved: {record['path']}")
-            elif status == "not-modified":
-                counts["not_modified"] += 1
-                print("  unchanged (HTTP 304)")
+    with ThreadPoolExecutor(max_workers=args.workers, thread_name_prefix="swse-wiki") as executor:
+        def download_batch(batch: list[str]) -> dict[str, tuple[dict[str, Any] | None, list[str], str]]:
+            results: dict[str, tuple[dict[str, Any] | None, list[str], str]] = {}
+            if not batch:
+                return results
+            futures = {
+                executor.submit(
+                    scrape_one,
+                    url,
+                    client,
+                    output_dir,
+                    state,
+                    existing_paths,
+                    state_lock,
+                    args.refresh,
+                    not args.skip_discovery and url in discovery_seeds,
+                ): url
+                for url in batch
+            }
+            total = len(futures)
+            for completed, future in enumerate(as_completed(futures), 1):
+                url = futures[future]
+                print(f"[{completed}/{total}] {url}")
+                try:
+                    result = future.result()
+                    results[url] = result
+                    record, _links, status = result
+                    if status == "downloaded":
+                        counts["downloaded"] += 1
+                        print(f"  saved: {record['path']}")
+                    elif status == "not-modified":
+                        counts["not_modified"] += 1
+                        print("  unchanged (HTTP 304)")
+                except Exception as exc:  # Keep the batch moving; include failures in report.
+                    counts["failed"] += 1
+                    errors.append({"url": url, "error": str(exc)})
+                    print(f"  failed: {exc}", file=sys.stderr)
+            return results
 
-            if not args.skip_discovery and url in discovery_seeds:
-                for link in discovered:
+        # The first phase downloads exact targets. Discovery is limited to
+        # one-hop links from the explicitly marked index pages.
+        direct_results = download_batch(targets)
+        discovery_queue: list[str] = []
+        queued_set = set(targets)
+        if not args.skip_discovery:
+            for seed_url in targets:
+                seed_result = direct_results.get(seed_url)
+                if seed_url not in discovery_seeds or seed_result is None:
+                    continue
+                _record, links, _status = seed_result
+                for link in links:
                     if link not in queued_set:
                         queued_set.add(link)
                         discovery_queue.append(link)
-        except Exception as exc:  # Keep the batch moving; include failures in report.
-            counts["failed"] += 1
-            errors.append({"url": url, "error": str(exc)})
-            print(f"  failed: {exc}", file=sys.stderr)
 
-        # Append discoveries after all explicitly provided targets, making sure
-        # a very large link list cannot displace deliberate user URLs.
-        if position == len(queued) and discovery_queue:
-            remaining = max(0, args.max_pages - len(queued))
-            additions = discovery_queue[:remaining]
-            if additions:
-                queued.extend(additions)
-                discovered_pages_queued += len(additions)
-            if len(discovery_queue) > remaining:
-                print(f"Warning: omitted {len(discovery_queue) - remaining} discovered links due to --max-pages", file=sys.stderr)
-            discovery_queue.clear()
+        remaining = max(0, args.max_pages - len(targets))
+        discovered_targets = discovery_queue[:remaining]
+        discovered_pages_queued = len(discovered_targets)
+        if len(discovery_queue) > remaining:
+            print(
+                f"Warning: omitted {len(discovery_queue) - remaining} discovered links due to --max-pages",
+                file=sys.stderr,
+            )
+        if discovered_targets:
+            print(
+                f"\nDownloading {len(discovered_targets)} linked pages with up to {args.workers} concurrent workers."
+            )
+            download_batch(discovered_targets)
 
     state["_meta"] = {"last_run_utc": utc_now(), "targets_file": str(args.targets)}
     # Keep the private request cache out of the checked-in corpus; the public
@@ -653,6 +715,8 @@ def main(argv: list[str] | None = None) -> int:
         "targets_file": args.targets.name,
         "output_directory": output_dir.name,
         "counts": counts,
+        "workers": args.workers,
+        "request_start_delay_seconds": args.delay,
         "indexed_pages": indexed_pages,
         "discovery_seeds": len(discovery_seeds) if not args.skip_discovery else 0,
         "discovered_pages_queued": discovered_pages_queued,

@@ -91,7 +91,8 @@ class ScraperWindow:
         self.include_defaults = tk.BooleanVar(value=True)
         self.discover_custom = tk.BooleanVar(value=False)
         self.refresh = tk.BooleanVar(value=False)
-        self.delay = tk.StringVar(value="1.0")
+        self.workers = tk.StringVar(value="25")
+        self.delay = tk.StringVar(value="0.0")
         self.output_dir = tk.StringVar(value=str(scraper.DEFAULT_OUTPUT))
         self.status = tk.StringVar(value="Ready")
 
@@ -177,15 +178,26 @@ class ScraperWindow:
         ttk.Label(options, text="Save Markdown to:").grid(row=0, column=0, sticky="w")
         ttk.Entry(options, textvariable=self.output_dir).grid(row=0, column=1, sticky="ew", padx=8)
         ttk.Button(options, text="Browse…", command=self.choose_output).grid(row=0, column=2, sticky="e")
-        ttk.Label(options, text="Delay between requests (seconds):").grid(row=1, column=0, sticky="w", pady=(8, 0))
-        ttk.Spinbox(options, from_=0.0, to=30.0, increment=0.5, textvariable=self.delay, width=8).grid(
+        ttk.Label(options, text="Parallel workers (1–50):").grid(row=1, column=0, sticky="w", pady=(8, 0))
+        ttk.Spinbox(options, from_=1, to=50, increment=1, textvariable=self.workers, width=8).grid(
             row=1, column=1, sticky="w", padx=8, pady=(8, 0)
+        )
+        ttk.Label(options, text="Minimum delay between request starts (seconds):").grid(
+            row=2, column=0, sticky="w", pady=(8, 0)
+        )
+        ttk.Spinbox(options, from_=0.0, to=30.0, increment=0.1, textvariable=self.delay, width=8).grid(
+            row=2, column=1, sticky="w", padx=8, pady=(8, 0)
         )
         ttk.Checkbutton(
             options,
             text="Refresh all pages instead of using the HTTP cache",
             variable=self.refresh,
-        ).grid(row=2, column=0, columnspan=3, sticky="w", pady=(7, 0))
+        ).grid(row=3, column=0, columnspan=3, sticky="w", pady=(7, 0))
+        ttk.Label(
+            options,
+            text="The default is 25 concurrent page downloads. If the wiki rate-limits requests, lower this or add a delay.",
+            wraplength=780,
+        ).grid(row=4, column=0, columnspan=3, sticky="w", pady=(6, 0))
 
         actions = ttk.Frame(outer)
         actions.grid(row=5, column=0, sticky="ew", pady=(0, 5))
@@ -286,8 +298,9 @@ class ScraperWindow:
             return
         try:
             delay = float(self.delay.get())
-            if delay < 0:
-                raise ValueError
+            workers = int(self.workers.get())
+            if delay < 0 or not 1 <= workers <= 50:
+                raise ValueError("Workers must be 1–50 and delay must be non-negative.")
             output_text = self.output_dir.get().strip()
             if not output_text:
                 raise ValueError("Choose an export folder.")
@@ -312,6 +325,8 @@ class ScraperWindow:
             str(manifest_path),
             "--output",
             str(output_path.resolve()),
+            "--workers",
+            str(workers),
             "--delay",
             str(delay),
         ]
@@ -376,7 +391,7 @@ class ScraperWindow:
                     self._append_log(line)
                     match = CURRENT_PAGE.match(line)
                     if match:
-                        self.status.set(f"Downloading page {match.group(1)} of {match.group(2)}")
+                        self.status.set(f"Completed page {match.group(1)} of {match.group(2)} in current batch")
                 elif event == "done":
                     self._finish(int(payload))
                 elif event == "worker-error":

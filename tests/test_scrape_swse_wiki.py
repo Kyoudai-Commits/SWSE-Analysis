@@ -2,8 +2,14 @@ from __future__ import annotations
 
 import sys
 import tempfile
+import threading
+import time
 import unittest
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
+from unittest.mock import patch
+
+import requests
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
@@ -48,6 +54,41 @@ class TargetManifestTests(unittest.TestCase):
             scraper.normalize_url("https://swse.miraheze.org/wiki/Ter%C3%A4s"),
             scraper.normalize_url("https://swse.miraheze.org/wiki/Teräs"),
         )
+
+
+class ConcurrencyTests(unittest.TestCase):
+    def test_client_can_issue_multiple_requests_in_parallel(self) -> None:
+        client = scraper.WikiClient("test-agent", delay=0, timeout=2, retries=0)
+        barrier = threading.Barrier(5)
+        lock = threading.Lock()
+        active = 0
+        peak_active = 0
+
+        def fake_get(_session, url: str, **_kwargs):
+            nonlocal active, peak_active
+            barrier.wait(timeout=2)
+            with lock:
+                active += 1
+                peak_active = max(peak_active, active)
+            time.sleep(0.03)
+            response = requests.Response()
+            response.status_code = 200
+            response.url = url
+            response._content = b"ok"
+            response.encoding = "utf-8"
+            response.headers = {}
+            with lock:
+                active -= 1
+            return response
+
+        with patch.object(requests.Session, "get", new=fake_get):
+            with ThreadPoolExecutor(max_workers=5) as pool:
+                responses = list(pool.map(
+                    lambda index: client._request(f"https://swse.miraheze.org/wiki/Page_{index}", {}),
+                    range(5),
+                ))
+        self.assertEqual(peak_active, 5)
+        self.assertEqual(len(responses), 5)
 
 
 class HtmlExtractionTests(unittest.TestCase):

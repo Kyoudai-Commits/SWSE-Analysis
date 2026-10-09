@@ -9,7 +9,7 @@ You do **not** need to edit `targets.txt` or any code. The GUI lets you use the 
 - **Windows:** double-click [`run_swse_scraper.bat`](run_swse_scraper.bat). It creates a private Python environment if needed, checks/installs the packages, then opens the GUI.
 - **macOS / Linux:** from the repository folder, run `./run_swse_scraper.sh`. It prepares the environment and packages, then opens the GUI.
 
-The GUI starts with the included SWSE page set selected. You can paste the full Markdown link list you already have directly into the box; the app extracts and de-duplicates the addresses. Choose **Add pasted link(s)**, or paste them and press **Start download**. Turn off the built-in set if you only want your own URLs. Use the optional “fetch links” checkbox only for an index/list page. After the download, choose **Open export folder** to view the result.
+The GUI starts with the included SWSE page set selected. You can paste the full Markdown link list you already have directly into the box; the app extracts and de-duplicates the addresses. Choose **Add pasted link(s)**, or paste them and press **Start download**. Turn off the built-in set if you only want your own URLs. Use the optional “fetch links” checkbox only for an index/list page. The GUI defaults to **25 parallel workers** and lets you choose 1–50; if the wiki rate-limits you, lower the worker count or add a request-start delay. After the download, choose **Open export folder** to view the result.
 
 Supported source hosts are `swse.miraheze.org` and `swse.fandom.com`. Links to other domains are rejected rather than fetched. The GUI accepts individual page addresses and multiple pasted URLs; it does not require manual manifest editing.
 
@@ -56,13 +56,15 @@ python scripts/scrape_swse_wiki.py
 The `targets.txt` manifest can be customized if desired: one URL per line, or `@discover URL` for a single index page whose same-wiki article links should also be fetched. Useful options:
 
 ```bash
-python scripts/scrape_swse_wiki.py --skip-discovery  # only exact URLs in targets.txt
-python scripts/scrape_swse_wiki.py --refresh         # ignore HTTP cache validators
-python scripts/scrape_swse_wiki.py --delay 2.0       # wait 2 seconds between requests
+python scripts/scrape_swse_wiki.py --workers 25 --delay 0   # up to 25 concurrent page requests
+python scripts/scrape_swse_wiki.py --workers 50             # use up to 50 concurrent workers
+python scripts/scrape_swse_wiki.py --skip-discovery         # only exact URLs in targets.txt
+python scripts/scrape_swse_wiki.py --refresh                # ignore HTTP cache validators
+python scripts/scrape_swse_wiki.py --delay 0.1              # space request starts by 0.1 seconds
 python scripts/scrape_swse_wiki.py --output ./my-export
 ```
 
-The default delay is one second, requests are sequential, and temporary HTTP/network errors are retried with backoff. The script does not attempt to bypass CAPTCHAs, authentication, or other access controls. Stop if a source blocks the requests, and follow each wiki's current terms and scraping guidance.
+The default is 25 concurrent workers (maximum 50) with no extra spacing between request starts. Temporary HTTP/network errors are retried with backoff, including rate-limit responses. If a source returns HTTP 429 or otherwise blocks requests, reduce `--workers` and/or increase `--delay`; the script does not attempt to bypass CAPTCHAs, authentication, or other access controls. Follow each wiki's current terms and scraping guidance.
 
 ## Before publishing a corpus to GitHub
 
