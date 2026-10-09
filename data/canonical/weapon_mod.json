@@ -1,0 +1,6699 @@
+{
+ "entity": "weapon_mod",
+ "label": "weapon_mod",
+ "role": "option",
+ "count": 156,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "weapon_mod_acrobatic_strike",
+   "entity": "weapon_mod",
+   "name": "Acrobatic Strike",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "condition": "against opponent tumbled past",
+    "desc2": "// Improved Battle Strike• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Battle Strike",
+    "name_2": "No",
+    "ref": "FUCG 89",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Technique",
+    "url": "https://swse.miraheze.org/wiki/Acrobatic_Strike"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!AS3:AZ3",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!AS3:AZ3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_advantageous_attack",
+   "entity": "weapon_mod",
+   "name": "Advantageous Attack",
+   "canon": "third_party",
+   "attrs": {
+    "action": "free",
+    "action_2": "move",
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "if opponent has not yet acted",
+    "damage_mod": 0,
+    "desc1": "Maintain cloak power as move action instead of a standard action",
+    "desc2": "// Improved Cloak (move) • Force, Technique\nMaintain cloak power as move action instead of a standard action",
+    "is_attack": "Other",
+    "kind": "Improved Cloak",
+    "name_2": "No",
+    "ref": "Bounty Hunter",
+    "sort_tags": "Technique",
+    "source_tag": "FUCG",
+    "standalone": "No",
+    "tags": "Force, Technique",
+    "url": "https://swse.miraheze.org/wiki/Advantageous_Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!AS4:AZ4",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!AS4:AZ4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_artillery_shot",
+   "entity": "weapon_mod",
+   "name": "Artillery Shot",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": 5,
+    "action_3": 6,
+    "atk_mode": 22,
+    "att": 8,
+    "autofire": "A",
+    "canon_basis": "block_declaration",
+    "combat_description": 23,
+    "condition": "affect +2 sq with burst or splash at further than PB range",
+    "condition_2": 7,
+    "dam1": 9,
+    "dam2": 10,
+    "desc1": 19,
+    "desc2": 20,
+    "dice": 11,
+    "is_attack": 2,
+    "kind": 1,
+    "prerequisite_type": "ranged",
+    "ref": 24,
+    "sort_tags": 4,
+    "source_tag": "CWCG",
+    "standalone": "No",
+    "tags": 3,
+    "url": "https://swse.miraheze.org/wiki/Artillery_Shot",
+    "w1": 12,
+    "w2": 13,
+    "w3": 14,
+    "w4": 15,
+    "w5": 16,
+    "w6": 17,
+    "weapon_type": 21,
+    "weaponcalc": 18
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!EV2:GH2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_assured_attack",
+   "entity": "weapon_mod",
+   "name": "Assured Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "reroll lowest damage dice keeping second result",
+    "desc2": "// Improved Convection• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Convection",
+    "name_2": "No",
+    "ref": 103,
+    "sort_tags": "Technique",
+    "source_tag": "RECS",
+    "standalone": "No",
+    "tags": "Force, Technique",
+    "url": "https://swse.miraheze.org/wiki/Assured_Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 71,
+     "ref": "Lists!EV71:GH71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_bantha_rush",
+   "entity": "weapon_mod",
+   "name": "Bantha Rush",
+   "canon": "third_party",
+   "attrs": {
+    "action": "free",
+    "canon_basis": "block_declaration",
+    "condition": "push target 1 square after successful melee attack",
+    "desc2": "// Improved Crucitorn• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Crucitorn",
+    "name_2": "No",
+    "ref": "LECG 56",
+    "sort_tags": "Technique",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Technique",
+    "url": "https://swse.miraheze.org/wiki/Bantha_Rush"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 72,
+     "ref": "Lists!EV72:GH72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_burst_fire",
+   "entity": "weapon_mod",
+   "name": "Burst Fire",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "full-round",
+    "action_3": "at-will",
+    "atk_mode": "Reflex",
+    "attack_mod": -5,
+    "autofire": "A",
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "costs 5 shots",
+    "condition_2": "after aiming",
+    "damage_dice_mod": 2,
+    "desc2": "// Deadeye (full-round; at-will; after aiming) • Feat",
+    "dice": 1,
+    "is_attack": "Attack",
+    "kind": "Deadeye",
+    "prerequisite_proficiency": "heavy",
+    "prerequisite_type": "ranged",
+    "sort_tags": "Feat",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Feat",
+    "url": "https://swse.miraheze.org/wiki/Burst_Fire",
+    "weapon_type": "Ranged"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!AS5:AZ5",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!AS5:AZ5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_careful_shot",
+   "entity": "weapon_mod",
+   "name": "Careful Shot",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "standard",
+    "action_3": "at-will",
+    "atk_mode": "Reflex",
+    "attack_mod": 1,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "after aiming",
+    "condition_2": "one target",
+    "desc1": "+0 vs. DC 20 to retrieve from 6 squares",
+    "desc2": "// Lightsaber Throw (standard; at-will; one target) • Talent, Weapon\n\n+0 vs. DC 20 to retrieve from 6 squares",
+    "is_attack": "Attack",
+    "kind": "Lightsaber Throw",
+    "prerequisite_type": "ranged",
+    "ref": 41,
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent, Weapon",
+    "url": "https://swse.miraheze.org/wiki/Careful_Shot",
+    "weapon_type": "Lightsabers"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!AS6:AZ6",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!AS6:AZ6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_careful_shot_and_deadeye",
+   "entity": "weapon_mod",
+   "name": "Careful Shot and Deadeye",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Deadeye"
+    ],
+    "damage_dice_mod": 1,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_deadeye"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!AS7:AZ7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_careful_shot_and_point_blank_shot",
+   "entity": "weapon_mod",
+   "name": "Careful Shot and Point Blank Shot",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Point Blank Shot"
+    ],
+    "damage_mod": 1,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_point_blank_shot"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!AS8:AZ8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_careful_shot_and_zero_range",
+   "entity": "weapon_mod",
+   "name": "Careful Shot and Zero Range",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 3,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Zero Range"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 1,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_zero_range"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!AS9:AZ9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_careful_shot_dead_eye_and_point_blank_shot",
+   "entity": "weapon_mod",
+   "name": "Careful Shot, Dead Eye and Point Blank Shot",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Dead Eye",
+     "Point Blank Shot"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 1,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_deadeye",
+     "weapon_mod_point_blank_shot"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!AS10:AZ10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_careful_shot_dead_eye_and_zero_range",
+   "entity": "weapon_mod",
+   "name": "Careful Shot, Dead Eye and Zero Range",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 3,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Careful Shot",
+     "Dead Eye",
+     "Zero Range"
+    ],
+    "damage_dice_mod": 2,
+    "damage_mod": 1,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_careful_shot",
+     "weapon_mod_deadeye",
+     "weapon_mod_zero_range"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!AS11:AZ11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_charge",
+   "entity": "weapon_mod",
+   "name": "Charge",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "full-round",
+    "action_3": "at-will",
+    "atk_mode": "Reflex",
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "take -2 penalty to Reflex Defense until next turn",
+    "desc2": "// Mighty Swing (full-round; at-will) • Feat",
+    "dice": 1,
+    "is_attack": "Attack",
+    "kind": "Mighty Swing",
+    "prerequisite_type": "melee",
+    "single": "Yes",
+    "sort_tags": "Feat",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Feat",
+    "weapon_type": "Melee"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!AS12:AZ12",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!AS12:AZ12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_charging_fire",
+   "entity": "weapon_mod",
+   "name": "Charging Fire",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "action_3": "at-will",
+    "atk_mode": "Reflex",
+    "att": -1,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "make ranged attack at end of a charge, +2 attack, +2 Will, but take -2 penality to Reflex Defense until next turn",
+    "dam1": 1,
+    "desc2": "// Power Blast (swift; at-will) • Feat",
+    "is_attack": "Attack",
+    "kind": "Power Blast",
+    "prerequisite_type": "ranged",
+    "ref": "KOTOR",
+    "single": "Yes",
+    "sort_tags": "Feat",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Feat",
+    "url": "https://swse.miraheze.org/wiki/Charging_Fire",
+    "weapon_type": "Ranged"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!AS13:AZ13",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!AS13:AZ13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_cleave",
+   "entity": "weapon_mod",
+   "name": "Cleave",
+   "canon": "third_party",
+   "attrs": {
+    "action": "free",
+    "action_2": "standard",
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "make free attack against adjacent target after dropping foe",
+    "condition_2": "when wielding a lightsaber",
+    "desc1": "Make melee attack with lightsaber; reduce target's speed to 2 squares until end of 's next turn",
+    "desc2": "// Precision (standard; when wielding a lightsaber) • Talent\nMake melee attack with lightsaber; reduce target's speed to 2 squares until end of 's next turn",
+    "is_attack": "Attack",
+    "kind": "Precision",
+    "ref": "LE 27",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent",
+    "url": "https://swse.miraheze.org/wiki/Cleave"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!EV7:GH7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_cunning_attack",
+   "entity": "weapon_mod",
+   "name": "Cunning Attack",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "reaction",
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "against a flat-footed enemy",
+    "condition_2": "after using Deflect",
+    "desc1": "Once per round on a successful use of Deflect on a single blaster bolt, make a ranged attack against a target using the blaster weapon's damage",
+    "desc2": "// Redirect Shot (reaction; after using Deflect) • Talent\nOnce per round on a successful use of Deflect on a single blaster bolt, make a ranged attack against a target using the blaster weapon's damage",
+    "is_attack": "Attack",
+    "kind": "Redirect Shot",
+    "ref": 41,
+    "sort_tags": "Talent",
+    "source_tag": "FUCG",
+    "standalone": "No",
+    "tags": "Talent",
+    "url": "https://swse.miraheze.org/wiki/Cunning_Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!EV8:GH8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_dark_side_scourge",
+   "entity": "weapon_mod",
+   "name": "Dark Side Scourge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "Deal + damage against enemies with a dark side score",
+    "desc2": "// Improved Enlighten• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Enlighten",
+    "name_2": "No",
+    "prerequisite_type": "melee",
+    "ref": "KOTOR 54",
+    "sort_tags": "Technique",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 78,
+     "ref": "Lists!EV78:GH78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_deadeye",
+   "entity": "weapon_mod",
+   "name": "Deadeye",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "free action",
+    "action_3": "encounter",
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "after aiming",
+    "condition_2": "after using Block",
+    "damage_dice_mod": 1,
+    "desc1": "Make a free lightsaber attack against the opponent",
+    "desc2": "// Riposte (free action; encounter; after using Block) • Force, Talent, Weapon\nMake a free lightsaber attack against the opponent",
+    "is_attack": "Attack",
+    "kind": "Riposte",
+    "prerequisite_type": "ranged",
+    "ref": "KotOR 25",
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "Yes",
+    "tags": "Force, Talent, Weapon",
+    "url": "https://swse.miraheze.org/wiki/Deadeye"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!AS14:AZ14",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!AS14:AZ14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_deadeye_and_point_blank_shot",
+   "entity": "weapon_mod",
+   "name": "Deadeye and Point Blank Shot",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Deadeye",
+     "Point Blank Shot"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 1,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_deadeye",
+     "weapon_mod_point_blank_shot"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!AS15:AZ15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_deadeye_and_zero_range",
+   "entity": "weapon_mod",
+   "name": "Deadeye and Zero Range",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Deadeye",
+     "Zero Range"
+    ],
+    "damage_dice_mod": 2,
+    "damage_mod": 1,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_deadeye",
+     "weapon_mod_zero_range"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!AS16:AZ16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_deadly_sniper",
+   "entity": "weapon_mod",
+   "name": "Deadly Sniper",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "if target is unaware of you and on first attack against them",
+    "damage_dice_mod": 1,
+    "is_attack": "D Force",
+    "kind": "Force Training",
+    "prerequisite_type": "ranged",
+    "sort_tags": "Feat",
+    "source_tag": "SaV",
+    "standalone": "No",
+    "tags": "Force Power",
+    "url": "https://swse.miraheze.org/wiki/Deadly_Sniper"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!AS17:AZ17",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!AS17:AZ17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_defensive_acuity",
+   "entity": "weapon_mod",
+   "name": "Defensive Acuity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "+1 die of damage when fighting defensively",
+    "desc2": "// Improved Dark Rage• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Dark Rage",
+    "name_2": "No",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "ref": "JATM 37",
+    "sort_tags": "Technique",
+    "source_tag": "LECG",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 74,
+     "ref": "Lists!EV74:GH74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_double_attack__sf_weapon_mod_details_11",
+   "entity": "weapon_mod",
+   "name": "Double Attack",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "swift",
+    "action_3": "FP",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "attack twice",
+    "desc1": "All squares in a 2-square radius count as difficult terrain for enemies",
+    "desc2": "// Aversion (swift; FP) • Force, Talent\nAll squares in a 2-square radius count as difficult terrain for enemies",
+    "is_attack": "Defense",
+    "kind": "Aversion",
+    "prerequisite_proficiency": 0,
+    "ref": "CW 53",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent",
+    "url": "https://swse.miraheze.org/wiki/Double_Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!EV11:GH11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_double_attack__sf_weapon_mod_details_12",
+   "entity": "weapon_mod",
+   "name": "Double Attack",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "reaction",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "attack twice",
+    "condition_2": "when is targeted by melee attack",
+    "desc1": "+0 vs. Reflex attack roll of incoming attack; attack negated; cumulative -5 to each Block after the first in same round; cover vs. Whirlwind Attack\nSpend a Force Point to negate an attack against an adjacent character",
+    "desc2": "// Block (reaction; when is targeted by melee attack) • Force, Talent\n+0 vs. Reflex attack roll of incoming attack; attack negated; cumulative -5 to each Block after the first in same round; cover vs. Whirlwind Attack\nSpend a Force Point to negate an attack against an adjacent character",
+    "is_attack": "Defense",
+    "kind": "Block",
+    "prerequisite_proficiency": 0,
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent",
+    "url": "https://swse.miraheze.org/wiki/Double_Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!EV12:GH12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_double_attack_advanced_melee",
+   "entity": "weapon_mod",
+   "name": "Double Attack (advanced melee)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "reaction",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "attack twice",
+    "condition_2": "when is targeted by melee attack",
+    "desc1": "+0 vs. Reflex attack roll of incoming attack; attack negated; cumulative -5 to each block after the first in same round; cover vs. Whirlwind Attack; lightsaber blocked deactivates",
+    "desc2": "// Cortosis Gauntlet Block (reaction; when is targeted by melee attack) • Talent\n+0 vs. Reflex attack roll of incoming attack; attack negated; cumulative -5 to each block after the first in same round; cover vs. Whirlwind Attack; lightsaber blocked deactivates",
+    "is_attack": "Defense",
+    "kind": "Cortosis Gauntlet Block",
+    "prerequisite_proficiency": "advanced melee",
+    "prerequisite_type": "melee",
+    "ref": "LE 27",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!EV13:GH13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_double_attack_lightsabers",
+   "entity": "weapon_mod",
+   "name": "Double Attack (lightsabers)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "reaction",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "attack twice",
+    "condition_2": "when is targeted by ranged attack",
+    "desc1": "+0 vs. Reflex attack roll of incoming attack; attack negated; cumulative -5 to each Deflect after the first in same round\nSpend a Force Point to negate an attack against an adjacent character",
+    "desc2": "// Deflect (reaction; when is targeted by ranged attack) • Force, Talent\n+0 vs. Reflex attack roll of incoming attack; attack negated; cumulative -5 to each Deflect after the first in same round\nSpend a Force Point to negate an attack against an adjacent character",
+    "is_attack": "Defense",
+    "kind": "Deflect",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!EV14:GH14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_double_attack_pistols",
+   "entity": "weapon_mod",
+   "name": "Double Attack (pistols)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "swift",
+    "action_3": "FP",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "attack twice",
+    "desc1": "Remove all debilitating conditions and move to top of the condition track",
+    "desc2": "// Equilibrium (swift; FP) • Force, Talent\nRemove all debilitating conditions and move to top of the condition track",
+    "is_attack": "Defense",
+    "kind": "Equilibrium",
+    "prerequisite_proficiency": "pistols",
+    "prerequisite_type": "ranged",
+    "ref": 101,
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!EV15:GH15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_double_attack_rifles",
+   "entity": "weapon_mod",
+   "name": "Double Attack (rifles)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "swift",
+    "action_3": "FP",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "attack twice",
+    "condition_2": "all allies within 6 squares",
+    "desc1": "Allies within range gain +2 to Will Defense until the end of the encounter",
+    "desc2": "// Force of Will (swift; FP; all allies within 6 squares) • Force, Talent\nAllies within range gain +2 to Will Defense until the end of the encounter",
+    "is_attack": "Defense",
+    "kind": "Force of Will",
+    "prerequisite_proficiency": "rifles",
+    "prerequisite_type": "ranged",
+    "ref": "TFU 24",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!EV16:GH16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_double_attack_simple",
+   "entity": "weapon_mod",
+   "name": "Double Attack (simple)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "attack twice",
+    "condition_2": "when damaged by a Force power",
+    "desc1": "Gain a +2 Force bonus to all defenses against further attacks from the same type of Force power until the end of the encounter",
+    "desc2": "// Gradual Resistance• Force, Talent\nGain a +2 Force bonus to all defenses against further attacks from the same type of Force power until the end of the encounter",
+    "is_attack": "Defense",
+    "kind": "Gradual Resistance",
+    "prerequisite_proficiency": "simple",
+    "ref": "RE 23",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!EV17:GH17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_dreadful_rage",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 5,
+    "canon_basis": "block_declaration",
+    "damage_mod": 5,
+    "prerequisite_type": "melee",
+    "url": "https://swse.miraheze.org/wiki/Dreadful_Rage"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!AS18:AZ18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_1",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-1)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 4,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 6,
+    "damage_mod_2": 7,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -1,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 19,
+     "ref": "Lists!AS19:AZ19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_10",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-10)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 15,
+    "damage_mod_2": 25,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -10,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 20,
+     "ref": "Lists!AS20:AZ20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_11",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-11)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -6,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 16,
+    "damage_mod_2": 27,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -11,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 21,
+     "ref": "Lists!AS21:AZ21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_12",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-12)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -7,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 17,
+    "damage_mod_2": 29,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -12,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 22,
+     "ref": "Lists!AS22:AZ22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_13",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-13)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -8,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 18,
+    "damage_mod_2": 31,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -13,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 23,
+     "ref": "Lists!AS23:AZ23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_14",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-14)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -9,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 19,
+    "damage_mod_2": 33,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -14,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 24,
+     "ref": "Lists!AS24:AZ24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_15",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-15)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -10,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 20,
+    "damage_mod_2": 35,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -15,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 25,
+     "ref": "Lists!AS25:AZ25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_16",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-16)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -11,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 21,
+    "damage_mod_2": 37,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -16,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 26,
+     "ref": "Lists!AS26:AZ26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_17",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-17)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -12,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 22,
+    "damage_mod_2": 39,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -17,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 27,
+     "ref": "Lists!AS27:AZ27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_18",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-18)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -13,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 23,
+    "damage_mod_2": 41,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -18,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 28,
+     "ref": "Lists!AS28:AZ28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_19",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-19)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -14,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 24,
+    "damage_mod_2": 43,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -19,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 29,
+     "ref": "Lists!AS29:AZ29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_2",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-2)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 3,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 7,
+    "damage_mod_2": 9,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -2,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 30,
+     "ref": "Lists!AS30:AZ30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_20",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-20)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -15,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 25,
+    "damage_mod_2": 45,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -20,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 31,
+     "ref": "Lists!AS31:AZ31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_3",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-3)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 8,
+    "damage_mod_2": 11,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -3,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 32,
+     "ref": "Lists!AS32:AZ32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_4",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-4)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 9,
+    "damage_mod_2": 13,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -4,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 33,
+     "ref": "Lists!AS33:AZ33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_5",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-5)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 0,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 10,
+    "damage_mod_2": 15,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -5,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 34,
+     "ref": "Lists!AS34:AZ34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_6",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-6)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 11,
+    "damage_mod_2": 17,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -6,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 35,
+     "ref": "Lists!AS35:AZ35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_7",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-7)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 12,
+    "damage_mod_2": 19,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -7,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 36,
+     "ref": "Lists!AS36:AZ36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_8",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-8)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -3,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 13,
+    "damage_mod_2": 21,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -8,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 37,
+     "ref": "Lists!AS37:AZ37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dreadful_rage_and_power_attack_9",
+   "entity": "weapon_mod",
+   "name": "Dreadful Rage and Power Attack (-9)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -4,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Dreadful Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 14,
+    "damage_mod_2": 23,
+    "parameter_base": "Dreadful Rage and Power Attack",
+    "parameter_value": -9,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_dreadful_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 38,
+     "ref": "Lists!AS38:AZ38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_dual_weapon_mastery",
+   "entity": "weapon_mod",
+   "name": "Dual Weapon Mastery",
+   "canon": "third_party",
+   "attrs": {
+    "action": "full",
+    "action_2": "swift",
+    "attack_mod": -10,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "-10 penalty to attack with two different weapons",
+    "condition_2": "when wielding a lightsaber",
+    "desc1": "Gain +0 to Reflex defense until start of next turn",
+    "desc2": "// Lightsaber Defense (swift; when wielding a lightsaber) • Talent\nGain +0 to Reflex defense until start of next turn",
+    "is_attack": "Defense",
+    "kind": "Lightsaber Defense",
+    "ref": 41,
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!EV18:GH18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_exposing_strike",
+   "entity": "weapon_mod",
+   "name": "Exposing Strike",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "Spend a Force Point to make target flat-footed",
+    "desc2": "// Improved Dark Transfer• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Dark Transfer",
+    "name_2": "No",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "ref": "FUCG 89",
+    "sort_tags": "Technique",
+    "source_tag": "CWCG",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 75,
+     "ref": "Lists!EV75:GH75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_flurry",
+   "entity": "weapon_mod",
+   "name": "Flurry",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "-5 penalty to Reflex until next turn",
+    "condition_2": "against attacks from creatures with a Dark Side Score",
+    "desc1": "+5 to all defenses vs. Force powers with the [dark side] descriptor and any Force power from a dark sider",
+    "desc2": "// Resist the Dark Side• Force, Talent\n+5 to all defenses vs. Force powers with the [dark side] descriptor and any Force power from a dark sider",
+    "is_attack": "Defense",
+    "kind": "Resist the Dark Side",
+    "prerequisite_type": "melee",
+    "ref": 41,
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "No",
+    "tags": "Force, Talent",
+    "url": "https://swse.miraheze.org/wiki/Flurry"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 39,
+     "ref": "Lists!AS39:AZ39",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 39,
+     "ref": "Lists!AS39:AZ39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_forceful_warrior",
+   "entity": "weapon_mod",
+   "name": "Forceful Warrior",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "Gain Force Point on a critical",
+    "desc2": "// Improved Energy Resistance• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Energy Resistance",
+    "name_2": "No",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "ref": "FUCG 89",
+    "sort_tags": "Technique",
+    "source_tag": "TFU",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 77,
+     "ref": "Lists!EV77:GH77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_guardian_strike",
+   "entity": "weapon_mod",
+   "name": "Guardian Strike",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "Target takes a -2 penaity on attack rolls against any target other than until the beginning of its next turn",
+    "desc2": "// Improved Detonate• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Detonate",
+    "name_2": "No",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "ref": "CWCG 54",
+    "sort_tags": "Technique",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 76,
+     "ref": "Lists!EV76:GH76",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_improved_rapid_strike",
+   "entity": "weapon_mod",
+   "name": "Improved Rapid Strike",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "action_3": "daily",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_dice_mod": 2,
+    "desc1": "Heal 0 hit points",
+    "desc2": "// Second Wind (swift; daily) • Healing\nHeal 0 hit points",
+    "is_attack": "Defense",
+    "kind": "Second Wind",
+    "prerequisite_proficiency": "lightsabers, light",
+    "prerequisite_type": "melee",
+    "ref": "CR 146",
+    "sort_tags": "Healing",
+    "source_tag": "KOTOR",
+    "standalone": "No",
+    "tags": "Healing",
+    "url": "https://swse.miraheze.org/wiki/Improved_Rapid_Strike"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 40,
+     "ref": "Lists!AS40:AZ40",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 40,
+     "ref": "Lists!AS40:AZ40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_improved_rapid_strike_and_inquisition",
+   "entity": "weapon_mod",
+   "name": "Improved Rapid Strike and Inquisition",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Improved Rapid Strike",
+     "Inquisition"
+    ],
+    "damage_dice_mod": 3,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_improved_rapid_strike",
+     "weapon_mod_inquisition__sf_weapon_feat_mods_42"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 41,
+     "ref": "Lists!AS41:AZ41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_inquisition__sf_weapon_feat_mods_42",
+   "entity": "weapon_mod",
+   "name": "Inquisition",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "damage_dice_mod": 1,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 42,
+     "ref": "Lists!AS42:AZ42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "weapon_mod_inquisition__sf_weapon_mod_details_73",
+   "entity": "weapon_mod",
+   "name": "Inquisition",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "+1 attack and +1 damage die vs. Force Sensitive targets",
+    "desc2": "// Improved Cryokinesis• Force, Technique",
+    "ignore_bonuses": true,
+    "is_attack": "Other",
+    "kind": "Improved Cryokinesis",
+    "name_2": "No",
+    "prerequisite_type": "melee",
+    "ref": "CWCG 54",
+    "sort_tags": "Technique",
+    "source_tag": "FUCG",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 73,
+     "ref": "Lists!EV73:GH73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision"
+   ]
+  },
+  {
+   "id": "weapon_mod_inquisition_and_mighty_swing",
+   "entity": "weapon_mod",
+   "name": "Inquisition and Mighty Swing",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Inquisition",
+     "Mighty Swing"
+    ],
+    "damage_dice_mod": 2,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_inquisition__sf_weapon_feat_mods_42",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 43,
+     "ref": "Lists!AS43:AZ43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_inquisition_and_rapid_strike",
+   "entity": "weapon_mod",
+   "name": "Inquisition and Rapid Strike",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Inquisition",
+     "Rapid Strike"
+    ],
+    "damage_dice_mod": 2,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_inquisition__sf_weapon_feat_mods_42",
+     "weapon_mod_rapid_strike"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 44,
+     "ref": "Lists!AS44:AZ44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_master_of_the_great_hunt",
+   "entity": "weapon_mod",
+   "name": "Master of the Great Hunt",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "+1 attack, +1 die of damage against beasts with a Dark Side score of 1 or higher",
+    "desc2": "// Improved Fold Space• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Fold Space",
+    "name_2": "No",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "ref": 103,
+    "sort_tags": "Technique",
+    "source_tag": "JATM",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 79,
+     "ref": "Lists!EV79:GH79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_mighty_swing",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and 2 swift",
+    "action_2": "free action",
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "when making a melee attack",
+    "damage_dice_mod": 1,
+    "desc1": "Take a penalty of -1 to -5 on attack roll to add twice that value (+2 to +10) as an insight bonusto Will; lasts until beginning of next turn",
+    "desc2": "// Steel Resolve (free action; when making a melee attack) • Force, Talent\nTake a penalty of -1 to -5 on attack roll to add twice that value (+2 to +10) as an insight bonusto Will; lasts until beginning of next turn",
+    "is_attack": "Defense",
+    "kind": "Steel Resolve",
+    "prerequisite_type": "melee",
+    "ref": "TFU 24",
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "Yes",
+    "tags": "Force, Talent",
+    "url": "https://swse.miraheze.org/wiki/Mighty_Swing"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 45,
+     "ref": "Lists!AS45:AZ45",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 45,
+     "ref": "Lists!AS45:AZ45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_1",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-1)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 1,
+    "damage_mod_2": 2,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -1,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 46,
+     "ref": "Lists!AS46:AZ46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_10",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-10)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -10,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 10,
+    "damage_mod_2": 20,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -10,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 55,
+     "ref": "Lists!AS55:AZ55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_11",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-11)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -11,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 11,
+    "damage_mod_2": 22,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -11,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 56,
+     "ref": "Lists!AS56:AZ56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_12",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-12)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -12,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 12,
+    "damage_mod_2": 24,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -12,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 57,
+     "ref": "Lists!AS57:AZ57",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_13",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-13)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -13,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 13,
+    "damage_mod_2": 26,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -13,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 58,
+     "ref": "Lists!AS58:AZ58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_14",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-14)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -14,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 14,
+    "damage_mod_2": 28,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -14,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 59,
+     "ref": "Lists!AS59:AZ59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_15",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-15)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -15,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 15,
+    "damage_mod_2": 30,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -15,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 60,
+     "ref": "Lists!AS60:AZ60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_16",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-16)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -16,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 16,
+    "damage_mod_2": 32,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -16,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 61,
+     "ref": "Lists!AS61:AZ61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_17",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-17)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -17,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 17,
+    "damage_mod_2": 34,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -17,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 62,
+     "ref": "Lists!AS62:AZ62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_18",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-18)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -18,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 18,
+    "damage_mod_2": 36,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -18,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 63,
+     "ref": "Lists!AS63:AZ63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_19",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-19)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -19,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 19,
+    "damage_mod_2": 38,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -19,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 64,
+     "ref": "Lists!AS64:AZ64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_2",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-2)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 2,
+    "damage_mod_2": 4,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -2,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 47,
+     "ref": "Lists!AS47:AZ47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_20",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-20)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -20,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 20,
+    "damage_mod_2": 40,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -20,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 65,
+     "ref": "Lists!AS65:AZ65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_3",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-3)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -3,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 3,
+    "damage_mod_2": 6,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -3,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 48,
+     "ref": "Lists!AS48:AZ48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_4",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-4)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -4,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 4,
+    "damage_mod_2": 8,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -4,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 49,
+     "ref": "Lists!AS49:AZ49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_5",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-5)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 5,
+    "damage_mod_2": 10,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -5,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 50,
+     "ref": "Lists!AS50:AZ50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_6",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-6)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -6,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 6,
+    "damage_mod_2": 12,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -6,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 51,
+     "ref": "Lists!AS51:AZ51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_7",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-7)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -7,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 7,
+    "damage_mod_2": 14,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -7,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 52,
+     "ref": "Lists!AS52:AZ52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_8",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-8)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -8,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 8,
+    "damage_mod_2": 16,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -8,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 53,
+     "ref": "Lists!AS53:AZ53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_mighty_swing_and_power_attack_9",
+   "entity": "weapon_mod",
+   "name": "Mighty Swing and Power Attack (-9)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -9,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Mighty Swing",
+     "Power Attack"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 9,
+    "damage_mod_2": 18,
+    "parameter_base": "Mighty Swing and Power Attack",
+    "parameter_value": -9,
+    "prerequisite_type": "melee",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_mighty_swing"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 54,
+     "ref": "Lists!AS54:AZ54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_point_blank_shot",
+   "entity": "weapon_mod",
+   "name": "Point Blank Shot",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "standard",
+    "attack_mod": 1,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "within 12 squares",
+    "condition_2": "one enemy [Int 3+] that sees, hears and understands",
+    "damage_mod": 1,
+    "desc1": "+0 vs. Will; target moves -1 step along the condition track\n+5 bonus to enemy's Will if it is higher level",
+    "desc2": "// Adept Negotiator (standard; one enemy [Int 3+] that sees, hears and understands ) • Talent\n+0 vs. Will; target moves -1 step along the condition track\n+5 bonus to enemy's Will if it is higher level",
+    "is_attack": "Other",
+    "kind": "Adept Negotiator",
+    "prerequisite_type": "ranged",
+    "ref": "JATM 36",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent",
+    "url": "https://swse.miraheze.org/wiki/Point-Blank_Shot"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 66,
+     "ref": "Lists!AS66:AZ66",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 66,
+     "ref": "Lists!AS66:AZ66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_1",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-1)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "special",
+    "action_3": "DP",
+    "attack_mod": -1,
+    "canon_basis": "block_declaration",
+    "damage_mod": 1,
+    "damage_mod_2": 2,
+    "desc1": "Spend Desiny Point to fully heal the target of all damage and remove all of the target's debilitating conditions",
+    "desc2": "// Advanced Vital Transfer (special; DP) • Force, Technique\nSpend Desiny Point to fully heal the target of all damage and remove all of the target's debilitating conditions",
+    "is_attack": "Other",
+    "kind": "Advanced Vital Transfer",
+    "parameter_base": "Power Attack",
+    "parameter_value": -1,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "LECG 56",
+    "sort_tags": "Technique",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 67,
+     "ref": "Lists!AS67:AZ67",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 67,
+     "ref": "Lists!AS67:AZ67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_10",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-10)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "standard",
+    "attack_mod": -10,
+    "canon_basis": "block_declaration",
+    "condition_2": "enemy that understands within 12 squares and line of sight",
+    "damage_mod": 10,
+    "damage_mod_2": 20,
+    "desc1": "+0 vs. Will; give enemy a -2 penalty to Reflex against attacks from all your allies within range until end of 's next turn",
+    "desc2": "// Adversary Lore (standard; enemy that understands within 12 squares and line of sight) • Talent\n+0 vs. Will; give enemy a -2 penalty to Reflex against attacks from all your allies within range until end of 's next turn",
+    "is_attack": "Other",
+    "kind": "Adversary Lore",
+    "parameter_base": "Power Attack",
+    "parameter_value": -10,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "LECG 56",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 76,
+     "ref": "Lists!AS76:AZ76",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 76,
+     "ref": "Lists!AS76:AZ76",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_11",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-11)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "special",
+    "attack_mod": -11,
+    "canon_basis": "block_declaration",
+    "condition_2": "whenever damages an opponent with a lightsaber",
+    "damage_mod": 11,
+    "damage_mod_2": 22,
+    "desc1": "Take 10 on Persuasion checks until end of next turn",
+    "desc2": "// Aggressive Negotiator (special; whenever damages an opponent with a lightsaber) • Talent\nTake 10 on Persuasion checks until end of next turn",
+    "is_attack": "Other",
+    "kind": "Aggressive Negotiator",
+    "parameter_base": "Power Attack",
+    "parameter_value": -11,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "FUCG 88",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 77,
+     "ref": "Lists!AS77:AZ77",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 77,
+     "ref": "Lists!AS77:AZ77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_12",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-12)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "full-round",
+    "action_3": "FP; encounter",
+    "attack_mod": -12,
+    "canon_basis": "block_declaration",
+    "condition_2": "all allies within 6 squares",
+    "damage_mod": 12,
+    "damage_mod_2": 24,
+    "desc1": "and allies gain a +1 insight bonus to attack rolls until end of encounter",
+    "desc2": "// Battle Meditation (full-round; FP; encounter; all allies within 6 squares) • Force, Talent\nand allies gain a +1 insight bonus to attack rolls until end of encounter",
+    "is_attack": "Other",
+    "kind": "Battle Meditation",
+    "parameter_base": "Power Attack",
+    "parameter_value": -12,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "JATM 36",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 78,
+     "ref": "Lists!AS78:AZ78",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 78,
+     "ref": "Lists!AS78:AZ78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_13",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-13)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "standard",
+    "action_3": "FP",
+    "attack_mod": -13,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 13,
+    "damage_mod_2": 26,
+    "desc1": "Avoid Force detection for one hour, or a Use the Force check is made",
+    "desc2": "// Buried Presence (standard; FP) • Force, Talent\nAvoid Force detection for one hour, or a Use the Force check is made",
+    "is_attack": "Other",
+    "kind": "Buried Presence",
+    "parameter_base": "Power Attack",
+    "parameter_value": -13,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": 103,
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 79,
+     "ref": "Lists!AS79:AZ79",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 79,
+     "ref": "Lists!AS79:AZ79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_14",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-14)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "reaction",
+    "action_3": "FP",
+    "attack_mod": -14,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "successfully negate damage with negate energy",
+    "damage_mod": 14,
+    "damage_mod_2": 28,
+    "desc1": "Immediately activate any Force Power currently in Force suite",
+    "desc2": "// Channel Energy (reaction; FP; successfully negate damage with negate energy) • Force, Talent\nImmediately activate any Force Power currently in Force suite",
+    "is_attack": "Other",
+    "kind": "Channel Energy",
+    "parameter_base": "Power Attack",
+    "parameter_value": -14,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "JATM 16",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 80,
+     "ref": "Lists!AS80:AZ80",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 80,
+     "ref": "Lists!AS80:AZ80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_15",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-15)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "attack_mod": -15,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "one ally within line of sight",
+    "damage_mod": 15,
+    "damage_mod_2": 30,
+    "desc1": "Remove one mind-affecting effect from ally",
+    "desc2": "// Cleanse Mind (swift; one ally within line of sight) • Force, Talent\nRemove one mind-affecting effect from ally",
+    "is_attack": "Other",
+    "kind": "Cleanse Mind",
+    "parameter_base": "Power Attack",
+    "parameter_value": -15,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "FUCG",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 81,
+     "ref": "Lists!AS81:AZ81",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 81,
+     "ref": "Lists!AS81:AZ81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_16",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-16)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "attack_mod": -16,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 16,
+    "damage_mod_2": 32,
+    "desc1": "Designate a target; until the start of 's next turn, its movement does not provoke attacks of opportunity from that target, provided that it ends its movement adjacent to that target",
+    "desc2": "// Close Maneuvering (swift) • Talent\nDesignate a target; until the start of 's next turn, its movement does not provoke attacks of opportunity from that target, provided that it ends its movement adjacent to that target",
+    "is_attack": "Other",
+    "kind": "Close Maneuvering",
+    "parameter_base": "Power Attack",
+    "parameter_value": -16,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "RE 23",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 82,
+     "ref": "Lists!AS82:AZ82",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 82,
+     "ref": "Lists!AS82:AZ82",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_17",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-17)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "special",
+    "attack_mod": -17,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 17,
+    "damage_mod_2": 34,
+    "desc1": "Gain +1 bonust to Reflex for each adjacent ally (max +0)",
+    "desc2": "// Command Cover (special) • Class\nGain +1 bonust to Reflex for each adjacent ally (max +0)",
+    "is_attack": "Other",
+    "kind": "Command Cover",
+    "parameter_base": "Power Attack",
+    "parameter_value": -17,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "CWCG 55",
+    "sort_tags": "Class",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Class"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 83,
+     "ref": "Lists!AS83:AZ83",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 83,
+     "ref": "Lists!AS83:AZ83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_18",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-18)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "attack_mod": -18,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "one ally within 12 squares and line of sight",
+    "damage_mod": 18,
+    "damage_mod_2": 36,
+    "is_attack": "Other",
+    "kind": "Consular's Vitality",
+    "parameter_base": "Power Attack",
+    "parameter_value": -18,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "CW 22",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 84,
+     "ref": "Lists!AS84:AZ84",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 84,
+     "ref": "Lists!AS84:AZ84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_19",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-19)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "action_3": "encounter",
+    "attack_mod": -19,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "one ally within line of sight",
+    "damage_mod": 19,
+    "damage_mod_2": 38,
+    "desc1": "Ally gains + bonus to Will against mind-affecting effects until end of the encounter",
+    "desc2": "// Consular's Wisdom (swift; encounter; one ally within line of sight) • Talent\nAlly gains + bonus to Will against mind-affecting effects until end of the encounter",
+    "is_attack": "Other",
+    "kind": "Consular's Wisdom",
+    "parameter_base": "Power Attack",
+    "parameter_value": -19,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "Elite Trooper",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 85,
+     "ref": "Lists!AS85:AZ85",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 85,
+     "ref": "Lists!AS85:AZ85",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_2",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-2)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "free action",
+    "action_3": "FP/DP",
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "condition_2": "non [light side] Force power",
+    "damage_mod": 2,
+    "damage_mod_2": 4,
+    "desc1": "Spend Force Point to give power the [dark side] descriptor and opponents with lower Dark Side Score take -2 penalty to defense scores against power; spend Destiny point to increase the penalty to opponents' defense scores to - 5",
+    "desc2": "// Corrupted Power (free action; FP/DP; non [light side] Force power) • Force, Secret\nSpend Force Point to give power the [dark side] descriptor and opponents with lower Dark Side Score take -2 penalty to defense scores against power; spend Destiny point to increase the penalty to opponents' defense scores to - 5",
+    "is_attack": "Other",
+    "kind": "Corrupted Power",
+    "parameter_base": "Power Attack",
+    "parameter_value": -2,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "JATM 37",
+    "sort_tags": "Secret",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Secret"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 68,
+     "ref": "Lists!AS68:AZ68",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 68,
+     "ref": "Lists!AS68:AZ68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_20",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-20)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "reaction",
+    "action_3": "FP",
+    "attack_mod": -20,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 20,
+    "damage_mod_2": 40,
+    "desc1": "Negate a melee attack against an adjacent ally with the Block or Deflect talents; that ally can move up to 2 squares as a free action that does not provoke an attack of opportunity",
+    "desc2": "// Cover Escape (reaction; FP) • Talent\nNegate a melee attack against an adjacent ally with the Block or Deflect talents; that ally can move up to 2 squares as a free action that does not provoke an attack of opportunity",
+    "is_attack": "Other",
+    "kind": "Cover Escape",
+    "parameter_base": "Power Attack",
+    "parameter_value": -20,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "GAW 18",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 86,
+     "ref": "Lists!AS86:AZ86",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 86,
+     "ref": "Lists!AS86:AZ86",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_3",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-3)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -3,
+    "canon_basis": "block_declaration",
+    "damage_mod": 3,
+    "damage_mod_2": 6,
+    "desc2": "// Cure Disease• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Cure Disease",
+    "parameter_base": "Power Attack",
+    "parameter_value": -3,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "JATM 37",
+    "sort_tags": "Technique",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 69,
+     "ref": "Lists!AS69:AZ69",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 69,
+     "ref": "Lists!AS69:AZ69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_4",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-4)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "attack_mod": -4,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 4,
+    "damage_mod_2": 8,
+    "desc1": "+0 vs. Will to cause creature to forget interaction afterwards; targets of higher level gain +5 bonus to Will",
+    "desc2": "// Dampen Presence (swift) • Force, Mind-Affecting, Talent\n+0 vs. Will to cause creature to forget interaction afterwards; targets of higher level gain +5 bonus to Will",
+    "is_attack": "Other",
+    "kind": "Dampen Presence",
+    "parameter_base": "Power Attack",
+    "parameter_value": -4,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "TFU 24",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Mind-Affecting, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 70,
+     "ref": "Lists!AS70:AZ70",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 70,
+     "ref": "Lists!AS70:AZ70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_5",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-5)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "reaction",
+    "action_3": "FP; encounter",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "targeted by a dark-side Force power",
+    "damage_mod": 5,
+    "damage_mod_2": 10,
+    "desc1": "Upon being targeted by a dark side power, activate a Force power",
+    "desc2": "// Dark Retaliation (reaction; FP; encounter; targeted by a dark-side Force power) • Force, Talent\nUpon being targeted by a dark side power, activate a Force power",
+    "is_attack": "Other",
+    "kind": "Dark Retaliation",
+    "parameter_base": "Power Attack",
+    "parameter_value": -5,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "KotOR 25",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 71,
+     "ref": "Lists!AS71:AZ71",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 71,
+     "ref": "Lists!AS71:AZ71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_6",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-6)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "free action",
+    "action_3": "FP/DP",
+    "attack_mod": -6,
+    "canon_basis": "block_declaration",
+    "condition_2": "successfully damage target with Force power",
+    "damage_mod": 6,
+    "damage_mod_2": 12,
+    "desc1": "Spend Force Point to move the target -1 extra step along the condition track if Use the Force equals or exceeds Damage Threshold; spend Destiny Point to move -3 extra steps",
+    "desc2": "// Debilitating Power (free action; FP/DP; successfully damage target with Force power) • Force, Secret\nSpend Force Point to move the target -1 extra step along the condition track if Use the Force equals or exceeds Damage Threshold; spend Destiny Point to move -3 extra steps",
+    "is_attack": "Other",
+    "kind": "Debilitating Power",
+    "parameter_base": "Power Attack",
+    "parameter_value": -6,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "FUCG 88",
+    "sort_tags": "Secret",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Secret"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 72,
+     "ref": "Lists!AS72:AZ72",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 72,
+     "ref": "Lists!AS72:AZ72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_7",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-7)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "attack_mod": -7,
+    "canon_basis": "block_declaration",
+    "condition_2": "all allies within range of Battle Meditation",
+    "damage_mod": 7,
+    "damage_mod_2": 14,
+    "desc1": "and allies within range gain +2 insight bonus to Reflex; gains a +1 bonus to Block and Deflect for each adjacent lightsaber-wielding ally",
+    "desc2": "// Defensive Circle (swift; all allies within range of Battle Meditation) • Force, Talent\nand allies within range gain +2 insight bonus to Reflex; gains a +1 bonus to Block and Deflect for each adjacent lightsaber-wielding ally",
+    "is_attack": "Other",
+    "kind": "Defensive Circle",
+    "parameter_base": "Power Attack",
+    "parameter_value": -7,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "JATM 36",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 73,
+     "ref": "Lists!AS73:AZ73",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 73,
+     "ref": "Lists!AS73:AZ73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_8",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-8)",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "reaction",
+    "action_3": "encounter",
+    "attack_mod": -8,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 8,
+    "damage_mod_2": 16,
+    "desc1": "Choose to delay effect of attack, ability, or effect used against you; damage or effect does not take hold until the end of next turn",
+    "desc2": "// Delay Damage (reaction; encounter) • Class\nChoose to delay effect of attack, ability, or effect used against you; damage or effect does not take hold until the end of next turn",
+    "is_attack": "Other",
+    "kind": "Delay Damage",
+    "parameter_base": "Power Attack",
+    "parameter_value": -8,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": 103,
+    "sort_tags": "Class",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Class"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 74,
+     "ref": "Lists!AS74:AZ74",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 74,
+     "ref": "Lists!AS74:AZ74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_attack_9",
+   "entity": "weapon_mod",
+   "name": "Power Attack (-9)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -9,
+    "canon_basis": "block_declaration",
+    "damage_mod": 9,
+    "damage_mod_2": 18,
+    "desc2": "// Detoxify Poison• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Detoxify Poison",
+    "parameter_base": "Power Attack",
+    "parameter_value": -9,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "melee",
+    "ref": "KOTOR 54",
+    "sort_tags": "Technique",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 75,
+     "ref": "Lists!AS75:AZ75",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 75,
+     "ref": "Lists!AS75:AZ75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_1",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-1)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "free action",
+    "action_3": "FP/DP",
+    "attack_mod": -1,
+    "canon_basis": "block_declaration",
+    "damage_mod": 1,
+    "damage_mod_2": 2,
+    "desc1": "Spend a Force Point to increase power's damage dice by 50%; spend Destiny Point to double damage dice",
+    "desc2": "// Devastating Power (free action; FP/DP) • Force, Secret\nSpend a Force Point to increase power's damage dice by 50%; spend Destiny Point to double damage dice",
+    "is_attack": "Other",
+    "kind": "Devastating Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -1,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "JATM 37",
+    "single": "Yes",
+    "sort_tags": "Secret",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Secret"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 88,
+     "ref": "Lists!AS88:AZ88",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 88,
+     "ref": "Lists!AS88:AZ88",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_10",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-10)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "free action",
+    "action_3": "FP/DP",
+    "attack_mod": -10,
+    "canon_basis": "block_declaration",
+    "damage_mod": 10,
+    "damage_mod_2": 20,
+    "desc1": "Spend a Force Point to multiply range of Force power by 10; spend Destiny Point to increase the range to anywhere in same star system",
+    "desc2": "// Distant Power (free action; FP/DP) • Force, Secret\nSpend a Force Point to multiply range of Force power by 10; spend Destiny Point to increase the range to anywhere in same star system",
+    "is_attack": "Other",
+    "kind": "Distant Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -10,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "LECG 55",
+    "single": "Yes",
+    "sort_tags": "Secret",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Secret"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 97,
+     "ref": "Lists!AS97:AZ97",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 97,
+     "ref": "Lists!AS97:AZ97",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_11",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-11)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "attack_mod": -11,
+    "canon_basis": "block_declaration",
+    "damage_mod": 11,
+    "damage_mod_2": 22,
+    "desc2": "// Dominate Mind• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Dominate Mind",
+    "parameter_base": "Power Blast",
+    "parameter_value": -11,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "FUCG 88",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 98,
+     "ref": "Lists!AS98:AZ98",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 98,
+     "ref": "Lists!AS98:AZ98",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_12",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-12)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "free action",
+    "action_3": "FP/DP",
+    "attack_mod": -12,
+    "canon_basis": "block_declaration",
+    "condition_2": "area effect Force power",
+    "damage_mod": 12,
+    "damage_mod_2": 24,
+    "desc1": "Spend a Force Point to double distance of effect; spend Destiny Point to multiply the distance the effect extends by 5",
+    "desc2": "// Enlarged Power (free action; FP/DP; area effect Force power) • Force, Secret\nSpend a Force Point to double distance of effect; spend Destiny Point to multiply the distance the effect extends by 5",
+    "is_attack": "Other",
+    "kind": "Enlarged Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -12,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "LECG 55",
+    "single": "Yes",
+    "sort_tags": "Secret",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Secret"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 99,
+     "ref": "Lists!AS99:AZ99",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 99,
+     "ref": "Lists!AS99:AZ99",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_13",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-13)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "swift",
+    "action_3": "FP",
+    "attack_mod": -13,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "one ally",
+    "damage_mod": 13,
+    "damage_mod_2": 26,
+    "desc1": "Once per turn can grant an ally the the Aid Another as a reaction to help it with a skill check",
+    "desc2": "// Entreat Aid (swift; FP; one ally) • Force, Talent\nOnce per turn can grant an ally the the Aid Another as a reaction to help it with a skill check",
+    "is_attack": "Other",
+    "kind": "Entreat Aid",
+    "parameter_base": "Power Blast",
+    "parameter_value": -13,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "LE 26",
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 100,
+     "ref": "Lists!AS100:AZ100",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 100,
+     "ref": "Lists!AS100:AZ100",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_14",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-14)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "free action",
+    "action_3": "FP/DP",
+    "attack_mod": -14,
+    "canon_basis": "block_declaration",
+    "damage_mod": 14,
+    "damage_mod_2": 28,
+    "desc1": "Spend Force Point to sustain a Force power that allows concentration as swift action for rounds",
+    "desc2": "// Extend Power (free action; FP/DP) • Force, Secret\nSpend Force Point to sustain a Force power that allows concentration as swift action for rounds",
+    "is_attack": "Other",
+    "kind": "Extend Power",
+    "parameter_base": "Power Blast",
+    "parameter_value": -14,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "JATM 37",
+    "single": "Yes",
+    "sort_tags": "Secret",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Secret"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 101,
+     "ref": "Lists!AS101:AZ101",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 101,
+     "ref": "Lists!AS101:AZ101",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_15",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-15)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "attack_mod": -15,
+    "canon_basis": "block_declaration",
+    "damage_mod": 15,
+    "damage_mod_2": 30,
+    "desc2": "// Extended Blind• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Extended Blind",
+    "parameter_base": "Power Blast",
+    "parameter_value": -15,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": 102,
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 102,
+     "ref": "Lists!AS102:AZ102",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 102,
+     "ref": "Lists!AS102:AZ102",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_16",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-16)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "attack_mod": -16,
+    "canon_basis": "block_declaration",
+    "damage_mod": 16,
+    "damage_mod_2": 32,
+    "desc2": "// Extended Force Disarm• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Extended Force Disarm",
+    "parameter_base": "Power Blast",
+    "parameter_value": -16,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "KOTOR 54",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 103,
+     "ref": "Lists!AS103:AZ103",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 103,
+     "ref": "Lists!AS103:AZ103",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_17",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-17)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "attack_mod": -17,
+    "canon_basis": "block_declaration",
+    "damage_mod": 17,
+    "damage_mod_2": 34,
+    "desc2": "// Extended Force Grip• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Extended Force Grip",
+    "parameter_base": "Power Blast",
+    "parameter_value": -17,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "KOTOR 54",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 104,
+     "ref": "Lists!AS104:AZ104",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 104,
+     "ref": "Lists!AS104:AZ104",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_18",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-18)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "attack_mod": -18,
+    "canon_basis": "block_declaration",
+    "damage_mod": 18,
+    "damage_mod_2": 36,
+    "desc2": "// Extended Force Thrust• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Extended Force Thrust",
+    "parameter_base": "Power Blast",
+    "parameter_value": -18,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "CWCG 54",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 105,
+     "ref": "Lists!AS105:AZ105",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 105,
+     "ref": "Lists!AS105:AZ105",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_19",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-19)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "attack_mod": -19,
+    "canon_basis": "block_declaration",
+    "damage_mod": 19,
+    "damage_mod_2": 38,
+    "desc2": "// Extended Move Object• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Extended Move Object",
+    "parameter_base": "Power Blast",
+    "parameter_value": -19,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "LECG 56",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 106,
+     "ref": "Lists!AS106:AZ106",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 106,
+     "ref": "Lists!AS106:AZ106",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_2",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-2)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "full-round",
+    "action_3": "at-will",
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 2,
+    "damage_mod_2": 4,
+    "desc1": "+0 to Reflex and attack rolls against studied opponent until the end of the encounter",
+    "desc2": "// Familiar Foe (full-round; at-will) • Class\n+0 to Reflex and attack rolls against studied opponent until the end of the encounter",
+    "is_attack": "Other",
+    "kind": "Familiar Foe",
+    "parameter_base": "Power Blast",
+    "parameter_value": -2,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "CWCG 54",
+    "single": "Yes",
+    "sort_tags": "Class",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Class"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 89,
+     "ref": "Lists!AS89:AZ89",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 89,
+     "ref": "Lists!AS89:AZ89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_20",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-20)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "reaction",
+    "attack_mod": -20,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "natural 1 rolled on an attack or Use the Force check",
+    "damage_mod": 20,
+    "damage_mod_2": 40,
+    "desc1": "Gain a temporary Force Point",
+    "desc2": "// Force Flow (reaction; natural 1 rolled on an attack or Use the Force check) • Force, Talent\nGain a temporary Force Point",
+    "is_attack": "Other",
+    "kind": "Force Flow",
+    "parameter_base": "Power Blast",
+    "parameter_value": -20,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "KotOR 52",
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 55,
+     "ref": "Lists!EV55:GH55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_21",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-21)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -21,
+    "canon_basis": "block_declaration",
+    "damage_mod": 21,
+    "damage_mod_2": 42,
+    "parameter_base": "Power Blast",
+    "parameter_value": -21,
+    "prerequisite_type": "ranged",
+    "single": "Yes"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 87,
+     "ref": "Lists!AS87:AZ87",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_3",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-3)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "full-round",
+    "attack_mod": -3,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 3,
+    "damage_mod_2": 6,
+    "desc1": "+0 vs. DC 15; regain one spent Force power of choice",
+    "desc2": "// Force Focus (full-round) • Force, Talent\n+0 vs. DC 15; regain one spent Force power of choice",
+    "is_attack": "Other",
+    "kind": "Force Focus",
+    "parameter_base": "Power Blast",
+    "parameter_value": -3,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": 101,
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 90,
+     "ref": "Lists!AS90:AZ90",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 90,
+     "ref": "Lists!AS90:AZ90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_4",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-4)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "free action",
+    "action_3": "encounter",
+    "attack_mod": -4,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 4,
+    "damage_mod_2": 8,
+    "desc1": "Activate one Force talent that requires a Force Point to use without spending a Force Point",
+    "desc2": "// Force Harmony (free action; encounter) • Force, Talent\nActivate one Force talent that requires a Force Point to use without spending a Force Point",
+    "is_attack": "Other",
+    "kind": "Force Harmony",
+    "parameter_base": "Power Blast",
+    "parameter_value": -4,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "JATM 16",
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 91,
+     "ref": "Lists!AS91:AZ91",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 91,
+     "ref": "Lists!AS91:AZ91",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_5",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-5)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "standard",
+    "action_3": "FP",
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 5,
+    "damage_mod_2": 10,
+    "desc1": "+0 vs. Will of any creature that comes into line of sight to grant 0 allies total concealment for up to 1 min from those opponents; if an concealed ally attacks, the effect ends",
+    "desc2": "// Force Haze (standard; FP) • Force, Talent\n+0 vs. Will of any creature that comes into line of sight to grant 0 allies total concealment for up to 1 min from those opponents; if an concealed ally attacks, the effect ends",
+    "is_attack": "Other",
+    "kind": "Force Haze",
+    "parameter_base": "Power Blast",
+    "parameter_value": -5,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": 40,
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 92,
+     "ref": "Lists!AS92:AZ92",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 92,
+     "ref": "Lists!AS92:AZ92",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_6",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-6)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "special",
+    "action_3": "encounter",
+    "attack_mod": -6,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_mod": 6,
+    "damage_mod_2": 12,
+    "desc1": "Automatically recover 1 Force Point per encounter",
+    "desc2": "// Force Point Recovery (special; encounter) • Force, Technique\nAutomatically recover 1 Force Point per encounter",
+    "is_attack": "Other",
+    "kind": "Force Point Recovery",
+    "parameter_base": "Power Blast",
+    "parameter_value": -6,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "LECG 55",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 93,
+     "ref": "Lists!AS93:AZ93",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 93,
+     "ref": "Lists!AS93:AZ93",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_7",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-7)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "special",
+    "attack_mod": -7,
+    "canon_basis": "block_declaration",
+    "damage_mod": 7,
+    "damage_mod_2": 14,
+    "desc1": "Take 10 on Use the Force checks to activate chosen Force power even when distracted or threatened",
+    "desc2": "// Force Power Mastery (special) • Force, Technique\nTake 10 on Use the Force checks to activate chosen Force power even when distracted or threatened",
+    "is_attack": "Other",
+    "kind": "Force Power Mastery",
+    "parameter_base": "Power Blast",
+    "parameter_value": -7,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "KOTOR 54",
+    "single": "Yes",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 94,
+     "ref": "Lists!AS94:AZ94",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 94,
+     "ref": "Lists!AS94:AZ94",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_8",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-8)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "reaction",
+    "action_3": "FP",
+    "attack_mod": -8,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "ally affected by Battle Mediation is reduced to 0 hit points",
+    "damage_mod": 8,
+    "damage_mod_2": 16,
+    "desc1": "Ally can take its Second Wind as a reaction immediately (though the target still falls unconscious before the Second Wind is triggered)",
+    "desc2": "// Force Revive (reaction; FP; ally affected by Battle Mediation is reduced to 0 hit points) • Force, Talent\nAlly can take its Second Wind as a reaction immediately (though the target still falls unconscious before the Second Wind is triggered)",
+    "is_attack": "Other",
+    "kind": "Force Revive",
+    "parameter_base": "Power Blast",
+    "parameter_value": -8,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "FUCG 89",
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 95,
+     "ref": "Lists!AS95:AZ95",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 95,
+     "ref": "Lists!AS95:AZ95",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_power_blast_9",
+   "entity": "weapon_mod",
+   "name": "Power Blast (-9)",
+   "canon": "third_party",
+   "attrs": {
+    "action": "standard and swift",
+    "action_2": "reaction",
+    "attack_mod": -9,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition_2": "fail to rebuke a Force power",
+    "damage_mod": 9,
+    "damage_mod_2": 18,
+    "desc1": "Lessen the effect of the Force power one step",
+    "desc2": "// Force Suppression (reaction; fail to rebuke a Force power) • Force, Talent\nLessen the effect of the Force power one step",
+    "is_attack": "Other",
+    "kind": "Force Suppression",
+    "parameter_base": "Power Blast",
+    "parameter_value": -9,
+    "prerequisite_proficiency": "NotMet",
+    "prerequisite_type": "ranged",
+    "ref": "KotOR 53",
+    "single": "Yes",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "Yes",
+    "tags": "Force, Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 96,
+     "ref": "Lists!AS96:AZ96",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 96,
+     "ref": "Lists!AS96:AZ96",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_parameter_variant",
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_powerful_charge",
+   "entity": "weapon_mod",
+   "name": "Powerful Charge",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 4,
+    "canon_basis": "block_declaration",
+    "damage_mod": 0,
+    "prerequisite_type": "melee",
+    "single": "Yes",
+    "url": "https://swse.miraheze.org/wiki/Powerful_Charge"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 107,
+     "ref": "Lists!AS107:AZ107",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_prime_shot",
+   "entity": "weapon_mod",
+   "name": "Prime Shot",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "reaction",
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "+1 attack if within short range and no allies are closer",
+    "desc1": "+0 vs. attack of grenade; deflect grenade so that it explodes harmlessly; take a -5 penalty to Use the Force checks until the start of next turn",
+    "desc2": "// Grenade Defense (reaction) • Force, Talent\n+0 vs. attack of grenade; deflect grenade so that it explodes harmlessly; take a -5 penalty to Use the Force checks until the start of next turn",
+    "ignore_bonuses": true,
+    "is_attack": "Other",
+    "kind": "Grenade Defense",
+    "prerequisite_type": "ranged",
+    "ref": "JATM 14",
+    "sort_tags": "Talent",
+    "source_tag": "RECG",
+    "standalone": "No",
+    "tags": "Force, Talent",
+    "url": "https://swse.miraheze.org/wiki/Prime_Shot"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 63,
+     "ref": "Lists!EV63:GH63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_prime_targets",
+   "entity": "weapon_mod",
+   "name": "Prime Targets",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "+1 die of damage if only dealt damage to target since last turn",
+    "desc2": "// Improved Force Disarm• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Force Disarm",
+    "name_2": "No",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "ref": 103,
+    "sort_tags": "Technique",
+    "source_tag": "GAW",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 80,
+     "ref": "Lists!EV80:GH80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_rage",
+   "entity": "weapon_mod",
+   "name": "Rage",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "whist raging",
+    "condition_2": "deals damage against enemy with it lightsaber",
+    "damage_mod": 2,
+    "desc1": "Allies adjacent to the target at the time made the attack gain a +2 circumstance bonus to melee attack rolls against that target until the start of 's next turn",
+    "desc2": "// Guiding Strikes (swift; deals damage against enemy with it lightsaber) • Talent\nAllies adjacent to the target at the time made the attack gain a +2 circumstance bonus to melee attack rolls against that target until the start of 's next turn",
+    "is_attack": "Other",
+    "kind": "Guiding Strikes",
+    "prerequisite_type": "melee",
+    "ref": "RE 23",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Talent"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 108,
+     "ref": "Lists!AS108:AZ108",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 108,
+     "ref": "Lists!AS108:AZ108",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_1",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-1)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 3,
+    "damage_mod_2": 4,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -1,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 109,
+     "ref": "Lists!AS109:AZ109",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_10",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-10)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -8,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 12,
+    "damage_mod_2": 22,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -10,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 118,
+     "ref": "Lists!AS118:AZ118",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_11",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-11)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -9,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 13,
+    "damage_mod_2": 24,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -11,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 119,
+     "ref": "Lists!AS119:AZ119",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_12",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-12)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -10,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 14,
+    "damage_mod_2": 26,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -12,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 120,
+     "ref": "Lists!AS120:AZ120",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_13",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-13)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -11,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 15,
+    "damage_mod_2": 28,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -13,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 121,
+     "ref": "Lists!AS121:AZ121",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_14",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-14)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -12,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 16,
+    "damage_mod_2": 30,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -14,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 122,
+     "ref": "Lists!AS122:AZ122",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_15",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-15)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -13,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 17,
+    "damage_mod_2": 32,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -15,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 123,
+     "ref": "Lists!AS123:AZ123",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_16",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-16)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -14,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 18,
+    "damage_mod_2": 34,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -16,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 124,
+     "ref": "Lists!AS124:AZ124",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_17",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-17)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -15,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 19,
+    "damage_mod_2": 36,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -17,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 125,
+     "ref": "Lists!AS125:AZ125",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_18",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-18)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -16,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 20,
+    "damage_mod_2": 38,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -18,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 126,
+     "ref": "Lists!AS126:AZ126",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_19",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-19)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -17,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 21,
+    "damage_mod_2": 40,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -19,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 127,
+     "ref": "Lists!AS127:AZ127",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_2",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-2)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 0,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 4,
+    "damage_mod_2": 6,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -2,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 110,
+     "ref": "Lists!AS110:AZ110",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_20",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-20)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -18,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 22,
+    "damage_mod_2": 42,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -20,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 128,
+     "ref": "Lists!AS128:AZ128",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_3",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-3)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 5,
+    "damage_mod_2": 8,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -3,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 111,
+     "ref": "Lists!AS111:AZ111",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_4",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-4)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 6,
+    "damage_mod_2": 10,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -4,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 112,
+     "ref": "Lists!AS112:AZ112",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_5",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-5)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -3,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 7,
+    "damage_mod_2": 12,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -5,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 113,
+     "ref": "Lists!AS113:AZ113",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_6",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-6)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -4,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 8,
+    "damage_mod_2": 14,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -6,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 114,
+     "ref": "Lists!AS114:AZ114",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_7",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-7)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -5,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 9,
+    "damage_mod_2": 16,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -7,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 115,
+     "ref": "Lists!AS115:AZ115",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_8",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-8)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -6,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 10,
+    "damage_mod_2": 18,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -8,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 116,
+     "ref": "Lists!AS116:AZ116",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rage_and_power_attack_9",
+   "entity": "weapon_mod",
+   "name": "Rage and Power Attack (-9)",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -7,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rage",
+     "Power Attack"
+    ],
+    "damage_mod": 11,
+    "damage_mod_2": 20,
+    "parameter_base": "Rage and Power Attack",
+    "parameter_value": -9,
+    "prerequisite_type": "melee"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "feat_power_attack",
+     "weapon_mod_rage"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 117,
+     "ref": "Lists!AS117:AZ117",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination",
+    "builder_parameter_variant"
+   ]
+  },
+  {
+   "id": "weapon_mod_rapid_shot",
+   "entity": "weapon_mod",
+   "name": "Rapid Shot",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "free action",
+    "action_3": "FP/DP",
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "condition_2": "when activates Force power",
+    "damage_dice_mod": 1,
+    "desc1": "Spend a Force Point to add one use of any Force power known by any ally within 12 squares to Force suite until end of next turn; spend a Destiny Point to have power lost at end of encounter; create holocron gatekeeper",
+    "desc2": "// Holocron Loremaster (free action; FP/DP; when activates Force power) • Force, Secret\nSpend a Force Point to add one use of any Force power known by any ally within 12 squares to Force suite until end of next turn; spend a Destiny Point to have power lost at end of encounter; create holocron gatekeeper",
+    "is_attack": "Other",
+    "kind": "Holocron Loremaster",
+    "prerequisite_type": "ranged",
+    "ref": "FUCG 88",
+    "sort_tags": "Secret",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Secret",
+    "url": "https://swse.miraheze.org/wiki/Rapid_Shot"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 129,
+     "ref": "Lists!AS129:AZ129",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 129,
+     "ref": "Lists!AS129:AZ129",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_rapid_shot_and_point_blank_shot",
+   "entity": "weapon_mod",
+   "name": "Rapid Shot and Point Blank Shot",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rapid Shot",
+     "Point Blank Shot"
+    ],
+    "damage_dice_mod": 1,
+    "damage_mod": 1,
+    "prerequisite_type": "ranged"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_point_blank_shot",
+     "weapon_mod_rapid_shot"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 130,
+     "ref": "Lists!AS130:AZ130",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_rapid_shot_and_zero_range",
+   "entity": "weapon_mod",
+   "name": "Rapid Shot and Zero Range",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": -1,
+    "canon_basis": "block_declaration",
+    "combination_of": [
+     "Rapid Shot",
+     "Zero Range"
+    ],
+    "damage_dice_mod": 2,
+    "damage_mod": 1,
+    "prerequisite_type": "ranged"
+   },
+   "prerequisites": null,
+   "relations": {
+    "combines": [
+     "weapon_mod_rapid_shot",
+     "weapon_mod_zero_range"
+    ]
+   },
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 131,
+     "ref": "Lists!AS131:AZ131",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "builder_combination"
+   ]
+  },
+  {
+   "id": "weapon_mod_rapid_strike",
+   "entity": "weapon_mod",
+   "name": "Rapid Strike",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "standard",
+    "action_3": "FP",
+    "attack_mod": -2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "damage_dice_mod": 1,
+    "desc1": "+0 vs. Will; create illusions that appear real to those whose Will Defense is exceeded; can see and hear as if it was standing in the space of its humanoid illusion",
+    "desc2": "// Illusion (standard; FP) • Force, Talent\n+0 vs. Will; create illusions that appear real to those whose Will Defense is exceeded; can see and hear as if it was standing in the space of its humanoid illusion",
+    "is_attack": "Other",
+    "kind": "Illusion",
+    "prerequisite_type": "melee",
+    "ref": "KotOR 52",
+    "sort_tags": "Talent",
+    "source_tag": "CR",
+    "standalone": "No",
+    "tags": "Force, Talent",
+    "url": "https://swse.miraheze.org/wiki/Rapid_Strike"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 132,
+     "ref": "Lists!AS132:AZ132",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 132,
+     "ref": "Lists!AS132:AZ132",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_sentinel_strike",
+   "entity": "weapon_mod",
+   "name": "Sentinel Strike",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "condition": "+0d6 if target is flat-footed",
+    "desc2": "// Improved Force Grip• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Force Grip",
+    "name_2": "No",
+    "prerequisite_proficiency": "lightsabers",
+    "prerequisite_type": "melee",
+    "ref": "CWCG 54",
+    "sort_tags": "Technique",
+    "source_tag": "KOTOR",
+    "standalone": "No",
+    "tags": "Force, Technique"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_mod_details",
+     "sheet": "Lists",
+     "row": 81,
+     "ref": "Lists!EV81:GH81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_mod_sniper_shot",
+   "entity": "weapon_mod",
+   "name": "Sniper Shot",
+   "canon": "third_party",
+   "attrs": {
+    "action_2": "swift",
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "combat_description": true,
+    "condition": "-5 penalty to Reflex until next turn",
+    "desc1": "Until the start of next turn, anyone attempting to move involuntarily takes a -5 penalty to attack rolls or skill checks made to use the effect",
+    "desc2": "// Immovable (swift) • Talent\nUntil the start of next turn, anyone attempting to move involuntarily takes a -5 penalty to attack rolls or skill checks made to use the effect",
+    "is_attack": "Other",
+    "kind": "Immovable",
+    "prerequisite_type": "ranged",
+    "ref": "RE 23",
+    "sort_tags": "Talent",
+    "source_tag": "KOTOR",
+    "standalone": "No",
+    "tags": "Talent",
+    "url": "https://swse.miraheze.org/wiki/Sniper_Shot"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 133,
+     "ref": "Lists!AS133:AZ133",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 133,
+     "ref": "Lists!AS133:AZ133",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_mod_zero_range",
+   "entity": "weapon_mod",
+   "name": "Zero Range",
+   "canon": "third_party",
+   "attrs": {
+    "attack_mod": 2,
+    "canon_basis": "block_declaration",
+    "condition": "within 1 square of enemy",
+    "damage_dice_mod": 1,
+    "damage_mod": 1,
+    "desc2": "// Improved Ballistakinesis• Force, Technique",
+    "is_attack": "Other",
+    "kind": "Improved Ballistakinesis",
+    "prerequisite_type": "ranged",
+    "ref": "CWCG 54",
+    "sort_tags": "Technique",
+    "source_tag": "LECG",
+    "standalone": "No",
+    "tags": "Force, Technique",
+    "url": "https://swse.miraheze.org/wiki/Zero_Range"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 134,
+     "ref": "Lists!AS134:AZ134",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_feat_mods",
+     "sheet": "Lists",
+     "row": 134,
+     "ref": "Lists!AS134:AZ134",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed",
+    "url:matched_by_name"
+   ]
+  }
+ ]
+}

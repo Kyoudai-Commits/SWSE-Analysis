@@ -1,0 +1,12 @@
+# ---------------------------------------------------------------------------
+# Curation: records that must not appear in the canonical data.
+#
+# Use for spreadsheet artefacts that survive extraction (UI placeholders,
+# duplicate helper rows). Prefer a row hook in swse/hooks.py when a whole
+# *class* of rows is affected; use this for one-offs.
+#
+# Shape:
+#   drops:
+#     <entity>: [<id or exact name>, ...]
+# ---------------------------------------------------------------------------
+drops: {}

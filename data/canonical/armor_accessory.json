@@ -1,0 +1,1703 @@
+{
+ "entity": "armor_accessory",
+ "label": "armor_accessory",
+ "role": "option",
+ "count": 48,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "armor_accessory_aquatic_adaptation",
+   "entity": "armor_accessory",
+   "name": "Aquatic Adaptation",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Swim 3",
+    "effect": "Swim half your speed, reroll swim check and take better result, take 10 on Swim checks",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!HN3:HT3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_armor_reinforcement",
+   "entity": "armor_accessory",
+   "name": "Armor Reinforcement",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "description": "DR 2 (piercing)",
+    "effect": "DR 2 (piercing damage only, from armor)",
+    "price": 3000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!HN4:HT4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_armorplast",
+   "entity": "armor_accessory",
+   "name": "Armorplast",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "armorplast",
+    "effect": "Decreases weight of armor by 50%",
+    "price": 900,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!HN5:HT5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_climbing_claws",
+   "entity": "armor_accessory",
+   "name": "Climbing Claws",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "Climb 3",
+    "effect": "Climb half your speed, reroll Climb checks, take 10 on Climb checks",
+    "price": 200,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!HN6:HT6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_cloaked",
+   "entity": "armor_accessory",
+   "name": "Cloaked",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "cloaked",
+    "effect": "Can be disguised as clothing",
+    "price": 750,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!HN7:HT7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_diagnostics_system",
+   "entity": "armor_accessory",
+   "name": "Diagnostics System",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "diagnostics system",
+    "effect": "Anyone making Mechanics or Treat Injury checks on wearer gains +2 bonus",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!HN8:HT8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_environmental_systems_cold",
+   "entity": "armor_accessory",
+   "name": "Environmental Systems (cold)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "immune to cold",
+    "effect": "Immune to the effects of extreme cold",
+    "price": 600,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!HN9:HT9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_environmental_systems_heat",
+   "entity": "armor_accessory",
+   "name": "Environmental Systems (heat)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "immune to heat",
+    "effect": "Immune to the effects of extreme heat",
+    "price": 600,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!HN10:HT10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_gyro",
+   "entity": "armor_accessory",
+   "name": "Gyro",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "gyro",
+    "effect": "Stability bonus of +5 to reflex defense to avoid being knocked prone",
+    "price": 250,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!HN11:HT11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_helmet_package",
+   "entity": "armor_accessory",
+   "name": "Helmet Package",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "helmet package",
+    "effect": "Low-light vision and +2 to Perception checks",
+    "price": 4000,
+    "slots": 0,
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!HN12:HT12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_helmet_package_superior",
+   "entity": "armor_accessory",
+   "name": "Helmet Package, superior",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "superior helmet package",
+    "effect": "superior helmet package",
+    "price": 8000,
+    "slots": 0,
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!HN13:HT13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_holoshroud",
+   "entity": "armor_accessory",
+   "name": "Holoshroud",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "holoshroud",
+    "effect": "holoshroud",
+    "price": 5000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!HN14:HT14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_integrated_equipment_1_slot",
+   "entity": "armor_accessory",
+   "name": "Integrated equipment, 1 slot",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "integrated equipment",
+    "effect": "integrated equipment",
+    "price": 200,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!HN15:HT15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_integrated_equipment_10_slots",
+   "entity": "armor_accessory",
+   "name": "Integrated equipment, 10 slots",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "integrated equipment",
+    "effect": "integrated equipment",
+    "price": 2000,
+    "slots": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!HN16:HT16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_integrated_equipment_2_slots",
+   "entity": "armor_accessory",
+   "name": "Integrated equipment, 2 slots",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "integrated equipment",
+    "effect": "integrated equipment",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!HN17:HT17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_integrated_equipment_5_slots",
+   "entity": "armor_accessory",
+   "name": "Integrated equipment, 5 slots",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "integrated equipment",
+    "effect": "integrated equipment",
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!HN18:HT18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_internal_comlink_encrypted_short_range",
+   "entity": "armor_accessory",
+   "name": "Internal Comlink, encrypted short-range",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "encrypted internal comlink",
+    "price": 250,
+    "slots": 0,
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!HN19:HT19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_internal_comlink_encrypted_short_range_holo",
+   "entity": "armor_accessory",
+   "name": "Internal Comlink, encrypted short-range holo",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "encrypted internal comlink with holo capability",
+    "price": 375,
+    "slots": 0,
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!HN20:HT20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_internal_comlink_encrypted_short_range_video",
+   "entity": "armor_accessory",
+   "name": "Internal Comlink, encrypted short-range video",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "encrypted internal comlink with video capability",
+    "price": 300,
+    "slots": 0,
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!HN21:HT21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_internal_comlink_short_range",
+   "entity": "armor_accessory",
+   "name": "Internal Comlink, short-range",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "internal comlink",
+    "price": 25,
+    "slots": 0,
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!HN22:HT22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_internal_comlink_short_range_holo",
+   "entity": "armor_accessory",
+   "name": "Internal Comlink, short-range holo",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "internal comlink with holo capability",
+    "price": 125,
+    "slots": 0,
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!HN23:HT23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_internal_comlink_short_range_video",
+   "entity": "armor_accessory",
+   "name": "Internal Comlink, short-range video",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "internal comlink with video capability",
+    "price": 50,
+    "slots": 0,
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!HN24:HT24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_internal_generator",
+   "entity": "armor_accessory",
+   "name": "Internal Generator",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "internal generator",
+    "effect": "internal generator",
+    "price": 1000,
+    "slots": 1,
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!HN25:HT25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jet_pack",
+   "entity": "armor_accessory",
+   "name": "Jet Pack",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "description": "jet pack",
+    "effect": "jet pack",
+    "price": 300,
+    "slots": 0,
+    "weight": 30
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!HN26:HT26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jet_pack_arakyd_hush_about",
+   "entity": "armor_accessory",
+   "name": "Jet Pack, Arakyd Hush-About",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "description": "Hush-about jet pack",
+    "effect": "Arakyd Hush-About jet pack",
+    "price": 3750,
+    "slots": 0,
+    "weight": 30
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!HN27:HT27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jet_pack_mandalorian",
+   "entity": "armor_accessory",
+   "name": "Jet Pack, Mandalorian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "description": "Jet Pack, but has an integrated Missile Launcher (Treated as an Inaccurate weapon), and a magnetic grappling hook (Which functions as a Liquid Cable Dispenser).",
+    "effect": "Jet Pack, but has an integrated Missile Launcher (Treated as an Inaccurate weapon), and a magnetic grappling hook (Which functions as a Liquid Cable Dispenser).",
+    "price": 5000,
+    "slots": 0,
+    "weight": 40
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!HN29:HT29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jump_servos",
+   "entity": "armor_accessory",
+   "name": "Jump Servos",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "jump servos",
+    "effect": "jump servos",
+    "price": 100,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!HN33:HT33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_mesh_underlay",
+   "entity": "armor_accessory",
+   "name": "Mesh Underlay",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "description": "mesh underlay",
+    "effect": "+5 damage threshold against stun",
+    "price": 2500,
+    "slots": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!HN34:HT34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_powered_exoskeleton",
+   "entity": "armor_accessory",
+   "name": "Powered Exoskeleton",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "+2 to Strength",
+    "price": 4000,
+    "slots": 2,
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!HN35:HT35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_propulsion_pack",
+   "entity": "armor_accessory",
+   "name": "Propulsion Pack",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "description": "propulsion pack",
+    "effect": "propulsion pack",
+    "price": 200,
+    "slots": 0,
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!HN36:HT36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_radiation_shielding",
+   "entity": "armor_accessory",
+   "name": "Radiation Shielding",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "+10 to Fortitude Defense against radiation",
+    "effect": "radiation shielding",
+    "price": 400,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!HN37:HT37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_rangefinder",
+   "entity": "armor_accessory",
+   "name": "Rangefinder",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "rangefinder",
+    "effect": "rangefinder",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!HN38:HT38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_ready_harness",
+   "entity": "armor_accessory",
+   "name": "Ready Harness",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "ready harness",
+    "effect": "ready harness",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!HN39:HT39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_repulsorlift",
+   "entity": "armor_accessory",
+   "name": "Repulsorlift",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "repulsorlift",
+    "effect": "repulsorlift",
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!HN40:HT40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_shadowskin",
+   "entity": "armor_accessory",
+   "name": "Shadowskin",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "+5 Stealth bonus",
+    "effect": "+5 Stealth bonus",
+    "price": 5000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!HN41:HT41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_shadowskin_reflec",
+   "entity": "armor_accessory",
+   "name": "Shadowskin, Reflec",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "+10 Stealth bonus",
+    "effect": "+10 Stealth bonus",
+    "price": 20000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!HN42:HT42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_shield_generator_sr_10",
+   "entity": "armor_accessory",
+   "name": "Shield Generator, SR 10",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "SR 10",
+    "effect": "SR 10",
+    "price": 10000,
+    "slots": 3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 43,
+     "ref": "Data!HN43:HT43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_shield_generator_sr_5",
+   "entity": "armor_accessory",
+   "name": "Shield Generator, SR 5",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "SR 5",
+    "effect": "SR 5",
+    "price": 5000,
+    "slots": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 44,
+     "ref": "Data!HN44:HT44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_shockweb",
+   "entity": "armor_accessory",
+   "name": "Shockweb",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "shockweb",
+    "price": 6000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 45,
+     "ref": "Data!HN45:HT45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_silverplate",
+   "entity": "armor_accessory",
+   "name": "Silverplate",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "silverplated",
+    "effect": "+2 DR to item",
+    "price": 2500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 46,
+     "ref": "Data!HN46:HT46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_vacuum_seals",
+   "entity": "armor_accessory",
+   "name": "Vacuum Seals",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "10-hours life support",
+    "effect": "10-hours life support",
+    "price": 2000,
+    "slots": 0,
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 47,
+     "ref": "Data!HN47:HT47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_vacuum_seals_improved",
+   "entity": "armor_accessory",
+   "name": "Vacuum Seals, Improved",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "24-hours life support",
+    "effect": "24-hours life support",
+    "price": 5000,
+    "slots": 1,
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 48,
+     "ref": "Data!HN48:HT48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_weapon_mount",
+   "entity": "armor_accessory",
+   "name": "Weapon Mount",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "weapon mount",
+    "effect": "mount weapons",
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 49,
+     "ref": "Data!HN49:HT49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_weapon_mount_concealed",
+   "entity": "armor_accessory",
+   "name": "Weapon Mount, concealed",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "description": "concealed weapon mount",
+    "effect": "concealed weapon mounts",
+    "price": 3000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 50,
+     "ref": "Data!HN50:HT50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jet_pack_arakyd_hush_about_miniaturized",
+   "entity": "armor_accessory",
+   "name": "Jet Pack, Arakyd Hush-About, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "miniaturized Hush-About jet pack",
+    "effect": "Arakyd Hush-About jet pack (miniaturized)",
+    "price": 4250,
+    "slots": 0,
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!HN28:HT28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jet_pack_miniaturized",
+   "entity": "armor_accessory",
+   "name": "Jet Pack, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "miniaturized jet pack",
+    "effect": "jet pack (miniaturized)",
+    "price": 800,
+    "slots": 0,
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!HN30:HT30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jet_pack_reduced_power_repulsorlift",
+   "entity": "armor_accessory",
+   "name": "Jet Pack, reduced power repulsorlift",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "reduced power repulsorlift jet pack",
+    "effect": "reduced power advanced repulsorlift system",
+    "price": 3000,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!HN31:HT31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_accessory_jet_pack_repulsorlift",
+   "entity": "armor_accessory",
+   "name": "Jet Pack, repulsorlift",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "repulsorlift jet pack",
+    "effect": "advanced repulsorlift system",
+    "price": 5000,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_accessories",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!HN32:HT32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

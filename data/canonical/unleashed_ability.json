@@ -1,0 +1,673 @@
+{
+ "entity": "unleashed_ability",
+ "label": "unleashed_ability",
+ "role": "option",
+ "count": 27,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "unleashed_ability_bantha_rush",
+   "entity": "unleashed_ability",
+   "name": "Bantha Rush",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Bantha Rush",
+    "url": "https://swse.miraheze.org/wiki/Bantha_Rush"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 6,
+     "ref": "Regimens-Tactics-Unleashed!W6:AA6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_battle_meditation",
+   "entity": "unleashed_ability",
+   "name": "Battle Meditation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Battle Meditation"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 23,
+     "ref": "Regimens-Tactics-Unleashed!W23:AA23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_battle_strike",
+   "entity": "unleashed_ability",
+   "name": "Battle Strike",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Battle Strike",
+    "url": "https://swse.miraheze.org/wiki/Battle_Strike"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 24,
+     "ref": "Regimens-Tactics-Unleashed!W24:AA24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_charge",
+   "entity": "unleashed_ability",
+   "name": "Charge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Charge"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 7,
+     "ref": "Regimens-Tactics-Unleashed!W7:AA7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_cleave",
+   "entity": "unleashed_ability",
+   "name": "Cleave",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Cleave",
+    "url": "https://swse.miraheze.org/wiki/Cleave"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 8,
+     "ref": "Regimens-Tactics-Unleashed!W8:AA8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_corruption",
+   "entity": "unleashed_ability",
+   "name": "Corruption",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Corruption",
+    "url": "https://swse.miraheze.org/wiki/Corruption"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 25,
+     "ref": "Regimens-Tactics-Unleashed!W25:AA25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_dark_rage",
+   "entity": "unleashed_ability",
+   "name": "Dark Rage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Dark Rage",
+    "url": "https://swse.miraheze.org/wiki/Dark_Rage"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 26,
+     "ref": "Regimens-Tactics-Unleashed!W26:AA26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_devastating_attack",
+   "entity": "unleashed_ability",
+   "name": "Devastating Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Devastating Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 9,
+     "ref": "Regimens-Tactics-Unleashed!W9:AA9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_extreme_effort",
+   "entity": "unleashed_ability",
+   "name": "Extreme Effort",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Extreme Effort"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 10,
+     "ref": "Regimens-Tactics-Unleashed!W10:AA10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_firepower",
+   "entity": "unleashed_ability",
+   "name": "Firepower",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Firepower"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 11,
+     "ref": "Regimens-Tactics-Unleashed!W11:AA11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_force_blast",
+   "entity": "unleashed_ability",
+   "name": "Force Blast",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Force Blast",
+    "url": "https://swse.miraheze.org/wiki/Force_Blast"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 27,
+     "ref": "Regimens-Tactics-Unleashed!W27:AA27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_force_grip",
+   "entity": "unleashed_ability",
+   "name": "Force Grip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Force Grip",
+    "url": "https://swse.miraheze.org/wiki/Force_Grip"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 28,
+     "ref": "Regimens-Tactics-Unleashed!W28:AA28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_force_lightning",
+   "entity": "unleashed_ability",
+   "name": "Force Lightning",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Force Lightning",
+    "url": "https://swse.miraheze.org/wiki/Force_Lightning"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 29,
+     "ref": "Regimens-Tactics-Unleashed!W29:AA29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_force_storm",
+   "entity": "unleashed_ability",
+   "name": "Force Storm",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Force Storm",
+    "url": "https://swse.miraheze.org/wiki/Force_Storm"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 30,
+     "ref": "Regimens-Tactics-Unleashed!W30:AA30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_force_thrust",
+   "entity": "unleashed_ability",
+   "name": "Force Thrust",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Force Thrust",
+    "url": "https://swse.miraheze.org/wiki/Force_Thrust"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 31,
+     "ref": "Regimens-Tactics-Unleashed!W31:AA31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_force_unleashed_abilities",
+   "entity": "unleashed_ability",
+   "name": "Force Unleashed Abilities",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 22,
+     "ref": "Regimens-Tactics-Unleashed!W22:AA22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_ignite_fervor",
+   "entity": "unleashed_ability",
+   "name": "Ignite Fervor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Ignite Fervor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 12,
+     "ref": "Regimens-Tactics-Unleashed!W12:AA12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_keen_shot",
+   "entity": "unleashed_ability",
+   "name": "Keen Shot",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Keen Shot"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 13,
+     "ref": "Regimens-Tactics-Unleashed!W13:AA13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_mighty_swing",
+   "entity": "unleashed_ability",
+   "name": "Mighty Swing",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Mighty Swing",
+    "url": "https://swse.miraheze.org/wiki/Mighty_Swing"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 14,
+     "ref": "Regimens-Tactics-Unleashed!W14:AA14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_move_object",
+   "entity": "unleashed_ability",
+   "name": "Move Object",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Move Object",
+    "url": "https://swse.miraheze.org/wiki/Move_Object"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 32,
+     "ref": "Regimens-Tactics-Unleashed!W32:AA32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_penetrating_attack",
+   "entity": "unleashed_ability",
+   "name": "Penetrating Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Penetrating Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 15,
+     "ref": "Regimens-Tactics-Unleashed!W15:AA15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_rage",
+   "entity": "unleashed_ability",
+   "name": "Rage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Rage"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 16,
+     "ref": "Regimens-Tactics-Unleashed!W16:AA16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_repulse",
+   "entity": "unleashed_ability",
+   "name": "Repulse",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Repulse",
+    "url": "https://swse.miraheze.org/wiki/Repulse"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 33,
+     "ref": "Regimens-Tactics-Unleashed!W33:AA33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_skirmisher",
+   "entity": "unleashed_ability",
+   "name": "Skirmisher",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Skirmisher"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 17,
+     "ref": "Regimens-Tactics-Unleashed!W17:AA17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_sneak_attack",
+   "entity": "unleashed_ability",
+   "name": "Sneak Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Sneak Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 18,
+     "ref": "Regimens-Tactics-Unleashed!W18:AA18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "unleashed_ability_strafe",
+   "entity": "unleashed_ability",
+   "name": "Strafe",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Strafe",
+    "url": "https://swse.miraheze.org/wiki/Strafe"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 19,
+     "ref": "Regimens-Tactics-Unleashed!W19:AA19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "unleashed_ability_whirlwind_attack",
+   "entity": "unleashed_ability",
+   "name": "Whirlwind Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "qualify": "No",
+    "unleashed_name": "Unleashed Whirlwind Attack",
+    "url": "https://swse.miraheze.org/wiki/Whirlwind_Attack"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_unleashed_abilities",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 20,
+     "ref": "Regimens-Tactics-Unleashed!W20:AA20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  }
+ ]
+}

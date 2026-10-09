@@ -1,0 +1,345 @@
+{
+ "entity": "special_talent",
+ "label": "special_talent",
+ "role": "option",
+ "count": 16,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "special_talent_acurate_blow",
+   "entity": "special_talent",
+   "name": "Acurate Blow",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_elite_trooper",
+     "sheet": "Talents 2",
+     "row": 44,
+     "ref": "Talents 2!C44:D44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_brutal_attack",
+   "entity": "special_talent",
+   "name": "Brutal Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_gladiator",
+     "sheet": "Talents 2",
+     "row": 59,
+     "ref": "Talents 2!C59:D59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_crushing_assault",
+   "entity": "special_talent",
+   "name": "Crushing Assault",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_soldier",
+     "sheet": "Talents 2",
+     "row": 17,
+     "ref": "Talents 2!C17:D17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_devastating_attack",
+   "entity": "special_talent",
+   "name": "Devastating Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_soldier",
+     "sheet": "Talents 2",
+     "row": 14,
+     "ref": "Talents 2!C14:D14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_disarming_attack",
+   "entity": "special_talent",
+   "name": "Disarming Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_soldier",
+     "sheet": "Talents 2",
+     "row": 18,
+     "ref": "Talents 2!C18:D18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_flurry_attack",
+   "entity": "special_talent",
+   "name": "Flurry Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_elite_trooper",
+     "sheet": "Talents 2",
+     "row": 42,
+     "ref": "Talents 2!C42:D42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_greater_devastating_attack",
+   "entity": "special_talent",
+   "name": "Greater Devastating Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_elite_trooper",
+     "sheet": "Talents 2",
+     "row": 46,
+     "ref": "Talents 2!C46:D46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_greater_penetrating_attack",
+   "entity": "special_talent",
+   "name": "Greater Penetrating Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_elite_trooper",
+     "sheet": "Talents 2",
+     "row": 47,
+     "ref": "Talents 2!C47:D47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_greater_weapon_focus",
+   "entity": "special_talent",
+   "name": "Greater Weapon Focus",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_elite_trooper",
+     "sheet": "Talents 2",
+     "row": 45,
+     "ref": "Talents 2!C45:D45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_greater_weapon_specialization",
+   "entity": "special_talent",
+   "name": "Greater Weapon Specialization",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_elite_trooper",
+     "sheet": "Talents 2",
+     "row": 48,
+     "ref": "Talents 2!C48:D48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_impailing_assault",
+   "entity": "special_talent",
+   "name": "Impailing Assault",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_soldier",
+     "sheet": "Talents 2",
+     "row": 19,
+     "ref": "Talents 2!C19:D19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_mandalorian_ferocity",
+   "entity": "special_talent",
+   "name": "Mandalorian Ferocity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_elite_trooper",
+     "sheet": "Talents 2",
+     "row": 43,
+     "ref": "Talents 2!C43:D43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_penetrating_attack",
+   "entity": "special_talent",
+   "name": "Penetrating Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_soldier",
+     "sheet": "Talents 2",
+     "row": 15,
+     "ref": "Talents 2!C15:D15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_stinging_assault",
+   "entity": "special_talent",
+   "name": "Stinging Assault",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_soldier",
+     "sheet": "Talents 2",
+     "row": 20,
+     "ref": "Talents 2!C20:D20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_vehicle_focus",
+   "entity": "special_talent",
+   "name": "Vehicle Focus",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_ace_pilot",
+     "sheet": "Talents 2",
+     "row": 31,
+     "ref": "Talents 2!C31:D31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "special_talent_weapon_specialization",
+   "entity": "special_talent",
+   "name": "Weapon Specialization",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_special_talents_soldier",
+     "sheet": "Talents 2",
+     "row": 16,
+     "ref": "Talents 2!C16:D16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

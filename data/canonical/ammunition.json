@@ -1,0 +1,535 @@
+{
+ "entity": "ammunition",
+ "label": "ammunition",
+ "role": "option",
+ "count": 21,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "ammunition_ammunition_clip",
+   "entity": "ammunition",
+   "name": "Ammunition Clip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "launcher": "Grenade, frag",
+    "price": 20,
+    "statblock": "ammunition clip",
+    "statblock_plural": "ammunition clips",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!FW3:GB3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_antiarmor_missile",
+   "entity": "ammunition",
+   "name": "Antiarmor Missile",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 100,
+    "statblock": "antiarmor missile",
+    "statblock_plural": "antiarmor missiles",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!FW4:GB4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_bowcaster_quiver",
+   "entity": "ammunition",
+   "name": "Bowcaster Quiver",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "statblock": "bowcaster quiver",
+    "statblock_plural": "bowcaster quivers",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!FW5:GB5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_carbonite_cartridge",
+   "entity": "ammunition",
+   "name": "Carbonite Cartridge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "statblock": "carbonite cartridge",
+    "statblock_plural": "carbonite cartridges",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!FW6:GB6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_chemical_cartridge",
+   "entity": "ammunition",
+   "name": "Chemical Cartridge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 200,
+    "statblock": "chemical cartridge",
+    "statblock_plural": "chemical cartridges",
+    "weight": 4
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!FW7:GB7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_energy_cell",
+   "entity": "ammunition",
+   "name": "Energy Cell",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 10,
+    "statblock": "energy cell",
+    "statblock_plural": "energy cells",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!FW8:GB8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_flechette_cluster",
+   "entity": "ammunition",
+   "name": "Flechette Cluster",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "statblock": "flechette cluster",
+    "statblock_plural": "flechette clusters",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!FW9:GB9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_grenade_frag",
+   "entity": "ammunition",
+   "name": "Grenade, frag",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 200,
+    "statblock": "frag grenade",
+    "statblock_plural": "frag grenades",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!FW10:GB10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_grenade_ion",
+   "entity": "ammunition",
+   "name": "Grenade, ion",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 250,
+    "statblock": "ion grenade",
+    "statblock_plural": "ion grenades",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!FW11:GB11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_grenade_stun",
+   "entity": "ammunition",
+   "name": "Grenade, stun",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 250,
+    "statblock": "stun grenage",
+    "statblock_plural": "stun grenades",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!FW12:GB12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_light_concussion_missile",
+   "entity": "ammunition",
+   "name": "Light Concussion Missile",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 800,
+    "statblock": "light concussion missile",
+    "statblock_plural": "light concussion missiles",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!FW13:GB13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_magazine",
+   "entity": "ammunition",
+   "name": "Magazine",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 200,
+    "statblock": "magazine",
+    "statblock_plural": "magazines",
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!FW14:GB14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_missile",
+   "entity": "ammunition",
+   "name": "Missile",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 75,
+    "statblock": "missile",
+    "statblock_plural": "missiles",
+    "weight": 1.2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!FW15:GB15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_pistol_clip",
+   "entity": "ammunition",
+   "name": "Pistol Clip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 20,
+    "statblock": "pistol clip",
+    "statblock_plural": "pistol clips",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!FW16:GB16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_power_generator",
+   "entity": "ammunition",
+   "name": "Power Generator",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 750,
+    "statblock": "power generator",
+    "statblock_plural": "power generators",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!FW17:GB17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_power_pack",
+   "entity": "ammunition",
+   "name": "Power Pack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 25,
+    "statblock": "power pack",
+    "statblock_plural": "power packs",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!FW18:GB18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_quiver",
+   "entity": "ammunition",
+   "name": "Quiver",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 20,
+    "statblock": "quiver",
+    "statblock_plural": "quivers",
+    "weight": 0.8
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!FW19:GB19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_rifle_clip",
+   "entity": "ammunition",
+   "name": "Rifle Clip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 40,
+    "statblock": "rifle clip",
+    "statblock_plural": "rifle clips",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!FW20:GB20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_special_energy_cell",
+   "entity": "ammunition",
+   "name": "Special Energy Cell",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 100,
+    "statblock": "special energy cell",
+    "statblock_plural": "special energy cells",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!FW21:GB21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_special_explosive_canister",
+   "entity": "ammunition",
+   "name": "Special Explosive Canister",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "statblock": "special explosive canister",
+    "statblock_plural": "special explosive canisters",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!FW22:GB22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "ammunition_spraymist_canister",
+   "entity": "ammunition",
+   "name": "Spraymist Canister",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 100,
+    "statblock": "spraymist canister",
+    "statblock_plural": "spraymist canisters",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_grenade_launchers",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!FW23:GB23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

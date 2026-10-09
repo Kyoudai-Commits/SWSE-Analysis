@@ -1,0 +1,3108 @@
+{
+ "entity": "droid_option",
+ "label": "droid_option",
+ "role": "option",
+ "count": 121,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "droid_option_heavy_droid_armor",
+   "entity": "droid_option",
+   "name": "- Heavy Droid Armor -",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "armor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!BT14:CB14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_light_droid_armor",
+   "entity": "droid_option",
+   "name": "- Light Droid Armor -",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "armor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!BT3:CB3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_medium_droid_armor",
+   "entity": "droid_option",
+   "name": "- Medium Droid Armor -",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "armor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!BT10:CB10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_aggressive",
+   "entity": "droid_option",
+   "name": "Aggressive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid does not back down from a fight unless it has direct orders from its master or is facing obviouslyoverwhelming opposition.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!EF2:EI2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_alien_appearance",
+   "entity": "droid_option",
+   "name": "Alien Appearance",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "This droid has a truly alien appearance that attracts attention. Interaction with most species causes a -2 penalty toCharisma-based skill checks, although the droid gains a +2 bonus when using the Persuasion skill to intimidate.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!EF3:EI3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_alternate_personality",
+   "entity": "droid_option",
+   "name": "Alternate Personality",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid holds another personality as a leftover from a previous owner or because of damaged processorsor data. Alternate personalities are usually software quirks, but those caused by damaged systems are hardware quirks.",
+    "hardware": "H",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!EF4:EI4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_amenable",
+   "entity": "droid_option",
+   "name": "Amenable",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid defers to others and attempts to keep all parties happy at all times, sometimes even during combat.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!EF5:EI5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_antitheft_comlink_locator",
+   "entity": "droid_option",
+   "name": "Antitheft comlink locator",
+   "canon": "third_party",
+   "attrs": {
+    "5": 100,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 100,
+    "final_weight_2": 0.5,
+    "option_group": "accessory",
+    "weight": ".5 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!EL2:EU2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_arakyd_industries",
+   "entity": "droid_option",
+   "name": "Arakyd Industries",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "Once per day, an Arakyd droid can make a Persuasion check or a Use Computer check against a DC equal to its own Will Defense. If the check is successful, the droid's behavioral inhibitor allows it to take prohibited actions until the forbidden action is completed. After completion, the inhibitor returns to normal functioning."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!EJ2:EK2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_argumentative",
+   "entity": "droid_option",
+   "name": "Argumentative",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid develops an urge to argue in any situation, often demanding the last word.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!EF6:EI6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_arrogant",
+   "entity": "droid_option",
+   "name": "Arrogant",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is extremely arrogant and condescending to its owner and everyone else.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!EF7:EI7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_astromech_droid_chassis",
+   "entity": "droid_option",
+   "name": "Astromech Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Astromech droids are constructed with the following droid systems installed in each:\n\nwheeled locomotion 6\nwalking locomotion 4\nmagnetic feet\nheuristic processor\n6 tool appendages\n1 claw appendage\nastrogation buffer (5 memory units)\ndiagnostics package\ninternal storage (2 kg)",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!ED2:EE2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_audio_enhancers",
+   "entity": "droid_option",
+   "name": "Audio enhancers",
+   "canon": "third_party",
+   "attrs": {
+    "5": 2000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 2000,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!EL3:EU3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_audio_glitch",
+   "entity": "droid_option",
+   "name": "Audio Glitch",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid's audio sensors have trouble detecting certain frequencies or become hypersensitive, causing a -2 penaltyto audio-based Perception checks.",
+    "hardware": "H",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!EF8:EI8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_audio_radial_stunner",
+   "entity": "droid_option",
+   "name": "Audio-radial stunner",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Restricted",
+    "5": 5000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 5000,
+    "final_weight_2": 3,
+    "option_group": "accessory",
+    "weight": "3 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!EL4:EU4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_automap",
+   "entity": "droid_option",
+   "name": "Automap",
+   "canon": "third_party",
+   "attrs": {
+    "5": 1000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 1000,
+    "final_weight_2": 2,
+    "option_group": "accessory",
+    "weight": "2 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!EL5:EU5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_baktoid_combat_automata",
+   "entity": "droid_option",
+   "name": "Baktoid Combat Automata",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "A character can make a Persuasion check opposed by a Baktoid droid's Perception skill to attempt to temporarily confuse it with contradictory data or brash, seemingly illogical action. If the check is successful, the droid can take no action for one round as it tries to f ind an appropriate response. If the Persuasion check is unsuccessful, the droid recognizes the ruse and proclaims it loudly while taking an immediate swift action as a reaction."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!EJ3:EK3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_balmorran_arms",
+   "entity": "droid_option",
+   "name": "Balmorran Arms",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "When creating or purchasing a new Balmorran Arms droid, increase one ability score by 1"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!EJ4:EK4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_battle_droid_chassis",
+   "entity": "droid_option",
+   "name": "Battle Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Battle droids are constructed with the following droid systems installed in each:\n\nwalking locomotion 6\nplasteel shell (+2 armor)\nbasic processor\ninternal comlink\nlocked access\n2 hand appendages\nvocabulator",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!ED3:EE3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_blaster_happy",
+   "entity": "droid_option",
+   "name": "Blaster Happy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The combat-related droid tends to shoot first and listen to orders later. It also might continue to fire at a defeated enemyjust to make sure.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!EF9:EI9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_blaster_recharge_interface",
+   "entity": "droid_option",
+   "name": "Blaster recharge interface",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": 300,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 300,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!EL6:EU6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_center_of_attention",
+   "entity": "droid_option",
+   "name": "Center of Attention",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid insists on being the center of attention, and it attempts to dominate any conversation.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!EF10:EI10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_claw",
+   "entity": "droid_option",
+   "name": "Claw",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 20,
+    "option_group": "appendage",
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_appendages",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!BN5:BP5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_colicoid_creation_nest",
+   "entity": "droid_option",
+   "name": "Colicoid Creation Nest",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "Once per encounter, a Colicoid droid can ignore all negative penalties from its location on the condition track when making an attack."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!EJ5:EK5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_collapsible_construction",
+   "entity": "droid_option",
+   "name": "Collapsible construction",
+   "canon": "third_party",
+   "attrs": {
+    "5": "2,000",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "2,000 x cost factor",
+    "final_weight_2": 20,
+    "option_group": "accessory",
+    "weight": "10x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!EL7:EU7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_concealed_item",
+   "entity": "droid_option",
+   "name": "Concealed item",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Restricted",
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": "See text",
+    "final_weight_2": 0,
+    "option_group": "accessory"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!EL8:EU8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_courier_compartments",
+   "entity": "droid_option",
+   "name": "Courier compartments",
+   "canon": "third_party",
+   "attrs": {
+    "5": 200,
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": 200,
+    "final_weight_2": 4,
+    "option_group": "accessory",
+    "weight": "2 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!EL9:EU9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_credit_reader",
+   "entity": "droid_option",
+   "name": "Credit reader",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": 50,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 50,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!EL10:EU10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_crystadurium_plating",
+   "entity": "droid_option",
+   "name": "Crystadurium plating",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "m",
+    "canon_basis": "block_declaration",
+    "cost": 50000,
+    "max_dex": 2,
+    "option_group": "armor",
+    "rarity": "r",
+    "ref_bonus": 10,
+    "type": "Heavy",
+    "weight": 30
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!BT15:CB15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_curious_inquisitive",
+   "entity": "droid_option",
+   "name": "Curious/Inquisitive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid seeks knowledge or information about its immediate surroundings. The droid enters locations andsituations in which it is unwanted or not allowed.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!EF11:EI11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_cybot_galactica",
+   "entity": "droid_option",
+   "name": "Cybot Galactica",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "Cybot systems are so commonplace that nondroid heroes with Skill Focus (Mechanics) can modify or repair Cybot droids in half the time that would be required for a normal droid"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!EJ6:EK6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_czerka_corporation",
+   "entity": "droid_option",
+   "name": "Czerka Corporation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "A Czerka droid can use its Intelligence or Wisdom modifier instead of its Charisma modifier to determine its Persuasion skill modifier."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!EJ7:EK7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_droid_oil_bath",
+   "entity": "droid_option",
+   "name": "Droid oil bath",
+   "canon": "third_party",
+   "attrs": {
+    "5": 500,
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": 500,
+    "final_weight_2": 1200,
+    "option_group": "accessory",
+    "weight": "600 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!EL11:EU11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_duranium_battle_armor",
+   "entity": "droid_option",
+   "name": "Duranium battle armor",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "m",
+    "canon_basis": "block_declaration",
+    "cost": 10000,
+    "max_dex": 2,
+    "option_group": "armor",
+    "ref_bonus": 10,
+    "type": "Heavy",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!BT16:CB16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_duranium_plating",
+   "entity": "droid_option",
+   "name": "Duranium plating",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "r",
+    "canon_basis": "block_declaration",
+    "cost": 6400,
+    "max_dex": 2,
+    "option_group": "armor",
+    "ref_bonus": 8,
+    "type": "Medium",
+    "weight": 16
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!BT12:CB12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_durasteel_battle_armor",
+   "entity": "droid_option",
+   "name": "Durasteel battle armor",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "r",
+    "canon_basis": "block_declaration",
+    "cost": 9600,
+    "max_dex": 3,
+    "option_group": "armor",
+    "ref_bonus": 8,
+    "type": "Medium",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!BT13:CB13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_durasteel_plating",
+   "entity": "droid_option",
+   "name": "Durasteel plating",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "l",
+    "canon_basis": "block_declaration",
+    "cost": 3600,
+    "max_dex": 3,
+    "option_group": "armor",
+    "ref_bonus": 6,
+    "type": "Light",
+    "weight": 12
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!BT4:CB4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_durasteel_shell",
+   "entity": "droid_option",
+   "name": "Durasteel shell",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "c",
+    "canon_basis": "block_declaration",
+    "cost": 1600,
+    "max_dex": 4,
+    "option_group": "armor",
+    "ref_bonus": 4,
+    "type": "Light",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!BT5:CB5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_duravlex_shell",
+   "entity": "droid_option",
+   "name": "Duravlex shell",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "l",
+    "canon_basis": "block_declaration",
+    "cost": 1000,
+    "max_dex": 3,
+    "option_group": "armor",
+    "ref_bonus": 4,
+    "type": "Light",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!BT6:CB6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_duwani_mechanical_products",
+   "entity": "droid_option",
+   "name": "Duwani Mechanical Products",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "Once per encounter, when it has half or fewer of its maximum hit points, as a reaction, a Duwani droid can either gain 5 bonus hit points or add 5 to its damage threshold for one round."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!EJ8:EK8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_earphone_binary_to_basic_translator",
+   "entity": "droid_option",
+   "name": "Earphone binary-to-basic translator",
+   "canon": "third_party",
+   "attrs": {
+    "5": 20,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 20,
+    "final_weight_2": 0.5,
+    "option_group": "accessory",
+    "weight": ".5 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!EL12:EU12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_easily_distracted",
+   "entity": "droid_option",
+   "name": "Easily Distracted",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is easy to distract from a given task. The droid must resist a 1d20+5 attack against its Will Defense whenattempting tasks that take longer than a full-round action to complete. A successful attack results in the droid's jumping to the next task or becoming distracted by something in its immediate surroundings.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!EF12:EI12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_electric_defense_grid",
+   "entity": "droid_option",
+   "name": "Electric defense grid",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Restricted",
+    "5": "3,000",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "3,000 x cost factor",
+    "final_weight_2": 200,
+    "option_group": "accessory",
+    "weight": "100 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!EL13:EU13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_excitable",
+   "entity": "droid_option",
+   "name": "Excitable",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is high strung, speaking, moving, and working rapidly in thrilling situations.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!EF13:EI13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_faulty_wiring",
+   "entity": "droid_option",
+   "name": "Faulty Wiring",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid's wiring is in bad condition. When the droid moves down the condition track as a result of damage that exceedsits damage threshold, the condition becomes persistent until repaired.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!EF14:EI14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_focused",
+   "entity": "droid_option",
+   "name": "Focused",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid becomes fixated on a task until it is completed, even if more critical tasks appear. It takes a -2 penalty to Perceptionchecks when fixated.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!EF15:EI15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_hand",
+   "entity": "droid_option",
+   "name": "Hand",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 50,
+    "option_group": "appendage",
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_appendages",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!BN6:BP6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_helpful",
+   "entity": "droid_option",
+   "name": "Helpful",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is overly dedicated to helping its master with any task it is capable of, and it is willing to attempt tasks that it is nottrained to do.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!EF16:EI16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_hidden_holster",
+   "entity": "droid_option",
+   "name": "Hidden holster",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": "500",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "500 x cost factor",
+    "final_weight_2": 4,
+    "option_group": "accessory",
+    "weight": "2 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!EL14:EU14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_high_speed_cutting_torch_and_welder",
+   "entity": "droid_option",
+   "name": "High-speed cutting torch and welder",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": 2500,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 2500,
+    "final_weight_2": 500,
+    "option_group": "accessory",
+    "weight": "500 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!EL15:EU15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_holographic_game_system",
+   "entity": "droid_option",
+   "name": "Holographic game system",
+   "canon": "third_party",
+   "attrs": {
+    "5": 300,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 300,
+    "final_weight_2": 3,
+    "option_group": "accessory",
+    "weight": "3 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!EL16:EU16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_holographic_image_disguiser",
+   "entity": "droid_option",
+   "name": "Holographic image disguiser",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Restricted",
+    "5": "20,000",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "20,000 x cost factor",
+    "final_weight_2": 40,
+    "option_group": "accessory",
+    "weight": "20 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!EL17:EU17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_holowan_mechanicals",
+   "entity": "droid_option",
+   "name": "Holowan Mechanicals",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "Once per encounter, a Holowan droid can add 1 die of damage to an attack."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!EJ9:EK9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_honest",
+   "entity": "droid_option",
+   "name": "Honest",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is honest to a fault and is incapable of lying. It cannot make Deception checks.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!EF17:EI17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_id_dodge",
+   "entity": "droid_option",
+   "name": "ID dodge",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Illegal",
+    "5": 5000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 5000,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!EL18:EU18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_imperial_department_of_military_research",
+   "entity": "droid_option",
+   "name": "Imperial Department of Military Research",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "Imperial droids vary greatly in mission and specifications. However, their prototypes are constructed with built-in tracking devices and recording equipment to document the droid's performance. The droids transmit the data upon command to a central reporting station or, when in the field, to the nearest Imperial installation."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!EJ10:EK10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_improved_coordination_circuitry",
+   "entity": "droid_option",
+   "name": "Improved coordination circuitry",
+   "canon": "third_party",
+   "attrs": {
+    "5": 1000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 1000,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 19,
+     "ref": "Lists!EL19:EU19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_impulsive",
+   "entity": "droid_option",
+   "name": "Impulsive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid makes snap judgments or decisions, thinking only in the short term, which might be as short as only a few seconds.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!EF18:EI18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_incomplete_memory_wipe",
+   "entity": "droid_option",
+   "name": "Incomplete Memory Wipe",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid's last memory wipe was not completely successful. The droid gets confused when it remembersfragmented memories or when it attempts a skill that it was formerly trained in but now lacks complete instructions for. The droid is still considered untrained in the skill.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 19,
+     "ref": "Lists!EF19:EI19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_industrial_automaton",
+   "entity": "droid_option",
+   "name": "Industrial Automaton",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "When assisting on a Mechanics check, an Industrial Automaton droid trained in Mechanics can add its Intelligence bonus (minimum + 1) to the normal +2 bonus."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!EJ11:EK11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_instrument",
+   "entity": "droid_option",
+   "name": "Instrument",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 5,
+    "option_group": "appendage",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_appendages",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!BN4:BP4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_interference_generator",
+   "entity": "droid_option",
+   "name": "Interference generator",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Restricted",
+    "5": 2500,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 2500,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 20,
+     "ref": "Lists!EL20:EU20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_internal_defenses",
+   "entity": "droid_option",
+   "name": "Internal defenses",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": "10",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "10x cost factor",
+    "final_weight_2": 2,
+    "option_group": "accessory",
+    "weight": "1 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 21,
+     "ref": "Lists!EL21:EU21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_internal_grapple_gun",
+   "entity": "droid_option",
+   "name": "Internal grapple gun",
+   "canon": "third_party",
+   "attrs": {
+    "5": "100",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "100 x cost factor",
+    "final_weight_2": 4,
+    "option_group": "accessory",
+    "weight": "2 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 22,
+     "ref": "Lists!EL22:EU22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_labor_droid_chassis",
+   "entity": "droid_option",
+   "name": "Labor Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Labor droids are constructed with the following droid systems installed in each:\n\nwalking locomotion 6\ndurasteel shell (+4 armor)\nbasic processor\n2 claw appendages\nvocabulator",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!ED4:EE4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_laminanium_heavy_plating",
+   "entity": "droid_option",
+   "name": "Laminanium heavy plating",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "m",
+    "canon_basis": "block_declaration",
+    "cost": 20000,
+    "max_dex": 2,
+    "option_group": "armor",
+    "rarity": "r",
+    "ref_bonus": 12,
+    "type": "Heavy",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!BT17:CB17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_laminanium_plating",
+   "entity": "droid_option",
+   "name": "Laminanium plating",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "m",
+    "canon_basis": "block_declaration",
+    "cost": 3000,
+    "max_dex": 3,
+    "option_group": "armor",
+    "ref_bonus": 4,
+    "type": "Light",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!BT7:CB7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_leaky",
+   "entity": "droid_option",
+   "name": "Leaky",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid regularly leaks hydraulic fluid, cooling gas, or a similar substance in an amount that does not significantly hinderoperations but does make a mess.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 20,
+     "ref": "Lists!EF20:EI20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_locomotion_malfunction",
+   "entity": "droid_option",
+   "name": "Locomotion Malfunction",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid's locomotion system malfunctions regularly, but not necessarily constantly. Examples are trouble",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 21,
+     "ref": "Lists!EF21:EI21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_loyal",
+   "entity": "droid_option",
+   "name": "Loyal",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid has an unshakable loyalty to its master or another organic entity. It embarrasses its owner with its concern for his orher well-being.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 22,
+     "ref": "Lists!EF22:EI22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_mandalorian_steel_shell",
+   "entity": "droid_option",
+   "name": "Mandalorian steel shell",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "m",
+    "canon_basis": "block_declaration",
+    "cost": 8100,
+    "max_dex": 3,
+    "option_group": "armor",
+    "rarity": "r",
+    "ref_bonus": 9,
+    "type": "Heavy",
+    "weight": 9
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!BT18:CB18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_mechanic_droid_chassis",
+   "entity": "droid_option",
+   "name": "Mechanic Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Mechanic droids are constructed with the following droid systems installed in each:\n\nwalking locomotion 6 (or tracked or wheeled locomotion)\nbasic processor\n2 hand appendages\n4 tool appendages\ndiagnostics package\ninternal storage (2 kg)\nvocabulator",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!ED5:EE5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_medical_droid_chassis",
+   "entity": "droid_option",
+   "name": "Medical Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Medical droids are constructed with the following droid systems installed in each:\n\nwalking locomotion\nheuristic processor\n2 hand appendages\n1 tool appendage\nvocabulator\nimproved sensor package",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!ED6:EE6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_merendata",
+   "entity": "droid_option",
+   "name": "MerenData",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "When making a Persuasion check to intimidate, a MerenData droid adds its Wi sdom bonus to the skill check. When attempting to intimidate another droid, it adds its Wisdom bonus and its Charisma bonus to the check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!EJ12:EK12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_mesh_tape_dispenser",
+   "entity": "droid_option",
+   "name": "Mesh tape dispenser",
+   "canon": "third_party",
+   "attrs": {
+    "5": "10",
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": "10 x cost factor",
+    "final_weight_2": 5,
+    "option_group": "accessory",
+    "weight": "5 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 23,
+     "ref": "Lists!EL23:EU23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_micro_shield",
+   "entity": "droid_option",
+   "name": "Micro shield",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": "600",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "600 x cost factor",
+    "final_weight_2": 20,
+    "option_group": "accessory",
+    "weight": "10 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 24,
+     "ref": "Lists!EL24:EU24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_morose",
+   "entity": "droid_option",
+   "name": "Morose",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is morbid in conversation. This quirk is particularly disturbing when manifested by medical droids and battle droids.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 23,
+     "ref": "Lists!EF23:EI23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_multifunction_apparatus",
+   "entity": "droid_option",
+   "name": "Multifunction apparatus",
+   "canon": "third_party",
+   "attrs": {
+    "5": "80",
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": "80 x cost factor",
+    "final_weight_2": 30,
+    "option_group": "accessory",
+    "weight": "15 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 25,
+     "ref": "Lists!EL25:EU25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_multispectrum_searchlight",
+   "entity": "droid_option",
+   "name": "Multispectrum searchlight",
+   "canon": "third_party",
+   "attrs": {
+    "5": 100,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 100,
+    "final_weight_2": 2,
+    "option_group": "accessory",
+    "weight": "2 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 26,
+     "ref": "Lists!EL26:EU26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_nervous",
+   "entity": "droid_option",
+   "name": "Nervous",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is nervous in common situations. It might be nervous about performing its function successfully, speaking toits masters, or entering combat.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 24,
+     "ref": "Lists!EF24:EI24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_neutronium_plating",
+   "entity": "droid_option",
+   "name": "Neutronium plating",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "m",
+    "canon_basis": "block_declaration",
+    "cost": 12100,
+    "max_dex": 1,
+    "option_group": "armor",
+    "ref_bonus": 11,
+    "type": "Heavy",
+    "weight": 20
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 19,
+     "ref": "Lists!BT19:CB19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_noisy",
+   "entity": "droid_option",
+   "name": "Noisy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is unusually noisy, drawing attention to itself. The source of the racket might be a grinding locomotion system, asquealing appendage, jet-like internal cooling fans, piercing high-pitched whines from its processor, or a similar mechanical malady. The droid takes a -5 penalty to Stealth checks when the offending system is used.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 25,
+     "ref": "Lists!EF25:EI25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_obsessive",
+   "entity": "droid_option",
+   "name": "Obsessive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid focuses on using a single skill or piece of equipment in its arsenal.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 26,
+     "ref": "Lists!EF26:EI26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_overconfident",
+   "entity": "droid_option",
+   "name": "Overconfident",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid believes it (or possibly its master) is thoroughly capable of succeeding at any task it is trained in or proficient in.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 27,
+     "ref": "Lists!EF27:EI27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_overprotective",
+   "entity": "droid_option",
+   "name": "Overprotective",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid becomes overly protective of its master, a vehicle, an object, or another droid. It resists being away from the objectof its overprotection, and it might undertake irrational acts to ensure the object's safety.",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 28,
+     "ref": "Lists!EF28:EI28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_paranoid",
+   "entity": "droid_option",
+   "name": "Paranoid",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid believes something-or possibly everything-is out to get it. Because the droid is constantly on the lookout, it getseither a +2 bonus or a -2 penalty to Perception checks, depending on the situation.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 29,
+     "ref": "Lists!EF29:EI29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_plasteel_shell",
+   "entity": "droid_option",
+   "name": "Plasteel shell",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "c",
+    "canon_basis": "block_declaration",
+    "cost": 400,
+    "max_dex": 5,
+    "option_group": "armor",
+    "ref_bonus": 2,
+    "type": "Light",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!BT8:CB8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_possessive",
+   "entity": "droid_option",
+   "name": "Possessive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid latches on to possessions or other items and refuses to give an item up without extensive coaxing and reassurancethat the item will be returned, requiring an opposed Persuasion check against the droid's Will Defense.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 30,
+     "ref": "Lists!EF30:EI30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_probe",
+   "entity": "droid_option",
+   "name": "Probe",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 2,
+    "option_group": "appendage",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_appendages",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!BN2:BP2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_probe_droid_chassis",
+   "entity": "droid_option",
+   "name": "Probe Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Probe droids are designed for surveillance and are constructed with the following droid systems installed in each:\n\nhovering locomotion 6\nheuristic processor\ninternal comlink\nlocked access\n1 hand appendage\n1 tool appendage\nimproved sensor package\ndarkvision",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!ED7:EE7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_protocol_droid_chassis",
+   "entity": "droid_option",
+   "name": "Protocol Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Protocol droids are constructed with the following droid systems installed in each:\n\nwalking locomotion 6\nbasic processor\n2 hand appendages\nvocabulator\ntranslator unit (DC 10)",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!ED8:EE8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_quadanium_plating",
+   "entity": "droid_option",
+   "name": "Quadanium plating",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "l",
+    "canon_basis": "block_declaration",
+    "cost": 2500,
+    "max_dex": 3,
+    "option_group": "armor",
+    "ref_bonus": 5,
+    "type": "Medium",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!BT11:CB11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_quadanium_shell",
+   "entity": "droid_option",
+   "name": "Quadanium shell",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "c",
+    "canon_basis": "block_declaration",
+    "cost": 900,
+    "max_dex": 4,
+    "option_group": "armor",
+    "ref_bonus": 3,
+    "type": "Light",
+    "weight": 3
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_armor",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!BT9:CB9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_radiant_heat_element",
+   "entity": "droid_option",
+   "name": "Radiant heat element",
+   "canon": "third_party",
+   "attrs": {
+    "5": 200,
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": 200,
+    "final_weight_2": 40,
+    "option_group": "accessory",
+    "weight": "20 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 27,
+     "ref": "Lists!EL27:EU27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_remote_viewer",
+   "entity": "droid_option",
+   "name": "Remote viewer",
+   "canon": "third_party",
+   "attrs": {
+    "5": 1000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 1000,
+    "final_weight_2": 20,
+    "option_group": "accessory",
+    "weight": "20 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 28,
+     "ref": "Lists!EL28:EU28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_rental_restraining_bolt",
+   "entity": "droid_option",
+   "name": "Rental restraining bolt",
+   "canon": "third_party",
+   "attrs": {
+    "5": 10,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 10,
+    "final_weight_2": 0.5,
+    "option_group": "accessory",
+    "weight": ".5 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 29,
+     "ref": "Lists!EL29:EU29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_repulsorcam",
+   "entity": "droid_option",
+   "name": "Repulsorcam",
+   "canon": "third_party",
+   "attrs": {
+    "5": 1000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 1000,
+    "final_weight_2": 20,
+    "option_group": "accessory",
+    "weight": "20 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 30,
+     "ref": "Lists!EL30:EU30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_roche",
+   "entity": "droid_option",
+   "name": "Roche",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "When modifying an appendage, an accessory, a tool, a weapon, or an instrument mounted on an appendage, apply a +5 circumstance bonus to the Mechanics check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!EJ13:EK13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_rude",
+   "entity": "droid_option",
+   "name": "Rude",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is rude to everyone-organic or mechanical-and is unpleasant to be around. It takes a -5 penalty to Persuasion checksto improve another's attitude.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 31,
+     "ref": "Lists!EF31:EI31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_scomp_link",
+   "entity": "droid_option",
+   "name": "Scomp link",
+   "canon": "third_party",
+   "attrs": {
+    "5": 100,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 100,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 31,
+     "ref": "Lists!EL31:EU31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_service_droid_chassis",
+   "entity": "droid_option",
+   "name": "Service Droid Chassis",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Service droids are constructed with the following droid systems installed in each:\n\nwalking locomotion 6\nbasic processor\n2 hand appendages\n1 tool mount\nvocabulator",
+    "option_group": "chassis"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_chassis",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!ED9:EE9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_short_circuit",
+   "entity": "droid_option",
+   "name": "Short Circuit",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid suffers from short circuits in its processors, which occasionally disrupt its speech, movement, or skill usefor one round.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 32,
+     "ref": "Lists!EF32:EI32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_silence_bubble_generator",
+   "entity": "droid_option",
+   "name": "Silence-bubble generator",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": 3500,
+    "6": 2,
+    "9": 2,
+    "canon_basis": "block_declaration",
+    "cost": 3500,
+    "final_weight_2": 40,
+    "option_group": "accessory",
+    "weight": "20 x cost factor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 32,
+     "ref": "Lists!EL32:EU32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_slow",
+   "entity": "droid_option",
+   "name": "Slow",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid does not move or process information quickly. Select one of the following penalties: -2 squares to speed, -2 to allInitiative checks, or -2 to Intelligence-based skill checks.",
+    "hardware": "H",
+    "option_group": "quirk",
+    "software": "S",
+    "url": "https://swse.miraheze.org/wiki/Slow"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 33,
+     "ref": "Lists!EF33:EI33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "droid_option_space_beacon_launcher",
+   "entity": "droid_option",
+   "name": "Space-beacon launcher",
+   "canon": "third_party",
+   "attrs": {
+    "5": 5000,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 5000,
+    "final_weight_2": 10,
+    "option_group": "accessory",
+    "weight": "10 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 33,
+     "ref": "Lists!EL33:EU33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_sprung_hatch",
+   "entity": "droid_option",
+   "name": "Sprung Hatch",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "One or more of the droid's maintenance panels cannot close or latch properly. Whenever the droid takes damage greaterthan its damage threshold, one of the hatches pops open. It can be closed again as a swift action, but it remains closed for only one round before popping open again. Temporarily securing the hatch requires a DC 15 Mechanics check as a full-round action, but it does not permanently remove the quirk.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 34,
+     "ref": "Lists!EF34:EI34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_stopping_forward_movement_limping_hovering_at_a_lower_or_inconsistent_level_or_a_sticking_tread_or_joint_when_malfunctioning_the_droid_loses_2_squares_of_speed_and_or_its_dexterity_bonus",
+   "entity": "droid_option",
+   "name": "stopping forward movement, limping, hovering at a lower or inconsistent level, or a sticking tread or joint. When malfunctioning, the droid loses 2 squares of speed and/or its Dexterity bonus",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 35,
+     "ref": "Lists!EF35:EI35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_sullen",
+   "entity": "droid_option",
+   "name": "Sullen",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid is depressed, with a dim outlook on the future.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 36,
+     "ref": "Lists!EF36:EI36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_survival_kit",
+   "entity": "droid_option",
+   "name": "Survival kit",
+   "canon": "third_party",
+   "attrs": {
+    "5": 100,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 100,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 34,
+     "ref": "Lists!EL34:EU34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_suspicious",
+   "entity": "droid_option",
+   "name": "Suspicious",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid doesn't trust an individual, a corporate or government entity, or some other group, no matter how much its mastersor others attempt to convince it otherwise. It treats the object of its suspicions as unfriendly at best.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 37,
+     "ref": "Lists!EF37:EI37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_talkative",
+   "entity": "droid_option",
+   "name": "Talkative",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid talks incessantly, with few information filters and at inappropriate moments.",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 38,
+     "ref": "Lists!EF38:EI38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_taser",
+   "entity": "droid_option",
+   "name": "Taser",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": 250,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 250,
+    "final_weight_2": 2,
+    "option_group": "accessory",
+    "weight": "2 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 35,
+     "ref": "Lists!EL35:EU35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_temperature_variations",
+   "entity": "droid_option",
+   "name": "Temperature Variations",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid runs hotter than normal, so anyone stand ing next to it or sharing an enclosed space with it becomesuncomfortable. A droid with an internal heating and cooling system might fluctuate between very hot and very cold temperatures.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 39,
+     "ref": "Lists!EF39:EI39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_tendrando_arms",
+   "entity": "droid_option",
+   "name": "Tendrando Arms",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "A Tendrando Arms droid gains a +2 circumstance bonus to its Reflex Defense and Will Defense against Yuuzhan Vong."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!EJ14:EK14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_tool",
+   "entity": "droid_option",
+   "name": "Tool",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 10,
+    "option_group": "appendage",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_appendages",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!BN3:BP3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_veril_line_systems",
+   "entity": "droid_option",
+   "name": "Veril Line Systems",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "option_group": "manufacturer",
+    "trait": "Once per day, a Veriline droid can make a DC 20 Endurance check to extend its run time by 25 hours or to move + 1 step on the condition track."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_manufacturers",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!EJ15:EK15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_video_screen",
+   "entity": "droid_option",
+   "name": "Video screen",
+   "canon": "third_party",
+   "attrs": {
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": "1 x square mm",
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg + .01 kg x square mm"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 36,
+     "ref": "Lists!EL36:EU36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_visual_impairment",
+   "entity": "droid_option",
+   "name": "Visual Impairment",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid's visual sensors are slightly impaired. The droid might not see all colors, see only black and white, orlose sight for brief periods. This quirk is typically a hardware glitch that results in a -2 penalty to related visually based Perception checks.",
+    "hardware": "H",
+    "option_group": "quirk",
+    "software": "S"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 40,
+     "ref": "Lists!EF40:EI40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_vocoder_glitch",
+   "entity": "droid_option",
+   "name": "Vocoder Glitch",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "The droid's vocoder becomes stuck, causing the droid's voice to be squeaky, deep, monosyllabic, or sing-songy.This quirk might occur for only a few seconds, or it might last for days.",
+    "hardware": "H",
+    "option_group": "quirk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_quirks",
+     "sheet": "Lists",
+     "row": 41,
+     "ref": "Lists!EF41:EI41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_voice_print_command_lock",
+   "entity": "droid_option",
+   "name": "Voice-print command lock",
+   "canon": "third_party",
+   "attrs": {
+    "5": 400,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 400,
+    "final_weight_2": 1,
+    "option_group": "accessory",
+    "weight": "1 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 37,
+     "ref": "Lists!EL37:EU37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_option_weapon_detector",
+   "entity": "droid_option",
+   "name": "Weapon detector",
+   "canon": "third_party",
+   "attrs": {
+    "4": "Licensed",
+    "5": 1500,
+    "6": 1,
+    "9": 1,
+    "canon_basis": "block_declaration",
+    "cost": 1500,
+    "final_weight_2": 5,
+    "option_group": "accessory",
+    "weight": "5 kg"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_accessories",
+     "sheet": "Lists",
+     "row": 38,
+     "ref": "Lists!EL38:EU38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

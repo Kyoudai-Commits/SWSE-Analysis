@@ -1,0 +1,870 @@
+{
+ "entity": "class_feature",
+ "label": "class_feature",
+ "role": "option",
+ "count": 41,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "class_feature_build_lightsaber",
+   "entity": "class_feature",
+   "name": "Build Lightsaber",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!CZ15:CZ15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_command_cover",
+   "entity": "class_feature",
+   "name": "Command Cover",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!CZ3:CZ3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_contraband",
+   "entity": "class_feature",
+   "name": "Contraband",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!CZ40:CZ40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_create_cover",
+   "entity": "class_feature",
+   "name": "Create Cover",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!CZ42:CZ42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_damage_reduction",
+   "entity": "class_feature",
+   "name": "Damage Reduction",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!CZ4:CZ4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_delay_damage",
+   "entity": "class_feature",
+   "name": "Delay Damage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!CZ5:CZ5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_destructive",
+   "entity": "class_feature",
+   "name": "Destructive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!CZ28:CZ28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_executive_leadership",
+   "entity": "class_feature",
+   "name": "Executive Leadership",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!CZ16:CZ16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_familiar_foe",
+   "entity": "class_feature",
+   "name": "Familiar Foe",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!CZ6:CZ6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_fearless",
+   "entity": "class_feature",
+   "name": "Fearless",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!CZ7:CZ7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_field_created_weapon",
+   "entity": "class_feature",
+   "name": "Field-Created Weapon",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!CZ36:CZ36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_fugitive",
+   "entity": "class_feature",
+   "name": "Fugitive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!CZ34:CZ34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_independent_spirit",
+   "entity": "class_feature",
+   "name": "Independent Spirit",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!CZ22:CZ22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_indomitable",
+   "entity": "class_feature",
+   "name": "Indomitable",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!CZ8:CZ8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_lead_infiltrator",
+   "entity": "class_feature",
+   "name": "Lead Infiltrator",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!CZ24:CZ24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_mark",
+   "entity": "class_feature",
+   "name": "Mark",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!CZ31:CZ31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_master_of_movement",
+   "entity": "class_feature",
+   "name": "Master of Movement",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!CZ18:CZ18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_master_saboteur",
+   "entity": "class_feature",
+   "name": "Master Saboteur",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!CZ30:CZ30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_medical_secret",
+   "entity": "class_feature",
+   "name": "Medical Secret",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!CZ26:CZ26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_networked_mind",
+   "entity": "class_feature",
+   "name": "Networked Mind",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!CZ35:CZ35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_not_tools_required",
+   "entity": "class_feature",
+   "name": "Not Tools Required",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!CZ41:CZ41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_prophet",
+   "entity": "class_feature",
+   "name": "Prophet",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!CZ9:CZ9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_quick_sabotage",
+   "entity": "class_feature",
+   "name": "Quick Sabotage",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!CZ29:CZ29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_resources",
+   "entity": "class_feature",
+   "name": "Resources",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!CZ19:CZ19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_sapience",
+   "entity": "class_feature",
+   "name": "Sapience",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!CZ21:CZ21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_score",
+   "entity": "class_feature",
+   "name": "Score",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!CZ32:CZ32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_serenity",
+   "entity": "class_feature",
+   "name": "Serenity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!CZ10:CZ10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_shaper_hand",
+   "entity": "class_feature",
+   "name": "Shaper Hand",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!CZ39:CZ39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_shaper_lore",
+   "entity": "class_feature",
+   "name": "Shaper Lore",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!CZ38:CZ38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_share_talent",
+   "entity": "class_feature",
+   "name": "Share Talent",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!CZ11:CZ11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_surprise_attack",
+   "entity": "class_feature",
+   "name": "Surprise Attack",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!CZ37:CZ37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_swindle",
+   "entity": "class_feature",
+   "name": "Swindle",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!CZ33:CZ33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_targeted_suspect",
+   "entity": "class_feature",
+   "name": "Targeted Suspect",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!CZ20:CZ20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_temptation",
+   "entity": "class_feature",
+   "name": "Temptation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!CZ12:CZ12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_tough_as_durasteel",
+   "entity": "class_feature",
+   "name": "Tough as Durasteel",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 43,
+     "ref": "Data!CZ43:CZ43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_trusty_sidearm",
+   "entity": "class_feature",
+   "name": "Trusty Sidearm",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!CZ13:CZ13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_unarmed_stun",
+   "entity": "class_feature",
+   "name": "Unarmed Stun",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!CZ23:CZ23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_unexpected_results",
+   "entity": "class_feature",
+   "name": "Unexpected Results",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!CZ27:CZ27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_unflinching",
+   "entity": "class_feature",
+   "name": "Unflinching",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!CZ17:CZ17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_vehicle_dodge",
+   "entity": "class_feature",
+   "name": "Vehicle Dodge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!CZ14:CZ14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "class_feature_veteran_privateer",
+   "entity": "class_feature",
+   "name": "Veteran Privateer",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_class_features",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!CZ25:CZ25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

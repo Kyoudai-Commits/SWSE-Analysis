@@ -1,0 +1,59 @@
+# Registry of every source workbook this project derives data from.
+#
+# `id` is the canonical provenance key used in every emitted record
+# (`sources[].source`). Never rename an id once data has been generated from
+# it; add a new entry instead, so old records stay traceable.
+#
+# `canon` describes how content from this source should be treated:
+#   official      - published Wizards of the Coast material
+#   third_party   - fan/3rd-party tooling that transcribes official material
+#   homebrew      - original, non-published content
+# A source can carry more than one; per-record canon is resolved in
+# swse/canon.py and may be overridden in data/curation/overrides.yaml.
+
+sources:
+  - id: sagaforge-1.53
+    title: "SagaForge character builder v1.53"
+    path: "3rd_Party_Builder/SagaForge 1.53.xlsm"
+    sha256: "63c903f2fa07d5fa605a4d573de487dfb3e3add97ef6c3fa26c34afc8f5b8605"
+    kind: workbook
+    canon: [official, third_party]
+    maintainer: "Ben Mowbray (Ultramyth) / Tysdas"
+    notes: >-
+      Community-built Excel character builder. Machine-readable transcription of
+      official Saga Edition material plus 3rd-party and web-enhancement content.
+      Most lookup data lives on the hidden `Data` and `Lists` sheets; the visible
+      sheets are UI driven by formulas and named ranges. Cached formula values are
+      read with openpyxl data_only=True, so the file must have been saved by Excel
+      (it was) for values to be present.
+    extraction_hints:
+      hidden_sheets_matter: true
+      formula_values: cached
+      defined_names: 882
+
+  - id: swse-master-reference-2026-10-08
+    title: "SWSE Master Reference (2026-10-08)"
+    path: "SWSE_Master_Reference_10-8-2026.xlsx"
+    sha256: "80cb44f362ac5532b0be9407e0d9de16b7173fdbc2a56cb1a4f6d4b04018edfb"
+    kind: workbook
+    canon: [official, homebrew]
+    notes: >-
+      Wiki-derived reference tables (swse.miraheze.org / swse.fandom.com) covering
+      heroic classes, prestige classes, feats, force powers and talent trees, plus a
+      large sheet of source URLs. Contains a `Homebrew` section inside the Heroic
+      Classes sheet (Technician, Force Prodigy) which must be flagged, not silently
+      merged into official classes.
+
+# Sources that are known-relevant but not yet vendored into the repo.
+# Agents: see docs/adding-sources.md before adding one of these.
+planned_sources:
+  - id: swse-miraheze-wiki
+    title: "SWSE Wiki (miraheze)"
+    canon: [official]
+    status: not_vendored
+    reason: "No outbound network access to miraheze.org from the build sandbox."
+  - id: swse-fandom-wiki
+    title: "SWSE Fandom Wiki"
+    canon: [official]
+    status: not_vendored
+    reason: "No outbound network access to fandom.com from the build sandbox."

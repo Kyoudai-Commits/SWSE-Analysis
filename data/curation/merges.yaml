@@ -1,0 +1,15 @@
+# ---------------------------------------------------------------------------
+# Curation: records that are the same option but were not auto-merged.
+#
+# Auto-merge keys on the normalised name (see `merge_on` in config/entities.yaml),
+# so entries here are for genuinely different spellings that mean one thing.
+#
+# Shape:
+#   merges:
+#     <entity>:
+#       - [<id to keep>, <id to fold in>, ...]
+#
+# The kept record absorbs sources, attrs (without overwriting), conflicts and
+# flags, and gains `curated:merged`.
+# ---------------------------------------------------------------------------
+merges: {}

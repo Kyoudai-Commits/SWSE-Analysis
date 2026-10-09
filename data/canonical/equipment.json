@@ -1,0 +1,7920 @@
+{
+ "entity": "equipment",
+ "label": "equipment",
+ "role": "option",
+ "count": 226,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "equipment_8_2a_medical_bundle",
+   "entity": "equipment",
+   "name": "8-2A medical bundle",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "price": 200,
+    "size": "d",
+    "stat_block": "8-2A medical bundle",
+    "stat_block_plural": "8-2A medical bundles",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!GC3:GI3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_abc_scrambler",
+   "entity": "equipment",
+   "name": "ABC scrambler",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 3000,
+    "size": "t",
+    "stat_block": "ABC scrambler",
+    "stat_block_plural": "ABC scramblers",
+    "weight": 3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!GC4:GI4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_all_temperature_cloak",
+   "entity": "equipment",
+   "name": "All-temperature cloak",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "d",
+    "stat_block": "all-temperature cloak",
+    "stat_block_plural": "all-temperature cloaks",
+    "weight": 1.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!GC5:GI5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ambient_aural_amplifier",
+   "entity": "equipment",
+   "name": "Ambient aural amplifier",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "price": 3000,
+    "size": "f",
+    "stat_block": "ambient aural amplifier",
+    "stat_block_plural": "ambient aural amplifiers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!GC6:GI6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ammo_clip",
+   "entity": "equipment",
+   "name": "Ammo Clip",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 15,
+    "size": "f",
+    "stat_block": "ammo clip",
+    "stat_block_plural": "ammo clips",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 203,
+     "ref": "Data!GC203:GI203",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_anti_rad_dose",
+   "entity": "equipment",
+   "name": "Anti-rad dose",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 50,
+    "size": "f",
+    "stat_block": "anti-rad dose",
+    "stat_block_plural": "anti-rad doses",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!GC11:GI11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_antidote_synthesizer",
+   "entity": "equipment",
+   "name": "Antidote synthesizer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 2500,
+    "size": "f",
+    "stat_block": "antidote synthesizer",
+    "stat_block_plural": "antidote synthesizers",
+    "weight": 0.8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!GC9:GI9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_antiox_breath_mask",
+   "entity": "equipment",
+   "name": "Antiox breath mask",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 2000,
+    "size": "d",
+    "stat_block": "antiox breath mask",
+    "stat_block_plural": "antiox breath masks",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!GC10:GI10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_antitoxin_patch",
+   "entity": "equipment",
+   "name": "Antitoxin patch",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 25,
+    "size": "f",
+    "stat_block": "antitoxin patch",
+    "stat_block_plural": "antitoxin patchs",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!GC13:GI13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_aquata_breather",
+   "entity": "equipment",
+   "name": "Aquata breather",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 350,
+    "size": "f",
+    "stat_block": "aquata breather",
+    "stat_block_plural": "aquata breathers",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!GC14:GI14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_audiorecorder",
+   "entity": "equipment",
+   "name": "Audiorecorder",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 25,
+    "size": "f",
+    "stat_block": "audiorecorder",
+    "stat_block_plural": "audiorecorders",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!GC15:GI15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_aural_amplifier",
+   "entity": "equipment",
+   "name": "Aural amplifier",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2000,
+    "size": "f",
+    "stat_block": "aural amplifier",
+    "stat_block_plural": "aural amplifiers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!GC16:GI16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_bacta_tank_empty",
+   "entity": "equipment",
+   "name": "Bacta tank (empty)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100000,
+    "size": "l",
+    "stat_block": "bacta tank",
+    "stat_block_plural": "bacta tanks",
+    "weight": 500
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!GC17:GI17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_bacta_1_liter",
+   "entity": "equipment",
+   "name": "Bacta, 1 liter",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "t",
+    "stat_block": "liter of bacta",
+    "stat_block_plural": "liters of bacta",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!GC18:GI18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_bandolier",
+   "entity": "equipment",
+   "name": "Bandolier",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "t",
+    "stat_block": "bandolier",
+    "stat_block_plural": "bandoliers",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!GC19:GI19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_binder_cuffs",
+   "entity": "equipment",
+   "name": "Binder cuffs",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 50,
+    "size": "f",
+    "stat_block": "binder cuffs",
+    "stat_block_plural": "binder cuffs",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!GC20:GI20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_bio_stabilizer_implant",
+   "entity": "equipment",
+   "name": "Bio-stabilizer implant",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1750,
+    "size": "f",
+    "stat_block": "bio-stabilizer implant",
+    "stat_block_plural": "bio-stabilizer implants"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!GC22:GI22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_bioscanner",
+   "entity": "equipment",
+   "name": "Bioscanner",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "price": 3500,
+    "size": "f",
+    "stat_block": "bioscanner",
+    "stat_block_plural": "bioscanners",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!GC21:GI21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_biotech_tool_kit",
+   "entity": "equipment",
+   "name": "Biotech tool kit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "price": 450,
+    "size": "d",
+    "stat_block": "biotech tool kit",
+    "stat_block_plural": "biotech tool kits",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!GC23:GI23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_black_powder_pistol_shot",
+   "entity": "equipment",
+   "name": "Black-Powder Pistol Shot",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 5,
+    "size": "f",
+    "stat_block": "shots (50)",
+    "stat_block_plural": "shots (50)",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 206,
+     "ref": "Data!GC206:GI206",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_bracer_computer",
+   "entity": "equipment",
+   "name": "Bracer computer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "price": 1300,
+    "size": "f",
+    "stat_block": "bracer computer",
+    "stat_block_plural": "bracer computers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!GC25:GI25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_breath_mask",
+   "entity": "equipment",
+   "name": "Breath mask",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 200,
+    "size": "t",
+    "stat_block": "breath mask",
+    "stat_block_plural": "breath masks",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!GC26:GI26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_breath_mask_atmosphere_canister_filter",
+   "entity": "equipment",
+   "name": "Breath mask atmosphere canister/filter",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 25,
+    "size": "d",
+    "stat_block": "atmosphere canister",
+    "stat_block_plural": "atmosphere canisters",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!GC27:GI27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_camoflage_netting",
+   "entity": "equipment",
+   "name": "Camoflage netting",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 2000,
+    "size": "s",
+    "stat_block": "camoflage netting",
+    "stat_block_plural": "camoflage nettings",
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!GC28:GI28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_camoflage_poncho",
+   "entity": "equipment",
+   "name": "Camoflage poncho",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 125,
+    "size": "d",
+    "stat_block": "camoflage poncho",
+    "stat_block_plural": "camoflage ponchos",
+    "weight": 1.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!GC29:GI29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_camouflage_netting",
+   "entity": "equipment",
+   "name": "Camouflage netting",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "price": 6000,
+    "size": "s",
+    "stat_block": "camouflage netting",
+    "stat_block_plural": "camouflage nettings",
+    "weight": 40
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!GC30:GI30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_cardio_implant",
+   "entity": "equipment",
+   "name": "Cardio implant",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 4000,
+    "size": "f",
+    "stat_block": "cardio implant",
+    "stat_block_plural": "cardio implants"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!GC31:GI31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ceremonial_hendanyn_death_mask",
+   "entity": "equipment",
+   "name": "Ceremonial Hendanyn death mask",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "t",
+    "stat_block": "ceremonial Hendanyn death mask",
+    "stat_block_plural": "ceremonial Hendanyn death masks",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!GC32:GI32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_chain_3_meters",
+   "entity": "equipment",
+   "name": "Chain (3 meters)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 25,
+    "size": "t",
+    "stat_block": "chain",
+    "stat_block_plural": "chains",
+    "weight": 2.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!GC33:GI33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_climbing_harness",
+   "entity": "equipment",
+   "name": "Climbing harness",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 45,
+    "size": "f",
+    "stat_block": "climbing harness",
+    "stat_block_plural": "climbing harnesss",
+    "weight": 0.7
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!GC34:GI34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_code_cylinder",
+   "entity": "equipment",
+   "name": "Code cylinder",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 500,
+    "size": "f",
+    "stat_block": "code cylinder",
+    "stat_block_plural": "code cylinders",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!GC35:GI35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_com_scrambler",
+   "entity": "equipment",
+   "name": "Com scrambler",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 6000,
+    "size": "s",
+    "stat_block": "com scrambler",
+    "stat_block_plural": "com scramblers",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!GC36:GI36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_combat_implant",
+   "entity": "equipment",
+   "name": "Combat implant",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 5000,
+    "size": "f",
+    "stat_block": "combat implant",
+    "stat_block_plural": "combat implants"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!GC37:GI37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_earbud",
+   "entity": "equipment",
+   "name": "Comlink, earbud",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 200,
+    "size": "f",
+    "stat_block": "comlink, earbud",
+    "stat_block_plural": "comlink, earbuds",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!GC38:GI38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_long_range",
+   "entity": "equipment",
+   "name": "Comlink, encrypted long-range",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 2500,
+    "size": "d",
+    "stat_block": "encrypted long-range comlink",
+    "stat_block_plural": "encrypted long-range comlinks",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!GC39:GI39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_long_range_holo",
+   "entity": "equipment",
+   "name": "Comlink, encrypted long-range holo",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 3750,
+    "size": "d",
+    "stat_block": "encrypted long-range comlink with holo capability",
+    "stat_block_plural": "encrypted long-range comlinks with holo capabilities",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!GC40:GI40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_long_range_video",
+   "entity": "equipment",
+   "name": "Comlink, encrypted long-range video",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 3000,
+    "size": "d",
+    "stat_block": "encrypted long-range comlink with video capability",
+    "stat_block_plural": "encrypted long-range comlinks with video capabilities",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!GC41:GI41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_short_range",
+   "entity": "equipment",
+   "name": "Comlink, encrypted short-range",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 250,
+    "size": "f",
+    "stat_block": "encrypted comlink",
+    "stat_block_plural": "encrypted comlinks",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 45,
+     "ref": "Data!GC45:GI45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_short_range_holo",
+   "entity": "equipment",
+   "name": "Comlink, encrypted short-range holo",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 375,
+    "size": "f",
+    "stat_block": "encrypted comlink with holo capability",
+    "stat_block_plural": "encrypted comlinks with holo capabilities",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 46,
+     "ref": "Data!GC46:GI46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_short_range_video",
+   "entity": "equipment",
+   "name": "Comlink, encrypted short-range video",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 300,
+    "size": "f",
+    "stat_block": "encrypted comlink with video capability",
+    "stat_block_plural": "encrypted comlinks with video capabilities",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 47,
+     "ref": "Data!GC47:GI47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_hands_free",
+   "entity": "equipment",
+   "name": "Comlink, hands-free",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "price": 150,
+    "size": "f",
+    "stat_block": "hands-free comlink",
+    "stat_block_plural": "hands-free comlinks",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 48,
+     "ref": "Data!GC48:GI48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_long_range",
+   "entity": "equipment",
+   "name": "Comlink, long-range",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 250,
+    "size": "d",
+    "stat_block": "long-range comlink",
+    "stat_block_plural": "long-range comlinks",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 49,
+     "ref": "Data!GC49:GI49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_long_range_holo",
+   "entity": "equipment",
+   "name": "Comlink, long-range holo",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1250,
+    "size": "d",
+    "stat_block": "long-range comlink",
+    "stat_block_plural": "long-range comlinks",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 50,
+     "ref": "Data!GC50:GI50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_long_range_video",
+   "entity": "equipment",
+   "name": "Comlink, long-range video",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 500,
+    "size": "d",
+    "stat_block": "long-range comlink",
+    "stat_block_plural": "long-range comlinks",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 51,
+     "ref": "Data!GC51:GI51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_short_range",
+   "entity": "equipment",
+   "name": "Comlink, short-range",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 25,
+    "size": "f",
+    "stat_block": "comlink",
+    "stat_block_plural": "comlinks",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 55,
+     "ref": "Data!GC55:GI55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_short_range_holo",
+   "entity": "equipment",
+   "name": "Comlink, short-range holo",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 125,
+    "size": "f",
+    "stat_block": "comlink",
+    "stat_block_plural": "comlinks",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 56,
+     "ref": "Data!GC56:GI56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_short_range_video",
+   "entity": "equipment",
+   "name": "Comlink, short-range video",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 50,
+    "size": "f",
+    "stat_block": "comlink",
+    "stat_block_plural": "comlinks",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 57,
+     "ref": "Data!GC57:GI57",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_tightbeam",
+   "entity": "equipment",
+   "name": "Comlink, tightbeam",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 300,
+    "size": "f",
+    "stat_block": "tightbeam comlink",
+    "stat_block_plural": "tightbeam comlinks",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 58,
+     "ref": "Data!GC58:GI58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_computer_interface_visor",
+   "entity": "equipment",
+   "name": "Computer interface visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1200,
+    "size": "f",
+    "stat_block": "computer interface visor",
+    "stat_block_plural": "computer interface visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 59,
+     "ref": "Data!GC59:GI59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_computer_spike",
+   "entity": "equipment",
+   "name": "Computer spike",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 1500,
+    "size": "d",
+    "stat_block": "computer spike",
+    "stat_block_plural": "computer spikes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 60,
+     "ref": "Data!GC60:GI60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comunication_scanner",
+   "entity": "equipment",
+   "name": "Comunication scanner",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 1000,
+    "size": "d",
+    "stat_block": "comunication scanner",
+    "stat_block_plural": "comunication scanners",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 61,
+     "ref": "Data!GC61:GI61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_cortosis_gauntlet",
+   "entity": "equipment",
+   "name": "Cortosis Gauntlet",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 1500,
+    "size": "d",
+    "stat_block": "cortosis gauntlet",
+    "stat_block_plural": "cortosis gauntlets",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 62,
+     "ref": "Data!GC62:GI62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_credit_chip",
+   "entity": "equipment",
+   "name": "Credit chip",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "f",
+    "stat_block": "credit chip",
+    "stat_block_plural": "credit chips",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 63,
+     "ref": "Data!GC63:GI63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_crossbow_bolt",
+   "entity": "equipment",
+   "name": "Crossbow Bolt",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 20,
+    "size": "f",
+    "stat_block": "bolts (10)",
+    "stat_block_plural": "bolts (10)",
+    "weight": 0.6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 210,
+     "ref": "Data!GC210:GI210",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_cryogenic_pouch",
+   "entity": "equipment",
+   "name": "Cryogenic pouch",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 600,
+    "size": "d",
+    "stat_block": "cryogenic pouch",
+    "stat_block_plural": "cryogenic pouchs",
+    "weight": 1.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 64,
+     "ref": "Data!GC64:GI64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_cybernetic_prosthesis",
+   "entity": "equipment",
+   "name": "Cybernetic prosthesis",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1500,
+    "size": "m",
+    "stat_block": "cybernetic prosthesis",
+    "stat_block_plural": "cybernetic prostheses",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 65,
+     "ref": "Data!GC65:GI65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_dart",
+   "entity": "equipment",
+   "name": "Dart",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 0,
+    "size": "f",
+    "stat_block": "darter dart",
+    "stat_block_plural": "darter darts",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 211,
+     "ref": "Data!GC211:GI211",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_datacards_blank_10",
+   "entity": "equipment",
+   "name": "Datacards, blank [10]",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 10,
+    "size": "f",
+    "stat_block": "blank datacards",
+    "stat_block_plural": "blank datacards",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 68,
+     "ref": "Data!GC68:GI68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_datapad",
+   "entity": "equipment",
+   "name": "Datapad",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1000,
+    "size": "f",
+    "stat_block": "datapad",
+    "stat_block_plural": "datapads",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 69,
+     "ref": "Data!GC69:GI69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_datapad_basic",
+   "entity": "equipment",
+   "name": "Datapad, basic",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "f",
+    "stat_block": "basic datapad",
+    "stat_block_plural": "basic datapads",
+    "weight": 0.3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 70,
+     "ref": "Data!GC70:GI70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_demolitions_sensor",
+   "entity": "equipment",
+   "name": "Demolitions sensor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1000,
+    "size": "f",
+    "stat_block": "demolitions sensor",
+    "stat_block_plural": "demolitions sensors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 71,
+     "ref": "Data!GC71:GI71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_droid_diagnostic",
+   "entity": "equipment",
+   "name": "Droid diagnostic",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 400,
+    "size": "d",
+    "stat_block": "droid diagnostic",
+    "stat_block_plural": "droid diagnostics",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 73,
+     "ref": "Data!GC73:GI73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_electrobinoculars",
+   "entity": "equipment",
+   "name": "Electrobinoculars",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1000,
+    "size": "d",
+    "stat_block": "electrobinoculars",
+    "stat_block_plural": "electrobinoculars",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 74,
+     "ref": "Data!GC74:GI74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_emergency_vacuum_seal",
+   "entity": "equipment",
+   "name": "Emergency vacuum seal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 750,
+    "size": "f",
+    "stat_block": "emergency vacuum seal",
+    "stat_block_plural": "emergency vacuum seals",
+    "weight": 0.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 75,
+     "ref": "Data!GC75:GI75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_energy_cell",
+   "entity": "equipment",
+   "name": "Energy cell",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 10,
+    "size": "f",
+    "stat_block": "energy cell",
+    "stat_block_plural": "energy cells",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 76,
+     "ref": "Data!GC76:GI76",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 212,
+     "ref": "Data!GC212:GI212",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "equipment_fastflesh_medpac",
+   "entity": "equipment",
+   "name": "FastFlesh medpac",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 600,
+    "size": "f",
+    "stat_block": "FastFlesh medpac",
+    "stat_block_plural": "FastFlesh medpacs",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 77,
+     "ref": "Data!GC77:GI77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_field_food_processor",
+   "entity": "equipment",
+   "name": "Field food processor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 1500,
+    "size": "t",
+    "stat_block": "field food processor",
+    "stat_block_plural": "field food processors",
+    "weight": 4
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 78,
+     "ref": "Data!GC78:GI78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_field_kit",
+   "entity": "equipment",
+   "name": "Field kit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 480,
+    "size": "t",
+    "stat_block": "field kit",
+    "stat_block_plural": "field kits",
+    "weight": 2.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 79,
+     "ref": "Data!GC79:GI79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_fire_extinguisher",
+   "entity": "equipment",
+   "name": "Fire extinguisher",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 50,
+    "size": "t",
+    "stat_block": "fire extinguisher",
+    "stat_block_plural": "fire extinguishers",
+    "weight": 3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 80,
+     "ref": "Data!GC80:GI80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_fire_paste",
+   "entity": "equipment",
+   "name": "Fire paste",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 15,
+    "size": "f",
+    "stat_block": "fire paste",
+    "stat_block_plural": "fire pastes",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 81,
+     "ref": "Data!GC81:GI81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_fire_rod",
+   "entity": "equipment",
+   "name": "Fire rod",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 25,
+    "size": "f",
+    "stat_block": "fire rod",
+    "stat_block_plural": "fire rods",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 82,
+     "ref": "Data!GC82:GI82",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_flash_suppressor_silencer",
+   "entity": "equipment",
+   "name": "Flash suppressor/silencer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 400,
+    "size": "f",
+    "stat_block": "flash suppressor/silencer",
+    "stat_block_plural": "flash suppressor/silencers",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 83,
+     "ref": "Data!GC83:GI83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_force_cage",
+   "entity": "equipment",
+   "name": "Force cage",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 7000,
+    "size": "s",
+    "stat_block": "force cage",
+    "stat_block_plural": "force cages",
+    "weight": 25
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 84,
+     "ref": "Data!GC84:GI84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_force_detector",
+   "entity": "equipment",
+   "name": "Force detector",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "price": 2000,
+    "size": "s",
+    "stat_block": "Force detector",
+    "stat_block_plural": "Force detectors",
+    "weight": 9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 85,
+     "ref": "Data!GC85:GI85",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_force_training_aid",
+   "entity": "equipment",
+   "name": "Force training aid",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "price": 25,
+    "size": "d",
+    "stat_block": "Force training aid",
+    "stat_block_plural": "Force training aids",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 86,
+     "ref": "Data!GC86:GI86",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_fusion_lantern",
+   "entity": "equipment",
+   "name": "Fusion lantern",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 25,
+    "size": "t",
+    "stat_block": "fusion lantern",
+    "stat_block_plural": "fusion lanterns",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 88,
+     "ref": "Data!GC88:GI88",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_gand_breathing_apparatus",
+   "entity": "equipment",
+   "name": "Gand breathing apparatus",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 2000,
+    "size": "t",
+    "stat_block": "Gand breathing apparatus",
+    "stat_block_plural": "Gand breathing apparatum",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 89,
+     "ref": "Data!GC89:GI89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_gand_breathing_filter_year_s_supply",
+   "entity": "equipment",
+   "name": "Gand breathing filter (year's supply)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 200,
+    "size": "f",
+    "stat_block": "years supply of Gand breathing filters",
+    "stat_block_plural": "years supply of Gand breathing filters"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 90,
+     "ref": "Data!GC90:GI90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_glow_rod",
+   "entity": "equipment",
+   "name": "Glow rod",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 10,
+    "size": "d",
+    "stat_block": "glow rod",
+    "stat_block_plural": "glow rods",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 91,
+     "ref": "Data!GC91:GI91",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_glow_rod_decoy",
+   "entity": "equipment",
+   "name": "Glow rod, decoy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "price": 1000,
+    "size": "t",
+    "stat_block": "decoy glow rod",
+    "stat_block_plural": "decoy glow rod",
+    "weight": 4
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 92,
+     "ref": "Data!GC92:GI92",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_halo_lamp",
+   "entity": "equipment",
+   "name": "Halo lamp",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "price": 30,
+    "size": "d",
+    "stat_block": "halo lamp",
+    "stat_block_plural": "halo lamps",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 93,
+     "ref": "Data!GC93:GI93",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_heat_sensor",
+   "entity": "equipment",
+   "name": "Heat sensor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 250,
+    "size": "f",
+    "stat_block": "heat sensor",
+    "stat_block_plural": "heat sensors",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 94,
+     "ref": "Data!GC94:GI94",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_helmet_package",
+   "entity": "equipment",
+   "name": "Helmet package",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 4000,
+    "size": "d",
+    "stat_block": "helmet package",
+    "stat_block_plural": "helmet packages",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 95,
+     "ref": "Data!GC95:GI95",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_hibaka_2000_mem_stik",
+   "entity": "equipment",
+   "name": "HiBaka 2000 Mem-Stik",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 50,
+    "size": "f",
+    "stat_block": "HiBaka 2000 Mem-Stik",
+    "stat_block_plural": "HiBaka 2000 Mem-Stiks",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 96,
+     "ref": "Data!GC96:GI96",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_holo_converter",
+   "entity": "equipment",
+   "name": "Holo converter",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 3000,
+    "size": "t",
+    "stat_block": "holo converter",
+    "stat_block_plural": "holo converters",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 97,
+     "ref": "Data!GC97:GI97",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_holoprojector_personal",
+   "entity": "equipment",
+   "name": "Holoprojector, personal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1000,
+    "size": "f",
+    "stat_block": "personal holoprojector",
+    "stat_block_plural": "personal holoprojectors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 98,
+     "ref": "Data!GC98:GI98",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_holorecorder",
+   "entity": "equipment",
+   "name": "Holorecorder",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "f",
+    "stat_block": "holorecorder",
+    "stat_block_plural": "holorecorders",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 99,
+     "ref": "Data!GC99:GI99",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_holoshroud",
+   "entity": "equipment",
+   "name": "Holoshroud",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "price": 25000,
+    "size": "f",
+    "stat_block": "holoshroud",
+    "stat_block_plural": "holoshrouds",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 100,
+     "ref": "Data!GC100:GI100",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_holster_concealed",
+   "entity": "equipment",
+   "name": "Holster, concealed",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 50,
+    "size": "f",
+    "stat_block": "concealed holster",
+    "stat_block_plural": "concealed holsters",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 101,
+     "ref": "Data!GC101:GI101",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_holster_hip",
+   "entity": "equipment",
+   "name": "Holster, hip",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 25,
+    "size": "f",
+    "stat_block": "hip holster",
+    "stat_block_plural": "hip holsters",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 102,
+     "ref": "Data!GC102:GI102",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_hypoinjector_wristband",
+   "entity": "equipment",
+   "name": "Hypoinjector wristband",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 350,
+    "size": "f",
+    "stat_block": "hypoinjector wristband",
+    "stat_block_plural": "hypoinjector wristbands",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 103,
+     "ref": "Data!GC103:GI103",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jedi_master_s_robes",
+   "entity": "equipment",
+   "name": "Jedi master's robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Jedi master's robes",
+    "stat_block_plural": "Jedi master's robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 104,
+     "ref": "Data!GC104:GI104",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jedi_padawan_s_robes",
+   "entity": "equipment",
+   "name": "Jedi padawan's robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Jedi padawan's robes",
+    "stat_block_plural": "Jedi padawan's robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 105,
+     "ref": "Data!GC105:GI105",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jedi_robes",
+   "entity": "equipment",
+   "name": "Jedi robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Jedi robes",
+    "stat_block_plural": "Jedi robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 106,
+     "ref": "Data!GC106:GI106",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jet_pack",
+   "entity": "equipment",
+   "name": "Jet pack",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 300,
+    "size": "s",
+    "stat_block": "jet pack",
+    "stat_block_plural": "jet packs",
+    "weight": 30
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 107,
+     "ref": "Data!GC107:GI107",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jet_pack_arakyd_hush_about",
+   "entity": "equipment",
+   "name": "Jet pack, Arakyd Hush-About",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "price": 3750,
+    "size": "s",
+    "stat_block": "Arakyd Hush-About personal jetpack",
+    "stat_block_plural": "Arakyd Hush-About personal jetpacks",
+    "weight": 30
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 108,
+     "ref": "Data!GC108:GI108",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jet_pack_mandalorian",
+   "entity": "equipment",
+   "name": "Jet pack, Mandalorian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 5000,
+    "size": "s",
+    "stat_block": "Jet Pack, but has an integrated Missile Launcher (Treated as an Inaccurate weapon), and a magnetic grappling hook (Which functions as a Liquid Cable Dispenser).",
+    "stat_block_plural": "Jet Pack, but has an integrated Missile Launcher (Treated as an Inaccurate weapon), and a magnetic grappling hook (Which functions as a Liquid Cable Dispenser).",
+    "weight": 40
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 110,
+     "ref": "Data!GC110:GI110",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_kel_dor_antiox_filters_year_s_supply",
+   "entity": "equipment",
+   "name": "Kel Dor antiox filters (year's supply)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 200,
+    "size": "f",
+    "stat_block": "Kel Dor antiox filters (year's supply)",
+    "stat_block_plural": "years supply of Kel Dor antiox filters",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 112,
+     "ref": "Data!GC112:GI112",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_liquid_cable_dispenser_15_meters",
+   "entity": "equipment",
+   "name": "Liquid cable dispenser (15 meters)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 10,
+    "size": "f",
+    "stat_block": "liquid cable dispenser",
+    "stat_block_plural": "liquid cable dispensers",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 114,
+     "ref": "Data!GC114:GI114",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_lock_breaking_kit",
+   "entity": "equipment",
+   "name": "Lock breaking kit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 8000,
+    "size": "t",
+    "stat_block": "lock breaking kit",
+    "stat_block_plural": "lock breaking kits",
+    "weight": 4
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 115,
+     "ref": "Data!GC115:GI115",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_magna_caster_bolt",
+   "entity": "equipment",
+   "name": "Magna Caster Bolt",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 10,
+    "size": "d",
+    "stat_block": "Magna caster bolts (10)",
+    "stat_block_plural": "Magna caster bolts (10)",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 219,
+     "ref": "Data!GC219:GI219",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_man_trap",
+   "entity": "equipment",
+   "name": "Man trap",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 8000,
+    "size": "s",
+    "stat_block": "man trap",
+    "stat_block_plural": "man traps",
+    "weight": 19
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 116,
+     "ref": "Data!GC116:GI116",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_manual_trigger",
+   "entity": "equipment",
+   "name": "Manual trigger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "price": 100,
+    "size": "f",
+    "stat_block": "manual trigger",
+    "stat_block_plural": "manual triggers",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 117,
+     "ref": "Data!GC117:GI117",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_mds_50_medisensor",
+   "entity": "equipment",
+   "name": "MDS-50 medisensor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 75,
+    "size": "f",
+    "stat_block": "MDS-50 medisensor",
+    "stat_block_plural": "MDS-50 medisensors",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 118,
+     "ref": "Data!GC118:GI118",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_mechanical_interface_visor",
+   "entity": "equipment",
+   "name": "Mechanical interface visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1250,
+    "size": "f",
+    "stat_block": "mechanical interface visor",
+    "stat_block_plural": "mechanical interface visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 119,
+     "ref": "Data!GC119:GI119",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_medical_interface_visor",
+   "entity": "equipment",
+   "name": "Medical interface visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1500,
+    "size": "f",
+    "stat_block": "medical interface visor",
+    "stat_block_plural": "medical interface visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 120,
+     "ref": "Data!GC120:GI120",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_medical_kit",
+   "entity": "equipment",
+   "name": "Medical kit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 600,
+    "size": "s",
+    "stat_block": "medical kit",
+    "stat_block_plural": "medical kits",
+    "weight": 20
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 121,
+     "ref": "Data!GC121:GI121",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_medpac",
+   "entity": "equipment",
+   "name": "Medpac",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "d",
+    "stat_block": "medpac",
+    "stat_block_plural": "medpacs",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 123,
+     "ref": "Data!GC123:GI123",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_memory_implant",
+   "entity": "equipment",
+   "name": "Memory implant",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2000,
+    "size": "f",
+    "stat_block": "memory implant",
+    "stat_block_plural": "memory implants"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 124,
+     "ref": "Data!GC124:GI124",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_mesh_tape",
+   "entity": "equipment",
+   "name": "Mesh tape",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 5,
+    "size": "f",
+    "stat_block": "mesh tape",
+    "stat_block_plural": "rolls of mesh tape",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 125,
+     "ref": "Data!GC125:GI125",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_microlab",
+   "entity": "equipment",
+   "name": "Microlab",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 1800,
+    "size": "f",
+    "stat_block": "microlab",
+    "stat_block_plural": "microlabs",
+    "weight": 0.8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 126,
+     "ref": "Data!GC126:GI126",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_motion_sensing_visor",
+   "entity": "equipment",
+   "name": "Motion sensing visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2500,
+    "size": "f",
+    "stat_block": "motion sensing visor",
+    "stat_block_plural": "motion sensing visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 127,
+     "ref": "Data!GC127:GI127",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_nerve_reinforcement_implant",
+   "entity": "equipment",
+   "name": "Nerve reinforcement implant",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 5000,
+    "size": "f",
+    "stat_block": "nerve reinforcement implant",
+    "stat_block_plural": "nerve reinforcement implants"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 128,
+     "ref": "Data!GC128:GI128",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_neural_band",
+   "entity": "equipment",
+   "name": "Neural band",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 3500,
+    "size": "f",
+    "stat_block": "neural band",
+    "stat_block_plural": "neural bands",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 129,
+     "ref": "Data!GC129:GI129",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_nightsister_robes",
+   "entity": "equipment",
+   "name": "Nightsister robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Nightsister robes",
+    "stat_block_plural": "Nightsister robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 130,
+     "ref": "Data!GC130:GI130",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_panic_ring",
+   "entity": "equipment",
+   "name": "Panic ring",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 300,
+    "size": "f",
+    "stat_block": "panic ring",
+    "stat_block_plural": "panic rings",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 132,
+     "ref": "Data!GC132:GI132",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_personal_field_shelter",
+   "entity": "equipment",
+   "name": "Personal field shelter",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 500,
+    "size": "t",
+    "stat_block": "personal field shelter",
+    "stat_block_plural": "personal field shelters",
+    "weight": 1.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 133,
+     "ref": "Data!GC133:GI133",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_personal_multitool",
+   "entity": "equipment",
+   "name": "Personal multitool",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 100,
+    "size": "f",
+    "stat_block": "personal multitool",
+    "stat_block_plural": "personal multitools",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 134,
+     "ref": "Data!GC134:GI134",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_personal_translator",
+   "entity": "equipment",
+   "name": "Personal translator",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 2000,
+    "size": "f",
+    "stat_block": "personal translator",
+    "stat_block_plural": "personal translators",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 135,
+     "ref": "Data!GC135:GI135",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_plasma_bridge",
+   "entity": "equipment",
+   "name": "Plasma bridge",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 12500,
+    "size": "l",
+    "stat_block": "plasma bridge",
+    "stat_block_plural": "plasma bridges",
+    "weight": 700
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 136,
+     "ref": "Data!GC136:GI136",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_plastent",
+   "entity": "equipment",
+   "name": "Plastent",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 300,
+    "size": "t",
+    "stat_block": "plastent",
+    "stat_block_plural": "plastents",
+    "weight": 2.7
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 137,
+     "ref": "Data!GC137:GI137",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_pocket_scrambler",
+   "entity": "equipment",
+   "name": "Pocket scrambler",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 400,
+    "size": "f",
+    "stat_block": "pocket scrambler",
+    "stat_block_plural": "pocket scramblers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 138,
+     "ref": "Data!GC138:GI138",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_portable_beacon",
+   "entity": "equipment",
+   "name": "Portable beacon",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 1500,
+    "size": "s",
+    "stat_block": "portable beacon",
+    "stat_block_plural": "portable beacons",
+    "weight": 6.8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 139,
+     "ref": "Data!GC139:GI139",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_portable_computer",
+   "entity": "equipment",
+   "name": "Portable computer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 5000,
+    "size": "t",
+    "stat_block": "portable computer",
+    "stat_block_plural": "portable computers",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 140,
+     "ref": "Data!GC140:GI140",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_power_cell",
+   "entity": "equipment",
+   "name": "Power Cell",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 0,
+    "size": "f",
+    "stat_block": "wrist blaster power cell",
+    "stat_block_plural": "wrist blaster power cells",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 222,
+     "ref": "Data!GC222:GI222",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_power_generator",
+   "entity": "equipment",
+   "name": "Power generator",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 750,
+    "size": "s",
+    "stat_block": "power generator",
+    "stat_block_plural": "power generators",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 141,
+     "ref": "Data!GC141:GI141",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 223,
+     "ref": "Data!GC223:GI223",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "equipment_power_pack",
+   "entity": "equipment",
+   "name": "Power pack",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 25,
+    "size": "f",
+    "stat_block": "power pack",
+    "stat_block_plural": "power packs",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 143,
+     "ref": "Data!GC143:GI143",
+     "canon": "third_party"
+    },
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 224,
+     "ref": "Data!GC224:GI224",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "duplicate_rows_collapsed"
+   ]
+  },
+  {
+   "id": "equipment_power_recharger",
+   "entity": "equipment",
+   "name": "Power recharger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "d",
+    "stat_block": "power recharger",
+    "stat_block_plural": "power rechargers",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 144,
+     "ref": "Data!GC144:GI144",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_propulsion_pack",
+   "entity": "equipment",
+   "name": "Propulsion Pack",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "price": 200,
+    "size": "s",
+    "stat_block": "propulsion pack",
+    "stat_block_plural": "propulsion packs",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 145,
+     "ref": "Data!GC145:GI145",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_proximity_flare",
+   "entity": "equipment",
+   "name": "Proximity flare",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 50,
+    "size": "f",
+    "stat_block": "proximity flare",
+    "stat_block_plural": "proximity flares",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 146,
+     "ref": "Data!GC146:GI146",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_radiation_detector",
+   "entity": "equipment",
+   "name": "Radiation detector",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 20,
+    "size": "f",
+    "stat_block": "radiation detector",
+    "stat_block_plural": "radiation detectors",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 147,
+     "ref": "Data!GC147:GI147",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ration_pack",
+   "entity": "equipment",
+   "name": "Ration pack",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 5,
+    "size": "f",
+    "stat_block": "ration pack",
+    "stat_block_plural": "ration packs",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 148,
+     "ref": "Data!GC148:GI148",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_redirection_crystal",
+   "entity": "equipment",
+   "name": "Redirection crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 500,
+    "size": "f",
+    "stat_block": "redirection crystal",
+    "stat_block_plural": "redirection crystals",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 149,
+     "ref": "Data!GC149:GI149",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_regenerative_implant",
+   "entity": "equipment",
+   "name": "Regenerative implant",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 4250,
+    "size": "f",
+    "stat_block": "regenerative implant",
+    "stat_block_plural": "regenerative implants"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 150,
+     "ref": "Data!GC150:GI150",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_repulsor_boots",
+   "entity": "equipment",
+   "name": "Repulsor boots",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 200,
+    "size": "t",
+    "stat_block": "repulsor boots",
+    "stat_block_plural": "repulsor bootss",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 151,
+     "ref": "Data!GC151:GI151",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_repulsor_hitch",
+   "entity": "equipment",
+   "name": "Repulsor hitch",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 100,
+    "size": "t",
+    "stat_block": "repulsor hitch",
+    "stat_block_plural": "repulsor hitchs",
+    "weight": 3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 152,
+     "ref": "Data!GC152:GI152",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_repulsor_pad",
+   "entity": "equipment",
+   "name": "Repulsor pad",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "price": 200,
+    "size": "s",
+    "stat_block": "repulsor pad",
+    "stat_block_plural": "repulsor pads",
+    "weight": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 153,
+     "ref": "Data!GC153:GI153",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_riot_shield",
+   "entity": "equipment",
+   "name": "Riot shield",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "price": 500,
+    "size": "s",
+    "stat_block": "riot shield",
+    "stat_block_plural": "riot shields",
+    "weight": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 155,
+     "ref": "Data!GC155:GI155",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_saddle_riding",
+   "entity": "equipment",
+   "name": "Saddle, riding",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 125,
+    "size": "t",
+    "stat_block": "saddle, riding",
+    "stat_block_plural": "saddle, ridings",
+    "weight": 4
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 156,
+     "ref": "Data!GC156:GI156",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_saddle_war",
+   "entity": "equipment",
+   "name": "Saddle, war",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 250,
+    "size": "s",
+    "stat_block": "saddle, war",
+    "stat_block_plural": "saddle, wars",
+    "weight": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 157,
+     "ref": "Data!GC157:GI157",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_security_kit",
+   "entity": "equipment",
+   "name": "Security kit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 750,
+    "size": "d",
+    "stat_block": "security kit",
+    "stat_block_plural": "security kits",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 158,
+     "ref": "Data!GC158:GI158",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sensor_pack",
+   "entity": "equipment",
+   "name": "Sensor pack",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1500,
+    "size": "s",
+    "stat_block": "sensor pack",
+    "stat_block_plural": "sensor packs",
+    "weight": 9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 159,
+     "ref": "Data!GC159:GI159",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sensory_implant",
+   "entity": "equipment",
+   "name": "Sensory implant",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2500,
+    "size": "f",
+    "stat_block": "sensory implant",
+    "stat_block_plural": "sensory implants"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 161,
+     "ref": "Data!GC161:GI161",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_shield_cage",
+   "entity": "equipment",
+   "name": "Shield cage",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 10000,
+    "size": "s",
+    "stat_block": "shield cage",
+    "stat_block_plural": "shield cages",
+    "weight": 20
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 162,
+     "ref": "Data!GC162:GI162",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_shipsuit",
+   "entity": "equipment",
+   "name": "Shipsuit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 200,
+    "size": "d",
+    "stat_block": "shipsuit",
+    "stat_block_plural": "shipsuits",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 163,
+     "ref": "Data!GC163:GI163",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_signal_wand",
+   "entity": "equipment",
+   "name": "Signal wand",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 300,
+    "size": "f",
+    "stat_block": "signal wand",
+    "stat_block_plural": "signal wands",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 164,
+     "ref": "Data!GC164:GI164",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_silver_robes",
+   "entity": "equipment",
+   "name": "Silver robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "silver robes",
+    "stat_block_plural": "silver robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 165,
+     "ref": "Data!GC165:GI165",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sith_apprentice_s_robes",
+   "entity": "equipment",
+   "name": "Sith apprentice's robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Sith apprentice's robes",
+    "stat_block_plural": "Sith apprentice's robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 166,
+     "ref": "Data!GC166:GI166",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sith_battle_harness",
+   "entity": "equipment",
+   "name": "Sith battle harness",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "price": 5000,
+    "size": "m",
+    "stat_block": "Sith battle harness",
+    "stat_block_plural": "Sith battle harnesss",
+    "weight": 90
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 167,
+     "ref": "Data!GC167:GI167",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sith_lord_s_robes",
+   "entity": "equipment",
+   "name": "Sith lord's robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Sith lord's robes",
+    "stat_block_plural": "Sith lord's robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 168,
+     "ref": "Data!GC168:GI168",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sith_master_s_robes",
+   "entity": "equipment",
+   "name": "Sith master's robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Sith master's robes",
+    "stat_block_plural": "Sith master's robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 169,
+     "ref": "Data!GC169:GI169",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sith_robes",
+   "entity": "equipment",
+   "name": "Sith robes",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "size": "d",
+    "stat_block": "Sith robes",
+    "stat_block_plural": "Sith robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 170,
+     "ref": "Data!GC170:GI170",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_snare_pistol_cartridge",
+   "entity": "equipment",
+   "name": "Snare Pistol Cartridge",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 25,
+    "size": "d",
+    "stat_block": "snare pistol cartridge",
+    "stat_block_plural": "snare pistol cartridges",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 227,
+     "ref": "Data!GC227:GI227",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sonar_mapper",
+   "entity": "equipment",
+   "name": "Sonar mapper",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 400,
+    "size": "d",
+    "stat_block": "sonar mapper",
+    "stat_block_plural": "sonar mappers",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 171,
+     "ref": "Data!GC171:GI171",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sound_sponge",
+   "entity": "equipment",
+   "name": "Sound sponge",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "price": 3500,
+    "size": "d",
+    "stat_block": "sound sponge",
+    "stat_block_plural": "sound sponges",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 172,
+     "ref": "Data!GC172:GI172",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_spacer_s_chest",
+   "entity": "equipment",
+   "name": "Spacer's chest",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 200,
+    "size": "s",
+    "stat_block": "spacer's chest",
+    "stat_block_plural": "spacer's chests",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 173,
+     "ref": "Data!GC173:GI173",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_spy_bug",
+   "entity": "equipment",
+   "name": "Spy bug",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "price": 1300,
+    "size": "f",
+    "stat_block": "spy bug",
+    "stat_block_plural": "spy bugs",
+    "weight": 0.3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 174,
+     "ref": "Data!GC174:GI174",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_stealth_field_generator",
+   "entity": "equipment",
+   "name": "Stealth field generator",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 5000,
+    "size": "f",
+    "stat_block": "stealth field generator",
+    "stat_block_plural": "stealth field generators",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 175,
+     "ref": "Data!GC175:GI175",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_subsonic_field_emitter",
+   "entity": "equipment",
+   "name": "Subsonic field emitter",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 120,
+    "size": "f",
+    "stat_block": "subsonic field emitter",
+    "stat_block_plural": "subsonic field emitters",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 177,
+     "ref": "Data!GC177:GI177",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_surgery_kit",
+   "entity": "equipment",
+   "name": "Surgery kit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1000,
+    "size": "s",
+    "stat_block": "surgery kit",
+    "stat_block_plural": "surgery kits",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 178,
+     "ref": "Data!GC178:GI178",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_surveillance_detector",
+   "entity": "equipment",
+   "name": "Surveillance detector",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 450,
+    "size": "f",
+    "stat_block": "surveillance detector",
+    "stat_block_plural": "surveillance detectors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 179,
+     "ref": "Data!GC179:GI179",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_surveillance_tagger",
+   "entity": "equipment",
+   "name": "Surveillance tagger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 450,
+    "size": "f",
+    "stat_block": "surveillance tagger",
+    "stat_block_plural": "surveillance taggers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 180,
+     "ref": "Data!GC180:GI180",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_syntherope_45_meters",
+   "entity": "equipment",
+   "name": "Syntherope (45 meters)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 20,
+    "size": "t",
+    "stat_block": "syntherope",
+    "stat_block_plural": "coils of syntherope",
+    "weight": 2.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 181,
+     "ref": "Data!GC181:GI181",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_targeting_beacon",
+   "entity": "equipment",
+   "name": "Targeting beacon",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 300,
+    "size": "f",
+    "stat_block": "targeting beacon",
+    "stat_block_plural": "targeting beacons",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 182,
+     "ref": "Data!GC182:GI182",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_targeting_scope_enhanced_low_light",
+   "entity": "equipment",
+   "name": "Targeting scope, enhanced low light",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1000,
+    "size": "d",
+    "stat_block": "enhanced low-light targeting scope",
+    "stat_block_plural": "enhanced low-light targeting scopes",
+    "weight": 1.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 183,
+     "ref": "Data!GC183:GI183",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_targeting_scope_standard",
+   "entity": "equipment",
+   "name": "Targeting scope, standard",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "size": "f",
+    "stat_block": "targeting scope",
+    "stat_block_plural": "targeting scopes",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 184,
+     "ref": "Data!GC184:GI184",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_tool_kit",
+   "entity": "equipment",
+   "name": "Tool kit",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 250,
+    "size": "d",
+    "stat_block": "tool kit",
+    "stat_block_plural": "tool kits",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 185,
+     "ref": "Data!GC185:GI185",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_toxin_detector",
+   "entity": "equipment",
+   "name": "Toxin detector",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 700,
+    "size": "f",
+    "stat_block": "toxin detector",
+    "stat_block_plural": "toxin detectors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 186,
+     "ref": "Data!GC186:GI186",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_transliterator",
+   "entity": "equipment",
+   "name": "Transliterator",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 100,
+    "size": "f",
+    "stat_block": "transliterator",
+    "stat_block_plural": "transliterators"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 187,
+     "ref": "Data!GC187:GI187",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_triangulation_visor",
+   "entity": "equipment",
+   "name": "Triangulation visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 1400,
+    "size": "f",
+    "stat_block": "triangulation visor",
+    "stat_block_plural": "triangulation visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 188,
+     "ref": "Data!GC188:GI188",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ubese_breathing_filter_year_s_supply",
+   "entity": "equipment",
+   "name": "Ubese breathing filter (year's supply)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 200,
+    "size": "f",
+    "stat_block": "years supply of Ubese breathing filters",
+    "stat_block_plural": "years supply of Ubese breathing filters"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 189,
+     "ref": "Data!GC189:GI189",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ubese_voice_modulator",
+   "entity": "equipment",
+   "name": "Ubese voice modulator",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "size": "f",
+    "stat_block": "voice modulator",
+    "stat_block_plural": "voice modulators"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 190,
+     "ref": "Data!GC190:GI190",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_universal_energy_cage",
+   "entity": "equipment",
+   "name": "Universal energy cage",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "price": 20000,
+    "size": "l",
+    "stat_block": "universal energy cage",
+    "stat_block_plural": "universal energy cages",
+    "weight": 3000
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 191,
+     "ref": "Data!GC191:GI191",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_utility_belt",
+   "entity": "equipment",
+   "name": "Utility belt",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 70,
+    "size": "f",
+    "stat_block": "utility belt",
+    "stat_block_plural": "utility belts",
+    "weight": 0.6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 192,
+     "ref": "Data!GC192:GI192",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_vacuum_mask",
+   "entity": "equipment",
+   "name": "Vacuum mask",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 650,
+    "size": "f",
+    "stat_block": "vacuum mask",
+    "stat_block_plural": "vacuum masks",
+    "weight": 0.3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 194,
+     "ref": "Data!GC194:GI194",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_vacuum_survival_pouch",
+   "entity": "equipment",
+   "name": "Vacuum survival pouch",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "price": 800,
+    "size": "d",
+    "stat_block": "vacuum survival pouch",
+    "stat_block_plural": "vacuum survival pouchs",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 195,
+     "ref": "Data!GC195:GI195",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_veridicator",
+   "entity": "equipment",
+   "name": "Veridicator",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 4000,
+    "size": "f",
+    "stat_block": "veridicator",
+    "stat_block_plural": "veridicators",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 196,
+     "ref": "Data!GC196:GI196",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_verpine_shatter_gun_clip",
+   "entity": "equipment",
+   "name": "Verpine Shatter Gun Clip",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 1000,
+    "size": "f",
+    "stat_block": "Verpine shatter gun clip",
+    "stat_block_plural": "Verpine shatter gun clips",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 231,
+     "ref": "Data!GC231:GI231",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_vid_vox_scrambler",
+   "entity": "equipment",
+   "name": "Vid-vox scrambler",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 3400,
+    "size": "f",
+    "stat_block": "vid-vox scrambler",
+    "stat_block_plural": "vid-vox scramblers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 198,
+     "ref": "Data!GC198:GI198",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_videorecorder",
+   "entity": "equipment",
+   "name": "Videorecorder",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 50,
+    "size": "f",
+    "stat_block": "videorecorder",
+    "stat_block_plural": "videorecorders",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 197,
+     "ref": "Data!GC197:GI197",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_visual_wrist_comm",
+   "entity": "equipment",
+   "name": "Visual wrist comm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "price": 1300,
+    "size": "f",
+    "stat_block": "visual wrist comm",
+    "stat_block_plural": "visual wrist comms",
+    "weight": 0.25
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 199,
+     "ref": "Data!GC199:GI199",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_vox_box",
+   "entity": "equipment",
+   "name": "Vox Box",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 200,
+    "size": "f",
+    "stat_block": "vox box",
+    "stat_block_plural": "vox boxes",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 200,
+     "ref": "Data!GC200:GI200",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_water_extractor",
+   "entity": "equipment",
+   "name": "Water extractor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "UR"
+    ],
+    "price": 400,
+    "size": "t",
+    "stat_block": "water extractor",
+    "stat_block_plural": "water extractors",
+    "weight": 3.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "ur",
+     "abbreviation": "UR",
+     "title": "Unknown Regions",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 201,
+     "ref": "Data!GC201:GI201",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_xerrol_nightstinger_gas_canister",
+   "entity": "equipment",
+   "name": "Xerrol Nightstinger Gas Canister",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GoI"
+    ],
+    "price": 1000,
+    "size": "f",
+    "stat_block": "Xerrol nightsinger gas canister",
+    "stat_block_plural": "Xerrol nightsinger gas canisters",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "goi",
+     "abbreviation": "GoI",
+     "title": "Galaxy of Intrigue",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 232,
+     "ref": "Data!GC232:GI232",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ammunition_clip",
+   "entity": "equipment",
+   "name": "Ammunition Clip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 20,
+    "size": "f",
+    "stat_block": "ammunition clip",
+    "stat_block_plural": "ammunition clips",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 204,
+     "ref": "Data!GC204:GI204",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ancient_jedi_robes",
+   "entity": "equipment",
+   "name": "Ancient Jedi robes",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "size": "d",
+    "stat_block": "ancient Jedi robes",
+    "stat_block_plural": "ancient Jedi robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!GC7:GI7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ancient_sith_robes",
+   "entity": "equipment",
+   "name": "Ancient Sith robes",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "size": "d",
+    "stat_block": "ancient Sith robes",
+    "stat_block_plural": "ancient Sith robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!GC8:GI8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_anti_security_blades",
+   "entity": "equipment",
+   "name": "Anti-security blades",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 750,
+    "size": "f",
+    "stat_block": "anti-security blade",
+    "stat_block_plural": "anti-security blades",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!GC12:GI12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_antiarmor_missile",
+   "entity": "equipment",
+   "name": "Antiarmor Missile",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 100,
+    "size": "t",
+    "stat_block": "antiarmor missile",
+    "stat_block_plural": "antiarmor missiles",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 205,
+     "ref": "Data!GC205:GI205",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_black_robes",
+   "entity": "equipment",
+   "name": "Black robes",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "size": "d",
+    "stat_block": "black robes",
+    "stat_block_plural": "black robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!GC24:GI24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_bowcaster_quiver",
+   "entity": "equipment",
+   "name": "Bowcaster Quiver",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "size": "d",
+    "stat_block": "bowcaster quiver",
+    "stat_block_plural": "bowcaster quivers",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 207,
+     "ref": "Data!GC207:GI207",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_carbonite_cartridge",
+   "entity": "equipment",
+   "name": "Carbonite Cartridge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "size": "d",
+    "stat_block": "carbonite cartridge",
+    "stat_block_plural": "carbonite cartridges",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 208,
+     "ref": "Data!GC208:GI208",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_chemical_cartridge",
+   "entity": "equipment",
+   "name": "Chemical Cartridge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 200,
+    "size": "t",
+    "stat_block": "chemical cartridge",
+    "stat_block_plural": "chemical cartridges",
+    "weight": 4
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 209,
+     "ref": "Data!GC209:GI209",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_miniaturized_long_range",
+   "entity": "equipment",
+   "name": "Comlink, encrypted miniaturized long-range",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 5000,
+    "size": "f",
+    "stat_block": "encrypted comlink (miniaturized)",
+    "stat_block_plural": "encrypted comlinks (miniaturized)",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!GC42:GI42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_miniaturized_long_range_holo",
+   "entity": "equipment",
+   "name": "Comlink, encrypted miniaturized long-range holo",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 7500,
+    "size": "f",
+    "stat_block": "encrypted comlink (miniaturized) with holo capability",
+    "stat_block_plural": "encrypted comlinks (miniaturized) with holo capabilities",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 43,
+     "ref": "Data!GC43:GI43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_encrypted_miniaturized_long_range_video",
+   "entity": "equipment",
+   "name": "Comlink, encrypted miniaturized long-range video",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 6000,
+    "size": "f",
+    "stat_block": "encrypted comlink (miniaturized) with video capability",
+    "stat_block_plural": "encrypted comlinks (miniaturized) with video capabilities",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 44,
+     "ref": "Data!GC44:GI44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_miniaturized_long_range",
+   "entity": "equipment",
+   "name": "Comlink, miniaturized long-range",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 500,
+    "size": "f",
+    "stat_block": "comlink (miniaturized)",
+    "stat_block_plural": "comlinks (miniaturized)",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 52,
+     "ref": "Data!GC52:GI52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_miniaturized_long_range_holo",
+   "entity": "equipment",
+   "name": "Comlink, miniaturized long-range holo",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 2500,
+    "size": "f",
+    "stat_block": "comlink (miniaturized) with holo capability",
+    "stat_block_plural": "comlinks (miniaturized) with holo capabilities",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 53,
+     "ref": "Data!GC53:GI53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_comlink_miniaturized_long_range_video",
+   "entity": "equipment",
+   "name": "Comlink, miniaturized long-range video",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 1000,
+    "size": "f",
+    "stat_block": "comlink (miniaturized) with video capability",
+    "stat_block_plural": "comlinks (miniaturized) with video capabilities",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 54,
+     "ref": "Data!GC54:GI54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_dark_robes",
+   "entity": "equipment",
+   "name": "Dark robes",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "size": "d",
+    "stat_block": "dark robes",
+    "stat_block_plural": "dark robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 66,
+     "ref": "Data!GC66:GI66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_dark_colored_jedi_robes",
+   "entity": "equipment",
+   "name": "Dark-colored Jedi robes",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "size": "d",
+    "stat_block": "dark-colored Jedi robes",
+    "stat_block_plural": "dark-colored Jedi robes",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 67,
+     "ref": "Data!GC67:GI67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_droid_caller",
+   "entity": "equipment",
+   "name": "Droid caller",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 10,
+    "size": "f",
+    "stat_block": "droid caller",
+    "stat_block_plural": "droid callers",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 72,
+     "ref": "Data!GC72:GI72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_flechette_cluster",
+   "entity": "equipment",
+   "name": "Flechette Cluster",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "size": "f",
+    "stat_block": "flechette cluster",
+    "stat_block_plural": "flechette clusters",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 213,
+     "ref": "Data!GC213:GI213",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_fuel_cell",
+   "entity": "equipment",
+   "name": "Fuel Cell",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 100,
+    "size": "f",
+    "stat_block": "fuel cell",
+    "stat_block_plural": "fuel cells"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 87,
+     "ref": "Data!GC87:GI87",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_grenade_frag",
+   "entity": "equipment",
+   "name": "Grenade, frag",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 200,
+    "size": "f",
+    "stat_block": "frag grenade",
+    "stat_block_plural": "frag grenades",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 214,
+     "ref": "Data!GC214:GI214",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_grenade_ion",
+   "entity": "equipment",
+   "name": "Grenade, ion",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 250,
+    "size": "f",
+    "stat_block": "ion grenade",
+    "stat_block_plural": "ion grenades",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 215,
+     "ref": "Data!GC215:GI215",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_grenade_stun",
+   "entity": "equipment",
+   "name": "Grenade, stun",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 250,
+    "size": "f",
+    "stat_block": "stun grenage",
+    "stat_block_plural": "stun grenades",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 216,
+     "ref": "Data!GC216:GI216",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jet_pack_arakyd_hush_about_miniaturized",
+   "entity": "equipment",
+   "name": "Jet pack, Arakyd Hush-About, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 4250,
+    "size": "t",
+    "stat_block": "miniaturized Arakyd Hush-About jet pack",
+    "stat_block_plural": "miniaturized Arakyd Hush-About jet packs",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 109,
+     "ref": "Data!GC109:GI109",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_jet_pack_miniaturized",
+   "entity": "equipment",
+   "name": "Jet pack, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 800,
+    "size": "t",
+    "stat_block": "miniaturized jet pack",
+    "stat_block_plural": "miniaturized jet packs",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 111,
+     "ref": "Data!GC111:GI111",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_lectroticker",
+   "entity": "equipment",
+   "name": "Lectroticker",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 1500,
+    "size": "d",
+    "stat_block": "lectroticker",
+    "stat_block_plural": "lectrotickers",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 113,
+     "ref": "Data!GC113:GI113",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_light_concussion_missile",
+   "entity": "equipment",
+   "name": "Light Concussion Missile",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 800,
+    "size": "s",
+    "stat_block": "light concussion missile",
+    "stat_block_plural": "light concussion missiles",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 217,
+     "ref": "Data!GC217:GI217",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_magazine",
+   "entity": "equipment",
+   "name": "Magazine",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 200,
+    "size": "s",
+    "stat_block": "magazine",
+    "stat_block_plural": "magazines",
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 218,
+     "ref": "Data!GC218:GI218",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_medical_kit_miniaturized",
+   "entity": "equipment",
+   "name": "Medical kit, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 1100,
+    "size": "s",
+    "stat_block": "miniaturized medical kit",
+    "stat_block_plural": "miniaturized medical kits",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 122,
+     "ref": "Data!GC122:GI122",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_missile",
+   "entity": "equipment",
+   "name": "Missile",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 75,
+    "size": "d",
+    "stat_block": "missile",
+    "stat_block_plural": "missiles",
+    "weight": 1.2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 220,
+     "ref": "Data!GC220:GI220",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_ooglith_masquer",
+   "entity": "equipment",
+   "name": "Ooglith Masquer",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "price": 0,
+    "size": "f",
+    "stat_block": "ooglith masquer",
+    "stat_block_plural": "ooglith masquers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 131,
+     "ref": "Data!GC131:GI131",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_pistol_clip",
+   "entity": "equipment",
+   "name": "Pistol Clip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 20,
+    "size": "f",
+    "stat_block": "pistol clip",
+    "stat_block_plural": "pistol clips",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 221,
+     "ref": "Data!GC221:GI221",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_power_generator_miniaturized",
+   "entity": "equipment",
+   "name": "Power generator, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 1250,
+    "size": "s",
+    "stat_block": "miniaturized power generator",
+    "stat_block_plural": "miniaturized power generators",
+    "weight": 7.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 142,
+     "ref": "Data!GC142:GI142",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_quiver",
+   "entity": "equipment",
+   "name": "Quiver",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 20,
+    "size": "f",
+    "stat_block": "quiver",
+    "stat_block_plural": "quivers",
+    "weight": 0.8
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 225,
+     "ref": "Data!GC225:GI225",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_restraining_bolt",
+   "entity": "equipment",
+   "name": "Restraining bolt",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 5,
+    "size": "f",
+    "stat_block": "restraining bolt",
+    "stat_block_plural": "restraining bolts"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 154,
+     "ref": "Data!GC154:GI154",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_rifle_clip",
+   "entity": "equipment",
+   "name": "Rifle Clip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 40,
+    "size": "f",
+    "stat_block": "rifle clip",
+    "stat_block_plural": "rifle clips",
+    "weight": 0.2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 226,
+     "ref": "Data!GC226:GI226",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_sensor_pack_miniaturized",
+   "entity": "equipment",
+   "name": "Sensor pack, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 2000,
+    "size": "t",
+    "stat_block": "miniaturized sensor pack",
+    "stat_block_plural": "miniaturized sensor packs",
+    "weight": 4.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 160,
+     "ref": "Data!GC160:GI160",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_special_energy_cell",
+   "entity": "equipment",
+   "name": "Special Energy Cell",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 100,
+    "size": "f",
+    "stat_block": "special energy cell",
+    "stat_block_plural": "special energy cells",
+    "weight": 0
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 228,
+     "ref": "Data!GC228:GI228",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_special_explosive_canister",
+   "entity": "equipment",
+   "name": "Special Explosive Canister",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 50,
+    "size": "f",
+    "stat_block": "special explosive canister",
+    "stat_block_plural": "special explosive canisters",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 229,
+     "ref": "Data!GC229:GI229",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_spraymist_canister",
+   "entity": "equipment",
+   "name": "Spraymist Canister",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 100,
+    "size": "f",
+    "stat_block": "spraymist canister",
+    "stat_block_plural": "spraymist canisters",
+    "weight": 0.1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 230,
+     "ref": "Data!GC230:GI230",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_subelectronic_converter",
+   "entity": "equipment",
+   "name": "Subelectronic converter",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 23000,
+    "size": "f",
+    "stat_block": "subelectronic converter",
+    "stat_block_plural": "subelectronic converters"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 176,
+     "ref": "Data!GC176:GI176",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "equipment_utility_belt_miniaturized",
+   "entity": "equipment",
+   "name": "Utility belt, miniaturized",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 140,
+    "size": "f",
+    "stat_block": "utility belt (miniaturized)",
+    "stat_block_plural": "utility belts (miniaturized)",
+    "weight": 0.3
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_equipment",
+     "sheet": "Data",
+     "row": 193,
+     "ref": "Data!GC193:GI193",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

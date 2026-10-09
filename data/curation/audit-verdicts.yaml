@@ -1,0 +1,297 @@
+# ---------------------------------------------------------------------------
+# Curation: hand-inspection verdicts for the canon-balance audit.
+#
+# `swse audit` (and `swse report`) lists the top-decile outlier for every power
+# proxy in every canon tier. A statistical outlier is a prompt to look, not a
+# finding - so each one that has actually been looked at gets a verdict here, and
+# the report prints it next to the record. Verdicts live in curation, not in code,
+# so they survive regeneration and are reviewable in a diff.
+#
+#   verdicts:
+#     <record_id>:
+#       verdict: real | artefact | missing
+#       note: "what was checked, and against what"
+#       checked_utc: "2026-10-09"
+#
+# `real`     - the value is what the source says; the option genuinely is that strong.
+# `artefact` - the value is wrong because of parsing, extraction or builder noise.
+#              Say which, and name the fix or the gap/task that tracks it.
+# `missing`  - the value is depressed or inflated because data is absent elsewhere.
+# ---------------------------------------------------------------------------
+verdicts:
+  # --- weapons: the top of the damage distribution is ordnance, not gear ------
+  weapon_explosive_charge:
+    verdict: real
+    note: >-
+      35 average damage is correct for a placed explosive charge. It is not a
+      character weapon: weapon_group is empty, so Evaluator.offense already
+      excludes it. Its position at the top of the damage table is a reminder that
+      the `weapon` entity mixes personal gear with vehicle-scale ordnance.
+    checked_utc: "2026-10-09"
+  weapon_mine_antivehicle:
+    verdict: real
+    note: "Antivehicle mine; 35 average damage, excluded from character offense (empty weapon_group)."
+    checked_utc: "2026-10-09"
+  weapon_mini_proton_torpedo_launcher:
+    verdict: real
+    note: "Starship-scale weapon carried in the weapon entity; excluded from character offense."
+    checked_utc: "2026-10-09"
+
+  # --- armour: heavy battle armour really is +14 across Ref and Fort ---------
+  armor_battle_armor_heavy:
+    verdict: real
+    note: >-
+      armor_bonus is ref_bonus + fort_bonus, so 14 is two large bonuses rather than
+      one impossible one. Cross-checked against Data!r83; heavy battle armour is the
+      strongest personal armour in the corpus and is gated by Armour Proficiency
+      (heavy) plus a large armour check penalty.
+    checked_utc: "2026-10-09"
+  armor_mandalorian_neo_crusader_assault_armor:
+    verdict: real
+    note: "Same shape as heavy battle armour (ref + fort = 14); checked against Data!r88."
+    checked_utc: "2026-10-09"
+  armor_venom_assault_armor:
+    verdict: real
+    note: "ref + fort = 14; checked against Data!r97."
+    checked_utc: "2026-10-09"
+
+  # --- species: large creatures really do carry big ability bonuses ----------
+  species_mantellian_savrip:
+    verdict: real
+    note: >-
+      +8 total positive ability modifiers (Data!r68), balanced by penalties that the
+      ability_penalty proxy reports separately. Large creature; consistent with the
+      other big species (Hutt, Wookiee at +6).
+    checked_utc: "2026-10-09"
+  species_hutt:
+    verdict: real
+    note: "+6 positive modifiers, offset by speed and size penalties; Data!r53."
+    checked_utc: "2026-10-09"
+  species_wookiee:
+    verdict: real
+    note: "+6 positive modifiers (Strength-heavy); Data!r125."
+    checked_utc: "2026-10-09"
+
+  # --- feats and talents: text read by hand against the parsed signature -----
+  feat_natural_leader:
+    verdict: real
+    note: >-
+      Parsed signature is +10 to "your organization score". The rules text says
+      exactly that (Feats!r220). Not combat power - the proxy cannot tell the
+      difference, which is why it is a proxy.
+    checked_utc: "2026-10-09"
+  feat_aiming_accuracy:
+    verdict: real
+    note: "+5 on the next weapon attack after aiming as a full-round action; conditional, once per round."
+    checked_utc: "2026-10-09"
+  feat_channel_rage:
+    verdict: real
+    note: "+5 to Will Defense instead of raging; a real trade, not an inflation."
+    checked_utc: "2026-10-09"
+  talent_disarming_attack:
+    verdict: real
+    note: >-
+      +10 on an attack roll to disarm, once per encounter (Talents!r494 family). The
+      source cell also carries builder instructions ("Enter number of times taken"),
+      which the parser correctly ignored.
+    checked_utc: "2026-10-09"
+  talent_lose_pursuit:
+    verdict: real
+    note: "+10 to both vehicles' damage thresholds while flying wingman; vehicle-scale, not personal."
+    checked_utc: "2026-10-09"
+  talent_run_lnterference:
+    verdict: real
+    note: >-
+      +5 circumstance to Pilot checks for you and your ally while flying wingman;
+      vehicle-scale. The id preserves a typo in the source name ("Run lnterference"
+      with a lowercase L, Talents sheet) - the slug is derived from the name, so the
+      typo is data, not a bug. Do not "fix" the id without an alias in
+      data/curation/aliases.yaml.
+    checked_utc: "2026-10-09"
+  racial_ability_careful_worker:
+    verdict: real
+    note: >-
+      +10 circumstance bonus to a Mechanics check, paid for by taking twice the
+      normal time (Data!r26). Sluissi racial ability; the cost is why the number is
+      large.
+    checked_utc: "2026-10-09"
+  racial_ability_flash_of_genius:
+    verdict: real
+    note: "+5 to one Knowledge/Mechanics/Use Computer check, once per encounter."
+    checked_utc: "2026-10-09"
+
+  # --- artefacts: builder-generated combination rows -------------------------
+  weapon_mod_dreadful_rage:
+    verdict: artefact
+    note: >-
+      The Dreadful Rage / Power Attack family is 101 of the 156 weapon_mod records:
+      "Dreadful Rage", then "Dreadful Rage and Power Attack (-1)" through "(-10)" and
+      further permutations. These are the builder's *pre-computed combinations* of two
+      real modifications, materialised as rows so its UI can offer them from a list.
+      They are not distinct game options, they inflate the third-party weapon_mod
+      count, and they multiply the gear decision space. Tracked as GAP-014 / TASK-019:
+      flag them `builder_combination` and count the two underlying mods instead.
+    checked_utc: "2026-10-09"
+  weapon_mod_dreadful_rage_and_power_attack_1:
+    verdict: artefact
+    note: "Combination row - see weapon_mod_dreadful_rage. GAP-014 / TASK-019."
+    checked_utc: "2026-10-09"
+  weapon_mod_dreadful_rage_and_power_attack_10:
+    verdict: artefact
+    note: "Combination row - see weapon_mod_dreadful_rage. GAP-014 / TASK-019."
+    checked_utc: "2026-10-09"
+  weapon_mod_dreadful_rage_and_power_attack_11:
+    verdict: artefact
+    note: "Combination row - see weapon_mod_dreadful_rage. GAP-014 / TASK-019."
+    checked_utc: "2026-10-09"
+
+  # --- artefacts: parser false positives, since fixed -----------------------
+  talent_intimate_knowledge:
+    verdict: artefact
+    note: >-
+      Previously the highest text proxy in the corpus (30) because the bonus regex read
+      "take 20 on a trained Knowledge check or 10 on an untrained check" as two
+      bonuses. It is a take-20/take-10 rule with no bonus at all. Fixed by requiring
+      an explicit sign or the word bonus/penalty (swse/evaluate.py _BONUS_SIGNED_RE /
+      _BONUS_LABELLED_RE); regression-tested in tests/test_enumerate_evaluate.py.
+    checked_utc: "2026-10-09"
+  racial_ability_athletic:
+    verdict: artefact
+    note: >-
+      Same cause: "Take 10 on Climb and Jump checks" was read as +10. The ability is a
+      reroll plus take-10, worth 0 by this proxy. Fixed as above.
+    checked_utc: "2026-10-09"
+  feat_tactical_genius:
+    verdict: artefact
+    note: >-
+      The most damaging instance of the same bug: "roll a natural 20 on an attack roll"
+      was parsed as +20, and because the target text contains "attack" it was added to
+      `offense` by Evaluator.offense - so any build with Tactical Genius was scored as
+      if it had a +20 attack bonus. Fixed as above; level-1/10/20 rankings were
+      regenerated after the fix.
+    checked_utc: "2026-10-09"
+
+  # --- missing: unscoreable homebrew classes --------------------------------
+  class_technician:
+    verdict: missing
+    note: >-
+      Homebrew class with prose only: no hit die, BAB rate or defence numbers, so every
+      level taken in it contributes nothing to bab, offense, defense_* or durability.
+      Builds using it are under-scored, not weak. GAP-013 / TASK-016.
+    checked_utc: "2026-10-09"
+  class_force_prodigy:
+    verdict: missing
+    note: >-
+      Same as Technician, plus grants_all_trees, which is why these builds still reach
+      the top decile on versatility and synergy while their combat metrics read as
+      zero. GAP-013 / TASK-016.
+    checked_utc: "2026-10-09"
+
+  # --- outliers shown by `swse audit --top 3`, inspected 2026-10-09 ----------
+  armor_battle_armor_heavy_powered:
+    verdict: real
+    note: "Powered variant of heavy battle armour; ref + fort = 13, one point below the unpowered top (Data!r84)."
+    checked_utc: "2026-10-09"
+  armor_skakoan_heavy_pressure_suit:
+    verdict: real
+    note: >-
+      Highest third-party armour (ref + fort = 12). Species-specific equipment for
+      Skakoans, who cannot survive outside a pressure suit - the number is the suit's
+      reason for existing, not an inflation. Data!r94.
+    checked_utc: "2026-10-09"
+  droid_option_alien_appearance:
+    verdict: real
+    note: >-
+      Carries both a -2 penalty to Charisma-based interaction and a +2 bonus to
+      Persuasion in some contexts; the proxy counts only the positive, so its
+      bonus_sum understates the trade. Data sheet droid option table.
+    checked_utc: "2026-10-09"
+  feat_flurry:
+    verdict: real
+    note: "+2 to melee attack rolls paid for with -5 to Reflex Defense. A trade, and the proxy sees only the gain."
+    checked_utc: "2026-10-09"
+  feat_sniper_shot:
+    verdict: real
+    note: "+2 to a ranged attack after taking -5 to Reflex until your next turn. Same trade shape as Flurry."
+    checked_utc: "2026-10-09"
+  feat_staggering_attack_gaw:
+    verdict: real
+    note: >-
+      One of the three distinct feats called "Staggering Attack" (GAP-007); this is the
+      Galaxy at War version, imposing a -2/-5 penalty on the target's skill checks.
+      Real, and correctly kept separate from the other two.
+    checked_utc: "2026-10-09"
+  near_human_trait_quick:
+    verdict: real
+    note: "+1 to speed. Small, and the only numeric part of the trait."
+    checked_utc: "2026-10-09"
+  racial_ability_diving_attack:
+    verdict: real
+    note: >-
+      Flying-beast charge ability; the bonus it references is the standard competence
+      bonus from the charge rules, not an extra grant. Beast-scale content, not a
+      character option for most builds.
+    checked_utc: "2026-10-09"
+  racial_ability_antennapalps:
+    verdict: real
+    note: >-
+      Ignores cover/concealment for Perception within 10 squares, at a -2 penalty to
+      defenses against sonic attacks while extended. The proxy's positive-only sum
+      shows the gain and hides the cost.
+    checked_utc: "2026-10-09"
+  species_amanin:
+    verdict: real
+    note: "+2 total positive modifiers; appears in the third-party top three only because that tier has 9 species."
+    checked_utc: "2026-10-09"
+  species_devaronian:
+    verdict: real
+    note: "+4 positive modifiers (Data!r32), offset by penalties reported separately. Consistent with official near-humans."
+    checked_utc: "2026-10-09"
+  species_feeorin:
+    verdict: real
+    note: "Official species in the ability_bonus top three; modifiers match the printed species entry."
+    checked_utc: "2026-10-09"
+  species_geonosian:
+    verdict: real
+    note: "Official species; also grants Weapon Proficiency (advanced melee), which the ability proxy does not count."
+    checked_utc: "2026-10-09"
+  talent_fool_s_luck:
+    verdict: real
+    note: "Force-point spend granting +1 attack / +1 all defenses / +5 skill checks for the encounter. Resource-gated, so the +5 is not free."
+    checked_utc: "2026-10-09"
+  talent_commanding_presence__leadership:
+    verdict: real
+    note: >-
+      Leadership-tree talent granting several once-per-encounter ally bonuses; the
+      proxy sums them, which overstates a single character's power because they are
+      distributed across the squad and action-gated.
+    checked_utc: "2026-10-09"
+  talent_consumed_by_darkness:
+    verdict: real
+    note: "+2 to attack paid for with -5 to Will Defense and a dark-side implication. Same trade shape as Flurry."
+    checked_utc: "2026-10-09"
+  talent_manifest_guardian_spirit:
+    verdict: real
+    note: >-
+      Highest-scoring third-party talent (+1 attack, +2 Use the Force, +2 Will while the
+      spirit stays within 12 squares). Conditional on a summon staying in range, and
+      still below the official top talents - no sign of builder inflation.
+    checked_utc: "2026-10-09"
+  weapon_hh_15_projectile_launcher:
+    verdict: real
+    note: >-
+      Highest third-party weapon damage (21 average): an antiarmor missile launcher with
+      1-square splash and penetration 10. Heavy ordnance, correctly excluded from
+      character offense scoring by the empty weapon_group rule.
+    checked_utc: "2026-10-09"
+  weapon_mod_powerful_charge:
+    verdict: real
+    note: >-
+      Highest attack_mod among the distinct (non-builder) weapon modifications: +4 to
+      attack on a charge, and the builder's own columns say `single: Yes` - it cannot
+      stack with the other charge mods. Saga's Powerful Charge is +2 attack / +2 damage
+      on a charging attack, so a +4 attack-only reading is in the right family, but it
+      is doubled relative to the print rule and cannot be checked against a page: the
+      row cites no sourcebook, only the wiki URL matched by name. Surfaced by the audit
+      once the 113 builder combination rows stopped dominating this measure.
+    checked_utc: "2026-10-09"

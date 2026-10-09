@@ -1,0 +1,3955 @@
+{
+ "entity": "class",
+ "label": "class",
+ "role": "option",
+ "count": 41,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "class_ace_pilot",
+   "entity": "class",
+   "name": "Ace Pilot",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 8,
+    "min_level": 7,
+    "reflex_progression": 4,
+    "url": "https://swse.miraheze.org/wiki/Ace_Pilot",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Pilot\nFeats: Vehicular Combat",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Pilot"
+      ],
+      "skill": "Pilot",
+      "mode": "all",
+      "text": "Trained Skills: Pilot",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "vehicular combat"
+      ],
+      "mode": "all",
+      "text": "Feats: Vehicular Combat",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_vehicular_combat",
+        "name": "vehicular combat",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!BW11:CS11",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 2,
+     "ref": "Prestige Classes!A2:C2",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_assassin",
+   "entity": "class",
+   "name": "Assassin",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Stealth\nFeat: Sniper\nTalents: Dastardly Strike",
+    "reflex_progression": 4,
+    "url": "https://swse.miraheze.org/wiki/Assassin",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Stealth\nFeats: Sniper\nTalents: Dastardly Strike",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Stealth"
+      ],
+      "skill": "Stealth",
+      "mode": "all",
+      "text": "Trained Skills: Stealth",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "sniper"
+      ],
+      "mode": "all",
+      "text": "Feats: Sniper",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_sniper",
+        "name": "sniper",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "talent",
+      "names": [
+       "dastardly strike"
+      ],
+      "mode": "all",
+      "text": "Talents: Dastardly Strike",
+      "rule": "talents_label",
+      "refs": [
+       {
+        "entity_type": "talent",
+        "id": "talent_dastardly_strike",
+        "name": "dastardly strike",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!BW12:CS12",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 21,
+     "ref": "Prestige Classes!A21:C21",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_beast",
+   "entity": "class",
+   "name": "Beast",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "beast",
+    "force_points": 0,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 1,
+    "reflex_progression": 0,
+    "starting_credits": 0,
+    "trained_skills": 1,
+    "will_progression": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!BW10:CS10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "class:beast"
+   ]
+  },
+  {
+   "id": "class_bounty_hunter",
+   "entity": "class",
+   "name": "Bounty Hunter",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Survival\nTalents: Any two from Awareness",
+    "reflex_progression": 4,
+    "url": "https://swse.miraheze.org/wiki/Bounty_Hunter",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Survival\nTalents: Any two from the Awareness Talent Tree",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Survival"
+      ],
+      "skill": "Survival",
+      "mode": "all",
+      "text": "Trained Skills: Survival",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Awareness"
+      ],
+      "count": 2,
+      "mode": "any",
+      "text": "Talents: Any two from the Awareness Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!BW13:CS13",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 3,
+     "ref": "Prestige Classes!A3:C3",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_charlatan",
+   "entity": "class",
+   "name": "Charlatan",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Deception, Persuasion\nTalents: Any one from the Disgrace, Influence or Lineage talent trees",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Charlatan",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Deception and Persuasion\nTalents: Any one from the Disgrace Talent Tree, Influence Talent Tree, or Lineage Talent Tree",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Deception",
+       "Persuasion"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Deception and Persuasion",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Disgrace",
+       "Influence",
+       "Lineage"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Disgrace Talent Tree, Influence Talent Tree, or Lineage Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!BW14:CS14",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 22,
+     "ref": "Prestige Classes!A22:C22",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_corporate_agent",
+   "entity": "class",
+   "name": "Corporate Agent",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Gather Information, Knowledge (bureacracy)\nFeats: Skill Focus (Knowledge [bureacracy])",
+    "reflex_progression": 2,
+    "special": "Must be employed by a major interstellar corporation",
+    "url": "https://swse.miraheze.org/wiki/Corporate_Agent",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Gather Information and Knowledge (Bureaucracy)\nFeats: Skill Focus (Knowledge (Bureaucracy))\nSpecial: Must be employed by a major interstellar corporation",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Gather Information",
+       "Knowledge (Bureaucracy)"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Gather Information and Knowledge (Bureaucracy)",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "skill focus (knowledge (bureaucracy))"
+      ],
+      "mode": "all",
+      "text": "Feats: Skill Focus (Knowledge (Bureaucracy))",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_skill_focus",
+        "name": "skill focus",
+        "param": "knowledge (bureaucracy)"
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "special",
+      "detail": "must be employed by a major interstellar corporation",
+      "text": "Special: Must be employed by a major interstellar corporation",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!BW15:CS15",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 12,
+     "ref": "Prestige Classes!A12:C12",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_crime_lord",
+   "entity": "class",
+   "name": "Crime Lord",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Deception, Persuasion\nTalents: Any one from Fortune, Lineage or Misfortune",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Crime_Lord",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Deception and Persuasion\nTalents: Any one from the Fortune Talent Tree, Lineage Talent Tree, or Misfortune Talent Tree",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Deception",
+       "Persuasion"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Deception and Persuasion",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Fortune",
+       "Lineage",
+       "Misfortune"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Fortune Talent Tree, Lineage Talent Tree, or Misfortune Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!BW16:CS16",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 4,
+     "ref": "Prestige Classes!A4:C4",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_droid_commander",
+   "entity": "class",
+   "name": "Droid Commander",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Knowledge (tactics), Use Computer\nTalents: Any one from the Leadership or Commando talent trees\nSpecial: Droids only",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Droid_Commander",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Knowledge (Tactics) and Use Computer\nTalents: Any one from the Leadership Talent Tree or Commando Talent Tree\nSpecial: Must be a Droid",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Knowledge (Tactics)",
+       "Use Computer"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Knowledge (Tactics) and Use Computer",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Leadership",
+       "Commando"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Leadership Talent Tree or Commando Talent Tree",
+      "rule": "talent_any_from"
+     },
+     {
+      "type": "special",
+      "detail": "must be a droid",
+      "nested": {
+       "type": "creature_type",
+       "value": "droid",
+       "text": "must be a droid",
+       "rule": "creature_type"
+      },
+      "text": "Special: Must be a Droid",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!BW17:CS17",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 24,
+     "ref": "Prestige Classes!A24:C24",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_elite_trooper",
+   "entity": "class",
+   "name": "Elite Trooper",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 4,
+    "hit_die": 12,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Base Attack Bonus +7\nFeats: Armor Proficiency (light), Armor Proficiency (medium), Martial Arts I, Point Blank Shot or Flurry\nTalents: Any one from Armor Specialist, Commando or Weapon Specialist",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Elite_Trooper",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Base Attack Bonus: +7\nFeats: Armor Proficiency (Medium), Martial Arts I, Point-Blank Shot or Flurry\nTalents: Any one from the Armor Specialist Talent Tree, Commando Talent Tree, Mercenary Talent Tree, or Weapon Specialist Talent Tree",
+    "predicates": [
+     {
+      "type": "bab_min",
+      "min": 7,
+      "text": "Base Attack Bonus: +7",
+      "rule": "bab"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "martial arts i",
+       "point-blank shot",
+       "flurry"
+      ],
+      "mode": "any",
+      "text": "Feats: Armor Proficiency (Medium), Martial Arts I, Point-Blank Shot or Flurry",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_martial_arts_i",
+        "name": "martial arts i",
+        "param": null
+       },
+       {
+        "entity_type": "feat",
+        "id": "feat_point_blank_shot",
+        "name": "point-blank shot",
+        "param": null
+       },
+       {
+        "entity_type": "feat",
+        "id": "feat_flurry",
+        "name": "flurry",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "armor_proficiency",
+      "grade": "Medium",
+      "text": "armor proficiency (medium)",
+      "rule": "armor_proficiency",
+      "label": "feat"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Armor Specialist",
+       "Commando",
+       "Mercenary",
+       "Weapon Specialist"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Armor Specialist Talent Tree, Commando Talent Tree, Mercenary Talent Tree, or Weapon Specialist Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!BW18:CS18",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 5,
+     "ref": "Prestige Classes!A5:C5",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_enforcer",
+   "entity": "class",
+   "name": "Enforcer",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Gather Information, Perception\nTalents: Any one from Survivor",
+    "reflex_progression": 4,
+    "special": "Must belong to a law enforcement or similar security organization",
+    "url": "https://swse.miraheze.org/wiki/Enforcer",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Gather Information and Perception\nTalents: Any one from the Survivor Talent Tree\nSpecial: Must belong to a law enforcement or similar security organization",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Gather Information",
+       "Perception"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Gather Information and Perception",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Survivor"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Survivor Talent Tree",
+      "rule": "talent_any_from"
+     },
+     {
+      "type": "special",
+      "detail": "must belong to a law enforcement or similar security organization",
+      "text": "Special: Must belong to a law enforcement or similar security organization",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!BW19:CS19",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 15,
+     "ref": "Prestige Classes!A15:C15",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_force_adept",
+   "entity": "class",
+   "name": "Force Adept",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Use the Force\nFeats: Force Sensitive\nTalents: Any three Force talents",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Force_Adept",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Use the Force\nFeats: Force Sensitivity\nTalents: Any three Force Talents",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use The Force"
+      ],
+      "skill": "Use The Force",
+      "mode": "all",
+      "text": "Trained Skills: Use the Force",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "force sensitivity"
+      ],
+      "mode": "all",
+      "text": "Feats: Force Sensitivity",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_force_sensitivity",
+        "name": "force sensitivity",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "talent",
+      "count": 3,
+      "mode": "any",
+      "force_only": true,
+      "text": "Talents: Any three Force Talents",
+      "rule": "force_talent_any_n"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!BW20:CS20",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 6,
+     "ref": "Prestige Classes!A6:C6",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_force_disciple",
+   "entity": "class",
+   "name": "Force Disciple",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 7,
+    "fortitude_progression": 3,
+    "hit_die": 8,
+    "min_level": 12,
+    "prerequisites_text_alt": "Minimum Level: 12th\nTrained Skills: Use the Force\nFeats: Force Sensitive\nTalents: Any two from Dark Side Devotee, Force Adept or Force Item\nForce Powers: Farseeing\nForce Techniques: Any one",
+    "reflex_progression": 3,
+    "url": "https://swse.miraheze.org/wiki/Force_Disciple",
+    "will_progression": 6
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 12th\nTrained Skills: Use the Force\nFeats: Force Sensitivity\nTalents: Any two from the Dark Side Devotee Talent Tree, Force Adept Talent Tree, or Force Item Talent Tree\nForce Powers: Farseeing\nForce Techniques: Any one",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 12,
+      "text": "Minimum Level: 12th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use The Force"
+      ],
+      "skill": "Use The Force",
+      "mode": "all",
+      "text": "Trained Skills: Use the Force",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "force sensitivity"
+      ],
+      "mode": "all",
+      "text": "Feats: Force Sensitivity",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_force_sensitivity",
+        "name": "force sensitivity",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Dark Side Devotee",
+       "Force Adept",
+       "Force Item"
+      ],
+      "count": 2,
+      "mode": "any",
+      "text": "Talents: Any two from the Dark Side Devotee Talent Tree, Force Adept Talent Tree, or Force Item Talent Tree",
+      "rule": "talent_any_from"
+     },
+     {
+      "type": "force_power",
+      "names": [
+       "farseeing"
+      ],
+      "mode": "all",
+      "text": "Force Powers: Farseeing",
+      "rule": "force_powers_label",
+      "refs": [
+       {
+        "entity_type": "force_power",
+        "id": "force_power_farseeing",
+        "name": "farseeing",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "force_technique",
+      "count": 1,
+      "mode": "any",
+      "text": "Force Techniques: Any one",
+      "rule": "force_techniques_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!BW21:CS21",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 7,
+     "ref": "Prestige Classes!A7:C7",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_gladiator",
+   "entity": "class",
+   "name": "Gladiator",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nBase Attack Bonus: +7\nFeats: Improved Damage Threshold, Weapon Proficiency (Advanced Melee Weapons)",
+    "reflex_progression": 4,
+    "url": "https://swse.miraheze.org/wiki/Gladiator",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nMinimum Base Attack Bonus: +7\nFeats: Improved Damage Threshold, Weapon Proficiency (advanced melee weapons)",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "bab_min",
+      "min": 7,
+      "text": "Minimum Base Attack Bonus: +7",
+      "rule": "bab"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "improved damage threshold"
+      ],
+      "mode": "all",
+      "text": "Feats: Improved Damage Threshold, Weapon Proficiency (advanced melee weapons)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_improved_damage_threshold",
+        "name": "improved damage threshold",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "weapon_proficiency",
+      "group": "advanced melee weapons",
+      "any": false,
+      "text": "weapon proficiency (advanced melee weapons)",
+      "rule": "weapon_proficiency",
+      "label": "feat"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!BW22:CS22",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 13,
+     "ref": "Prestige Classes!A13:C13",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_gunslinger",
+   "entity": "class",
+   "name": "Gunslinger",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "reflex_progression": 4,
+    "url": "https://swse.miraheze.org/wiki/Gunslinger",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nFeats: Point-Blank Shot, Precise Shot, Quick Draw, Weapon Proficiency (Pistols)",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "point-blank shot",
+       "precise shot",
+       "quick draw"
+      ],
+      "mode": "all",
+      "text": "Feats: Point-Blank Shot, Precise Shot, Quick Draw, Weapon Proficiency (Pistols)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_point_blank_shot",
+        "name": "point-blank shot",
+        "param": null
+       },
+       {
+        "entity_type": "feat",
+        "id": "feat_precise_shot",
+        "name": "precise shot",
+        "param": null
+       },
+       {
+        "entity_type": "feat",
+        "id": "feat_quick_draw",
+        "name": "quick draw",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "weapon_proficiency",
+      "group": "pistols",
+      "any": false,
+      "text": "weapon proficiency (pistols)",
+      "rule": "weapon_proficiency",
+      "label": "feat"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!BW23:CS23",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 8,
+     "ref": "Prestige Classes!A8:C8",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_imperial_knight",
+   "entity": "class",
+   "name": "Imperial Knight",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 7,
+    "reflex_progression": 2,
+    "special": "Must be a sworn defender of Emperor Roan Fel",
+    "url": "https://swse.miraheze.org/wiki/Imperial_Knight",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Base Attack Bonus: +7\nTrained Skills: Use the Force\nFeats: Force Sensitive, Armor Proficiency (light, medium), Weapon Proficiency (lightsabers)",
+    "predicates": [
+     {
+      "type": "bab_min",
+      "min": 7,
+      "text": "Minimum Base Attack Bonus: +7",
+      "rule": "bab"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use The Force"
+      ],
+      "skill": "Use The Force",
+      "mode": "all",
+      "text": "Trained Skills: Use the Force",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "force sensitive"
+      ],
+      "mode": "all",
+      "text": "Feats: Force Sensitive, Armor Proficiency (light, medium), Weapon Proficiency (lightsabers)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_force_sensitivity",
+        "name": "force sensitive",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "armor_proficiency",
+      "grades": [
+       "Light"
+      ],
+      "text": "armor proficiency (light, medium)",
+      "rule": "armor_proficiency_multi",
+      "label": "feat"
+     },
+     {
+      "type": "weapon_proficiency",
+      "group": "lightsabers",
+      "any": false,
+      "text": "weapon proficiency (lightsabers)",
+      "rule": "weapon_proficiency",
+      "label": "feat"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!BW24:CS24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "class:prestige",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "class_improviser",
+   "entity": "class",
+   "name": "Improviser",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Improviser",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Mechanics and Use Computer\nFeat: Skill Focus (Mechanics)",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Mechanics",
+       "Use Computer"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Mechanics and Use Computer",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "skill focus (mechanics)"
+      ],
+      "mode": "all",
+      "text": "Feat: Skill Focus (Mechanics)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_skill_focus",
+        "name": "skill focus",
+        "param": "mechanics"
+       }
+      ],
+      "resolved_refs": true
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!BW40:CS40",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 27,
+     "ref": "Prestige Classes!A27:C27",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_independent_droid",
+   "entity": "class",
+   "name": "Independent Droid",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 12,
+    "min_level": 3,
+    "prerequisites_text_alt": "Minimum Level: 3rd\nTrained Skills: Use Computer\nSystem: Heuristic Processor\nSpecial: Droids only",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Independent_Droid",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 3rd\nTrained Skills: Use Computer\nDroid Systems: Heuristic Processor\nSpecial: Must be a Droid",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 3,
+      "text": "Minimum Level: 3rd",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use Computer"
+      ],
+      "skill": "Use Computer",
+      "mode": "all",
+      "text": "Trained Skills: Use Computer",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "other",
+      "text": "Droid Systems: Heuristic Processor",
+      "rule": null,
+      "candidate_type": "feat_or_talent"
+     },
+     {
+      "type": "special",
+      "detail": "must be a droid",
+      "nested": {
+       "type": "creature_type",
+       "value": "droid",
+       "text": "must be a droid",
+       "rule": "creature_type"
+      },
+      "text": "Special: Must be a Droid",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [
+     "Droid Systems: Heuristic Processor"
+    ],
+    "mode": "all",
+    "coverage": 0.75,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!BW25:CS25",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 16,
+     "ref": "Prestige Classes!A16:C16",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_infiltrator",
+   "entity": "class",
+   "name": "Infiltrator",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Perception, Stealth\nFeats: Skill Focus (Stealth)\nTalents: Any two from Camouflage or Spy",
+    "reflex_progression": 4,
+    "url": "https://swse.miraheze.org/wiki/Infiltrator",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Perception and Stealth\nFeats: Skill Focus (Stealth)\nTalents: Any two from the Camouflage Talent Tree or Spy Talent Tree",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Perception",
+       "Stealth"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Perception and Stealth",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "skill focus (stealth)"
+      ],
+      "mode": "all",
+      "text": "Feats: Skill Focus (Stealth)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_skill_focus",
+        "name": "skill focus",
+        "param": "stealth"
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Camouflage",
+       "Spy"
+      ],
+      "count": 2,
+      "mode": "any",
+      "text": "Talents: Any two from the Camouflage Talent Tree or Spy Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!BW26:CS26",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 17,
+     "ref": "Prestige Classes!A17:C17",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_jedi",
+   "entity": "class",
+   "name": "Jedi",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "heroic",
+    "class_skills": [
+     "Acrobatics",
+     "Endurance",
+     "Initiative",
+     "Jump",
+     "Knowledge (all; taken individually)",
+     "Mechanics",
+     "Perception",
+     "Pilot",
+     "Use the Force"
+    ],
+    "class_skills_text": "Acrobatics\nEndurance\nInitiative\nJump\nKnowledge (all skills, taken individually)\nMechanics\nPerception\nPilot\nUse the Force (Force Sensitive)",
+    "defense_bonus": "Fort +1\nRef +1\nWill +1",
+    "force_points": 5,
+    "fortitude_progression": 1,
+    "hit_die": 10,
+    "min_level": 1,
+    "reflex_progression": 1,
+    "starting_credits": 100,
+    "starting_feats": [
+     "Force Sensitivity",
+     "Weapon Proficiency (Lightsabers)",
+     "Weapon Proficiency (Simple Weapons)"
+    ],
+    "starting_feats_params": {
+     "Weapon Proficiency (Lightsabers)": "Lightsabers",
+     "Weapon Proficiency (Simple Weapons)": "Simple Weapons"
+    },
+    "starting_feats_raw": "Force Sensitivity Weapon Proficiency (Lightsabers) Weapon Proficiency (Simple Weapons)",
+    "starting_feats_text": "Force Sensitivity\nWeapon Proficiency (Lightsabers)\nWeapon Proficiency (Simple Weapons)",
+    "starting_hit_points": "30+Con",
+    "talent_trees": [
+     "Jedi Consular",
+     "Jedi Guardian",
+     "Jedi Sentinel",
+     "Lightsaber Combat"
+    ],
+    "talent_trees_raw": "Jedi Consular Jedi Guardian Jedi Sentinel Lightsaber Combat",
+    "talent_trees_text": "Jedi Consular\nJedi Guardian\nJedi Sentinel\nLightsaber Combat",
+    "trained_skills": 2,
+    "trained_skills_formula": "2+Int",
+    "trained_skills_per_level": "2+Int",
+    "url": "https://swse.miraheze.org/wiki/Jedi",
+    "will_progression": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!BW4:CS4",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_heroic_classes",
+     "sheet": "Heroic Classes",
+     "row": 6,
+     "ref": "Heroic Classes!A6:H6",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:heroic"
+   ]
+  },
+  {
+   "id": "class_jedi_knight",
+   "entity": "class",
+   "name": "Jedi Knight",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Base Attack Bonus: +7\nTrained Skills: Use the Force\nFeats: Force Sensitive, Weapon Proficiency (lightsabers)",
+    "reflex_progression": 2,
+    "special": "Must have built own lightsaber; Must be a member of the Jedi tradition",
+    "url": "https://swse.miraheze.org/wiki/Jedi_Knight",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Base Attack Bonus: +7\nTrained Skills: Use the Force\nFeats: Force Sensitivity, Weapon Proficiency (Lightsabers)\nSpecial: Must be a member of The Jedi and have completed Lightsaber Construction",
+    "predicates": [
+     {
+      "type": "bab_min",
+      "min": 7,
+      "text": "Base Attack Bonus: +7",
+      "rule": "bab"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use The Force"
+      ],
+      "skill": "Use The Force",
+      "mode": "all",
+      "text": "Trained Skills: Use the Force",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "force sensitivity"
+      ],
+      "mode": "all",
+      "text": "Feats: Force Sensitivity, Weapon Proficiency (Lightsabers)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_force_sensitivity",
+        "name": "force sensitivity",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "weapon_proficiency",
+      "group": "lightsabers",
+      "any": false,
+      "text": "weapon proficiency (lightsabers)",
+      "rule": "weapon_proficiency",
+      "label": "feat"
+     },
+     {
+      "type": "special",
+      "detail": "must be a member of the jedi and have completed lightsaber construction",
+      "nested": {
+       "type": "affiliation",
+       "name": "the jedi and have completed lightsaber construction",
+       "text": "must be a member of the jedi and have completed lightsaber construction",
+       "rule": "affiliation"
+      },
+      "text": "Special: Must be a member of The Jedi and have completed Lightsaber Construction",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!BW27:CS27",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 9,
+     "ref": "Prestige Classes!A9:C9",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_jedi_master",
+   "entity": "class",
+   "name": "Jedi Master",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 7,
+    "fortitude_progression": 3,
+    "hit_die": 10,
+    "min_level": 12,
+    "prerequisites_text_alt": "Minimum Level: 12th\nTrained Skills: Use the Force\nFeats: Force Sensitive, Weapon Proficiency (lightsabers)\nForce Techniques: Any one",
+    "reflex_progression": 3,
+    "special": "Must be a member of the Jedi tradition",
+    "url": "https://swse.miraheze.org/wiki/Jedi_Master",
+    "will_progression": 3
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 12th\nTrained Skills: Use the Force\nFeats: Force Sensitivity, Weapon Proficiency (Lightsabers)\nForce Techniques: Any one\nSpecial: Must be a member of The Jedi",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 12,
+      "text": "Minimum Level: 12th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use The Force"
+      ],
+      "skill": "Use The Force",
+      "mode": "all",
+      "text": "Trained Skills: Use the Force",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "force sensitivity"
+      ],
+      "mode": "all",
+      "text": "Feats: Force Sensitivity, Weapon Proficiency (Lightsabers)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_force_sensitivity",
+        "name": "force sensitivity",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "weapon_proficiency",
+      "group": "lightsabers",
+      "any": false,
+      "text": "weapon proficiency (lightsabers)",
+      "rule": "weapon_proficiency",
+      "label": "feat"
+     },
+     {
+      "type": "force_technique",
+      "count": 1,
+      "mode": "any",
+      "text": "Force Techniques: Any one",
+      "rule": "force_techniques_label"
+     },
+     {
+      "type": "special",
+      "detail": "must be a member of the jedi",
+      "nested": {
+       "type": "affiliation",
+       "name": "the jedi",
+       "text": "must be a member of the jedi",
+       "rule": "affiliation"
+      },
+      "text": "Special: Must be a member of The Jedi",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!BW28:CS28",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 10,
+     "ref": "Prestige Classes!A10:C10",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_martial_arts_master",
+   "entity": "class",
+   "name": "Martial Arts Master",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 4,
+    "hit_die": 10,
+    "min_level": 7,
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Martial_Arts_Master",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Base Attack Bonus: +7\nFeats: Martial Arts II, Melee Defense, any Martial Arts Feat\nTalents: Any one from the Brawler Talent Tree or Survivor Talent Tree",
+    "predicates": [
+     {
+      "type": "bab_min",
+      "min": 7,
+      "text": "Base Attack Bonus: +7",
+      "rule": "bab"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "martial arts ii",
+       "melee defense"
+      ],
+      "mode": "all",
+      "text": "Feats: Martial Arts II, Melee Defense, any Martial Arts Feat",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_martial_arts_ii",
+        "name": "martial arts ii",
+        "param": null
+       },
+       {
+        "entity_type": "feat",
+        "id": "feat_melee_defense",
+        "name": "melee defense",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "any_of_category",
+      "category": "martial arts",
+      "kind": "feat",
+      "count": 1,
+      "mode": "any",
+      "text": "any martial arts feat",
+      "rule": "any_category",
+      "label": "feat"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Brawler",
+       "Survivor"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Brawler Talent Tree or Survivor Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!BW42:CS42",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 29,
+     "ref": "Prestige Classes!A29:C29",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_master_privateer",
+   "entity": "class",
+   "name": "Master Privateer",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW",
+     "TFU"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Deception, Pilot\nFeats: Vehicular Combat\nTalents: Any two from Misfortune, Smuggler or Spacer",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Master_Privateer",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Deception and Pilot\nFeats: Vehicular Combat\nTalents: Any two from the Misfortune Talent Tree, Smuggling Talent Tree, or Spacer Talent Tree",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Deception",
+       "Pilot"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Deception and Pilot",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "vehicular combat"
+      ],
+      "mode": "all",
+      "text": "Feats: Vehicular Combat",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_vehicular_combat",
+        "name": "vehicular combat",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Misfortune",
+       "Smuggling",
+       "Spacer"
+      ],
+      "count": 2,
+      "mode": "any",
+      "text": "Talents: Any two from the Misfortune Talent Tree, Smuggling Talent Tree, or Spacer Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    },
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!BW29:CS29",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 18,
+     "ref": "Prestige Classes!A18:C18",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_medic",
+   "entity": "class",
+   "name": "Medic",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 4,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Knowledge (life sciences), Treat Injury\nFeats: Surgical Expertise",
+    "reflex_progression": 0,
+    "url": "https://swse.miraheze.org/wiki/Medic",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Knowledge (Life Sciences) and Treat Injury\nFeats: Surgical Expertise",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Knowledge (Life Sciences)",
+       "Treat Injury"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Knowledge (Life Sciences) and Treat Injury",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "surgical expertise"
+      ],
+      "mode": "all",
+      "text": "Feats: Surgical Expertise",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_surgical_expertise",
+        "name": "surgical expertise",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!BW30:CS30",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 19,
+     "ref": "Prestige Classes!A19:C19",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_melee_duelist",
+   "entity": "class",
+   "name": "Melee Duelist",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nBase Attack Bonus: +7\nFeats: Melee Defense, Rapid Strike, Weapon Focus (Melee Weapon)",
+    "reflex_progression": 4,
+    "url": "https://swse.miraheze.org/wiki/Melee_Duelist",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nMinimum Base Attack Bonus: +7\nFeats: Melee Defense, Rapid Strike, Weapon Focus with any melee weapon",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "bab_min",
+      "min": 7,
+      "text": "Minimum Base Attack Bonus: +7",
+      "rule": "bab"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "melee defense",
+       "rapid strike"
+      ],
+      "mode": "all",
+      "text": "Feats: Melee Defense, Rapid Strike, Weapon Focus with any melee weapon",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_melee_defense",
+        "name": "melee defense",
+        "param": null
+       },
+       {
+        "entity_type": "feat",
+        "id": "feat_rapid_strike",
+        "name": "rapid strike",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "weapon_focus",
+      "group": null,
+      "any": true,
+      "text": "weapon focus with any melee weapon",
+      "rule": "weapon_focus_with",
+      "label": "feat"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!BW31:CS31",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 14,
+     "ref": "Prestige Classes!A14:C14",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_military_engineer",
+   "entity": "class",
+   "name": "Military Engineer",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Mechanics, Use Computer",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Military_Engineer",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Base Attack Bonus: +7\nTrained Skills: Mechanics and Use Computer",
+    "predicates": [
+     {
+      "type": "bab_min",
+      "min": 7,
+      "text": "Base Attack Bonus: +7",
+      "rule": "bab"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Mechanics",
+       "Use Computer"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Mechanics and Use Computer",
+      "rule": "trained_skill_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!BW32:CS32",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 25,
+     "ref": "Prestige Classes!A25:C25",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_noble",
+   "entity": "class",
+   "name": "Noble",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "heroic",
+    "class_skills": [
+     "Deception",
+     "Gather Information",
+     "Initiative",
+     "Knowledge (all; taken individually)",
+     "Perception",
+     "Persuasion",
+     "Pilot",
+     "Ride",
+     "Treat Injury",
+     "Use Computer"
+    ],
+    "class_skills_text": "Deception,\nGather Information,\nInitiative,\nKnowledge (all; taken individually),\nPerception,\nPersuasion,\nPilot,\nRide,\nTreat Injury,\nUse Computer",
+    "defense_bonus": "Ref +1\nWill +2",
+    "force_points": 5,
+    "fortitude_progression": 0,
+    "hit_die": 6,
+    "min_level": 1,
+    "reflex_progression": 1,
+    "starting_credits": 400,
+    "starting_feats": [
+     "Linguist",
+     "Weapon Proficiency (Pistols)",
+     "Weapon Proficiency (Simple Weapons)"
+    ],
+    "starting_feats_notes": {
+     "Linguist": "must have the prerequisite Intelligence of 13"
+    },
+    "starting_feats_params": {
+     "Weapon Proficiency (Pistols)": "Pistols",
+     "Weapon Proficiency (Simple Weapons)": "Simple Weapons"
+    },
+    "starting_feats_raw": "Linguist (must have the prerequisite Intelligence of 13) Weapon Proficiency (Pistols) Weapon Proficiency (Simple Weapons)",
+    "starting_feats_text": "Linguist (must have the prerequisite Intelligence of 13),\nWeapon Proficiency (Pistols),\nWeapon Proficiency (Simple Weapons)",
+    "starting_hit_points": "18+Con",
+    "talent_trees": [
+     "Influence",
+     "Inspiration",
+     "Leadership",
+     "Lineage",
+     "Fencing",
+     "Ideologue",
+     "Disgrace",
+     "Collaborator",
+     "Loyal Protector",
+     "Provocateur",
+     "Gambling Leader",
+     "Anticipation",
+     "Master of Intrigue",
+     "Skill Challenge",
+     "Superior Skills",
+     "Exile"
+    ],
+    "talent_trees_raw": "Influence Inspiration Leadership Lineage Fencing Ideologue Disgrace Collaborator Loyal Protector Provocateur Gambling Leader Anticipation Master of Intrigue Skill Challenge Superior Skills Exile",
+    "talent_trees_text": "Influence\nInspiration\nLeadership\nLineage\nFencing\nIdeologue\nDisgrace\nCollaborator\nLoyal Protector\nProvocateur\nGambling Leader\nAnticipation\nMaster of Intrigue\nSkill Challenge\nSuperior Skills\nExile",
+    "trained_skills": 6,
+    "trained_skills_formula": "6+Int",
+    "trained_skills_per_level": "6+Int",
+    "url": "https://swse.miraheze.org/wiki/Noble",
+    "will_progression": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!BW5:CS5",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_heroic_classes",
+     "sheet": "Heroic Classes",
+     "row": 2,
+     "ref": "Heroic Classes!A2:H2",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:heroic"
+   ]
+  },
+  {
+   "id": "class_nonheroic",
+   "entity": "class",
+   "name": "Nonheroic",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "nonheroic",
+    "force_points": 0,
+    "fortitude_progression": 0,
+    "hit_die": 4,
+    "min_level": 1,
+    "reflex_progression": 0,
+    "starting_credits": 0,
+    "trained_skills": 1,
+    "will_progression": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!BW9:CS9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "class:nonheroic"
+   ]
+  },
+  {
+   "id": "class_officer",
+   "entity": "class",
+   "name": "Officer",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Knowledge (tactics)\nTalents: Any one from Commando or Leadership",
+    "reflex_progression": 2,
+    "special": "Must belong to an organisation with a military or paramilitary division",
+    "url": "https://swse.miraheze.org/wiki/Officer",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Knowledge (Tactics)\nTalents: Any one from the Leadership Talent Tree, Commando Talent Tree, or Veteran Talent Tree\nSpecial: Must belong to any organization with a military or paramilitary division",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Knowledge (Tactics)"
+      ],
+      "skill": "Knowledge (Tactics)",
+      "mode": "all",
+      "text": "Trained Skills: Knowledge (Tactics)",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Leadership",
+       "Commando",
+       "Veteran"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Leadership Talent Tree, Commando Talent Tree, or Veteran Talent Tree",
+      "rule": "talent_any_from"
+     },
+     {
+      "type": "special",
+      "detail": "must belong to any organization with a military or paramilitary division",
+      "text": "Special: Must belong to any organization with a military or paramilitary division",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!BW33:CS33",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 11,
+     "ref": "Prestige Classes!A11:C11",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_outlaw",
+   "entity": "class",
+   "name": "Outlaw",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Stealth, Survival\nTalents: Any one from the Disgrace or Misfortune talent trees",
+    "reflex_progression": 4,
+    "special": "You must be wanted by the authorities in at least one star system",
+    "url": "https://swse.miraheze.org/wiki/Outlaw",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Stealth and Survival\nTalents: Any one from the Disgrace Talent Tree or Misfortune Talent Tree\nSpecial: You must be wanted by the authorities in at least one star system",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Stealth",
+       "Survival"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Stealth and Survival",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Disgrace",
+       "Misfortune"
+      ],
+      "count": 1,
+      "mode": "any",
+      "text": "Talents: Any one from the Disgrace Talent Tree or Misfortune Talent Tree",
+      "rule": "talent_any_from"
+     },
+     {
+      "type": "special",
+      "detail": "you must be wanted by the authorities in at least one star system",
+      "text": "Special: You must be wanted by the authorities in at least one star system",
+      "rule": "special_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!BW34:CS34",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 23,
+     "ref": "Prestige Classes!A23:C23",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_pathfinder",
+   "entity": "class",
+   "name": "Pathfinder",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 4,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Pathfinder",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Perception, Survival\nTalents: Any two from the Awareness Talent Tree, Camouflage Talent Tree, or Survivor Talent Tree",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Perception",
+       "Survival"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Perception, Survival",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Awareness",
+       "Camouflage",
+       "Survivor"
+      ],
+      "count": 2,
+      "mode": "any",
+      "text": "Talents: Any two from the Awareness Talent Tree, Camouflage Talent Tree, or Survivor Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!BW41:CS41",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 28,
+     "ref": "Prestige Classes!A28:C28",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_saboteur",
+   "entity": "class",
+   "name": "Saboteur",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 0,
+    "hit_die": 8,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Deception, Mechanics, Use Computer",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Saboteur",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Deception, Mechanics, and Use Computer",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Deception",
+       "Mechanics",
+       "Use Computer"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Deception, Mechanics, and Use Computer",
+      "rule": "trained_skill_label"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!BW35:CS35",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 20,
+     "ref": "Prestige Classes!A20:C20",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_scoundrel",
+   "entity": "class",
+   "name": "Scoundrel",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "heroic",
+    "class_skills": [
+     "Acrobatics",
+     "Deception",
+     "Gather Information",
+     "Initiative",
+     "Knowledge (all; taken individually)",
+     "Mechanics",
+     "Perception",
+     "Persuasion",
+     "Pilot",
+     "Stealth",
+     "Use Computer"
+    ],
+    "class_skills_text": "Acrobatics,\nDeception,\nGather Information,\nInitiative,\nKnowledge (all; taken individually),\nMechanics,\nPerception,\nPersuasion,\nPilot,\nStealth,\nUse Computer",
+    "defense_bonus": "Ref +2\nWill +1",
+    "force_points": 5,
+    "fortitude_progression": 0,
+    "hit_die": 6,
+    "min_level": 1,
+    "reflex_progression": 2,
+    "starting_credits": 250,
+    "starting_feats": [
+     "Point-Blank Shot",
+     "Weapon Proficiency (Pistols)",
+     "Weapon Proficiency (Simple Weapons)"
+    ],
+    "starting_feats_params": {
+     "Weapon Proficiency (Pistols)": "Pistols",
+     "Weapon Proficiency (Simple Weapons)": "Simple Weapons"
+    },
+    "starting_feats_raw": "Point-Blank Shot Weapon Proficiency (Pistols) Weapon Proficiency (Simple Weapons)",
+    "starting_feats_text": "Point-Blank Shot,\nWeapon Proficiency (Pistols),\nWeapon Proficiency (Simple Weapons)",
+    "starting_hit_points": "18+Con",
+    "talent_trees": [
+     "Fortune",
+     "Misfortune",
+     "Slicer",
+     "Spacer",
+     "Outlaw Tech",
+     "Malkite Poisoner",
+     "Run and Gun",
+     "Smuggling",
+     "Opportunist",
+     "Recklessness",
+     "Brigand",
+     "Revolutionary",
+     "Outsider"
+    ],
+    "talent_trees_raw": "Fortune Misfortune Slicer Spacer Outlaw Tech Malkite Poisoner Run and Gun Smuggling Opportunist Recklessness Brigand Revolutionary Outsider",
+    "talent_trees_text": "Fortune\nMisfortune\nSlicer\nSpacer\nOutlaw Tech\nMalkite Poisoner\nRun and Gun\nSmuggling\nOpportunist\nRecklessness\nBrigand\nRevolutionary\nOutsider",
+    "trained_skills": 4,
+    "trained_skills_formula": "4+Int",
+    "trained_skills_per_level": "4+Int",
+    "url": "https://swse.miraheze.org/wiki/Scoundrel",
+    "will_progression": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!BW6:CS6",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_heroic_classes",
+     "sheet": "Heroic Classes",
+     "row": 3,
+     "ref": "Heroic Classes!A3:H3",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:heroic"
+   ]
+  },
+  {
+   "id": "class_scout",
+   "entity": "class",
+   "name": "Scout",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "heroic",
+    "class_skills": [
+     "Climb",
+     "Endurance",
+     "Initiative",
+     "Jump",
+     "Knowledge (all; taken individually)",
+     "Mechanics",
+     "Perception",
+     "Pilot",
+     "Ride",
+     "Stealth",
+     "Survival",
+     "Swim"
+    ],
+    "class_skills_text": "Climb,\nEndurance,\nInitiative,\nJump,\nKnowledge (all; taken individually),\nMechanics,\nPerception,\nPilot,\nRide,\nStealth,\nSurvival,\nSwim",
+    "defense_bonus": "Fort +1\nRef +2",
+    "force_points": 5,
+    "fortitude_progression": 1,
+    "hit_die": 8,
+    "min_level": 1,
+    "reflex_progression": 2,
+    "starting_credits": 250,
+    "starting_feats": [
+     "Shake It Off",
+     "Weapon Proficiency (Pistols)",
+     "Weapon Proficiency (Rifles)",
+     "Weapon Proficiency (Simple Weapons)"
+    ],
+    "starting_feats_notes": {
+     "Shake It Off": "must have the prerequisite Constitution of 13 and be Trained in Endurance"
+    },
+    "starting_feats_params": {
+     "Weapon Proficiency (Pistols)": "Pistols",
+     "Weapon Proficiency (Rifles)": "Rifles",
+     "Weapon Proficiency (Simple Weapons)": "Simple Weapons"
+    },
+    "starting_feats_raw": "Shake It Off (must have the prerequisite Constitution of 13 and be Trained in Endurance) Weapon Proficiency (Pistols) Weapon Proficiency (Rifles) Weapon Proficiency (Simple Weapons)",
+    "starting_feats_text": "Shake It Off (must have the prerequisite Constitution of 13 and be Trained in Endurance),\nWeapon Proficiency (Pistols),\nWeapon Proficiency (Rifles),\nWeapon Proficiency (Simple Weapons)",
+    "starting_hit_points": "24+Con",
+    "talent_trees": [
+     "Awareness",
+     "Camouflage",
+     "Fringer",
+     "Survivor",
+     "Hyperspace Explorer",
+     "Spy",
+     "Reconnaissance",
+     "Surveillance",
+     "Versatility",
+     "Unpredictable",
+     "Advance Patrol",
+     "Espionage",
+     "Master Scout",
+     "Mobile Scout"
+    ],
+    "talent_trees_raw": "Awareness Camouflage Fringer Survivor Hyperspace Explorer Spy Reconnaissance Surveillance Versatility Unpredictable Advance Patrol Espionage Master Scout Mobile Scout",
+    "talent_trees_text": "Awareness\nCamouflage\nFringer\nSurvivor\nHyperspace Explorer\nSpy\nReconnaissance\nSurveillance\nVersatility\nUnpredictable\nAdvance Patrol\nEspionage\nMaster Scout\nMobile Scout",
+    "trained_skills": 5,
+    "trained_skills_formula": "5+Int",
+    "trained_skills_per_level": "5+Int",
+    "url": "https://swse.miraheze.org/wiki/Scout",
+    "will_progression": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!BW7:CS7",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_heroic_classes",
+     "sheet": "Heroic Classes",
+     "row": 4,
+     "ref": "Heroic Classes!A4:H4",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:heroic"
+   ]
+  },
+  {
+   "id": "class_shaper",
+   "entity": "class",
+   "name": "Shaper",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 0.75,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 8,
+    "min_level": 7,
+    "reflex_progression": 0,
+    "url": "https://swse.miraheze.org/wiki/Shaper",
+    "will_progression": 4
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Knowledge (life sciences), Treat Injury\nFeat: Biotech Specialist\nSpecies: Yuuzhan Vong",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Knowledge (Life Sciences)",
+       "Treat Injury"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Knowledge (life sciences), Treat Injury",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "biotech specialist"
+      ],
+      "mode": "all",
+      "text": "Feat: Biotech Specialist",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_biotech_specialist",
+        "name": "biotech specialist",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "species",
+      "names": [
+       "yuuzhan vong"
+      ],
+      "mode": "all",
+      "text": "Species: Yuuzhan Vong",
+      "rule": "species_label",
+      "refs": [
+       {
+        "entity_type": "species",
+        "id": "species_yuuzhan_vong",
+        "name": "yuuzhan vong",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!BW36:CS36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "class:prestige",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "class_sith_apprentice",
+   "entity": "class",
+   "name": "Sith Apprentice",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 7,
+    "reflex_progression": 2,
+    "special": "Must be a member of the Sith tradition",
+    "will_progression": 2
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Use the Force\nFeats: Force Sensitive\nDark Side Score must equal Wisdom score",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use The Force"
+      ],
+      "skill": "Use The Force",
+      "mode": "all",
+      "text": "Trained Skills: Use the Force",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "force sensitive"
+      ],
+      "mode": "all",
+      "text": "Feats: Force Sensitive",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_force_sensitivity",
+        "name": "force sensitive",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "dark_side_equals_ability",
+      "ability": "WIS",
+      "text": "Dark Side Score must equal Wisdom score",
+      "rule": "dark_side_equals"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!BW37:CS37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_sith_lord",
+   "entity": "class",
+   "name": "Sith Lord",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "prestige",
+    "force_points": 7,
+    "fortitude_progression": 3,
+    "hit_die": 10,
+    "min_level": 12,
+    "reflex_progression": 3,
+    "special": "Must be a member of the Sith tradition",
+    "will_progression": 3
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 12th\nTrained Skills: Use the Force\nFeats: Force Sensitive, Weapon Proficiency (lightsabers)\nForce Techniques: Any one\nDark Side Score must equal Wisdom score",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 12,
+      "text": "Minimum Level: 12th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Use The Force"
+      ],
+      "skill": "Use The Force",
+      "mode": "all",
+      "text": "Trained Skills: Use the Force",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "feat",
+      "names": [
+       "force sensitive"
+      ],
+      "mode": "all",
+      "text": "Feats: Force Sensitive, Weapon Proficiency (lightsabers)",
+      "rule": "feats_label",
+      "refs": [
+       {
+        "entity_type": "feat",
+        "id": "feat_force_sensitivity",
+        "name": "force sensitive",
+        "param": null
+       }
+      ],
+      "resolved_refs": true
+     },
+     {
+      "type": "weapon_proficiency",
+      "group": "lightsabers",
+      "any": false,
+      "text": "weapon proficiency (lightsabers)",
+      "rule": "weapon_proficiency",
+      "label": "feat"
+     },
+     {
+      "type": "force_technique",
+      "count": 1,
+      "mode": "any",
+      "text": "Force Techniques: Any one",
+      "rule": "force_techniques_label"
+     },
+     {
+      "type": "dark_side_equals_ability",
+      "ability": "WIS",
+      "text": "Dark Side Score must equal Wisdom score",
+      "rule": "dark_side_equals"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!BW38:CS38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_soldier",
+   "entity": "class",
+   "name": "Soldier",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "class_kind": "heroic",
+    "class_skills": [
+     "Climb",
+     "Endurance",
+     "Initiative",
+     "Jump",
+     "Knowledge (Tactics)",
+     "Mechanics",
+     "Perception",
+     "Pilot",
+     "Swim",
+     "Treat Injury",
+     "Use Computer"
+    ],
+    "class_skills_text": "Climb\nEndurance\nInitiative\nJump\nKnowledge (Tactics)\nMechanics\nPerception\nPilot\nSwim\nTreat Injury\nUse Computer",
+    "defense_bonus": "Ref +1\nFort +2",
+    "force_points": 5,
+    "fortitude_progression": 2,
+    "hit_die": 10,
+    "min_level": 1,
+    "reflex_progression": 1,
+    "starting_credits": 250,
+    "starting_feats": [
+     "Armor Proficiency (Light)",
+     "Armor Proficiency (Medium)",
+     "Weapon Proficiency (Pistols)",
+     "Weapon Proficiency (Rifles)",
+     "Weapon Proficiency (Simple Weapons)"
+    ],
+    "starting_feats_params": {
+     "Weapon Proficiency (Pistols)": "Pistols",
+     "Weapon Proficiency (Rifles)": "Rifles",
+     "Weapon Proficiency (Simple Weapons)": "Simple Weapons"
+    },
+    "starting_feats_raw": "Armor Proficiency (Light) Armor Proficiency (Medium) Weapon Proficiency (Pistols) Weapon Proficiency (Rifles) Weapon Proficiency (Simple Weapons)",
+    "starting_feats_text": "Armor Proficiency (Light)\nArmor Proficiency (Medium)\nWeapon Proficiency (Pistols)\nWeapon Proficiency (Rifles)\nWeapon Proficiency (Simple Weapons)",
+    "starting_hit_points": "30+Con",
+    "talent_trees": [
+     "Armor Specialist",
+     "Brawler",
+     "Commando",
+     "Weapon Specialist",
+     "Rocket Jumper",
+     "Mercenary",
+     "Squad Leader",
+     "Trooper",
+     "Brute Squad",
+     "Ambusher",
+     "Shockboxer",
+     "Veteran",
+     "Warrior"
+    ],
+    "talent_trees_raw": "Armor Specialist Brawler Commando Weapon Specialist Rocket Jumper Mercenary Squad Leader Trooper Brute Squad Ambusher Shockboxer Veteran Warrior",
+    "talent_trees_text": "Armor Specialist\nBrawler\nCommando\nWeapon Specialist\nRocket Jumper\nMercenary\nSquad Leader\nTrooper\nBrute Squad\nAmbusher\nShockboxer\nVeteran\nWarrior",
+    "trained_skills": 3,
+    "trained_skills_formula": "3+Int",
+    "trained_skills_per_level": "3+Int",
+    "url": "https://swse.miraheze.org/wiki/Soldier",
+    "will_progression": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!BW8:CS8",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_heroic_classes",
+     "sheet": "Heroic Classes",
+     "row": 5,
+     "ref": "Heroic Classes!A5:H5",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:heroic"
+   ]
+  },
+  {
+   "id": "class_vanguard",
+   "entity": "class",
+   "name": "Vanguard",
+   "canon": "official",
+   "attrs": {
+    "base_attack": 1,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "class_kind": "prestige",
+    "force_points": 6,
+    "fortitude_progression": 4,
+    "hit_die": 10,
+    "min_level": 7,
+    "prerequisites_text_alt": "Minimum Level: 7th\nTrained Skills: Perception, Stealth\nTalents: Any two from Camouflage or Commando",
+    "reflex_progression": 2,
+    "url": "https://swse.miraheze.org/wiki/Vanguard",
+    "will_progression": 0
+   },
+   "prerequisites": {
+    "raw": "Minimum Level: 7th\nTrained Skills: Perception and Stealth\nTalents: Any two from the Camouflage Talent Tree or Commando Talent Tree",
+    "predicates": [
+     {
+      "type": "level_min",
+      "min": 7,
+      "text": "Minimum Level: 7th",
+      "rule": "level_min"
+     },
+     {
+      "type": "trained_skill",
+      "skills": [
+       "Perception",
+       "Stealth"
+      ],
+      "skill": null,
+      "mode": "all",
+      "text": "Trained Skills: Perception and Stealth",
+      "rule": "trained_skill_label"
+     },
+     {
+      "type": "talent",
+      "trees": [
+       "Camouflage",
+       "Commando"
+      ],
+      "count": 2,
+      "mode": "any",
+      "text": "Talents: Any two from the Camouflage Talent Tree or Commando Talent Tree",
+      "rule": "talent_any_from"
+     }
+    ],
+    "unresolved": [],
+    "mode": "all",
+    "coverage": 1.0,
+    "empty": false,
+    "resolved": true
+   },
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_classes",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!BW39:CS39",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_prestige_classes",
+     "sheet": "Prestige Classes",
+     "row": 26,
+     "ref": "Prestige Classes!A26:C26",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "class:prestige"
+   ]
+  },
+  {
+   "id": "class_force_prodigy",
+   "entity": "class",
+   "name": "Force Prodigy",
+   "canon": "homebrew",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "class_kind": "heroic",
+    "class_skills": [
+     "Acrobatics",
+     "Climb",
+     "Endurance",
+     "Initiative",
+     "Knowledge (all; taken individually)",
+     "Perception",
+     "Pilot",
+     "Ride",
+     "Stealth",
+     "Survival",
+     "Swim",
+     "Use the Force"
+    ],
+    "class_skills_text": "Acrobatics\nClimb\nEndurance\nInitiative\nKnowledge (all skills, taken individually)\nPerception\nPilot\nRide\nStealth\nSurvival\nSwim\nUse the Force (Force Sensitive)",
+    "defense_bonus": "Will +3",
+    "grants_all_trees": true,
+    "starting_feats": [
+     "Force Sensitivity",
+     "Force Training",
+     "Weapon Proficiency (Simple Weapons)"
+    ],
+    "starting_feats_params": {
+     "Weapon Proficiency (Simple Weapons)": "Simple Weapons"
+    },
+    "starting_feats_raw": "Force Sensitivity Force Training* Weapon Proficiency (Simple Weapons)",
+    "starting_feats_text": "Force Sensitivity\nForce Training*\nWeapon Proficiency (Simple Weapons)",
+    "starting_hit_points": "24+Con",
+    "talent_trees": [],
+    "talent_trees_raw": "All Force Disciplines and Force Traditions",
+    "talent_trees_text": "All Force Disciplines and Force Traditions",
+    "trained_skills_formula": "4+Int",
+    "trained_skills_per_level": "4+Int",
+    "url": "https://swse.fandom.com/wiki/Force_Prodigy"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_heroic_classes",
+     "sheet": "Heroic Classes",
+     "row": 9,
+     "ref": "Heroic Classes!A9:H9",
+     "canon": "homebrew"
+    }
+   ],
+   "flags": [
+    "class:heroic",
+    "homebrew"
+   ]
+  },
+  {
+   "id": "class_technician",
+   "entity": "class",
+   "name": "Technician",
+   "canon": "homebrew",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "class_kind": "heroic",
+    "class_skills": [
+     "Gather Information",
+     "Initiative",
+     "Knowledge (all; taken individually)",
+     "Mechanics",
+     "Perception",
+     "Pilot",
+     "Treat Injury",
+     "Use Computer"
+    ],
+    "class_skills_text": "Gather Information\nInitiative\nKnowledge (all Skills, taken individually)\nMechanics\nPerception\nPilot\nTreat Injury\nUse Computer",
+    "defense_bonus": "Will +2\nFort +1",
+    "starting_feats": [
+     "Skill Focus (Knowledge (Any), Mechanics, Treat Injury, or Use Computer)",
+     "Tech Specialist",
+     "Weapon Proficiency (Simple Weapons)"
+    ],
+    "starting_feats_params": {
+     "Skill Focus (Knowledge (Any), Mechanics, Treat Injury, or Use Computer)": "Knowledge (Any), Mechanics, Treat Injury, or Use Computer",
+     "Weapon Proficiency (Simple Weapons)": "Simple Weapons"
+    },
+    "starting_feats_raw": "Skill Focus (Knowledge (Any), Mechanics, Treat Injury, or Use Computer) Tech Specialist* Weapon Proficiency (Simple Weapons)",
+    "starting_feats_text": "Skill Focus (Knowledge (Any), Mechanics, Treat Injury, or Use Computer)\nTech Specialist*\nWeapon Proficiency (Simple Weapons)",
+    "starting_hit_points": "18+Con",
+    "talent_trees": [
+     "Slicer",
+     "Outlaw Tech",
+     "Malkite Poisoner",
+     "Rocket Jumper",
+     "Skill Challenge",
+     "Superior Skills"
+    ],
+    "talent_trees_raw": "Slicer Outlaw Tech Malkite Poisoner Rocket Jumper Skill Challenge Superior Skills",
+    "talent_trees_text": "Slicer\nOutlaw Tech\nMalkite Poisoner\nRocket Jumper\nSkill Challenge\nSuperior Skills",
+    "trained_skills_formula": "7+Int",
+    "trained_skills_per_level": "7+Int",
+    "url": "https://swse.fandom.com/wiki/Technician"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_heroic_classes",
+     "sheet": "Heroic Classes",
+     "row": 8,
+     "ref": "Heroic Classes!A8:H8",
+     "canon": "homebrew"
+    }
+   ],
+   "flags": [
+    "class:heroic",
+    "homebrew"
+   ]
+  }
+ ]
+}

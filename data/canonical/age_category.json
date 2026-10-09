@@ -1,0 +1,171 @@
+{
+ "entity": "age_category",
+ "label": "age_category",
+ "role": "option",
+ "count": 6,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "age_category_adult",
+   "entity": "age_category",
+   "name": "Adult",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": 0,
+    "mod_con": 0,
+    "mod_dex": 0,
+    "mod_int": 0,
+    "mod_str": 0,
+    "mod_wis": 0
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_ages",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!A5:G5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "age_category_child",
+   "entity": "age_category",
+   "name": "Child",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": -2,
+    "mod_con": -4,
+    "mod_dex": -2,
+    "mod_int": -2,
+    "mod_str": -4,
+    "mod_wis": -2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_ages",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!A3:G3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "age_category_middle_age",
+   "entity": "age_category",
+   "name": "Middle Age",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": 1,
+    "mod_con": -1,
+    "mod_dex": -1,
+    "mod_int": 1,
+    "mod_str": -1,
+    "mod_wis": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_ages",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!A6:G6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "age_category_old",
+   "entity": "age_category",
+   "name": "Old",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": 2,
+    "mod_con": -3,
+    "mod_dex": -3,
+    "mod_int": 2,
+    "mod_str": -3,
+    "mod_wis": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_ages",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!A7:G7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "age_category_venerable",
+   "entity": "age_category",
+   "name": "Venerable",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": 3,
+    "mod_con": -6,
+    "mod_dex": -6,
+    "mod_int": 3,
+    "mod_str": -6,
+    "mod_wis": 3
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_ages",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!A8:G8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "age_category_young_adult",
+   "entity": "age_category",
+   "name": "Young Adult",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "mod_cha": -1,
+    "mod_con": -1,
+    "mod_dex": -1,
+    "mod_int": -1,
+    "mod_str": -1,
+    "mod_wis": -1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_ages",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!A4:G4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

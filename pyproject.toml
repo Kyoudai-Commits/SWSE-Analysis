@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swse-analysis"
+version = "0.1.0"
+description = "A verified, provenance-tagged dataset of every Star Wars Saga Edition character-creation option, plus the tooling to enumerate and evaluate the combinations."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "SWSE-Analysis contributors" }]
+keywords = ["swse", "saga edition", "tabletop", "rpg", "character-builder", "dataset"]
+
+# Two runtime dependencies, both deliberate:
+#   openpyxl  - the sources are spreadsheets, and reading them faithfully is the
+#               whole job; nothing else in the pipeline needs a dataframe library
+#   pyyaml    - config and the curation overlay are YAML so they stay reviewable
+dependencies = [
+    "openpyxl>=3.1",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# Schema conformance checking of every canonical record. Without it `validate`
+# still runs every other check and reports that schema checking was skipped.
+schema = ["jsonschema>=4.0"]
+dev = ["pytest>=7.0", "jsonschema>=4.0"]
+
+[project.scripts]
+swse = "swse.cli:main"
+
+[tool.setuptools]
+packages = ["swse"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "slow: runs the full extraction or scores large build samples",
+]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

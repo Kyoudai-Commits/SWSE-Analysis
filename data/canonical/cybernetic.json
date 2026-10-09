@@ -1,0 +1,667 @@
+{
+ "entity": "cybernetic",
+ "label": "cybernetic",
+ "role": "option",
+ "count": 19,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "cybernetic_aural_amplifier",
+   "entity": "cybernetic",
+   "name": "Aural amplifier",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2000,
+    "stat_block": "aural amplifier",
+    "stat_block_plural": "aural amplifiers",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!GJ3:GO3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_bio_stabilizer",
+   "entity": "cybernetic",
+   "name": "Bio-stabilizer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1750,
+    "stat_block": "bio-stabilizer implant"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_implants",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!GP3:GS3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_cardio",
+   "entity": "cybernetic",
+   "name": "Cardio",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 4000,
+    "stat_block": "cardio implant"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_implants",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!GP4:GS4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_combat",
+   "entity": "cybernetic",
+   "name": "Combat",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 5000,
+    "stat_block": "combat implant",
+    "url": "https://swse.miraheze.org/wiki/Combat"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_implants",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!GP5:GS5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "cybernetic_computer_interface_visor",
+   "entity": "cybernetic",
+   "name": "Computer interface visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1200,
+    "stat_block": "computer interface visor",
+    "stat_block_plural": "computer interface visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!GJ4:GO4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_demolitions_sensor",
+   "entity": "cybernetic",
+   "name": "Demolitions sensor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1000,
+    "stat_block": "demolitions sensor",
+    "stat_block_plural": "demolitions sensors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!GJ5:GO5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_helmet",
+   "entity": "cybernetic",
+   "name": "Helmet",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 500,
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!GJ6:GO6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_helmet_with_helmet_package",
+   "entity": "cybernetic",
+   "name": "Helmet with helmet package",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 4000,
+    "stat_block": "helmet package",
+    "stat_block_plural": "helmet packages",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!GJ7:GO7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_helmet_with_low_light_vision",
+   "entity": "cybernetic",
+   "name": "Helmet with low-light vision",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 2000,
+    "weight": 0.75
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!GJ8:GO8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_mechanical_interface_visor",
+   "entity": "cybernetic",
+   "name": "Mechanical interface visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1250,
+    "stat_block": "mechanical interface visor",
+    "stat_block_plural": "mechanical interface visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!GJ10:GO10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_medical_interface_visor",
+   "entity": "cybernetic",
+   "name": "Medical interface visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 1500,
+    "stat_block": "medical interface visor",
+    "stat_block_plural": "medical interface visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!GJ12:GO12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_memory",
+   "entity": "cybernetic",
+   "name": "Memory",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2000,
+    "stat_block": "memory implant"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_implants",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!GP6:GS6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_motion_sensing_visor",
+   "entity": "cybernetic",
+   "name": "Motion sensing visor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2500,
+    "stat_block": "motion sensing visor",
+    "stat_block_plural": "motion sensing visors",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!GJ13:GO13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_nerve_reinforcement",
+   "entity": "cybernetic",
+   "name": "Nerve reinforcement",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 5000,
+    "stat_block": "nerve reinforcement implant"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_implants",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!GP7:GS7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_neural_band",
+   "entity": "cybernetic",
+   "name": "Neural band",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 3500,
+    "stat_block": "neural band",
+    "stat_block_plural": "neural bands",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!GJ14:GO14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_regenerative",
+   "entity": "cybernetic",
+   "name": "Regenerative",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 4250,
+    "stat_block": "regenerative implant"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_implants",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!GP8:GS8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_sensory",
+   "entity": "cybernetic",
+   "name": "Sensory",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 2500,
+    "stat_block": "sensory implant"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_implants",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!GP9:GS9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_vacuum_mask",
+   "entity": "cybernetic",
+   "name": "Vacuum mask",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price": 650,
+    "stat_block": "vacuum mask",
+    "stat_block_plural": "vacuum masks",
+    "weight": 0.3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!GJ15:GO15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "cybernetic_helmet_with_superior_helmet_package",
+   "entity": "cybernetic",
+   "name": "Helmet with superior helmet package",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "price": 8000,
+    "stat_block": "superior helmet package",
+    "stat_block_plural": "superior helmet packages",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_head_devices",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!GJ9:GO9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

@@ -1,0 +1,2274 @@
+{
+ "entity": "language",
+ "label": "language",
+ "role": "option",
+ "count": 102,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "language_aleena",
+   "entity": "language",
+   "name": "Aleena",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Aleena"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 2,
+     "ref": "Lists!AH2:AH2",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_amanese",
+   "entity": "language",
+   "name": "Amanese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!AH3:AH3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_aqualish",
+   "entity": "language",
+   "name": "Aqualish",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Aqualish"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!AH4:AH4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_arconese",
+   "entity": "language",
+   "name": "Arconese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!AH5:AH5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_arkanian",
+   "entity": "language",
+   "name": "Arkanian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Arkanian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!AH6:AH6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_balosar",
+   "entity": "language",
+   "name": "Balosar",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Balosar"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!AH7:AH7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_barabel",
+   "entity": "language",
+   "name": "Barabel",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Barabel"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!AH8:AH8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_basic",
+   "entity": "language",
+   "name": "Basic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!AH9:AH9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_batorese",
+   "entity": "language",
+   "name": "Batorese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!AH10:AH10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_binary",
+   "entity": "language",
+   "name": "Binary",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!AH11:AH11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_bith",
+   "entity": "language",
+   "name": "Bith",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Bith"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!AH12:AH12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_bocce",
+   "entity": "language",
+   "name": "Bocce",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!AH13:AH13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_bothese",
+   "entity": "language",
+   "name": "Bothese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!AH14:AH14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_caamasi",
+   "entity": "language",
+   "name": "Caamasi",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Caamasi"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!AH15:AH15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_catharese",
+   "entity": "language",
+   "name": "Catharese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!AH16:AH16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_cerean",
+   "entity": "language",
+   "name": "Cerean",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Cerean"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!AH17:AH17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_chagri",
+   "entity": "language",
+   "name": "Chagri",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!AH18:AH18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_cheunh",
+   "entity": "language",
+   "name": "Cheunh",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 19,
+     "ref": "Lists!AH19:AH19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_chistori",
+   "entity": "language",
+   "name": "Chistori",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Chistori"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 20,
+     "ref": "Lists!AH20:AH20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_clawdite",
+   "entity": "language",
+   "name": "Clawdite",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Clawdite"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 21,
+     "ref": "Lists!AH21:AH21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_codruese",
+   "entity": "language",
+   "name": "Codruese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 22,
+     "ref": "Lists!AH22:AH22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_dashadi",
+   "entity": "language",
+   "name": "Dashadi",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 23,
+     "ref": "Lists!AH23:AH23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_deveronese",
+   "entity": "language",
+   "name": "Deveronese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 24,
+     "ref": "Lists!AH24:AH24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_dosh",
+   "entity": "language",
+   "name": "Dosh",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 25,
+     "ref": "Lists!AH25:AH25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_draethos",
+   "entity": "language",
+   "name": "Draethos",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Draethos"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 26,
+     "ref": "Lists!AH26:AH26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_dug",
+   "entity": "language",
+   "name": "Dug",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Dug"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 27,
+     "ref": "Lists!AH27:AH27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_durese",
+   "entity": "language",
+   "name": "Durese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 28,
+     "ref": "Lists!AH28:AH28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_ewokese",
+   "entity": "language",
+   "name": "Ewokese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 29,
+     "ref": "Lists!AH29:AH29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_falleen",
+   "entity": "language",
+   "name": "Falleen",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Falleen"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 30,
+     "ref": "Lists!AH30:AH30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_feeorin",
+   "entity": "language",
+   "name": "Feeorin",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Feeorin"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 31,
+     "ref": "Lists!AH31:AH31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_felucianese",
+   "entity": "language",
+   "name": "Felucianese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 32,
+     "ref": "Lists!AH32:AH32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_gammorean",
+   "entity": "language",
+   "name": "Gammorean",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 33,
+     "ref": "Lists!AH33:AH33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_gand",
+   "entity": "language",
+   "name": "Gand",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Gand"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 34,
+     "ref": "Lists!AH34:AH34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_gen_dai",
+   "entity": "language",
+   "name": "Gen'Dai",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 35,
+     "ref": "Lists!AH35:AH35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_geonosian",
+   "entity": "language",
+   "name": "Geonosian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Geonosian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 36,
+     "ref": "Lists!AH36:AH36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_gran",
+   "entity": "language",
+   "name": "Gran",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Gran"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 37,
+     "ref": "Lists!AH37:AH37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_gunganese",
+   "entity": "language",
+   "name": "Gunganese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 38,
+     "ref": "Lists!AH38:AH38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_hapan",
+   "entity": "language",
+   "name": "Hapan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 39,
+     "ref": "Lists!AH39:AH39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_high_galactic",
+   "entity": "language",
+   "name": "High Galactic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 40,
+     "ref": "Lists!AH40:AH40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_honoghran",
+   "entity": "language",
+   "name": "Honoghran",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 41,
+     "ref": "Lists!AH41:AH41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_houk",
+   "entity": "language",
+   "name": "Houk",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Houk"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 42,
+     "ref": "Lists!AH42:AH42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_huttese",
+   "entity": "language",
+   "name": "Huttese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 43,
+     "ref": "Lists!AH43:AH43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_iktotchese",
+   "entity": "language",
+   "name": "Iktotchese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 44,
+     "ref": "Lists!AH44:AH44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_ithorese",
+   "entity": "language",
+   "name": "Ithorese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 45,
+     "ref": "Lists!AH45:AH45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_jawa",
+   "entity": "language",
+   "name": "Jawa",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Jawa"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 46,
+     "ref": "Lists!AH46:AH46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_jawa_trade_language",
+   "entity": "language",
+   "name": "Jawa Trade Language",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 47,
+     "ref": "Lists!AH47:AH47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_kaleesh",
+   "entity": "language",
+   "name": "Kaleesh",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Kaleesh"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 48,
+     "ref": "Lists!AH48:AH48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_kaminoan",
+   "entity": "language",
+   "name": "Kaminoan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Kaminoan"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 49,
+     "ref": "Lists!AH49:AH49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_kel_dor",
+   "entity": "language",
+   "name": "Kel Dor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Kel_Dor"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 50,
+     "ref": "Lists!AH50:AH50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_kerkoidese",
+   "entity": "language",
+   "name": "Kerkoidese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 51,
+     "ref": "Lists!AH51:AH51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_khilese",
+   "entity": "language",
+   "name": "Khilese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 52,
+     "ref": "Lists!AH52:AH52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_lekku",
+   "entity": "language",
+   "name": "Lekku",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 53,
+     "ref": "Lists!AH53:AH53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_lurmese",
+   "entity": "language",
+   "name": "Lurmese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 54,
+     "ref": "Lists!AH54:AH54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_mando_a",
+   "entity": "language",
+   "name": "Mando'a",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 55,
+     "ref": "Lists!AH55:AH55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_massan",
+   "entity": "language",
+   "name": "Massan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 56,
+     "ref": "Lists!AH56:AH56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_military_sign_language",
+   "entity": "language",
+   "name": "Military Sign Language",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 57,
+     "ref": "Lists!AH57:AH57",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_miralukese",
+   "entity": "language",
+   "name": "Miralukese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 58,
+     "ref": "Lists!AH58:AH58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_mon_calamarian",
+   "entity": "language",
+   "name": "Mon Calamarian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 59,
+     "ref": "Lists!AH59:AH59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_nagaian",
+   "entity": "language",
+   "name": "Nagaian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 60,
+     "ref": "Lists!AH60:AH60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_nautila",
+   "entity": "language",
+   "name": "Nautila",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 61,
+     "ref": "Lists!AH61:AH61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_nazren",
+   "entity": "language",
+   "name": "Nazren",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Nazren"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 62,
+     "ref": "Lists!AH62:AH62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_neimoidian",
+   "entity": "language",
+   "name": "Neimoidian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Neimoidian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 63,
+     "ref": "Lists!AH63:AH63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_nelvaanese",
+   "entity": "language",
+   "name": "Nelvaanese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 64,
+     "ref": "Lists!AH64:AH64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_nosaurian",
+   "entity": "language",
+   "name": "Nosaurian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Nosaurian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 65,
+     "ref": "Lists!AH65:AH65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_old_corellian",
+   "entity": "language",
+   "name": "Old Corellian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 66,
+     "ref": "Lists!AH66:AH66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_pak_pak",
+   "entity": "language",
+   "name": "Pak Pak",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 67,
+     "ref": "Lists!AH67:AH67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_phindian",
+   "entity": "language",
+   "name": "Phindian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Phindian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 68,
+     "ref": "Lists!AH68:AH68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_quarrenese",
+   "entity": "language",
+   "name": "Quarrenese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 69,
+     "ref": "Lists!AH69:AH69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_rakata",
+   "entity": "language",
+   "name": "Rakata",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Rakata"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 70,
+     "ref": "Lists!AH70:AH70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_rodese",
+   "entity": "language",
+   "name": "Rodese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 71,
+     "ref": "Lists!AH71:AH71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_ryl",
+   "entity": "language",
+   "name": "Ryl",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 72,
+     "ref": "Lists!AH72:AH72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_ryn",
+   "entity": "language",
+   "name": "Ryn",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Ryn"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 73,
+     "ref": "Lists!AH73:AH73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_savrip",
+   "entity": "language",
+   "name": "Savrip",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 74,
+     "ref": "Lists!AH74:AH74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_selkath",
+   "entity": "language",
+   "name": "Selkath",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Selkath"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 75,
+     "ref": "Lists!AH75:AH75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_semblan",
+   "entity": "language",
+   "name": "Semblan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 76,
+     "ref": "Lists!AH76:AH76",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_shyriiwook",
+   "entity": "language",
+   "name": "Shyriiwook",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 77,
+     "ref": "Lists!AH77:AH77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_sith",
+   "entity": "language",
+   "name": "Sith",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 78,
+     "ref": "Lists!AH78:AH78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_skakoverbal",
+   "entity": "language",
+   "name": "Skakoverbal",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 79,
+     "ref": "Lists!AH79:AH79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_snivvian",
+   "entity": "language",
+   "name": "Snivvian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Snivvian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 80,
+     "ref": "Lists!AH80:AH80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_soroccan",
+   "entity": "language",
+   "name": "Soroccan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 81,
+     "ref": "Lists!AH81:AH81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_sriluurian",
+   "entity": "language",
+   "name": "Sriluurian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 82,
+     "ref": "Lists!AH82:AH82",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_sullustese",
+   "entity": "language",
+   "name": "Sullustese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 83,
+     "ref": "Lists!AH83:AH83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_sy_bisti",
+   "entity": "language",
+   "name": "Sy Bisti",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 84,
+     "ref": "Lists!AH84:AH84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_talz",
+   "entity": "language",
+   "name": "Talz",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Talz"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 85,
+     "ref": "Lists!AH85:AH85",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_thakwaashi",
+   "entity": "language",
+   "name": "Thakwaashi",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 86,
+     "ref": "Lists!AH86:AH86",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_togorian",
+   "entity": "language",
+   "name": "Togorian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Togorian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 87,
+     "ref": "Lists!AH87:AH87",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_togruti",
+   "entity": "language",
+   "name": "Togruti",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 88,
+     "ref": "Lists!AH88:AH88",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_toydarian",
+   "entity": "language",
+   "name": "Toydarian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Toydarian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 89,
+     "ref": "Lists!AH89:AH89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_trianii",
+   "entity": "language",
+   "name": "Trianii",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Trianii"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 90,
+     "ref": "Lists!AH90:AH90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_tusken",
+   "entity": "language",
+   "name": "Tusken",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 91,
+     "ref": "Lists!AH91:AH91",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_ubeninal",
+   "entity": "language",
+   "name": "Ubeninal",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 92,
+     "ref": "Lists!AH92:AH92",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_ubese",
+   "entity": "language",
+   "name": "Ubese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Ubese"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 93,
+     "ref": "Lists!AH93:AH93",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_umbarese",
+   "entity": "language",
+   "name": "Umbarese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 94,
+     "ref": "Lists!AH94:AH94",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_utapese",
+   "entity": "language",
+   "name": "Utapese",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 95,
+     "ref": "Lists!AH95:AH95",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_verpine",
+   "entity": "language",
+   "name": "Verpine",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Verpine"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 96,
+     "ref": "Lists!AH96:AH96",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_whiphid",
+   "entity": "language",
+   "name": "Whiphid",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Whiphid"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 97,
+     "ref": "Lists!AH97:AH97",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_wroonian",
+   "entity": "language",
+   "name": "Wroonian",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Wroonian"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 98,
+     "ref": "Lists!AH98:AH98",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_yarkora",
+   "entity": "language",
+   "name": "Yarkora",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Yarkora"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 99,
+     "ref": "Lists!AH99:AH99",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_yevethan",
+   "entity": "language",
+   "name": "Yevethan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 100,
+     "ref": "Lists!AH100:AH100",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_yuuzhan_vong",
+   "entity": "language",
+   "name": "Yuuzhan Vong",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Yuuzhan_Vong"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 101,
+     "ref": "Lists!AH101:AH101",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "language_yuzz",
+   "entity": "language",
+   "name": "Yuzz",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 102,
+     "ref": "Lists!AH102:AH102",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "language_zabrak",
+   "entity": "language",
+   "name": "Zabrak",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "url": "https://swse.miraheze.org/wiki/Zabrak"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_languages",
+     "sheet": "Lists",
+     "row": 103,
+     "ref": "Lists!AH103:AH103",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  }
+ ]
+}

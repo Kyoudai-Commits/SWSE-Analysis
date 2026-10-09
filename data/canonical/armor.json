@@ -1,0 +1,4041 @@
+{
+ "entity": "armor",
+ "label": "armor",
+ "role": "option",
+ "count": 92,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "armor_arc_trooper_armor",
+   "entity": "armor",
+   "name": "ARC Trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "ARC trooper armor",
+    "stat_block_plural": "suits of ARC trooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!DC7:EM7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_barabel_microbe_armor",
+   "entity": "armor",
+   "name": "Barabel microbe armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "extra": "Gain DR 2 against energy and fire",
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 2,
+    "slots": 2,
+    "stat_block": "Barabel microbe armor",
+    "stat_block_plural": "suits of Barabel microbe armor",
+    "type": "L",
+    "weight": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!DC8:EM8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_battle_armor",
+   "entity": "armor",
+   "name": "Battle armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 2,
+    "price": 7000,
+    "ref_bonus": 8,
+    "slots": 1,
+    "stat_block": "battle armor",
+    "stat_block_plural": "suits of battle armor",
+    "type": "M",
+    "weight": 16
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 58,
+     "ref": "Data!DC58:EM58",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_battle_armor_heavy",
+   "entity": "armor",
+   "name": "Battle armor, heavy",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 4,
+    "max_dex": 1,
+    "price": 15000,
+    "ref_bonus": 10,
+    "slots": 1,
+    "stat_block": "heavy battle armor",
+    "stat_block_plural": "suits of heavy battle armor",
+    "type": "H",
+    "weight": 30
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 83,
+     "ref": "Data!DC83:EM83",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_battle_armor_heavy_powered",
+   "entity": "armor",
+   "name": "Battle armor, heavy powered",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Helmet Package",
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 4,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 1,
+    "price": 19000,
+    "ref_bonus": 9,
+    "slots": 2,
+    "stat_block": "heavy powered battle armor",
+    "stat_block_plural": "suits of heavy powered battle armor",
+    "type": "H",
+    "weight": 31
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 84,
+     "ref": "Data!DC84:EM84",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_battle_armor_light",
+   "entity": "armor",
+   "name": "Battle armor, light",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 3,
+    "price": 3500,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "light battle armor",
+    "stat_block_plural": "suits of light battle armor",
+    "type": "L",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!DC9:EM9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_battle_armor_light_powered",
+   "entity": "armor",
+   "name": "Battle armor, light powered",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 6500,
+    "ref_bonus": 4,
+    "slots": 2,
+    "stat_block": "light powered battle armor",
+    "stat_block_plural": "suits of light powered battle armor",
+    "type": "L",
+    "weight": 12
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!DC10:EM10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_battle_armor_powered",
+   "entity": "armor",
+   "name": "Battle armor, powered",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 2,
+    "price": 11000,
+    "ref_bonus": 7,
+    "slots": 2,
+    "stat_block": "powered battle armor",
+    "stat_block_plural": "suits of powered battle armor",
+    "type": "M",
+    "weight": 16
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 59,
+     "ref": "Data!DC59:EM59",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_beskar_gam_heavy",
+   "entity": "armor",
+   "name": "Beskar'gam, heavy",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "fort_bonus": 3,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 4,
+    "max_dex": 1,
+    "price": 15000,
+    "rarity": "Rare",
+    "ref_bonus": 10,
+    "slots": 2,
+    "stat_block": "heavy beskar'gam",
+    "stat_block_plural": "suits of heavy beskar'gam",
+    "template": "Mandalorian Iron",
+    "type": "H",
+    "weight": 20.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 85,
+     "ref": "Data!DC85:EM85",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_beskar_gam_light",
+   "entity": "armor",
+   "name": "Beskar'gam, light",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "fort_bonus": 1,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 3,
+    "price": 3500,
+    "rarity": "Rare",
+    "ref_bonus": 5,
+    "slots": 3,
+    "stat_block": "light beskar'gam",
+    "stat_block_plural": "suits of light beskar'gam",
+    "template": "Mandalorian Iron",
+    "type": "L",
+    "weight": 6.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!DC11:EM11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_beskar_gam_medium",
+   "entity": "armor",
+   "name": "Beskar'gam, medium",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "fort_bonus": 1,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 2,
+    "price": 7000,
+    "rarity": "Rare",
+    "ref_bonus": 8,
+    "slots": 2,
+    "stat_block": "medium beskar'gam",
+    "stat_block_plural": "suits of medium beskar'gam",
+    "template": "Mandalorian Iron",
+    "type": "M",
+    "weight": 13.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 60,
+     "ref": "Data!DC60:EM60",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_biohazard_suit",
+   "entity": "armor",
+   "name": "Biohazard suit",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "fort_bonus": 3,
+    "price": 4000,
+    "ref_bonus": 0,
+    "slots": 1,
+    "stat_block": "biohazard suit",
+    "stat_block_plural": "biohazard suits",
+    "type": "M",
+    "weight": 9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 61,
+     "ref": "Data!DC61:EM61",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_blast_helmet_and_vest",
+   "entity": "armor",
+   "name": "Blast helmet and vest",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "helmet": "Helmet",
+    "max_dex": 5,
+    "price": 500,
+    "ref_bonus": 2,
+    "slots": 1,
+    "stat_block": "blast helmet and vest",
+    "stat_block_plural": "blast helmets and vests",
+    "type": "L",
+    "weight": 3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!DC12:EM12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_blast_jacket",
+   "entity": "armor",
+   "name": "Blast jacket",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 1,
+    "max_dex": 4,
+    "ref_bonus": 2,
+    "slots": 1,
+    "stat_block": "blast jacket",
+    "stat_block_plural": "blast jackets",
+    "type": "L"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!DC13:EM13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_camo_armor",
+   "entity": "armor",
+   "name": "Camo armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "extra": "+10 to Stealth when hiding",
+    "max_dex": 3,
+    "price": 6000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "camo armor",
+    "stat_block_plural": "suits of camo armor",
+    "type": "M",
+    "weight": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 62,
+     "ref": "Data!DC62:EM62",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_camo_scout_armor",
+   "entity": "armor",
+   "name": "Camo scout armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Shadowskin",
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 3,
+    "price": 6000,
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "camo scout armor",
+    "stat_block_plural": "suits of camo scout armor",
+    "type": "M",
+    "weight": 13
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 63,
+     "ref": "Data!DC63:EM63",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_ceremonial_armor",
+   "entity": "armor",
+   "name": "Ceremonial armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "helmet": "Helmet",
+    "max_dex": 2,
+    "price": 5000,
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "cermonial armor",
+    "stat_block_plural": "suits of ceremonial armor",
+    "type": "M",
+    "weight": 13
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 64,
+     "ref": "Data!DC64:EM64",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_clone_trooper_armor",
+   "entity": "armor",
+   "name": "Clone Trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "clone trooper armor",
+    "stat_block_plural": "suits of clone trooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!DC14:EM14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_combat_jumpsuit",
+   "entity": "armor",
+   "name": "Combat jumpsuit",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "max_dex": 4,
+    "price": 1500,
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "combat jumpsuit",
+    "stat_block_plural": "combat jumpsuits",
+    "type": "L",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!DC15:EM15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_commando_armor",
+   "entity": "armor",
+   "name": "Commando armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "commando armor",
+    "stat_block_plural": "suits of commando armor",
+    "type": "L",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!DC16:EM16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_corellian_powersuit",
+   "entity": "armor",
+   "name": "Corellian powersuit",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "extra": "+2 equipment bonus to Strength",
+    "max_dex": 3,
+    "price": 10000,
+    "ref_bonus": 7,
+    "slots": 2,
+    "stat_block": "Corellian powersuit",
+    "stat_block_plural": "Corellian powersuits",
+    "str": 2,
+    "type": "M",
+    "weight": 20
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 65,
+     "ref": "Data!DC65:EM65",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_coruscant_guard_armor",
+   "entity": "armor",
+   "name": "Coruscant Guard armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "Coruscant Guard armor",
+    "stat_block_plural": "suits of Coruscant Guard armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!DC17:EM17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_dark_armor_heavy",
+   "entity": "armor",
+   "name": "Dark armor, heavy",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "fort_bonus": 5,
+    "max_dex": 1,
+    "price": 25000,
+    "rarity": "Rare",
+    "ref_bonus": 8,
+    "slots": 1,
+    "stat_block": "heavy dark armor",
+    "stat_block_plural": "suits of heavy dark armor",
+    "type": "H",
+    "weight": 30
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 86,
+     "ref": "Data!DC86:EM86",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_dark_armor_light",
+   "entity": "armor",
+   "name": "Dark armor, light",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "fort_bonus": 3,
+    "max_dex": 3,
+    "price": 10000,
+    "rarity": "Rare",
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "light dark armor",
+    "stat_block_plural": "suits of light dark armor",
+    "type": "L",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!DC18:EM18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_dark_armor_medium",
+   "entity": "armor",
+   "name": "Dark armor, medium",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "fort_bonus": 4,
+    "max_dex": 2,
+    "price": 15000,
+    "rarity": "Rare",
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "medium dark armor",
+    "stat_block_plural": "suits of medium dark armor",
+    "type": "M",
+    "weight": 16
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 66,
+     "ref": "Data!DC66:EM66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_evo_trooper_armor",
+   "entity": "armor",
+   "name": "EVO trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "extra": "+10 equipment bonus against airborne poisons",
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "EVO trooper armor",
+    "stat_block_plural": "suits of EVO trooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!DC19:EM19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_fiber_armor",
+   "entity": "armor",
+   "name": "Fiber armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "extra": "Gain DR 10 once per encounter against a ranged attack",
+    "fort_bonus": 1,
+    "max_dex": 2,
+    "price": 3000,
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "fiber armor",
+    "stat_block_plural": "suits of fiber armor",
+    "type": "L",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!DC20:EM20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_flight_suit",
+   "entity": "armor",
+   "name": "Flight suit",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 1,
+    "helmet": "Helmet",
+    "price": 1000,
+    "stat_block": "flight suit",
+    "stat_block_plural": "flight suits",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!DC4:EM4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_flight_suit_armored",
+   "entity": "armor",
+   "name": "Flight suit, armored",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "armored flight suit",
+    "stat_block_plural": "armored flight suits",
+    "type": "L",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!DC21:EM21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_flight_suit_padded",
+   "entity": "armor",
+   "name": "Flight suit, padded",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 1,
+    "helmet": "Helmet",
+    "max_dex": 4,
+    "price": 2000,
+    "ref_bonus": 3,
+    "slots": 1,
+    "stat_block": "padded flight suit",
+    "stat_block_plural": "padded flight suits",
+    "type": "L",
+    "weight": 3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!DC22:EM22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_galactic_alliance_armor",
+   "entity": "armor",
+   "name": "Galactic Alliance armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "fort_bonus": 1,
+    "max_dex": 3,
+    "price": 6000,
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "Galactic Alliance armor",
+    "stat_block_plural": "suits of Galactic Alliance armor",
+    "type": "L",
+    "weight": 9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!DC23:EM23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_galactic_alliance_armor_variant",
+   "entity": "armor",
+   "name": "Galactic Alliance armor variant",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "helmet": "Helmet",
+    "max_dex": 5,
+    "price": 500,
+    "ref_bonus": 2,
+    "slots": 1,
+    "stat_block": "variant Galactic Alliance armor",
+    "stat_block_plural": "suits of variant Galactic Alliance armor",
+    "type": "L",
+    "weight": 3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!DC24:EM24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_geonosian_warrior_tunic",
+   "entity": "armor",
+   "name": "Geonosian warrior tunic",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "max_dex": 4,
+    "price": 1500,
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "Geonosian warrior tunic",
+    "stat_block_plural": "Geonosian warrior tunics",
+    "type": "L",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!DC25:EM25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_gtu_av_1c_combat_armor",
+   "entity": "armor",
+   "name": "GTU AV-1C combat armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "accessory_2": "Jet Pack, repulsorlift",
+    "accessory_3": "Helmet Package",
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "fort_bonus": 4,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 1,
+    "price": 25000,
+    "rarity": "Rare",
+    "ref_bonus": 9,
+    "slots": 1,
+    "stat_block": "GTU AV-1C combat armor",
+    "stat_block_plural": "suits of GTU AV-1C combat armor",
+    "type": "H",
+    "weight": 21.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 87,
+     "ref": "Data!DC87:EM87",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_gtu_av_1s_scout_armor",
+   "entity": "armor",
+   "name": "GTU AV-1S scout armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "accessory_2": "Jet Pack, reduced power repulsorlift",
+    "accessory_3": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 4,
+    "max_dex": 2,
+    "price": 15000,
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "GTU AV-1S scout armor",
+    "stat_block_plural": "suits of GTU AV-1S scout armor",
+    "type": "M",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 67,
+     "ref": "Data!DC67:EM67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_half_vest",
+   "entity": "armor",
+   "name": "Half-vest",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "extra": "1/encounter negate extra damage from Sneak Attack or similar abilities",
+    "max_dex": 5,
+    "price": 250,
+    "ref_bonus": 1,
+    "slots": 1,
+    "stat_block": "half-vest",
+    "stat_block_plural": "half-vests",
+    "type": "L",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!DC26:EM26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_heavy_dungeoneer_armor",
+   "entity": "armor",
+   "name": "Heavy dungeoneer armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 1,
+    "price": 19000,
+    "rarity": "Rare",
+    "ref_bonus": 10,
+    "slots": 1,
+    "stat_block": "heavy dungeoneer armor",
+    "stat_block_plural": "suits of heavy dungeoneer armor",
+    "type": "L",
+    "weight": 28.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!DC27:EM27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_imperial_knight_armor",
+   "entity": "armor",
+   "name": "Imperial Knight armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Rare",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "extra": "Add personal DR against lightsabers",
+    "fort_bonus": 2,
+    "max_dex": 3,
+    "price": 7000,
+    "ref_bonus": 8,
+    "slots": 1,
+    "stat_block": "Imperial Knight armor",
+    "stat_block_plural": "suits of Imperial Knight armor",
+    "type": "M",
+    "weight": 16
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 68,
+     "ref": "Data!DC68:EM68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_jedi_battle_armor_light",
+   "entity": "armor",
+   "name": "Jedi battle armor, light",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "fort_bonus": 3,
+    "max_dex": 4,
+    "price": 4000,
+    "rarity": "Rare",
+    "ref_bonus": 3,
+    "slots": 1,
+    "stat_block": "light Jedi battle armor",
+    "stat_block_plural": "suits of light Jedi battle armor",
+    "type": "L",
+    "weight": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!DC28:EM28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_jedi_battle_armor_medium",
+   "entity": "armor",
+   "name": "Jedi battle armor, medium",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "fort_bonus": 5,
+    "max_dex": 3,
+    "price": 6000,
+    "rarity": "Rare",
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "medium Jedi battle armor",
+    "stat_block_plural": "suits of medium Jedi battle armor",
+    "type": "M",
+    "weight": 12
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 69,
+     "ref": "Data!DC69:EM69",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_jumptrooper_armor",
+   "entity": "armor",
+   "name": "Jumptrooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "Jumptrooper armor",
+    "stat_block_plural": "suits of Jumptrooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!DC29:EM29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_katarn_class_commando_armor",
+   "entity": "armor",
+   "name": "Katarn-class commando armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Vacuum Seals, Improved",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "extra": "Bacta tanks",
+    "fort_bonus": 4,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 1,
+    "price": 30000,
+    "ref_bonus": 9,
+    "slots": 4,
+    "stat_block": "Katarn-class commando armor",
+    "stat_block_plural": "suits of Katarn-class commando armor",
+    "type": "M",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 70,
+     "ref": "Data!DC70:EM70",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_knighthunter_armor",
+   "entity": "armor",
+   "name": "Knighthunter armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "extra": "+5 Will Defense against Use the Force checks",
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 6000,
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "Knighthunter armor",
+    "stat_block_plural": "suits of Knighthunter armor",
+    "type": "M",
+    "weight": 12
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 71,
+     "ref": "Data!DC71:EM71",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_krail_210_personal_armor",
+   "entity": "armor",
+   "name": "Krail 210 personal armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "accessory_2": "Integrated equipment, 1 slot",
+    "accessory_3": "Helmet Package",
+    "accessory_4": "Jet Pack",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "equip_1": "Liquid cable dispenser (15 meters)",
+    "extra": "+2 to Strength checks to lift, drag or pull, liquid cable dispenser",
+    "fort_bonus": 1,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 3,
+    "price": 16300,
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "Krail 210 personal armor",
+    "stat_block_plural": "suits of Krail 210 personal armor",
+    "type": "M",
+    "weight": 14.8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 72,
+     "ref": "Data!DC72:EM72",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_krath_armor",
+   "entity": "armor",
+   "name": "Krath armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "Krath armor",
+    "stat_block_plural": "suits of Krath armor",
+    "type": "L",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!DC30:EM30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_krath_battle_armor",
+   "entity": "armor",
+   "name": "Krath battle armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "Krath battle armor",
+    "stat_block_plural": "suits of Krath battle armor",
+    "type": "L",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!DC31:EM31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_light_combat_armor",
+   "entity": "armor",
+   "name": "Light combat armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "light combat armor",
+    "stat_block_plural": "suits of light combat armor",
+    "type": "L",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!DC32:EM32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_mandalorian_combat_suit",
+   "entity": "armor",
+   "name": "Mandalorian combat suit",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "accessory_2": "Internal Comlink, short-range",
+    "accessory_3": "Helmet Package",
+    "accessory_4": "Jet Pack",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 1,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 5,
+    "rarity": "Rare",
+    "ref_bonus": 4,
+    "slots": 5,
+    "stat_block": "Mandalorian combat suit",
+    "stat_block_plural": "suits of Mandalorian combat suit",
+    "type": "L",
+    "weight": 4.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!DC33:EM33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_mandalorian_neo_crusader_assault_armor",
+   "entity": "armor",
+   "name": "Mandalorian Neo-Crusader assault armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals, Improved",
+    "accessory_2": "Internal Comlink, short-range",
+    "accessory_3": "Helmet Package",
+    "accessory_4": "Jet Pack",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 4,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 4,
+    "max_dex": 1,
+    "rarity": "Rare",
+    "ref_bonus": 10,
+    "slots": 6,
+    "stat_block": "Neo-Crusader assault armor",
+    "stat_block_plural": "suits of Neo-Crusader assault armor",
+    "type": "H",
+    "weight": 23.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 88,
+     "ref": "Data!DC88:EM88",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_mandalorian_neo_crusader_battle_armor",
+   "entity": "armor",
+   "name": "Mandalorian Neo-Crusader battle armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "accessory_2": "Internal Comlink, short-range",
+    "accessory_3": "Helmet Package",
+    "accessory_4": "Jet Pack",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 2,
+    "rarity": "Rare",
+    "ref_bonus": 8,
+    "slots": 6,
+    "stat_block": "Mandalorian battle armor",
+    "stat_block_plural": "suits of Mandalorian battle armor",
+    "type": "M",
+    "weight": 14.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 73,
+     "ref": "Data!DC73:EM73",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_mandalorian_neo_crusader_light_armor",
+   "entity": "armor",
+   "name": "Mandalorian Neo-Crusader light armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "accessory_2": "Internal Comlink, short-range",
+    "accessory_3": "Helmet Package",
+    "accessory_4": "Jet Pack",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 3,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 4,
+    "stat_block": "Neo-Crusader light armor",
+    "stat_block_plural": "suits of Neo-Crusader light armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!DC34:EM34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_marine_armor",
+   "entity": "armor",
+   "name": "Marine armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Aquatic Adaptation",
+    "accessory_2": "Vacuum Seals, Improved",
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 3,
+    "price": 5000,
+    "ref_bonus": 5,
+    "slots": 3,
+    "stat_block": "marine armor",
+    "stat_block_plural": "suits of marine armor",
+    "type": "L",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!DC35:EM35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_matrix_armor",
+   "entity": "armor",
+   "name": "Matrix armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "extra": "Gain DR 30 once per encounter against a ranged attack",
+    "fort_bonus": 3,
+    "max_dex": 1,
+    "price": 9000,
+    "ref_bonus": 9,
+    "slots": 1,
+    "stat_block": "matrix armor",
+    "stat_block_plural": "suits of matrix armor",
+    "type": "H",
+    "weight": 25
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 89,
+     "ref": "Data!DC89:EM89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_merr_sonn_kzz_riot_armor",
+   "entity": "armor",
+   "name": "Merr-Sonn KZZ riot armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 5,
+    "price": 2500,
+    "ref_bonus": 2,
+    "slots": 1,
+    "stat_block": "Merr-Sonn KZZ riot armor",
+    "stat_block_plural": "suits of Merr-Sonn KZZ riot armor",
+    "type": "L",
+    "weight": 6
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!DC36:EM36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_mesh_armor",
+   "entity": "armor",
+   "name": "Mesh armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "extra": "Gain DR 20 once per encounter against a ranged attack",
+    "fort_bonus": 2,
+    "max_dex": 2,
+    "price": 6000,
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "mesh armor",
+    "stat_block_plural": "suits of mesh armor",
+    "type": "M",
+    "weight": 13
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 74,
+     "ref": "Data!DC74:EM74",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_orbalisk_armor",
+   "entity": "armor",
+   "name": "Orbalisk armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "extra": "DR 10 even against lightsabers",
+    "fort_bonus": 2,
+    "max_dex": 1,
+    "rarity": "Rare",
+    "ref_bonus": 10,
+    "slots": 1,
+    "stat_block": "Orbalisk armor",
+    "stat_block_plural": "suits of Orbalisk armor",
+    "type": "H",
+    "weight": 26
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 90,
+     "ref": "Data!DC90:EM90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_phase_ii_dark_trooper_armor",
+   "entity": "armor",
+   "name": "Phase II dark trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "accessory_3": "Jet Pack",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "helmet": "Helmet with helmet package",
+    "jet_pack": 6,
+    "max_dex": 0,
+    "ref_bonus": 10,
+    "slots": 2,
+    "stat_block": "phase II dark trooper armor",
+    "stat_block_plural": "suits of phase II dark trooper armor",
+    "str": 3,
+    "template": "Phrik Alloy",
+    "type": "H"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 91,
+     "ref": "Data!DC91:EM91",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_phase_iii_dark_trooper_armor",
+   "entity": "armor",
+   "name": "Phase III dark trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "helmet": "Helmet with helmet package",
+    "max_dex": 0,
+    "ref_bonus": 12,
+    "slots": 2,
+    "stat_block": "phase III dark trooper armor",
+    "stat_block_plural": "suits of phase III dark trooper armor",
+    "str": 4,
+    "template": "Phrik Alloy",
+    "type": "H"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 92,
+     "ref": "Data!DC92:EM92",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_phase_zero_dark_trooper_armor",
+   "entity": "armor",
+   "name": "Phase Zero Dark Trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "Phase Zero Dark Trooper armor",
+    "stat_block_plural": "suits of Phase Zero Dark Trooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!DC37:EM37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_radtrooper_armor",
+   "entity": "armor",
+   "name": "Radtrooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "accessory_3": "Radiation Shielding",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "fort_bonus": 4,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8400,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "Radtrooper armor",
+    "stat_block_plural": "suits of Radtrooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!DC38:EM38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_republic_combat_armor",
+   "entity": "armor",
+   "name": "Republic combat armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with low-light vision",
+    "max_dex": 2,
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "Republic combat armor",
+    "stat_block_plural": "suits of Republic combat armor",
+    "type": "M",
+    "weight": 13.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 75,
+     "ref": "Data!DC75:EM75",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_republic_heavy_armor",
+   "entity": "armor",
+   "name": "Republic heavy armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals, Improved",
+    "accessory_2": "Internal Comlink, short-range",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "extra": "DR 2 against energy, low-light vision",
+    "fort_bonus": 3,
+    "helmet": "Helmet with low-light vision",
+    "max_dex": 1,
+    "ref_bonus": 8,
+    "slots": 1,
+    "stat_block": "Republic heavy armor",
+    "stat_block_plural": "suits of Republic heavy armor",
+    "type": "H",
+    "weight": 15.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 93,
+     "ref": "Data!DC93:EM93",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_republic_light_armor",
+   "entity": "armor",
+   "name": "Republic light armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 1,
+    "helmet": "Helmet",
+    "max_dex": 3,
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "Republic light armor",
+    "stat_block_plural": "suits of Republic light armor",
+    "type": "L",
+    "weight": 6.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!DC39:EM39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_royal_guard_armor",
+   "entity": "armor",
+   "name": "Royal Guard armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Helmet Package",
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "helmet": "Helmet with helmet package",
+    "max_dex": 2,
+    "price": 9000,
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "Royal Guard armor",
+    "stat_block_plural": "suits of Royal Guard armor",
+    "type": "M",
+    "weight": 12
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 76,
+     "ref": "Data!DC76:EM76",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_sandtrooper_armor",
+   "entity": "armor",
+   "name": "Sandtrooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Environmental Systems (heat)",
+    "accessory_3": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 18000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "sandtrooper armor",
+    "stat_block_plural": "suits of sandtrooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!DC40:EM40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_scout_trooper_armor",
+   "entity": "armor",
+   "name": "Scout Trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "helmet": "Helmet with helmet package",
+    "max_dex": 4,
+    "rarity": "Rare",
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "scout trooper armor",
+    "stat_block_plural": "suits of scout trooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!DC41:EM41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_seatrooper_armor",
+   "entity": "armor",
+   "name": "Seatrooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "accessory_3": "Propulsion Pack",
+    "availability": "Military",
+    "bonus_1": 2,
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "extra": "Maximum depth 10 atmospheres",
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 2,
+    "price": 6750,
+    "ref_bonus": 4,
+    "skill_1": "Swim",
+    "slots": 1,
+    "stat_block": "seatrooper armor",
+    "stat_block_plural": "suits of seatrooper armor",
+    "type": "L",
+    "weight": 2.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!DC42:EM42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_shadow_guard_armor",
+   "entity": "armor",
+   "name": "Shadow Guard armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Helmet Package",
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "helmet": "Helmet with helmet package",
+    "max_dex": 2,
+    "price": 9000,
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "Shadow Guard armor",
+    "stat_block_plural": "suits of Shadow Guard armor",
+    "type": "M",
+    "weight": 12
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 77,
+     "ref": "Data!DC77:EM77",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_shadowsuit",
+   "entity": "armor",
+   "name": "Shadowsuit",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "extra": "+5 to Stealth checks in concealment",
+    "fort_bonus": 1,
+    "max_dex": 5,
+    "price": 600,
+    "ref_bonus": 1,
+    "slots": 1,
+    "stat_block": "shadowsuit",
+    "stat_block_plural": "shadowsuits",
+    "type": "L",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 44,
+     "ref": "Data!DC44:EM44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_shadowsuit_cwcs",
+   "entity": "armor",
+   "name": "Shadowsuit (CWCS)",
+   "canon": "official",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "extra": "+5 to Stealth checks in concealment",
+    "fort_bonus": 1,
+    "max_dex": 5,
+    "price": 600,
+    "ref_bonus": 1,
+    "slots": 1,
+    "stat_block": "shadowsuit",
+    "stat_block_plural": "shadowsuits",
+    "type": "L",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 45,
+     "ref": "Data!DC45:EM45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_sith_battle_suit",
+   "entity": "armor",
+   "name": "Sith battle suit",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 2,
+    "ref_bonus": 7,
+    "slots": 1,
+    "stat_block": "Sith battle suit",
+    "stat_block_plural": "suits of Sith battle suit",
+    "type": "M"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 78,
+     "ref": "Data!DC78:EM78",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_sith_trooper_armor",
+   "entity": "armor",
+   "name": "Sith trooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "Sith trooper armor",
+    "stat_block_plural": "suits of Sith trooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 46,
+     "ref": "Data!DC46:EM46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_snowtrooper_armor",
+   "entity": "armor",
+   "name": "Snowtrooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Environmental Systems (cold)",
+    "accessory_3": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 18000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "snowtrooper armor",
+    "stat_block_plural": "suits of snowtrooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 48,
+     "ref": "Data!DC48:EM48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_space_suit",
+   "entity": "armor",
+   "name": "Space Suit",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals, Improved",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "price": 2000,
+    "slots": 1,
+    "stat_block": "space suit",
+    "stat_block_plural": "space suits",
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!DC5:EM5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_spacesuit_armored",
+   "entity": "armor",
+   "name": "Spacesuit, armored",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals, Improved",
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 3,
+    "helmet": "Helmet",
+    "max_dex": 1,
+    "price": 12000,
+    "ref_bonus": 9,
+    "slots": 1,
+    "stat_block": "armored spacesuit",
+    "stat_block_plural": "armored spacesuits",
+    "type": "H",
+    "weight": 25
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 95,
+     "ref": "Data!DC95:EM95",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_specforce_armor",
+   "entity": "armor",
+   "name": "SpecForce armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "SpecForce armor",
+    "stat_block_plural": "suits of SpecForce armor",
+    "type": "L",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 49,
+     "ref": "Data!DC49:EM49",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_stalker_armor",
+   "entity": "armor",
+   "name": "Stalker armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "max_dex": 3,
+    "price": 7500,
+    "ref_bonus": 7,
+    "slots": 3,
+    "stat_block": "stalker armor",
+    "stat_block_plural": "suits of stalker armor",
+    "type": "M",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 80,
+     "ref": "Data!DC80:EM80",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_stormtrooper_armor",
+   "entity": "armor",
+   "name": "Stormtrooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Internal Comlink, short-range",
+    "accessory_2": "Helmet Package",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "price": 8000,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "stormtrooper armor",
+    "stat_block_plural": "suits of stormtrooper armor",
+    "type": "L",
+    "weight": 8.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 50,
+     "ref": "Data!DC50:EM50",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_stun_cloak",
+   "entity": "armor",
+   "name": "Stun cloak",
+   "canon": "official",
+   "attrs": {
+    "availability": "Licensed",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "GAW"
+    ],
+    "extra": "Deal 3d8 stun damage in grapple",
+    "max_dex": 5,
+    "price": 3500,
+    "ref_bonus": 1,
+    "slots": 0,
+    "stat_block": "stun cloak",
+    "stat_block_plural": "stun cloaks",
+    "type": "L",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "gaw",
+     "abbreviation": "GAW",
+     "title": "Galaxy at War",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 51,
+     "ref": "Data!DC51:EM51",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_thinsuit",
+   "entity": "armor",
+   "name": "Thinsuit",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "extra": "1-hour life support, +5 bonus to Fortitude defense to resist extreme environments",
+    "max_dex": 6,
+    "price": 900,
+    "slots": 1,
+    "stat_block": "thinsuit",
+    "stat_block_plural": "thinsuits",
+    "type": "L",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 52,
+     "ref": "Data!DC52:EM52",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_tracker_utility_vest",
+   "entity": "armor",
+   "name": "Tracker utility vest",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "extra": "Store up to 24 1 kg items and treat as half weight",
+    "max_dex": 5,
+    "price": 300,
+    "ref_bonus": 1,
+    "slots": 1,
+    "stat_block": "tracker utility vest",
+    "stat_block_plural": "tracker utility vests",
+    "type": "L",
+    "weight": 0.5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 53,
+     "ref": "Data!DC53:EM53",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_ubese_environmental_suit",
+   "entity": "armor",
+   "name": "Ubese environmental suit",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Integrated equipment, 2 slots",
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "equip_1": "Breath mask",
+    "equip_2": "Ubese voice modulator",
+    "extra": "Breath mask, voice modulator",
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "max_dex": 4,
+    "price": 2000,
+    "ref_bonus": 4,
+    "slots": 1,
+    "stat_block": "Ubese environmental suit",
+    "stat_block_plural": "Ubese environmental suits",
+    "type": "L",
+    "weight": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 54,
+     "ref": "Data!DC54:EM54",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_vacuum_pod",
+   "entity": "armor",
+   "name": "Vacuum pod",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "extra": "2-hour life support, long-range comlink, powerlamp, repair kit",
+    "price": 15000,
+    "ref_bonus": 4,
+    "slots": 2,
+    "stat_block": "vacuum pod",
+    "stat_block_plural": "vacuum pods",
+    "str": 4,
+    "type": "H",
+    "weight": 35
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 96,
+     "ref": "Data!DC96:EM96",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_venom_assault_armor",
+   "entity": "armor",
+   "name": "Venom assault armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals, Improved",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "extra": "Activate jump jets as swift action to move normally in zero-g",
+    "fort_bonus": 4,
+    "helmet": "Helmet",
+    "max_dex": 1,
+    "price": 17000,
+    "ref_bonus": 10,
+    "slots": 2,
+    "stat_block": "Venom assualt armor",
+    "stat_block_plural": "suits of Venom assualt armor",
+    "str": 2,
+    "type": "H",
+    "weight": 28
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 97,
+     "ref": "Data!DC97:EM97",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_vonduun_crabshell",
+   "entity": "armor",
+   "name": "Vonduun crabshell",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "fort_bonus": 5,
+    "max_dex": 4,
+    "rarity": "Rare",
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "vonduun crabshell",
+    "stat_block_plural": "vonduun crabshells",
+    "type": "L",
+    "weight": 5
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 55,
+     "ref": "Data!DC55:EM55",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_weave_armor",
+   "entity": "armor",
+   "name": "Weave armor",
+   "canon": "official",
+   "attrs": {
+    "availability": "Restricted",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 3,
+    "price": 5000,
+    "ref_bonus": 6,
+    "slots": 1,
+    "stat_block": "weave armor",
+    "stat_block_plural": "suits of weave armor",
+    "type": "M",
+    "weight": 15
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 81,
+     "ref": "Data!DC81:EM81",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_wj_880_blinding_helmet",
+   "entity": "armor",
+   "name": "WJ-880 blinding helmet",
+   "canon": "official",
+   "attrs": {
+    "availability": "Common",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "price": 200,
+    "rarity": "Rare",
+    "slots": 1,
+    "stat_block": "WJ-880 blinding helmet",
+    "stat_block_plural": "WJ-880 blinding helmets",
+    "type": "L",
+    "weight": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 56,
+     "ref": "Data!DC56:EM56",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_zero_g_stormtrooper_armor",
+   "entity": "armor",
+   "name": "Zero-g stormtrooper armor",
+   "canon": "official",
+   "attrs": {
+    "accessory_1": "Vacuum Seals, Improved",
+    "accessory_2": "Internal Comlink, short-range",
+    "accessory_3": "Helmet Package",
+    "accessory_4": "Weapon Mount",
+    "availability": "Military",
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "fort_bonus": 3,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 0,
+    "price": 21000,
+    "ref_bonus": 9,
+    "slots": 2,
+    "stat_block": "zero-g stormtrooper armor",
+    "stat_block_plural": "suits of zero-g stormtrooper armor",
+    "type": "H",
+    "weight": 26.9
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 98,
+     "ref": "Data!DC98:EM98",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_shadow_trooper_armor",
+   "entity": "armor",
+   "name": "Shadow trooper armor",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "Military",
+    "bonus_1": 2,
+    "canon_basis": "block_declaration",
+    "extra": "Darkvision, immune to detection",
+    "fort_bonus": 2,
+    "helmet": "Helmet with helmet package",
+    "max_dex": 3,
+    "rarity": "Rare",
+    "ref_bonus": 6,
+    "skill_1": "Stealth",
+    "slots": 1,
+    "stat_block": "shadow trooper armor",
+    "stat_block_plural": "suits of shadow trooper armor",
+    "type": "L",
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 43,
+     "ref": "Data!DC43:EM43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_skakoan_heavy_pressure_suit",
+   "entity": "armor",
+   "name": "Skakoan heavy pressure suit",
+   "canon": "third_party",
+   "attrs": {
+    "accessory_1": "Vacuum Seals, Improved",
+    "availability": "Military",
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "fort_bonus": 3,
+    "helmet": "Helmet",
+    "max_dex": 1,
+    "price": 12000,
+    "ref_bonus": 9,
+    "slots": 1,
+    "stat_block": "Skakoan heavy pressure suit",
+    "stat_block_plural": "Skakoan heavy pressure suits",
+    "type": "H",
+    "weight": 25
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 94,
+     "ref": "Data!DC94:EM94",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_skakoan_light_pressure_suit",
+   "entity": "armor",
+   "name": "Skakoan light pressure suit",
+   "canon": "third_party",
+   "attrs": {
+    "accessory_1": "Vacuum Seals",
+    "availability": "Licensed",
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "fort_bonus": 2,
+    "helmet": "Helmet",
+    "max_dex": 3,
+    "price": 4000,
+    "ref_bonus": 5,
+    "slots": 1,
+    "stat_block": "Skakoan light pressure suit",
+    "stat_block_plural": "Skakoan light pressure suits",
+    "type": "L",
+    "weight": 8
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 47,
+     "ref": "Data!DC47:EM47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_skakoan_medium_pressure_suit",
+   "entity": "armor",
+   "name": "Skakoan medium pressure suit",
+   "canon": "third_party",
+   "attrs": {
+    "availability": "Military",
+    "canon_basis": "webpage_only_citation",
+    "canon_cited_sourcebooks": [
+     "WEB"
+    ],
+    "fort_bonus": 2,
+    "max_dex": 2,
+    "price": 7000,
+    "ref_bonus": 8,
+    "slots": 1,
+    "stat_block": "Skakoan medium pressure suit",
+    "stat_block_plural": "Skakoan medium pressure suits",
+    "type": "M",
+    "weight": 16
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "web",
+     "abbreviation": "WEB",
+     "title": "Wizards of the Coast web enhancement",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor",
+     "sheet": "Data",
+     "row": 79,
+     "ref": "Data!DC79:EM79",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

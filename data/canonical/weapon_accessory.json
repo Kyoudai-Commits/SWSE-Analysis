@@ -1,0 +1,1591 @@
+{
+ "entity": "weapon_accessory",
+ "label": "weapon_accessory",
+ "role": "option",
+ "count": 46,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "weapon_accessory_bayonet_ring",
+   "entity": "weapon_accessory",
+   "name": "Bayonet Ring",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!HI3:HM3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_beam_splitter",
+   "entity": "weapon_accessory",
+   "name": "Beam Splitter",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, damage bonus from Power Blast is doubled",
+    "price": 1200,
+    "slots": 2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!HI4:HM4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_bipod",
+   "entity": "weapon_accessory",
+   "name": "Bipod",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Counts as a weapon mount",
+    "price": 100,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!HI5:HM5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_bondar_crystal",
+   "entity": "weapon_accessory",
+   "name": "Bondar Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Deal stun damage",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!HI6:HM6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_cloaked",
+   "entity": "weapon_accessory",
+   "name": "Cloaked",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 750,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!HI7:HM7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_daminia_crystal",
+   "entity": "weapon_accessory",
+   "name": "Daminia Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 damage",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!HI8:HM8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_double_trigger",
+   "entity": "weapon_accessory",
+   "name": "Double Trigger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "If you have Careful Shot, gain +2 to attack when aiming",
+    "price": 800,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!HI9:HM9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_durasteel_bonding",
+   "entity": "weapon_accessory",
+   "name": "Durasteel Bonding",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+1 die damage on critical hit, increase DR by 5",
+    "price": 2000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!HI10:HM10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_electrograpple_handle",
+   "entity": "weapon_accessory",
+   "name": "Electrograpple Handle",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!HI11:HM11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_enhanced_energy_projector",
+   "entity": "weapon_accessory",
+   "name": "Enhanced Energy Projector",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Reroll any natural 1 and keep second result",
+    "price": 3000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!HI12:HM12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_environmental_sealing",
+   "entity": "weapon_accessory",
+   "name": "Environmental Sealing",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 400,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!HI13:HM13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_eralam_crystal",
+   "entity": "weapon_accessory",
+   "name": "Eralam Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, reroll damage from a lightsaber attack",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!HI14:HM14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_extra_power_source",
+   "entity": "weapon_accessory",
+   "name": "Extra Power Source",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 200,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!HI15:HM15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_firkraan_crystal",
+   "entity": "weapon_accessory",
+   "name": "Firkraan Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Deal ion damage",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!HI16:HM16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_hair_trigger",
+   "entity": "weapon_accessory",
+   "name": "Hair Trigger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, reroll damage from Rapid Shot and keep better result",
+    "price": 1200,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!HI17:HM17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_improved_energy_cell",
+   "entity": "weapon_accessory",
+   "name": "Improved Energy Cell",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Double number of shots from a power pack, improved increased damage",
+    "price": 4000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!HI18:HM18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_ion_charger",
+   "entity": "weapon_accessory",
+   "name": "Ion Charger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Adds 2d6 ion damage to a melee weapon",
+    "price": 3000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!HI19:HM19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_jenraux_crystal",
+   "entity": "weapon_accessory",
+   "name": "Jenraux Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 to Block",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!HI20:HM20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_luxum_crystal",
+   "entity": "weapon_accessory",
+   "name": "Luxum Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Deal ion damage",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!HI21:HM21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_miniaturized",
+   "entity": "weapon_accessory",
+   "name": "Miniaturized",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!HI22:HM22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_missile_load",
+   "entity": "weapon_accessory",
+   "name": "Missile Load",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Convert grenades to missile ordinance",
+    "price": 250,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!HI23:HM23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_neutronium_reinforcement",
+   "entity": "weapon_accessory",
+   "name": "Neutronium Reinforcement",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Weapon recieves +5 DR, +10 hit points and 100% of the weight",
+    "price": 3000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!HI24:HM24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_nextor_crystal",
+   "entity": "weapon_accessory",
+   "name": "Nextor Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 damage",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!HI25:HM25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_opila_crystal",
+   "entity": "weapon_accessory",
+   "name": "Opila Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+1 die damage on critical hit",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!HI26:HM26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_overload_switch",
+   "entity": "weapon_accessory",
+   "name": "Overload Switch",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Weapon deals double normal dice to 2-square radius and explodes",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!HI27:HM27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_phond_crystal",
+   "entity": "weapon_accessory",
+   "name": "Phond Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+1 die damage against targets with shields",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!HI28:HM28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_pulse_charger",
+   "entity": "weapon_accessory",
+   "name": "Pulse Charger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "-1 penalty to attack but +1 damage per dice",
+    "price": 2000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!HI29:HM29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_rangefinder",
+   "entity": "weapon_accessory",
+   "name": "Rangefinder",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Take no range penalty to attack a target at short range",
+    "price": 200,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!HI30:HM30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_rapid_recycler",
+   "entity": "weapon_accessory",
+   "name": "Rapid Recycler",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Allows a single-fire weapon to have an autofire mode",
+    "price": 500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 31,
+     "ref": "Data!HI31:HM31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_recognition_system",
+   "entity": "weapon_accessory",
+   "name": "Recognition System",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 200,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 32,
+     "ref": "Data!HI32:HM32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_remote_activation",
+   "entity": "weapon_accessory",
+   "name": "Remote Activation",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 100,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 33,
+     "ref": "Data!HI33:HM33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_retractable_stock",
+   "entity": "weapon_accessory",
+   "name": "Retractable Stock",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 100,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 34,
+     "ref": "Data!HI34:HM34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_rubat_crystal",
+   "entity": "weapon_accessory",
+   "name": "Rubat Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, reroll damage from a lightsaber attack",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 35,
+     "ref": "Data!HI35:HM35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_sapith_crystal",
+   "entity": "weapon_accessory",
+   "name": "Sapith Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 damage",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 36,
+     "ref": "Data!HI36:HM36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_secret_compartment",
+   "entity": "weapon_accessory",
+   "name": "Secret Compartment",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 600,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 37,
+     "ref": "Data!HI37:HM37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_sigil_crystal",
+   "entity": "weapon_accessory",
+   "name": "Sigil Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 damage",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 38,
+     "ref": "Data!HI38:HM38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_silverplate",
+   "entity": "weapon_accessory",
+   "name": "Silverplate",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "+2 DR to item",
+    "price": 2500,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 39,
+     "ref": "Data!HI39:HM39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_slinker",
+   "entity": "weapon_accessory",
+   "name": "Slinker",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Ignore penalties from cover, do not need to fire in a straight line",
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 40,
+     "ref": "Data!HI40:HM40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_sniper_switch",
+   "entity": "weapon_accessory",
+   "name": "Sniper Switch",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Allows autofire weapon to have single-fire mode",
+    "price": 500,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 41,
+     "ref": "Data!HI41:HM41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_solari_crystal",
+   "entity": "weapon_accessory",
+   "name": "Solari Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 to Deflect",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 42,
+     "ref": "Data!HI42:HM42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_spring_loaded",
+   "entity": "weapon_accessory",
+   "name": "Spring Loaded",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "effect": "Quick Draw as free action",
+    "price": 300,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 43,
+     "ref": "Data!HI43:HM43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_storage_capacity",
+   "entity": "weapon_accessory",
+   "name": "Storage Capacity",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SaV"
+    ],
+    "price": 100,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "sav",
+     "abbreviation": "SaV",
+     "title": "Scum and Villainy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 44,
+     "ref": "Data!HI44:HM44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_targeting_scope",
+   "entity": "weapon_accessory",
+   "name": "Targeting Scope",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 100,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 45,
+     "ref": "Data!HI45:HM45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_targeting_scope_low_light",
+   "entity": "weapon_accessory",
+   "name": "Targeting Scope, Low-Light",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "price": 1000,
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 46,
+     "ref": "Data!HI46:HM46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_tremor_cell",
+   "entity": "weapon_accessory",
+   "name": "Tremor Cell",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Deal stun damage",
+    "price": 1000,
+    "slots": 1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 47,
+     "ref": "Data!HI47:HM47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_accessory_upari_crystal",
+   "entity": "weapon_accessory",
+   "name": "Upari Crystal",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, reroll damage from a lightsaber attack",
+    "slots": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_accessories",
+     "sheet": "Data",
+     "row": 48,
+     "ref": "Data!HI48:HM48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

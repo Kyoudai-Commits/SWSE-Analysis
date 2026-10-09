@@ -1,0 +1,31 @@
+# ---------------------------------------------------------------------------
+# Curation: extra names an entity is known by.
+#
+# Effect: the aliases are added to `attrs.aliases` AND registered in the
+# prerequisite-resolution index (swse.prereq.EntityIndex), so a prerequisite
+# written as "Point Blank Shot" resolves to the "Point-Blank Shot" feat.
+#
+# Shape:
+#   aliases:
+#     <entity>:
+#       <record id OR exact name>: [alias, alias, ...]
+#
+# Prefer fixing the *prerequisite text* interpretation here rather than editing
+# generated canonical files - those are overwritten by `make canonical`.
+# ---------------------------------------------------------------------------
+aliases:
+  feat:
+    feat_force_sensitivity:
+      - "Force Sensitive"        # SagaForge Data!CI writes it this way; same feat
+    feat_force_training:
+      - "Force Training (see Force Sensitivity)"
+    feat_skill_focus:
+      - "Skill Focus (Any)"
+      - "Skill Focus (Knowledge (Any))"
+    feat_linguist:
+      - "Linguist (any)"
+  skill:
+    skill_knowledge_bureaucracy:
+      - "Knowledge (bureacracy)"  # typo in SagaForge's Martial Arts Master prereq text
+  talent: {}
+  class: {}

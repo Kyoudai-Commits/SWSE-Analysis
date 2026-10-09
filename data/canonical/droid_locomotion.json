@@ -1,0 +1,186 @@
+{
+ "entity": "droid_locomotion",
+ "label": "droid_locomotion",
+ "role": "option",
+ "count": 7,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "droid_locomotion_burrow",
+   "entity": "droid_locomotion",
+   "name": "Burrow",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 200,
+    "speed_large": 8,
+    "speed_medium": 6,
+    "speed_small": 4,
+    "weight": 50
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_locomotion",
+     "sheet": "Data",
+     "row": 94,
+     "ref": "Data!A94:F94",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_locomotion_flying",
+   "entity": "droid_locomotion",
+   "name": "Flying",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 200,
+    "speed_large": 12,
+    "speed_medium": 12,
+    "speed_small": 9
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_locomotion",
+     "sheet": "Data",
+     "row": 93,
+     "ref": "Data!A93:F93",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_locomotion_hovering",
+   "entity": "droid_locomotion",
+   "name": "Hovering",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 100,
+    "speed_large": 6,
+    "speed_medium": 6,
+    "speed_small": 6
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_locomotion",
+     "sheet": "Data",
+     "row": 92,
+     "ref": "Data!A92:F92",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_locomotion_tracked",
+   "entity": "droid_locomotion",
+   "name": "Tracked",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 20,
+    "speed_large": 8,
+    "speed_medium": 6,
+    "speed_small": 4
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_locomotion",
+     "sheet": "Data",
+     "row": 91,
+     "ref": "Data!A91:F91",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_locomotion_underwater",
+   "entity": "droid_locomotion",
+   "name": "Underwater",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 20,
+    "speed_large": 8,
+    "speed_medium": 6,
+    "speed_small": 4,
+    "weight": 10
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_locomotion",
+     "sheet": "Data",
+     "row": 95,
+     "ref": "Data!A95:F95",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_locomotion_walking",
+   "entity": "droid_locomotion",
+   "name": "Walking",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 10,
+    "speed_large": 8,
+    "speed_medium": 6,
+    "speed_small": 4
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_locomotion",
+     "sheet": "Data",
+     "row": 89,
+     "ref": "Data!A89:F89",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "droid_locomotion_wheeled",
+   "entity": "droid_locomotion",
+   "name": "Wheeled",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "cost": 5,
+    "speed_large": 10,
+    "speed_medium": 8,
+    "speed_small": 6
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_droid_locomotion",
+     "sheet": "Data",
+     "row": 90,
+     "ref": "Data!A90:F90",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

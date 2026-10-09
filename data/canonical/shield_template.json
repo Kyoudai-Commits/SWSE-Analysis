@@ -1,0 +1,152 @@
+{
+ "entity": "shield_template",
+ "label": "shield_template",
+ "role": "option",
+ "count": 4,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "shield_template_cinnagaran",
+   "entity": "shield_template",
+   "name": "Cinnagaran",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 5 (sonic damage only, from shields)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_shield_templates",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!HU3:HY3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "shield_template_iridorian",
+   "entity": "shield_template",
+   "name": "Iridorian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 2 (bludgeoning damage only, from shields)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_shield_templates",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!HU4:HY4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "shield_template_krath",
+   "entity": "shield_template",
+   "name": "Krath",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 2 (energy damage only, from shields)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_shield_templates",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!HU5:HY5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "shield_template_verpine",
+   "entity": "shield_template",
+   "name": "Verpine",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 10 (ion damage only, from shields)",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Verpine"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_shield_templates",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!HU6:HY6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  }
+ ]
+}

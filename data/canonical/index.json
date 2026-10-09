@@ -1,0 +1,465 @@
+{
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "sources": [
+  "sagaforge-1.53",
+  "swse-master-reference-2026-10-08"
+ ],
+ "entities": {
+  "age_category": {
+   "count": 6,
+   "file": "data/canonical/age_category.json",
+   "sha256": "0730908212312d3f",
+   "canon": {
+    "official": 0,
+    "third_party": 6,
+    "homebrew": 0
+   }
+  },
+  "ammunition": {
+   "count": 21,
+   "file": "data/canonical/ammunition.json",
+   "sha256": "2baeab258c42082e",
+   "canon": {
+    "official": 0,
+    "third_party": 21,
+    "homebrew": 0
+   }
+  },
+  "armor": {
+   "count": 92,
+   "file": "data/canonical/armor.json",
+   "sha256": "a36dccf4fe2d92e9",
+   "canon": {
+    "official": 88,
+    "third_party": 4,
+    "homebrew": 0
+   }
+  },
+  "armor_accessory": {
+   "count": 48,
+   "file": "data/canonical/armor_accessory.json",
+   "sha256": "388d020d2b80227d",
+   "canon": {
+    "official": 44,
+    "third_party": 4,
+    "homebrew": 0
+   }
+  },
+  "armor_size": {
+   "count": 3,
+   "file": "data/canonical/armor_size.json",
+   "sha256": "e123d13eb8f2b576",
+   "canon": {
+    "official": 0,
+    "third_party": 3,
+    "homebrew": 0
+   }
+  },
+  "armor_template": {
+   "count": 27,
+   "file": "data/canonical/armor_template.json",
+   "sha256": "eec7eafab43db233",
+   "canon": {
+    "official": 27,
+    "third_party": 0,
+    "homebrew": 0
+   }
+  },
+  "availability": {
+   "count": 6,
+   "file": "data/canonical/availability.json",
+   "sha256": "8bc4de5ad13208bf",
+   "canon": {
+    "official": 0,
+    "third_party": 6,
+    "homebrew": 0
+   }
+  },
+  "background": {
+   "count": 46,
+   "file": "data/canonical/background.json",
+   "sha256": "56f988d624ae1114",
+   "canon": {
+    "official": 0,
+    "third_party": 46,
+    "homebrew": 0
+   }
+  },
+  "class": {
+   "count": 41,
+   "file": "data/canonical/class.json",
+   "sha256": "c31bcbbbdf98b6bd",
+   "canon": {
+    "official": 39,
+    "third_party": 0,
+    "homebrew": 2
+   }
+  },
+  "class_feature": {
+   "count": 41,
+   "file": "data/canonical/class_feature.json",
+   "sha256": "4de367b2f9e16eeb",
+   "canon": {
+    "official": 0,
+    "third_party": 41,
+    "homebrew": 0
+   }
+  },
+  "cybernetic": {
+   "count": 19,
+   "file": "data/canonical/cybernetic.json",
+   "sha256": "eedfe89cc2a70456",
+   "canon": {
+    "official": 18,
+    "third_party": 1,
+    "homebrew": 0
+   }
+  },
+  "destiny": {
+   "count": 88,
+   "file": "data/canonical/destiny.json",
+   "sha256": "60c14b1a41a87575",
+   "canon": {
+    "official": 0,
+    "third_party": 88,
+    "homebrew": 0
+   }
+  },
+  "droid_degree": {
+   "count": 5,
+   "file": "data/canonical/droid_degree.json",
+   "sha256": "ef46c8984f892b31",
+   "canon": {
+    "official": 0,
+    "third_party": 5,
+    "homebrew": 0
+   }
+  },
+  "droid_locomotion": {
+   "count": 7,
+   "file": "data/canonical/droid_locomotion.json",
+   "sha256": "64e6a0f3e5cdb0ab",
+   "canon": {
+    "official": 0,
+    "third_party": 7,
+    "homebrew": 0
+   }
+  },
+  "droid_option": {
+   "count": 121,
+   "file": "data/canonical/droid_option.json",
+   "sha256": "05aadfe316623a8e",
+   "canon": {
+    "official": 0,
+    "third_party": 121,
+    "homebrew": 0
+   }
+  },
+  "droid_shield_rating": {
+   "count": 4,
+   "file": "data/canonical/droid_shield_rating.json",
+   "sha256": "f6cce329a6f8353e",
+   "canon": {
+    "official": 0,
+    "third_party": 4,
+    "homebrew": 0
+   }
+  },
+  "droid_translator": {
+   "count": 4,
+   "file": "data/canonical/droid_translator.json",
+   "sha256": "7e5ab0c019228a07",
+   "canon": {
+    "official": 0,
+    "third_party": 4,
+    "homebrew": 0
+   }
+  },
+  "equipment": {
+   "count": 226,
+   "file": "data/canonical/equipment.json",
+   "sha256": "faf180456f0b8132",
+   "canon": {
+    "official": 184,
+    "third_party": 42,
+    "homebrew": 0
+   }
+  },
+  "equipment_accessory": {
+   "count": 18,
+   "file": "data/canonical/equipment_accessory.json",
+   "sha256": "249731d6a4a877a0",
+   "canon": {
+    "official": 17,
+    "third_party": 1,
+    "homebrew": 0
+   }
+  },
+  "exotic_weapon_group": {
+   "count": 38,
+   "file": "data/canonical/exotic_weapon_group.json",
+   "sha256": "c82bb5f9b2576749",
+   "canon": {
+    "official": 0,
+    "third_party": 38,
+    "homebrew": 0
+   }
+  },
+  "feat": {
+   "count": 387,
+   "file": "data/canonical/feat.json",
+   "sha256": "b99d766b4509d969",
+   "canon": {
+    "official": 385,
+    "third_party": 2,
+    "homebrew": 0
+   }
+  },
+  "force_power": {
+   "count": 92,
+   "file": "data/canonical/force_power.json",
+   "sha256": "61f0fe8f1ec72c27",
+   "canon": {
+    "official": 92,
+    "third_party": 0,
+    "homebrew": 0
+   }
+  },
+  "force_regimen": {
+   "count": 12,
+   "file": "data/canonical/force_regimen.json",
+   "sha256": "520e1afda501aac4",
+   "canon": {
+    "official": 0,
+    "third_party": 12,
+    "homebrew": 0
+   }
+  },
+  "force_secret": {
+   "count": 15,
+   "file": "data/canonical/force_secret.json",
+   "sha256": "3747110e18807743",
+   "canon": {
+    "official": 15,
+    "third_party": 0,
+    "homebrew": 0
+   }
+  },
+  "force_technique": {
+   "count": 58,
+   "file": "data/canonical/force_technique.json",
+   "sha256": "02bf2f2ff6523465",
+   "canon": {
+    "official": 58,
+    "third_party": 0,
+    "homebrew": 0
+   }
+  },
+  "language": {
+   "count": 102,
+   "file": "data/canonical/language.json",
+   "sha256": "55f4d637ffdaf84d",
+   "canon": {
+    "official": 0,
+    "third_party": 102,
+    "homebrew": 0
+   }
+  },
+  "lightsaber_form": {
+   "count": 12,
+   "file": "data/canonical/lightsaber_form.json",
+   "sha256": "39b8bc6f4bc69d69",
+   "canon": {
+    "official": 0,
+    "third_party": 12,
+    "homebrew": 0
+   }
+  },
+  "near_human_trait": {
+   "count": 24,
+   "file": "data/canonical/near_human_trait.json",
+   "sha256": "3380fe0b5ec0cc1b",
+   "canon": {
+    "official": 0,
+    "third_party": 24,
+    "homebrew": 0
+   }
+  },
+  "racial_ability": {
+   "count": 215,
+   "file": "data/canonical/racial_ability.json",
+   "sha256": "edd5ae007615b44a",
+   "canon": {
+    "official": 0,
+    "third_party": 215,
+    "homebrew": 0
+   }
+  },
+  "range_increment": {
+   "count": 7,
+   "file": "data/canonical/range_increment.json",
+   "sha256": "30f9a5ab9012ef80",
+   "canon": {
+    "official": 0,
+    "third_party": 7,
+    "homebrew": 0
+   }
+  },
+  "reference_link": {
+   "count": 812,
+   "file": "data/canonical/reference_link.json",
+   "sha256": "dcad7bbe5d2bf2cb",
+   "canon": {
+    "official": 812,
+    "third_party": 0,
+    "homebrew": 0
+   }
+  },
+  "shield_template": {
+   "count": 4,
+   "file": "data/canonical/shield_template.json",
+   "sha256": "930fa37851f32f41",
+   "canon": {
+    "official": 4,
+    "third_party": 0,
+    "homebrew": 0
+   }
+  },
+  "size_category": {
+   "count": 9,
+   "file": "data/canonical/size_category.json",
+   "sha256": "355248829600693b",
+   "canon": {
+    "official": 0,
+    "third_party": 9,
+    "homebrew": 0
+   }
+  },
+  "skill": {
+   "count": 25,
+   "file": "data/canonical/skill.json",
+   "sha256": "ce1d3e5919dc4162",
+   "canon": {
+    "official": 0,
+    "third_party": 25,
+    "homebrew": 0
+   }
+  },
+  "sourcebook": {
+   "count": 10,
+   "file": "data/canonical/sourcebook.json",
+   "sha256": "b524e6b807282bed",
+   "canon": {
+    "official": 0,
+    "third_party": 10,
+    "homebrew": 0
+   }
+  },
+  "special_talent": {
+   "count": 16,
+   "file": "data/canonical/special_talent.json",
+   "sha256": "d76afb97ed11d54a",
+   "canon": {
+    "official": 0,
+    "third_party": 16,
+    "homebrew": 0
+   }
+  },
+  "species": {
+   "count": 130,
+   "file": "data/canonical/species.json",
+   "sha256": "3a943435b3737d85",
+   "canon": {
+    "official": 121,
+    "third_party": 9,
+    "homebrew": 0
+   }
+  },
+  "starship_maneuver": {
+   "count": 26,
+   "file": "data/canonical/starship_maneuver.json",
+   "sha256": "084a339c57681813",
+   "canon": {
+    "official": 0,
+    "third_party": 26,
+    "homebrew": 0
+   }
+  },
+  "talent": {
+   "count": 1311,
+   "file": "data/canonical/talent.json",
+   "sha256": "3bffffea949f0804",
+   "canon": {
+    "official": 1307,
+    "third_party": 4,
+    "homebrew": 0
+   }
+  },
+  "talent_tree": {
+   "count": 192,
+   "file": "data/canonical/talent_tree.json",
+   "sha256": "8789e24866c1d326",
+   "canon": {
+    "official": 167,
+    "third_party": 25,
+    "homebrew": 0
+   }
+  },
+  "unleashed_ability": {
+   "count": 27,
+   "file": "data/canonical/unleashed_ability.json",
+   "sha256": "050c0370018b1915",
+   "canon": {
+    "official": 0,
+    "third_party": 27,
+    "homebrew": 0
+   }
+  },
+  "weapon": {
+   "count": 246,
+   "file": "data/canonical/weapon.json",
+   "sha256": "d7fc09eadac70303",
+   "canon": {
+    "official": 239,
+    "third_party": 7,
+    "homebrew": 0
+   }
+  },
+  "weapon_accessory": {
+   "count": 46,
+   "file": "data/canonical/weapon_accessory.json",
+   "sha256": "151a0eca930e6a68",
+   "canon": {
+    "official": 46,
+    "third_party": 0,
+    "homebrew": 0
+   }
+  },
+  "weapon_mod": {
+   "count": 156,
+   "file": "data/canonical/weapon_mod.json",
+   "sha256": "ab6f2ff628eb79fc",
+   "canon": {
+    "official": 0,
+    "third_party": 156,
+    "homebrew": 0
+   }
+  },
+  "weapon_template": {
+   "count": 35,
+   "file": "data/canonical/weapon_template.json",
+   "sha256": "acfdd4ed506f7c5a",
+   "canon": {
+    "official": 26,
+    "third_party": 9,
+    "homebrew": 0
+   }
+  }
+ },
+ "total": 4830,
+ "canon": {
+  "official": 3689,
+  "third_party": 1139,
+  "homebrew": 2
+ }
+}

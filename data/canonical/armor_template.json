@@ -1,0 +1,955 @@
+{
+ "entity": "armor_template",
+ "label": "armor_template",
+ "role": "option",
+ "count": 27,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "armor_template_arkanian",
+   "entity": "armor_template",
+   "name": "Arkanian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "4 Fortitude bonus against cold hazards, none against heat hazards",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Arkanian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!HD4:HH4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "armor_template_biotech",
+   "entity": "armor_template",
+   "name": "Biotech",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "effect": "Requires Treat Injury to repair",
+    "price_minimum": 0,
+    "price_percent": 4
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!HD5:HH5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_bonadan_alloy",
+   "entity": "armor_template",
+   "name": "Bonadan-Alloy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 2 (slashing damage only, from armor)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!HD6:HH6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_bronzium_cast",
+   "entity": "armor_template",
+   "name": "Bronzium Cast",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, takes damage instead of wearer",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!HD7:HH7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_cinnagaran",
+   "entity": "armor_template",
+   "name": "Cinnagaran",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 5 (sonic damage only, from armor)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!HD8:HH8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_cortosis_weave",
+   "entity": "armor_template",
+   "name": "Cortosis Weave",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Retains damage reduction against lightsabers",
+    "price_minimum": 0,
+    "price_percent": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!HD9:HH9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_durasteel_cast",
+   "entity": "armor_template",
+   "name": "Durasteel Cast",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Damage Reduction 1",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!HD10:HH10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_echani",
+   "entity": "armor_template",
+   "name": "Echani",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, ignore speed penalty",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!HD11:HH11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_environmental_bastion",
+   "entity": "armor_template",
+   "name": "Environmental Bastion",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "2 hours of breathable air",
+    "price_minimum": 0,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!HD12:HH12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_eriadun",
+   "entity": "armor_template",
+   "name": "Eriadun",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 5 (stun damage only, from armor)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!HD13:HH13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_genohardan",
+   "entity": "armor_template",
+   "name": "Genohardan",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 to Stealth checks to sneak",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!HD14:HH14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_iridorian",
+   "entity": "armor_template",
+   "name": "Iridorian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 2 (bludgeoning damage only, from armor)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!HD15:HH15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_krath",
+   "entity": "armor_template",
+   "name": "Krath",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 2 (energy damage only, from armor)",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!HD16:HH16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_mandalorian",
+   "entity": "armor_template",
+   "name": "Mandalorian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+5 to Mechanics to modify",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!HD17:HH17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_mandalorian_iron",
+   "entity": "armor_template",
+   "name": "Mandalorian Iron",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TotG"
+    ],
+    "effect": "Resistant to lightsabers",
+    "price_minimum": 30000,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "totg",
+     "abbreviation": "TotG",
+     "title": "Threats of the Galaxy",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!HD18:HH18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_massassi",
+   "entity": "armor_template",
+   "name": "Massassi",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, turn a critical hit into a normal hit",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Massassi"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!HD19:HH19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "armor_template_phrik_alloy",
+   "entity": "armor_template",
+   "name": "Phrik Alloy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Retains damage reduction against lightsabers",
+    "price_minimum": 0,
+    "price_percent": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!HD20:HH20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_agile_armor",
+   "entity": "armor_template",
+   "name": "Prototype Agile Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!HD21:HH21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_fortifying_armor",
+   "entity": "armor_template",
+   "name": "Prototype Fortifying Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!HD22:HH22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_mobile_armor",
+   "entity": "armor_template",
+   "name": "Prototype Mobile Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!HD23:HH23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_protective_armor",
+   "entity": "armor_template",
+   "name": "Prototype Protective Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!HD24:HH24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_reinforced_armor",
+   "entity": "armor_template",
+   "name": "Prototype Reinforced Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!HD25:HH25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_superior_agile_armor",
+   "entity": "armor_template",
+   "name": "Prototype Superior Agile Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!HD26:HH26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_superior_fortifying_armor",
+   "entity": "armor_template",
+   "name": "Prototype Superior Fortifying Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!HD27:HH27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_prototype_superior_protective_armor",
+   "entity": "armor_template",
+   "name": "Prototype Superior Protective Armor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!HD28:HH28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_stygian_triprismatic_polymer",
+   "entity": "armor_template",
+   "name": "Stygian-Triprismatic Polymer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "RECG"
+    ],
+    "effect": "+2 to Stealth checks to avoid being detected by electronic sensors",
+    "price_minimum": 0,
+    "price_percent": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "recg",
+     "abbreviation": "RECG",
+     "title": "Rebellion Era Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 29,
+     "ref": "Data!HD29:HH29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_template_verpine",
+   "entity": "armor_template",
+   "name": "Verpine",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "DR 10 (ion damage only, from armor)",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Verpine"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_templates",
+     "sheet": "Data",
+     "row": 30,
+     "ref": "Data!HD30:HH30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  }
+ ]
+}

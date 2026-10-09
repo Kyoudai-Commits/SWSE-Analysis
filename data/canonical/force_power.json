@@ -1,0 +1,3848 @@
+{
+ "entity": "force_power",
+ "label": "force_power",
+ "role": "option",
+ "count": 92,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "force_power_assured_strike",
+   "entity": "force_power",
+   "name": "Assured Strike",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Juyo",
+    "summary": "You trade power for accuracy.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Assured_Strike"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 68,
+     "ref": "Force Powers!A68:E68",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_ballistakinesis",
+   "entity": "force_power",
+   "name": "Ballistakinesis",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 53,
+    "page_ref": "LECG 53",
+    "summary": "You use The Force to spray an area with dangerous debris.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Ballistakinesis"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 53
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 10,
+     "ref": "The Force!C10:V10",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 41,
+     "ref": "Force Powers!A41:E41",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_barrier_of_blades",
+   "entity": "force_power",
+   "name": "Barrier of Blades",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Shien",
+    "summary": "You whip your Lightsaber around you, creating a barrier through which blaster fire rarely penetrates.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Barrier_of_Blades"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 69,
+     "ref": "Force Powers!A69:E69",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_battle_strike",
+   "entity": "force_power",
+   "name": "Battle Strike",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 96,
+    "page_ref": 96,
+    "summary": "Increases attack and damage for next attack.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Battle_Strike"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 96
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 11,
+     "ref": "The Force!C11:V11",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 2,
+     "ref": "Force Powers!A2:E2",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_blind",
+   "entity": "force_power",
+   "name": "Blind",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 24,
+    "page_ref": "JATM 24",
+    "summary": "You hurl dirt, dust, and debris at your foe, affecting its sight.",
+    "time_requirment": "Swift Action"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 24
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 12,
+     "ref": "The Force!C12:V12",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 50,
+     "ref": "Force Powers!A50:E50",
+     "canon": "official"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_power_circle_of_shelter",
+   "entity": "force_power",
+   "name": "Circle of Shelter",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Soresu",
+    "summary": "You create a protected area around yourself, through which enemies have difficulty reaching you or your allies.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Circle_of_Shelter"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 70,
+     "ref": "Force Powers!A70:E70",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_cloak",
+   "entity": "force_power",
+   "name": "Cloak",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 50,
+    "page_ref": "CWCG 50",
+    "summary": "You bend light around your body, rendering yourself invisible to anyone looking in your direction.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Cloak"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 50
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 13,
+     "ref": "The Force!C13:V13",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 33,
+     "ref": "Force Powers!A33:E33",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_combustion",
+   "entity": "force_power",
+   "name": "Combustion",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 53,
+    "page_ref": "LECG 53",
+    "summary": "You use The Force to agitate particles in the air to create a pyrokinetic spray of sparks.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Combustion"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 53
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 14,
+     "ref": "The Force!C14:V14",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 42,
+     "ref": "Force Powers!A42:E42",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_contentious_opportunity",
+   "entity": "force_power",
+   "name": "Contentious Opportunity",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Makashi",
+    "summary": "You seize the moment when your opponent gives you an opening, darting in to strike.",
+    "time_requirment": "Free Action",
+    "url": "https://swse.miraheze.org/wiki/Contentious_Opportunity"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 71,
+     "ref": "Force Powers!A71:E71",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_convection",
+   "entity": "force_power",
+   "name": "Convection",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 24,
+    "page_ref": "JATM 24",
+    "summary": "You alter your body chemistry, causing your skin to burn with incredible heat.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Convection"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 24
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 15,
+     "ref": "The Force!C15:V15",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 51,
+     "ref": "Force Powers!A51:E51",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_corruption",
+   "entity": "force_power",
+   "name": "Corruption",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 85,
+    "page_ref": "FUCG 85",
+    "summary": "You use The Force to send a bolt of pure Dark Side vileness into an enemy.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Corruption"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 85
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 16,
+     "ref": "The Force!C16:V16",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 28,
+     "ref": "Force Powers!A28:E28",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_crucitorn",
+   "entity": "force_power",
+   "name": "Crucitorn",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 24,
+    "page_ref": "JATM 24",
+    "summary": "You ignore the debilitating effects of physical pain, and focus despite great physical trauma.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Crucitorn"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 24
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 17,
+     "ref": "The Force!C17:V17",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 52,
+     "ref": "Force Powers!A52:E52",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_cryokinesis",
+   "entity": "force_power",
+   "name": "Cryokinesis",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 25,
+    "page_ref": "JATM 25",
+    "summary": "You can use The Force to draw heat away from a target, causing its temperature to drop rapidly.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Cryokinesis"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 25
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 18,
+     "ref": "The Force!C18:V18",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 53,
+     "ref": "Force Powers!A53:E53",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_dark_rage",
+   "entity": "force_power",
+   "name": "Dark Rage",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 96,
+    "page_ref": 96,
+    "summary": "Increases Melee attack and damage for 1 turn.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Dark_Rage"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 96
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 19,
+     "ref": "The Force!C19:V19",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 3,
+     "ref": "Force Powers!A3:E3",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_dark_transfer",
+   "entity": "force_power",
+   "name": "Dark Transfer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 53,
+    "page_ref": "LECG 53",
+    "summary": "You use the Dark Side of The Force to restore vitality to a living being.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Dark_Transfer"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 53
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 20,
+     "ref": "The Force!C20:V20",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 43,
+     "ref": "Force Powers!A43:E43",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_deflecting_slash",
+   "entity": "force_power",
+   "name": "Deflecting Slash",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Soresu",
+    "summary": "You use the momentum from your effort to deflect a projectile to strike at an adjacent opponent.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Deflecting_Slash"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 72,
+     "ref": "Force Powers!A72:E72",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_detonate",
+   "entity": "force_power",
+   "name": "Detonate",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 53,
+    "page_ref": "LECG 53",
+    "summary": "You can perceive points of weakness within an object and use The Force to telekinetically press on one of those points, shattering the object.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Detonate"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 53
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 21,
+     "ref": "The Force!C21:V21",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 44,
+     "ref": "Force Powers!A44:E44",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_disarming_slash",
+   "entity": "force_power",
+   "name": "Disarming Slash",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Shii-Cho",
+    "summary": "You strike at your opponent's weapon, attempting to rip it from their grasp.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Disarming_Slash"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 73,
+     "ref": "Force Powers!A73:E73",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_drain_energy",
+   "entity": "force_power",
+   "name": "Drain Energy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 25,
+    "page_ref": "JATM 25",
+    "summary": "You can draw the energy out of a powered object, such as a blaster's Power Pack or a Power Generator.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Drain_Energy"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 25
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 22,
+     "ref": "The Force!C22:V22",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 54,
+     "ref": "Force Powers!A54:E54",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_draw_closer",
+   "entity": "force_power",
+   "name": "Draw Closer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Niman",
+    "descriptor": "Telekinetic",
+    "summary": "You grab an opponent with The Force, drawing him or her into the path of your weapon.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Draw_Closer"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 74,
+     "ref": "Force Powers!A74:E74",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_energy_resistance",
+   "entity": "force_power",
+   "name": "Energy Resistance",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 50,
+    "page_ref": "KOTOR 50",
+    "summary": "You use The Force to protect you from damage caused by energy, sonic, fire, cold, and electrical sources.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Energy_Resistance"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 50
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 23,
+     "ref": "The Force!C23:V23",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 18,
+     "ref": "Force Powers!A18:E18",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_enlighten",
+   "entity": "force_power",
+   "name": "Enlighten",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "descriptor": "Light Side, Mind-Affecting",
+    "descriptor_mind_affecting": "Mind-Affecting",
+    "page": 54,
+    "page_ref": "LECG 54",
+    "summary": "You reach out to an ally telepathically, sharing visions of the near future to give the ally an edge or to protect the ally from harm.",
+    "time_requirment": "Reaction or Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Enlighten"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 24,
+     "ref": "The Force!C24:V24",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 45,
+     "ref": "Force Powers!A45:E45",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_falling_avalanche",
+   "entity": "force_power",
+   "name": "Falling Avalanche",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Djem So",
+    "summary": "You raise your Lightsaber above your head and then bring it crashing down on your opponent with incredible force.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Falling_Avalanche"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 75,
+     "ref": "Force Powers!A75:E75",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_farseeing",
+   "entity": "force_power",
+   "name": "Farseeing",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 96,
+    "page_ref": 96,
+    "summary": "You use The Force to detect an individual over a long distance.",
+    "time_requirment": "Full-Round Action",
+    "url": "https://swse.miraheze.org/wiki/Farseeing"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 96
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 25,
+     "ref": "The Force!C25:V25",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 4,
+     "ref": "Force Powers!A4:E4",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_fear",
+   "entity": "force_power",
+   "name": "Fear",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "descriptor": "Dark Side, Mind-Affecting",
+    "descriptor_dark_side": "Dark Side",
+    "page": 50,
+    "page_ref": "KOTOR 50",
+    "summary": "You summon The Dark Side to instill fear in your enemies.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Fear"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 50
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 26,
+     "ref": "The Force!C26:V26",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 19,
+     "ref": "Force Powers!A19:E19",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_fluid_riposte",
+   "entity": "force_power",
+   "name": "Fluid Riposte",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Djem So",
+    "summary": "You smoothly turn aside an opponent's melee attack, stepping in to deliver your own attack.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Fluid_Riposte"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 76,
+     "ref": "Force Powers!A76:E76",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_fold_space",
+   "entity": "force_power",
+   "name": "Fold Space",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 25,
+    "page_ref": "JATM 25",
+    "summary": "You can use The Force to bend space, transporting an object almost instantaneously from one place to another.",
+    "time_requirment": "Full-Round Action",
+    "url": "https://swse.miraheze.org/wiki/Fold_Space"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 25
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 27,
+     "ref": "The Force!C27:V27",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 55,
+     "ref": "Force Powers!A55:E55",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_blast",
+   "entity": "force_power",
+   "name": "Force Blast",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "page": 86,
+    "page_ref": "FUCG 86",
+    "summary": "You use The Force to create a ball of compressed air and debris that you can hurl at enemy targets.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Blast"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 86
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 28,
+     "ref": "The Force!C28:V28",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 29,
+     "ref": "Force Powers!A29:E29",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_disarm",
+   "entity": "force_power",
+   "name": "Force Disarm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 97,
+    "page_ref": 97,
+    "summary": "Disarms an opponent using The Force.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Disarm"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 29,
+     "ref": "The Force!C29:V29",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 5,
+     "ref": "Force Powers!A5:E5",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_grip",
+   "entity": "force_power",
+   "name": "Force Grip",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 97,
+    "page_ref": 97,
+    "summary": "Chokes or crushes an opponent, may force opponent to lose their Standard Action.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Grip"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 30,
+     "ref": "The Force!C30:V30",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 6,
+     "ref": "Force Powers!A6:E6",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_light",
+   "entity": "force_power",
+   "name": "Force Light",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Light Side",
+    "descriptor_light_side": "Light Side",
+    "page": 25,
+    "page_ref": "JATM 25",
+    "summary": "You can draw The Force into yourself, turning you into a beacon of light that purges the taint of the Dark Side.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Light"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 25
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 31,
+     "ref": "The Force!C31:V31",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 56,
+     "ref": "Force Powers!A56:E56",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_lightning",
+   "entity": "force_power",
+   "name": "Force Lightning",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 97,
+    "page_ref": 97,
+    "summary": "Electrocutes an opponent, deals automatic damage.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Lightning"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 32,
+     "ref": "The Force!C32:V32",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 7,
+     "ref": "Force Powers!A7:E7",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_scream",
+   "entity": "force_power",
+   "name": "Force Scream",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 50,
+    "page_ref": "KOTOR 50",
+    "summary": "You create an intense sonic scream, amplified by The Force.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Scream"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 50
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 33,
+     "ref": "The Force!C33:V33",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 20,
+     "ref": "Force Powers!A20:E20",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_shield",
+   "entity": "force_power",
+   "name": "Force Shield",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG",
+     "TFU"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page_ref": "FUCG 86/LECG 54",
+    "pages": {
+     "lecg": 54,
+     "tfu": 86
+    },
+    "summary": "You use The Force to create a bubble of telekinetic energy around yourself, protecting you from harm.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Force_Shield"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 86
+    },
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 34,
+     "ref": "The Force!C34:V34",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 30,
+     "ref": "Force Powers!A30:E30",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_slam",
+   "entity": "force_power",
+   "name": "Force Slam",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 97,
+    "page_ref": 97,
+    "summary": "Pounds multiple opponents, and may knock them Prone.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Slam"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 35,
+     "ref": "The Force!C35:V35",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 8,
+     "ref": "Force Powers!A8:E8",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_storm__mr_force_powers_31",
+   "entity": "force_power",
+   "name": "Force Storm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "Dark Side, Telekinetic",
+    "summary": "You use The Force to create a swirling whirlwind of dark energy around yourself.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Storm"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 31,
+     "ref": "Force Powers!A31:E31",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_storm__mr_force_powers_57",
+   "entity": "force_power",
+   "name": "Force Storm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "Dark Side",
+    "summary": "You can create a storm that draws upon the Dark Side of The Force, focusing its malicious intent on a certain area.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Storm"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 57,
+     "ref": "Force Powers!A57:E57",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_storm__tfu",
+   "entity": "force_power",
+   "name": "Force Storm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "descriptor_dark_side": "Dark Side",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 86,
+    "page_ref": "FUCG 86",
+    "url": "https://swse.miraheze.org/wiki/Force_Storm"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 86
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 36,
+     "ref": "The Force!C36:V36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "name_collision",
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_storm_jatm",
+   "entity": "force_power",
+   "name": "Force Storm (JATM)",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor_dark_side": "Dark Side",
+    "page": 26,
+    "page_ref": "JATM 26"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 26
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 37,
+     "ref": "The Force!C37:V37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_power_force_stun",
+   "entity": "force_power",
+   "name": "Force Stun",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 97,
+    "page_ref": 97,
+    "summary": "Stuns an opponent, and damages their overall Condition.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Stun"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 38,
+     "ref": "The Force!C38:V38",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 9,
+     "ref": "Force Powers!A9:E9",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_thrust",
+   "entity": "force_power",
+   "name": "Force Thrust",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 97,
+    "page_ref": 97,
+    "summary": "You use The Force to push back an opponent several meters, and possibly deal damage.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Thrust"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 39,
+     "ref": "The Force!C39:V39",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 10,
+     "ref": "Force Powers!A10:E10",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_track",
+   "entity": "force_power",
+   "name": "Force Track",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 26,
+    "page_ref": "JATM 26",
+    "summary": "You peer into The Force for guidance, picking up the trail of your quarry.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Track"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 26
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 40,
+     "ref": "The Force!C40:V40",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 58,
+     "ref": "Force Powers!A58:E58",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_force_whirlwind",
+   "entity": "force_power",
+   "name": "Force Whirlwind",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 51,
+    "page_ref": "KOTOR 51",
+    "summary": "You call upon The Force to surround an enemy in a swirling vortex of Force energy. The whirlwind lifts them about half a meter off the ground, spinning them in the air and buffeting them with Force energy.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Force_Whirlwind"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 51
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 41,
+     "ref": "The Force!C41:V41",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 21,
+     "ref": "Force Powers!A21:E21",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_form_power",
+   "entity": "force_power",
+   "name": "FORM POWER",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "FORM",
+    "descriptor": "TYPE",
+    "summary": "DESCRIPTION",
+    "time_requirment": "TIME REQUIREMENT"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 67,
+     "ref": "Force Powers!A67:E67",
+     "canon": "official"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_power_hatred",
+   "entity": "force_power",
+   "name": "Hatred",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 26,
+    "page_ref": "JATM 26",
+    "summary": "You give yourself over to the Dark Side, letting your hate radiate out from your body in palpable waves.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Hatred"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 26
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 42,
+     "ref": "The Force!C42:V42",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 59,
+     "ref": "Force Powers!A59:E59",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_hawk_bat_swoop",
+   "entity": "force_power",
+   "name": "Hawk-Bat Swoop",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Ataru",
+    "summary": "You leap into action against your foe, striking with your Lightsaber before other enemies have a chance to react.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Hawk-Bat_Swoop"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 77,
+     "ref": "Force Powers!A77:E77",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_high_ground_defense",
+   "entity": "force_power",
+   "name": "High Ground Defense",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Sokan",
+    "summary": "You know how to take advantage of the terrain and gain a defensive advantage from it.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/High_Ground_Defense"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 78,
+     "ref": "Force Powers!A78:E78",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_inertia",
+   "entity": "force_power",
+   "name": "Inertia",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 27,
+    "page_ref": "JATM 27",
+    "summary": "You can use The Force to shift your body's inertia, allowing you to perform impossible stunts.",
+    "time_requirment": "Move Action",
+    "url": "https://swse.miraheze.org/wiki/Inertia"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 27
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 43,
+     "ref": "The Force!C43:V43",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 60,
+     "ref": "Force Powers!A60:E60",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_inspire",
+   "entity": "force_power",
+   "name": "Inspire",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Light Side",
+    "descriptor_light_side": "Light Side",
+    "page": 27,
+    "page_ref": "JATM 27",
+    "summary": "You fill your allies with hope and courage, allowing them to face even the most daunting of odds.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Inspire"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 27
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 44,
+     "ref": "The Force!C44:V44",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 61,
+     "ref": "Force Powers!A61:E61",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_intercept",
+   "entity": "force_power",
+   "name": "Intercept",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 27,
+    "page_ref": "JATM 27",
+    "summary": "You use The Force to telekinetically hurl a small object in the path of an incoming projectile, preventing it from striking you.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Intercept"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 27
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 45,
+     "ref": "The Force!C45:V45",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 62,
+     "ref": "Force Powers!A62:E62",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_ionize",
+   "entity": "force_power",
+   "name": "Ionize",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 51,
+    "page_ref": "KOTOR 51",
+    "summary": "You call upon The Force to overload electrical systems and Droids, damaging or even destroying the unit.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Ionize"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 51
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 46,
+     "ref": "The Force!C46:V46",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 22,
+     "ref": "Force Powers!A22:E22",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_kinetic_combat",
+   "entity": "force_power",
+   "name": "Kinetic Combat",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR",
+     "TFU"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 51,
+    "page_ref": "KOTOR 51",
+    "summary": "You use The Force to manipulate your chosen weapon, allowing it to operate independent of your grasp.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Kinetic_Combat"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 51
+    },
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 47,
+     "ref": "The Force!C47:V47",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 23,
+     "ref": "Force Powers!A23:E23",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_levitate",
+   "entity": "force_power",
+   "name": "Levitate",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 50,
+    "page_ref": "CWCG 50",
+    "summary": "You can float up or down without anything or anyone to assist you.",
+    "time_requirment": "Move Action",
+    "url": "https://swse.miraheze.org/wiki/Levitate"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 50
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 48,
+     "ref": "The Force!C48:V48",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 34,
+     "ref": "Force Powers!A34:E34",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_lightning_burst",
+   "entity": "force_power",
+   "name": "Lightning Burst",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "descriptor": "Dark Side",
+    "page": 54,
+    "page_ref": "LECG 54",
+    "summary": "You call upon the Dark Side to cause lightning to arc out from your body, striking adjacent enemies.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Lightning_Burst"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 49,
+     "ref": "The Force!C49:V49",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 46,
+     "ref": "Force Powers!A46:E46",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_makashi_riposte",
+   "entity": "force_power",
+   "name": "Makashi Riposte",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Makashi",
+    "summary": "You are trained in a Makashi technique that allows you to slightly change the angle of an opponent's attack before striking with a decisive riposte of your own.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Makashi_Riposte"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 79,
+     "ref": "Force Powers!A79:E79",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_malacia",
+   "entity": "force_power",
+   "name": "Malacia",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "descriptor": "Light Side",
+    "page": 51,
+    "page_ref": "CWCG 51",
+    "summary": "You create dizziness and nausea by disrupting your target's equilibrium.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Malacia"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 51
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 50,
+     "ref": "The Force!C50:V50",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 35,
+     "ref": "Force Powers!A35:E35",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_memory_walk",
+   "entity": "force_power",
+   "name": "Memory Walk",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Dark Side, Mind-Affecting",
+    "descriptor_dark_side": "Dark Side",
+    "descriptor_mind_affecting": "Mind-Affecting",
+    "page": 27,
+    "page_ref": "JATM 27",
+    "summary": "You torment an enemy by causing them to relive their most horrible memories.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Memory_Walk"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 27
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 51,
+     "ref": "The Force!C51:V51",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 63,
+     "ref": "Force Powers!A63:E63",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_mind_shard",
+   "entity": "force_power",
+   "name": "Mind Shard",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Mind-Affecting",
+    "descriptor_mind_affecting": "Mind-Affecting",
+    "page": 28,
+    "page_ref": "JATM 28",
+    "summary": "You use The Force to splinter the mind of an opponent, wracking it with pain.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Mind_Shard"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 28
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 52,
+     "ref": "The Force!C52:V52",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 64,
+     "ref": "Force Powers!A64:E64",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_mind_trick",
+   "entity": "force_power",
+   "name": "Mind Trick",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Mind-Affecting",
+    "descriptor_mind_affecting": "Mind-Affecting",
+    "page": 97,
+    "page_ref": 97,
+    "summary": "You influence the mind of a target by dominating their will.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Mind_Trick"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 53,
+     "ref": "The Force!C53:V53",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 11,
+     "ref": "Force Powers!A11:E11",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_morichro",
+   "entity": "force_power",
+   "name": "Morichro",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 51,
+    "page_ref": "CWCG 51",
+    "summary": "You slow the vital functions of a target, causing them to slip into a deep sleep or even die.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Morichro"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 51
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 54,
+     "ref": "The Force!C54:V54",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 36,
+     "ref": "Force Powers!A36:E36",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_move_object",
+   "entity": "force_power",
+   "name": "Move Object",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 97,
+    "page_ref": 97,
+    "summary": "You use The Force to hold, move, or crush one target.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Move_Object"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 97
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 55,
+     "ref": "The Force!C55:V55",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 12,
+     "ref": "Force Powers!A12:E12",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_negate_energy",
+   "entity": "force_power",
+   "name": "Negate Energy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 98,
+    "page_ref": 98,
+    "summary": "You dissipate an energy attack.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Negate_Energy"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 98
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 56,
+     "ref": "The Force!C56:V56",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 13,
+     "ref": "Force Powers!A13:E13",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_obscure",
+   "entity": "force_power",
+   "name": "Obscure",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "descriptor": "Mind-Affecting",
+    "descriptor_mind_affecting": "Mind-Affecting",
+    "page": 54,
+    "page_ref": "LECG 54",
+    "summary": "You use The Force to cloud an enemy's mind, making it harder for the enemy to see its target.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Obscure"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 57,
+     "ref": "The Force!C57:V57",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 47,
+     "ref": "Force Powers!A47:E47",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_pass_the_blade",
+   "entity": "force_power",
+   "name": "Pass the Blade",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Trakata",
+    "summary": "You deactivate your Lightsaber as your opponent attempts to block it, reactivating it just after it passes by their blade.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Pass_the_Blade"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 80,
+     "ref": "Force Powers!A80:E80",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_phase",
+   "entity": "force_power",
+   "name": "Phase",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 51,
+    "page_ref": "CWCG 51",
+    "summary": "You can pass through solid objects, such as walls and doors.",
+    "time_requirment": "Move Action",
+    "url": "https://swse.miraheze.org/wiki/Phase"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 51
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 58,
+     "ref": "The Force!C58:V58",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 37,
+     "ref": "Force Powers!A37:E37",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_plant_surge",
+   "entity": "force_power",
+   "name": "Plant Surge",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "page": 28,
+    "page_ref": "JATM 28",
+    "summary": "You reach out with The Force to entreat the aid of plants, causing them to lash out at your opponents.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Plant_Surge"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 28
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 59,
+     "ref": "The Force!C59:V59",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 65,
+     "ref": "Force Powers!A65:E65",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_prescience",
+   "entity": "force_power",
+   "name": "Prescience",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "page": 54,
+    "page_ref": "LECG 54",
+    "summary": "The Force grants you a flash of insight in dealing with your enemies.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Prescience"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 60,
+     "ref": "The Force!C60:V60",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 48,
+     "ref": "Force Powers!A48:E48",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_pushing_slash",
+   "entity": "force_power",
+   "name": "Pushing Slash",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Niman",
+    "descriptor": "Telekinetic",
+    "summary": "You strike at your target with your Lightsaber, then hurl them away from you with The Force.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Pushing_Slash"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 81,
+     "ref": "Force Powers!A81:E81",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_rebuke",
+   "entity": "force_power",
+   "name": "Rebuke",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 99,
+    "page_ref": 99,
+    "summary": "You deflect a Force Power used against you.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Rebuke"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 99
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 61,
+     "ref": "The Force!C61:V61",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 14,
+     "ref": "Force Powers!A14:E14",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_rend",
+   "entity": "force_power",
+   "name": "Rend",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 52,
+    "page_ref": "CWCG 52",
+    "summary": "You can move a single target, whether it is a creature or object, in two different directions simultaneously.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Rend"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 52
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 62,
+     "ref": "The Force!C62:V62",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 38,
+     "ref": "Force Powers!A38:E38",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_repulse",
+   "entity": "force_power",
+   "name": "Repulse",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "TFU"
+    ],
+    "descriptor": "Telekinetic",
+    "page": 867,
+    "page_ref": "FUCG 867",
+    "summary": "You use The Force to clear an area around yourself.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Repulse"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "tfu",
+     "abbreviation": "TFU",
+     "title": "The Force Unleashed Campaign Guide",
+     "page": 867
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 63,
+     "ref": "The Force!C63:V63",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 32,
+     "ref": "Force Powers!A32:E32",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_resist_force",
+   "entity": "force_power",
+   "name": "Resist Force",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "page": 51,
+    "page_ref": "KOTOR 51",
+    "summary": "You use The Force to protect yourself from an opponent's Force Powers.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Resist_Force"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 51
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 64,
+     "ref": "The Force!C64:V64",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 24,
+     "ref": "Force Powers!A24:E24",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_rising_whirlwind",
+   "entity": "force_power",
+   "name": "Rising Whirlwind",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Jar'Kai",
+    "summary": "You swing your Lightsabers around your body, creating a brilliant whirlwind of deadly light.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Rising_Whirlwind"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 82,
+     "ref": "Force Powers!A82:E82",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_saber_swarm",
+   "entity": "force_power",
+   "name": "Saber Swarm",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Ataru",
+    "summary": "You slash at your opponent rapidly, aiming many short strikes at the target's body.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Saber_Swarm"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 83,
+     "ref": "Force Powers!A83:E83",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_sarlacc_sweep",
+   "entity": "force_power",
+   "name": "Sarlacc Sweep",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Shii-Cho",
+    "summary": "You lash out at multiple enemies, striking them with a sweeping motion.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Sarlacc_Sweep"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 84,
+     "ref": "Force Powers!A84:E84",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_sever_force",
+   "entity": "force_power",
+   "name": "Sever Force",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "descriptor": "Light Side",
+    "summary": "You temporarily block a Force-User's access to The Force.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Sever_Force"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 65,
+     "ref": "The Force!C65:V65",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 15,
+     "ref": "Force Powers!A15:E15",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_shatterpoint",
+   "entity": "force_power",
+   "name": "Shatterpoint",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 52,
+    "page_ref": "CWCG 52",
+    "summary": "You can see the critical point of something, whether it is a person or object, that would shatter if struck at the right time.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Shatterpoint"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 52
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 66,
+     "ref": "The Force!C66:V66",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 39,
+     "ref": "Force Powers!A39:E39",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_shien_deflection",
+   "entity": "force_power",
+   "name": "Shien Deflection",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Shien",
+    "summary": "You deflect an incoming attack and leap toward your attacker with fierce abandon.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Shien_Deflection"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 85,
+     "ref": "Force Powers!A85:E85",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_slow",
+   "entity": "force_power",
+   "name": "Slow",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 52,
+    "page_ref": "KOTOR 52",
+    "summary": "The Force enables you to slow your targets as if they are encumbered by an extremely Heavy Load, making it difficult for them to move.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Slow"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 52
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 67,
+     "ref": "The Force!C67:V67",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 25,
+     "ref": "Force Powers!A25:E25",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_stagger",
+   "entity": "force_power",
+   "name": "Stagger",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "LECG"
+    ],
+    "descriptor": "Telekinetic",
+    "descriptor_telekinetic": "Telekinetic",
+    "page": 54,
+    "page_ref": "LECG 54",
+    "summary": "You use The Force to lash out at a nearby enemy, causing it to stumble.",
+    "time_requirment": "Swift Action",
+    "url": "https://swse.miraheze.org/wiki/Stagger"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "lecg",
+     "abbreviation": "LECG",
+     "title": "Legacy Era Campaign Guide",
+     "page": 54
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 68,
+     "ref": "The Force!C68:V68",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 49,
+     "ref": "Force Powers!A49:E49",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_surge",
+   "entity": "force_power",
+   "name": "Surge",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "page": 99,
+    "page_ref": 99,
+    "summary": "You use The Force to assist in a supernatural Jump.",
+    "time_requirment": "Free Action",
+    "url": "https://swse.miraheze.org/wiki/Surge"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 99
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 69,
+     "ref": "The Force!C69:V69",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 16,
+     "ref": "Force Powers!A16:E16",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_swift_flank",
+   "entity": "force_power",
+   "name": "Swift Flank",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Vaapad",
+    "summary": "You leap over or dash around your opponent, striking before they have time to react.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Swift_Flank"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 86,
+     "ref": "Force Powers!A86:E86",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_technometry",
+   "entity": "force_power",
+   "name": "Technometry",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "CW"
+    ],
+    "page": 52,
+    "page_ref": "CWCG 52",
+    "summary": "You can tap into and read technological devices and, in some cases, control them.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Technometry"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "cw",
+     "abbreviation": "CW",
+     "title": "The Clone Wars Campaign Guide",
+     "page": 52
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 70,
+     "ref": "The Force!C70:V70",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 40,
+     "ref": "Force Powers!A40:E40",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_tempered_aggression",
+   "entity": "force_power",
+   "name": "Tempered Aggression",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Vaapad",
+    "descriptor": "Dark Side",
+    "summary": "You throw yourself against an opponent, controlling your aggression to prevent it from getting the better of you.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Tempered_Aggression"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 87,
+     "ref": "Force Powers!A87:E87",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_thought_bomb",
+   "entity": "force_power",
+   "name": "Thought Bomb",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "JATM"
+    ],
+    "descriptor": "Mind-Affecting",
+    "descriptor_mind_affecting": "Mind-Affecting",
+    "page": 28,
+    "page_ref": "JATM 28",
+    "summary": "You use The Force to radiate out harmful waves of telepathy, damaging the minds of nearby foes.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Thought_Bomb"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "jadm",
+     "abbreviation": "JATM",
+     "title": "Jedi Academy Training Manual",
+     "page": 28
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 71,
+     "ref": "The Force!C71:V71",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 66,
+     "ref": "Force Powers!A66:E66",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_twin_strike",
+   "entity": "force_power",
+   "name": "Twin Strike",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Jar'Kai",
+    "summary": "You swing both of your Lightsabers in an arc toward the target, slamming them home with great force.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Twin_Strike"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 88,
+     "ref": "Force Powers!A88:E88",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_unbalancing_block",
+   "entity": "force_power",
+   "name": "Unbalancing Block",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Trakata",
+    "summary": "You catch an opponent's weapon on your blade before deactivating your blade momentarily, causing them to stumble.",
+    "time_requirment": "Reaction",
+    "url": "https://swse.miraheze.org/wiki/Unbalancing_Block"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 89,
+     "ref": "Force Powers!A89:E89",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_unhindered_charge",
+   "entity": "force_power",
+   "name": "Unhindered Charge",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Sokan",
+    "summary": "You move quickly to your opponent, ignoring Difficult Terrain and obstacles.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Unhindered_Charge"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 90,
+     "ref": "Force Powers!A90:E90",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_valor",
+   "entity": "force_power",
+   "name": "Valor",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "descriptor": "Light Side",
+    "page": 52,
+    "page_ref": "KOTOR 52",
+    "summary": "You call upon the strength of The Force, reaching out to your ally and sharing your strength with them.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Valor"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 52
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 72,
+     "ref": "The Force!C72:V72",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 26,
+     "ref": "Force Powers!A26:E26",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_vital_transfer",
+   "entity": "force_power",
+   "name": "Vital Transfer",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "SECR"
+    ],
+    "descriptor": "Light Side",
+    "descriptor_light_side": "Light Side",
+    "page": 99,
+    "page_ref": 99,
+    "summary": "You heal another through The Force.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Vital_Transfer"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "secr",
+     "abbreviation": "SECR",
+     "title": "Star Wars Roleplaying Game Saga Edition Core Rulebook",
+     "page": 99
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 73,
+     "ref": "The Force!C73:V73",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 17,
+     "ref": "Force Powers!A17:E17",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "force_power_vornskr_s_ferocity",
+   "entity": "force_power",
+   "name": "Vornskr's Ferocity",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "col_b": "Juyo",
+    "descriptor": "Dark Side",
+    "summary": "You walk the thin line between darkness and light as you ferociously attack your foe.",
+    "time_requirment": "Standard Action"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 91,
+     "ref": "Force Powers!A91:E91",
+     "canon": "official"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_power_wound",
+   "entity": "force_power",
+   "name": "Wound",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "descriptor": "Dark Side",
+    "descriptor_dark_side": "Dark Side",
+    "page": 52,
+    "page_ref": "KOTOR 52",
+    "summary": "You cause spasms in the lungs of your targets, painfully injuring them.",
+    "time_requirment": "Standard Action",
+    "url": "https://swse.miraheze.org/wiki/Wound"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": 52
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_powers",
+     "sheet": "The Force",
+     "row": 74,
+     "ref": "The Force!C74:V74",
+     "canon": "third_party"
+    },
+    {
+     "source": "swse-master-reference-2026-10-08",
+     "block": "mr_force_powers",
+     "sheet": "Force Powers",
+     "row": 27,
+     "ref": "Force Powers!A27:E27",
+     "canon": "official"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  }
+ ]
+}

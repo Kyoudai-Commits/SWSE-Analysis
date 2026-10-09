@@ -1,0 +1,163 @@
+{
+ "entity": "availability",
+ "label": "availability",
+ "role": "option",
+ "count": 6,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "availability_common",
+   "entity": "availability",
+   "name": "Common",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "C",
+    "black_market_mod": 1,
+    "canon_basis": "block_declaration",
+    "dc": 5,
+    "license_dc_mod": 0,
+    "price_multiplier": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_availability_types",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!A22:F22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "availability_illegal",
+   "entity": "availability",
+   "name": "Illegal",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "I",
+    "black_market_mod": 5,
+    "canon_basis": "block_declaration",
+    "dc": 25,
+    "license_dc_mod": 0.5,
+    "price_multiplier": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_availability_types",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!A18:F18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "availability_licensed",
+   "entity": "availability",
+   "name": "Licensed",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "L",
+    "black_market_mod": 2,
+    "canon_basis": "block_declaration",
+    "dc": 10,
+    "license_dc_mod": 0.05,
+    "price_multiplier": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_availability_types",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!A21:F21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "availability_military",
+   "entity": "availability",
+   "name": "Military",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "M",
+    "black_market_mod": 4,
+    "canon_basis": "block_declaration",
+    "dc": 20,
+    "license_dc_mod": 0.2,
+    "price_multiplier": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_availability_types",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!A19:F19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "availability_rare",
+   "entity": "availability",
+   "name": "Rare",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "Rare",
+    "black_market_mod": 1,
+    "canon_basis": "block_declaration",
+    "price_multiplier": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_availability_types",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!A17:F17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "availability_restricted",
+   "entity": "availability",
+   "name": "Restricted",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "R",
+    "black_market_mod": 3,
+    "canon_basis": "block_declaration",
+    "dc": 15,
+    "license_dc_mod": 0.1,
+    "price_multiplier": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_availability_types",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!A20:F20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

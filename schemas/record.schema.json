@@ -1,0 +1,117 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Kyoudai-Commits/SWSE-Analysis/schemas/record.schema.json",
+  "title": "SWSE canonical record",
+  "description": "One canonical game option (feat, species, talent, weapon, ...). Produced by swse.canon; validated by swse.validate.",
+  "type": "object",
+  "required": ["id", "entity", "name", "canon", "attrs", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]*_[a-z0-9_]+(__[a-z0-9_]+)?(_[0-9]+)?$",
+      "description": "<entity>_<slug of name>[__<disambiguator>][_n]"
+    },
+    "entity": { "type": "string", "description": "Entity type; matches config/entities.yaml and the containing file name." },
+    "name": { "type": "string", "minLength": 1, "description": "Display name, taken from the best-canon source." },
+    "canon": { "enum": ["official", "third_party", "homebrew"] },
+    "attrs": {
+      "type": "object",
+      "description": "All data fields. Keys are slugified source column names or names given in config/blocks.yaml `rename`.",
+      "additionalProperties": true,
+      "not": {
+        "anyOf": [
+          { "required": ["id"] }, { "required": ["entity"] }, { "required": ["canon"] },
+          { "required": ["sources"] }, { "required": ["flags"] }, { "required": ["conflicts"] }
+        ]
+      }
+    },
+    "prerequisites": {
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/definitions/prerequisiteParse" }
+      ]
+    },
+    "relations": {
+      "type": "object",
+      "additionalProperties": { "type": ["string", "array", "null"] },
+      "description": "ids of related records (talent tree of a talent, class of a feature, ...)."
+    },
+    "sourcebooks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "abbreviation", "title"],
+        "properties": {
+          "id": { "type": "string" },
+          "abbreviation": { "type": "string" },
+          "title": { "type": "string" },
+          "page": { "type": ["integer", "null"] }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Every source row that contributed to this record. This is the audit trail.",
+      "items": {
+        "type": "object",
+        "required": ["source", "block", "sheet", "row"],
+        "properties": {
+          "source": { "type": "string", "description": "config/sources.yaml id" },
+          "block": { "type": "string", "description": "config/blocks.yaml id" },
+          "sheet": { "type": "string" },
+          "row": { "type": ["integer", "null"] },
+          "ref": { "type": ["string", "null"], "description": "A1-style range of the source row" },
+          "canon": { "enum": ["official", "third_party", "homebrew"] }
+        }
+      }
+    },
+    "conflicts": {
+      "type": "object",
+      "description": "Fields where sources disagreed. `chosen` is what won and why.",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["chosen", "alternatives"],
+        "properties": {
+          "chosen": {},
+          "chosen_from": { "type": "object" },
+          "alternatives": { "type": "array", "items": { "type": "object" } }
+        }
+      }
+    },
+    "flags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Machine-readable annotations: homebrew, name_collision, duplicate_rows_collapsed, curated:*, derived:*, url:matched_by_name, class:heroic, species:droid_chassis, ..."
+    }
+  },
+  "definitions": {
+    "prerequisiteParse": {
+      "type": "object",
+      "required": ["raw", "predicates", "coverage"],
+      "properties": {
+        "raw": { "type": "string", "description": "The prerequisite text exactly as normalised from the source." },
+        "predicates": { "type": "array", "items": { "$ref": "#/definitions/predicate" } },
+        "unresolved": { "type": "array", "items": { "type": "string" } },
+        "mode": { "enum": ["all", "any"] },
+        "coverage": { "type": "number", "minimum": 0, "maximum": 1 },
+        "empty": { "type": "boolean" },
+        "resolved": { "type": "boolean" }
+      }
+    },
+    "predicate": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "description": "ability_min | bab_min | level_min | trained_skill | feat | talent | talent_tree | force_power | weapon_proficiency | armor_proficiency | creature_type | size_min | force_sensitive | requires_item | affiliation | any_of | other | ..." },
+        "text": { "type": "string", "description": "The fragment this predicate was parsed from." },
+        "rule": { "type": ["string", "null"], "description": "swse/prereq.py rule id that produced it, or index_lookup." },
+        "mode": { "enum": ["all", "any", null] },
+        "options": { "type": "array", "items": { "$ref": "#/definitions/predicate" } },
+        "nested": { "$ref": "#/definitions/predicate" }
+      },
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,537 @@
+{
+ "entity": "near_human_trait",
+ "label": "near_human_trait",
+ "role": "option",
+ "count": 24,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "near_human_trait_ability_adjustment",
+   "entity": "near_human_trait",
+   "name": "Ability adjustment",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Increase one ability score by 2 and reduce another by 2 to account for emphasis in certain attributes (such as strength or intelligence)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 4,
+     "ref": "Near-Humans!P4:Q4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_additional_arms",
+   "entity": "near_human_trait",
+   "name": "Additional arms",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Up to 2 additional arms. When making multiple attacks, the character can reduce the penalty to the attack roll by 2."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 5,
+     "ref": "Near-Humans!P5:Q5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_biotech_augmentation",
+   "entity": "near_human_trait",
+   "name": "Biotech augmentation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Augmented with biotechnology. Select one bio-implant (see pages 67-68 of the Legacv Era Campaign Guide)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 6,
+     "ref": "Near-Humans!P6:Q6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_breathe_underwater",
+   "entity": "near_human_trait",
+   "name": "Breathe underwater",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Amphibious and cannot drawn in water. Can have gill slits or sim ilar external features."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 7,
+     "ref": "Near-Humans!P7:Q7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_climate_adaptation",
+   "entity": "near_human_trait",
+   "name": "Climate adaptation",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Resistant to a specific climate. Select one: freezing, rarefied atmosphere, searing, smoky, tropical, or watery. When challenged by an environmental factor in that climate (chosen from those listed, or others at the Gamemaster's discretion), can reroll an Endurance or a Survival check, taking the better result."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 8,
+     "ref": "Near-Humans!P8:Q8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_conductive",
+   "entity": "near_human_trait",
+   "name": "Conductive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Naturally generate a small amount of electrical energy and use as a natural weapon in an unarmed attack, dealing 1d6 points of energy damage. Character is always considered armed with a natural weapon."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 9,
+     "ref": "Near-Humans!P9:Q9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_cultural_cybernetics",
+   "entity": "near_human_trait",
+   "name": "Cultural cybernetics",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Culture commonly augments members with cybernetics fram birth. Select one cybernetic enhancement."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 10,
+     "ref": "Near-Humans!P10:Q10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_darkvision",
+   "entity": "near_human_trait",
+   "name": "Darkvision",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Gain natural darkvision (see page 257 of the Saga Edition core rulebook) ."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 11,
+     "ref": "Near-Humans!P11:Q11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_empath",
+   "entity": "near_human_trait",
+   "name": "Empath",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can use the telepathy application of the Use the Force ski ll untrained, and without having the Force Sensitivity feat. Additionally, can sense the emotions of a target if the Use the Force check equals or exceeds the target's Will Defense."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 12,
+     "ref": "Near-Humans!P12:Q12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_expert_swimmer",
+   "entity": "near_human_trait",
+   "name": "Expert swimmer",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can reroll a Swim check. Can take 10 on Swim checks when distracted or threatened."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 13,
+     "ref": "Near-Humans!P13:Q13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_heightened_awareness",
+   "entity": "near_human_trait",
+   "name": "Heightened awareness",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can reroll a Perception check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 14,
+     "ref": "Near-Humans!P14:Q14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_low_light_vision",
+   "entity": "near_human_trait",
+   "name": "Low-light vision",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Ignore concealment (but not total concea lment) from darkness."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 15,
+     "ref": "Near-Humans!P15:Q15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_natural_armor",
+   "entity": "near_human_trait",
+   "name": "Natural armor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Thickened skin or natural armor plates grant a natural armor bonus of + 1 to Reflex Defense."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 16,
+     "ref": "Near-Humans!P16:Q16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_natural_weapon",
+   "entity": "near_human_trait",
+   "name": "Natural weapon",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can use natural claws in an unarmed attack, dealing 1d6 points of slashing damage instead of normal unarmed damage. Character is always considered armed with the natural weapons."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 17,
+     "ref": "Near-Humans!P17:Q17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_naturally_acrobatic",
+   "entity": "near_human_trait",
+   "name": "Naturally acrobatic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Considered trained in the Acrobatics skill, even if it is not normally a class skill for the character."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 18,
+     "ref": "Near-Humans!P18:Q18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_persistent",
+   "entity": "near_human_trait",
+   "name": "Persistent",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Can reroll an Endurance check."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 19,
+     "ref": "Near-Humans!P19:Q19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_quick",
+   "entity": "near_human_trait",
+   "name": "Quick",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Gain +1 to speed."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 20,
+     "ref": "Near-Humans!P20:Q20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_quick_healing",
+   "entity": "near_human_trait",
+   "name": "Quick healing",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "At the end of an encounter, regain hit points equal to 1d4 + Constitution modifier (minimum 1)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 21,
+     "ref": "Near-Humans!P21:Q21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_resistant",
+   "entity": "near_human_trait",
+   "name": "Resistant",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Naturally resistant to poisons, disease, radiation, or other hazards, gaining a +2 species bonus to Fortitude Defense. Gamemaster can restrict resistance to a single, specific hazard."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 22,
+     "ref": "Near-Humans!P22:Q22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_scent",
+   "entity": "near_human_trait",
+   "name": "Scent",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "At close range (within 10 squares), ignore concealment and cover for purposes of Perception checks, and take no penalty from poor visibility when using the Track application of the Survival skill."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 23,
+     "ref": "Near-Humans!P23:Q23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_spring_step",
+   "entity": "near_human_trait",
+   "name": "Spring step",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "When using the High Jump or Long Jump applications of the Jump skill, reduce the number of squares required for a running start by 2."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 24,
+     "ref": "Near-Humans!P24:Q24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_strength_surge",
+   "entity": "near_human_trait",
+   "name": "Strength surge",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Once per encounter, can rerall one Strength-based ability or skill check, doubling the character's Strength modifier (minimum +1), or can add 2 to a single damage roll on a successful melee attack, when Strength normally adds to the roll. This does not apply when Weapon Finesse is used."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 25,
+     "ref": "Near-Humans!P25:Q25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_visually_striking",
+   "entity": "near_human_trait",
+   "name": "Visually striking",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Character's appearance is visually surprising or stunning. The character's Charisma bonus is doubled when using the Persuasion skill on Humans, near-Humans, and similar humanoids (such as Twi'leks)."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 26,
+     "ref": "Near-Humans!P26:Q26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "near_human_trait_weapon_familiarity",
+   "entity": "near_human_trait",
+   "name": "Weapon familiarity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "description": "Character selects a single exotic weapon and treats it as a simple weapon instead. Must be commonly used by character's native culture."
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_near_human_traits",
+     "sheet": "Near-Humans",
+     "row": 27,
+     "ref": "Near-Humans!P27:Q27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

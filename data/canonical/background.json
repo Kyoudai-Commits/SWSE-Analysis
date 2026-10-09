@@ -1,0 +1,1070 @@
+{
+ "entity": "background",
+ "label": "background",
+ "role": "option",
+ "count": 46,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "background_academic",
+   "entity": "background",
+   "name": "Academic",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 14,
+     "ref": "Lists!GL14:GO14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_alderaan",
+   "entity": "background",
+   "name": "Alderaan",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "High Galactic",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 25,
+     "ref": "Lists!GL25:GO25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_bakura",
+   "entity": "background",
+   "name": "Bakura",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "High Galactic",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 26,
+     "ref": "Lists!GL26:GO26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_bankrupt",
+   "entity": "background",
+   "name": "Bankrupt",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "Can use Survival skill to sustain yourself on urban or civilized environments",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!GL3:GO3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_bespin",
+   "entity": "background",
+   "name": "Bespin",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Bocce",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 27,
+     "ref": "Lists!GL27:GO27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_bothawui",
+   "entity": "background",
+   "name": "Bothawui",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Bothese",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 28,
+     "ref": "Lists!GL28:GO28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_celebrity",
+   "entity": "background",
+   "name": "Celebrity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 15,
+     "ref": "Lists!GL15:GO15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_cerea",
+   "entity": "background",
+   "name": "Cerea",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Cerean",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 29,
+     "ref": "Lists!GL29:GO29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_conspiracy",
+   "entity": "background",
+   "name": "Conspiracy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "Can reroll any Perception check made to sense Deception or influence, keeping the better result",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!GL4:GO4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_corellia",
+   "entity": "background",
+   "name": "Corellia",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Old Corellian",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 30,
+     "ref": "Lists!GL30:GO30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_coruscant",
+   "entity": "background",
+   "name": "Coruscant",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "High Galactic",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 31,
+     "ref": "Lists!GL31:GO31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_criminal",
+   "entity": "background",
+   "name": "Criminal",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 16,
+     "ref": "Lists!GL16:GO16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_crippled",
+   "entity": "background",
+   "name": "Crippled",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "When your Fort Def is reduced due to moving down the condition track, your damage threshold remains the same",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!GL5:GO5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_disgraced",
+   "entity": "background",
+   "name": "Disgraced",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "When you try to disguise yourself with a difficult deception, you instead treat it as a moderate deception",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 6,
+     "ref": "Lists!GL6:GO6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_dorin",
+   "entity": "background",
+   "name": "Dorin",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Kel Dor",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 32,
+     "ref": "Lists!GL32:GO32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_duro",
+   "entity": "background",
+   "name": "Duro",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Durese",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 33,
+     "ref": "Lists!GL33:GO33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_enslaved",
+   "entity": "background",
+   "name": "Enslaved",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 bonus to all grapple checks",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!GL7:GO7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_executive",
+   "entity": "background",
+   "name": "Executive",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 17,
+     "ref": "Lists!GL17:GO17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_exiled",
+   "entity": "background",
+   "name": "Exiled",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You can plot a safe course for hyperspace travel in half the normal time. Adittionally, if trained in Knowledge (Galactic Lore), you gain Skill Focus (Galactic Lore)",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!GL8:GO8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_fondor",
+   "entity": "background",
+   "name": "Fondor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Bocce",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 34,
+     "ref": "Lists!GL34:GO34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_gamorr",
+   "entity": "background",
+   "name": "Gamorr",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Gamorrean",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 35,
+     "ref": "Lists!GL35:GO35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_imprisoned",
+   "entity": "background",
+   "name": "Imprisoned",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You can obtain black market good in half the normal time (minimum 1 day)",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!GL9:GO9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_iridonia",
+   "entity": "background",
+   "name": "Iridonia",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Zabrak",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 36,
+     "ref": "Lists!GL36:GO36",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_ithor",
+   "entity": "background",
+   "name": "Ithor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Ithorese",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 37,
+     "ref": "Lists!GL37:GO37",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_kashyyyk",
+   "entity": "background",
+   "name": "Kashyyyk",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Shyriiwook (understand only)",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 38,
+     "ref": "Lists!GL38:GO38",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_labor",
+   "entity": "background",
+   "name": "Labor",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 18,
+     "ref": "Lists!GL18:GO18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_law_enforcement",
+   "entity": "background",
+   "name": "Law_Enforcement",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 19,
+     "ref": "Lists!GL19:GO19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_marooned",
+   "entity": "background",
+   "name": "Marooned",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "No penalty to Treat Injury checks made to heal yourself (or to Mechanics checks to repair yourself, if you are a droid)",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!GL10:GO10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_medical",
+   "entity": "background",
+   "name": "Medical",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 20,
+     "ref": "Lists!GL20:GO20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_military",
+   "entity": "background",
+   "name": "Military",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 21,
+     "ref": "Lists!GL21:GO21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_mon_calamari",
+   "entity": "background",
+   "name": "Mon_Calamari",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Mon Calamarian or Quarrenese",
+    "skills": 2,
+    "url": "https://swse.miraheze.org/wiki/Mon_Calamari"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 39,
+     "ref": "Lists!GL39:GO39",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "background_naboo",
+   "entity": "background",
+   "name": "Naboo",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Gunganese",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 40,
+     "ref": "Lists!GL40:GO40",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_nar_shaddaa",
+   "entity": "background",
+   "name": "Nar_Shaddaa",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Huttese",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 41,
+     "ref": "Lists!GL41:GO41",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_orphaned",
+   "entity": "background",
+   "name": "Orphaned",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "When you spend a Force Point to add to a skill check in an untrained skill, add an extra 1d6 to the skill check",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 11,
+     "ref": "Lists!GL11:GO11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_pilot",
+   "entity": "background",
+   "name": "Pilot",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 22,
+     "ref": "Lists!GL22:GO22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_politics",
+   "entity": "background",
+   "name": "Politics",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 23,
+     "ref": "Lists!GL23:GO23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_rodia",
+   "entity": "background",
+   "name": "Rodia",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Rodese",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 42,
+     "ref": "Lists!GL42:GO42",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_ryloth",
+   "entity": "background",
+   "name": "Ryloth",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Ryl",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 43,
+     "ref": "Lists!GL43:GO43",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_scarred",
+   "entity": "background",
+   "name": "Scarred",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "When you make a persuasion check to intimidate you always have favorable circumstances",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!GL12:GO12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_socorro",
+   "entity": "background",
+   "name": "Socorro",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Socorran",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 44,
+     "ref": "Lists!GL44:GO44",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_sullust",
+   "entity": "background",
+   "name": "Sullust",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Sullustese",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 45,
+     "ref": "Lists!GL45:GO45",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_taris",
+   "entity": "background",
+   "name": "Taris",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Sy Bisti",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 46,
+     "ref": "Lists!GL46:GO46",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_tatooine",
+   "entity": "background",
+   "name": "Tatooine",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Jawa Trade Language",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 47,
+     "ref": "Lists!GL47:GO47",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_technology",
+   "entity": "background",
+   "name": "Technology",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You gain a +2 competence bonus oto untrained skill checks with the skills in your occupation's list of relevant skills",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 24,
+     "ref": "Lists!GL24:GO24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_trandosha",
+   "entity": "background",
+   "name": "Trandosha",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "language": "Dosh",
+    "skills": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 48,
+     "ref": "Lists!GL48:GO48",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "background_widowed",
+   "entity": "background",
+   "name": "Widowed",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "notes": "You can take 20 on Gather Information checks, but it takes 20 times as long as normal to gain the information",
+    "skills": 1
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_backgrounds",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!GL13:GO13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

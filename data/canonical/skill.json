@@ -1,0 +1,771 @@
+{
+ "entity": "skill",
+ "label": "skill",
+ "role": "option",
+ "count": 25,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "skill_acrobatics",
+   "entity": "skill",
+   "name": "Acrobatics",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Dexterity",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Scoundrel",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 11,
+     "ref": "Skills!C11:L11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_climb",
+   "entity": "skill",
+   "name": "Climb",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Strength",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Scout",
+     "Soldier",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 12,
+     "ref": "Skills!C12:L12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_deception",
+   "entity": "skill",
+   "name": "Deception",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Charisma",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Noble",
+     "Scoundrel"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 13,
+     "ref": "Skills!C13:L13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_endurance",
+   "entity": "skill",
+   "name": "Endurance",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Constitution",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Scout",
+     "Soldier",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 14,
+     "ref": "Skills!C14:L14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_gather_information",
+   "entity": "skill",
+   "name": "Gather Information",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Charisma",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Noble",
+     "Scoundrel",
+     "Technician"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 15,
+     "ref": "Skills!C15:L15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_initiative",
+   "entity": "skill",
+   "name": "Initiative",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Dexterity",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Soldier",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 16,
+     "ref": "Skills!C16:L16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_jump",
+   "entity": "skill",
+   "name": "Jump",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Strength",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Scout",
+     "Soldier"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 17,
+     "ref": "Skills!C17:L17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_knowledge_bureaucracy",
+   "entity": "skill",
+   "name": "Knowledge (Bureaucracy)",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "aliases": [
+     "Knowledge (bureacracy)"
+    ],
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 18,
+     "ref": "Skills!C18:L18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_knowledge_galactic_lore",
+   "entity": "skill",
+   "name": "Knowledge (Galactic Lore)",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 19,
+     "ref": "Skills!C19:L19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_knowledge_life_sciences",
+   "entity": "skill",
+   "name": "Knowledge (Life Sciences)",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 20,
+     "ref": "Skills!C20:L20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_knowledge_physical_sciences",
+   "entity": "skill",
+   "name": "Knowledge (Physical Sciences)",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 21,
+     "ref": "Skills!C21:L21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_knowledge_social_sciences",
+   "entity": "skill",
+   "name": "Knowledge (Social Sciences)",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 22,
+     "ref": "Skills!C22:L22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_knowledge_tactics",
+   "entity": "skill",
+   "name": "Knowledge (Tactics)",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Soldier",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 23,
+     "ref": "Skills!C23:L23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_knowledge_technology",
+   "entity": "skill",
+   "name": "Knowledge (Technology)",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 24,
+     "ref": "Skills!C24:L24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_mechanics",
+   "entity": "skill",
+   "name": "Mechanics",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Scoundrel",
+     "Scout",
+     "Soldier",
+     "Technician"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 25,
+     "ref": "Skills!C25:L25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_perception",
+   "entity": "skill",
+   "name": "Perception",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Wisdom",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Soldier",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 26,
+     "ref": "Skills!C26:L26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_persuasion",
+   "entity": "skill",
+   "name": "Persuasion",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Charisma",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Noble",
+     "Scoundrel"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 27,
+     "ref": "Skills!C27:L27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_pilot",
+   "entity": "skill",
+   "name": "Pilot",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Dexterity",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Noble",
+     "Scoundrel",
+     "Scout",
+     "Soldier",
+     "Technician",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 28,
+     "ref": "Skills!C28:L28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_ride",
+   "entity": "skill",
+   "name": "Ride",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Dexterity",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Noble",
+     "Scout",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 29,
+     "ref": "Skills!C29:L29",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_stealth",
+   "entity": "skill",
+   "name": "Stealth",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Dexterity",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Scoundrel",
+     "Scout",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 30,
+     "ref": "Skills!C30:L30",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_survival",
+   "entity": "skill",
+   "name": "Survival",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Wisdom",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Scout",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 31,
+     "ref": "Skills!C31:L31",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_swim",
+   "entity": "skill",
+   "name": "Swim",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Strength",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Scout",
+     "Soldier",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 32,
+     "ref": "Skills!C32:L32",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_treat_injury",
+   "entity": "skill",
+   "name": "Treat Injury",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Wisdom",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Noble",
+     "Soldier",
+     "Technician"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 33,
+     "ref": "Skills!C33:L33",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_use_computer",
+   "entity": "skill",
+   "name": "Use Computer",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Intelligence",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Noble",
+     "Scoundrel",
+     "Soldier",
+     "Technician"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 34,
+     "ref": "Skills!C34:L34",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "skill_use_the_force",
+   "entity": "skill",
+   "name": "Use the Force",
+   "canon": "third_party",
+   "attrs": {
+    "ability": "Charisma",
+    "armor_check_penalty": 0,
+    "canon_basis": "block_declaration",
+    "class_skill_flag": "No",
+    "class_skills_of": [
+     "Jedi",
+     "Force Prodigy"
+    ]
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_skills",
+     "sheet": "Skills",
+     "row": 35,
+     "ref": "Skills!C35:L35",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

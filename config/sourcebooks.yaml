@@ -1,0 +1,163 @@
+# ---------------------------------------------------------------------------
+# Sourcebook abbreviation registry.
+#
+# The corpus records provenance in two incompatible dialects:
+#   * SagaForge page refs   -> `page` fields, e.g. "JATM 14", "GoI 24", "207"
+#   * SagaForge source tags -> `source_tag` fields, e.g. ",SECR,", "UR", "CWCS, LECG"
+#   * Master Reference      -> wiki URLs only
+#
+# This file is the single place that maps every abbreviation onto a sourcebook,
+# so `canon` can emit a normalised `sourcebooks: [ {id, abbreviation, page} ]`
+# on every record. Add new abbreviations here, never in code.
+#
+# Legend source: SagaForge `Lists`!EA2:EA15 and `Lists`!EB2:EC15, plus
+# SagaForge `Data`!IA3:IB12 ("Supplements"). Entries marked
+# `attested_by: inferred` were found in the data but not in SagaForge's own
+# legend; their titles are inferred from the abbreviation and need review.
+# ---------------------------------------------------------------------------
+
+sourcebooks:
+  - id: secr
+    abbreviation: SECR
+    aliases: [CR, SECRLECG]
+    title: "Star Wars Roleplaying Game Saga Edition Core Rulebook"
+    short_title: "Core Rulebook"
+    publisher: "Wizards of the Coast"
+    year: 2007
+    canon: official
+    notes: "Bare numeric page refs (e.g. '207', '39') are Core Rulebook pages."
+
+  - id: totg
+    abbreviation: TotG
+    aliases: [ToG]
+    title: "Threats of the Galaxy"
+    publisher: "Wizards of the Coast"
+    year: 2008
+    canon: official
+
+  - id: sgtod
+    abbreviation: SGtD
+    aliases: [SotG, S]
+    title: "Starships of the Galaxy"
+    publisher: "Wizards of the Coast"
+    year: 2007
+    canon: official
+    notes: "SagaForge uses both SGtD (source tags/pages) and SotG (its own legend)."
+
+  - id: kotor
+    abbreviation: KotOR
+    aliases: [KOTOR, K]
+    title: "Knights of the Old Republic Campaign Guide"
+    publisher: "Wizards of the Coast"
+    year: 2008
+    canon: official
+
+  - id: tfu
+    abbreviation: TFU
+    aliases: [FUCG, F]
+    title: "The Force Unleashed Campaign Guide"
+    publisher: "Wizards of the Coast"
+    year: 2008
+    canon: official
+
+  - id: cw
+    abbreviation: CW
+    aliases: [CWCS, CWCG, C]
+    title: "The Clone Wars Campaign Guide"
+    publisher: "Wizards of the Coast"
+    year: 2009
+    canon: official
+
+  - id: sav
+    abbreviation: SaV
+    aliases: [SV]
+    title: "Scum and Villainy"
+    publisher: "Wizards of the Coast"
+    year: 2008
+    canon: official
+
+  - id: jadm
+    abbreviation: JATM
+    aliases: [J, JATM17]
+    title: "Jedi Academy Training Manual"
+    publisher: "Wizards of the Coast"
+    year: 2009
+    canon: official
+    notes: "'JATM17' page refs are a typo for 'JATM 17' in the source data."
+
+  - id: goi
+    abbreviation: GoI
+    aliases: [GI]
+    title: "Galaxy of Intrigue"
+    publisher: "Wizards of the Coast"
+    year: 2010
+    canon: official
+
+  - id: gaw
+    abbreviation: GAW
+    aliases: [GW, GaW]
+    title: "Galaxy at War"
+    publisher: "Wizards of the Coast"
+    year: 2009
+    canon: official
+
+  - id: lecg
+    abbreviation: LECG
+    aliases: [LE, LECS, L]
+    title: "Legacy Era Campaign Guide"
+    publisher: "Wizards of the Coast"
+    year: 2010
+    canon: official
+
+  - id: recg
+    abbreviation: RECG
+    aliases: [RE, RECS, R]
+    title: "Rebellion Era Campaign Guide"
+    publisher: "Wizards of the Coast"
+    year: 2009
+    canon: official
+
+  - id: ur
+    abbreviation: UR
+    aliases: []
+    title: "Unknown Regions"
+    publisher: "Wizards of the Coast"
+    year: 2010
+    canon: official
+    attested_by: inferred
+
+  - id: web
+    abbreviation: WEB
+    aliases: [Web, W]
+    title: "Wizards of the Coast web enhancement"
+    publisher: "Wizards of the Coast"
+    canon: official
+    notes: "SagaForge legend: 'W = Webpage, requires internet access!'"
+
+  - id: dawnofdefiance
+    abbreviation: D
+    aliases: []
+    title: "Dawn of Defiance adventure series"
+    publisher: "Wizards of the Coast"
+    canon: official
+    notes: "SagaForge legend: 'D# = Dawn of defiance (# equals episode)'."
+
+  # --- non-official / unresolved tags -------------------------------------
+  - id: unknown
+    abbreviation: Unknown
+    aliases: []
+    title: "Unattributed in source workbook"
+    canon: third_party
+    notes: "SagaForge could not attribute these entries; treat as unverified."
+
+  - id: tao
+    abbreviation: TAO
+    aliases: []
+    title: "Saga-Edition.com (third-party site content)"
+    canon: third_party
+    attested_by: inferred
+    notes: "From Data!IA3 = 'Saga-Edition.com'."
+
+# Tags seen in the data that are concatenation artefacts of two abbreviations
+# (e.g. ',TFU,CWCS,' or 'TotGKotOR'). canon.py splits these; nothing to define.
+known_concatenation_artefacts: [TFULE, TotGKotOR, SECRLECG, JATM17]

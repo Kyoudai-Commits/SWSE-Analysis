@@ -1,0 +1,268 @@
+{
+ "entity": "force_regimen",
+ "label": "force_regimen",
+ "role": "option",
+ "count": 12,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "force_regimen_awaken_force_sensitivity",
+   "entity": "force_regimen",
+   "name": "Awaken Force Sensitivity",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 6,
+     "ref": "Regimens-Tactics-Unleashed!C6:D6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_eyes_of_the_force",
+   "entity": "force_regimen",
+   "name": "Eyes of the Force",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 7,
+     "ref": "Regimens-Tactics-Unleashed!C7:D7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_oxygen_bottle",
+   "entity": "force_regimen",
+   "name": "Oxygen Bottle",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 8,
+     "ref": "Regimens-Tactics-Unleashed!C8:D8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_quiet_the_mind",
+   "entity": "force_regimen",
+   "name": "Quiet the Mind",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 9,
+     "ref": "Regimens-Tactics-Unleashed!C9:D9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_sparring_practice",
+   "entity": "force_regimen",
+   "name": "Sparring Practice",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "group": "Lightsaber Training Regimens"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 13,
+     "ref": "Regimens-Tactics-Unleashed!C13:D13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_telekinetic_practice",
+   "entity": "force_regimen",
+   "name": "Telekinetic Practice",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 10,
+     "ref": "Regimens-Tactics-Unleashed!C10:D10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_training_remote",
+   "entity": "force_regimen",
+   "name": "Training Remote",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "group": "Lightsaber Training Regimens"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 14,
+     "ref": "Regimens-Tactics-Unleashed!C14:D14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_vo_ren_s_fifth_cadence",
+   "entity": "force_regimen",
+   "name": "Vo'ren's Fifth Cadence",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "group": "Lightsaber Training Regimens"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 19,
+     "ref": "Regimens-Tactics-Unleashed!C19:D19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_vo_ren_s_first_cadence",
+   "entity": "force_regimen",
+   "name": "Vo'ren's First Cadence",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "group": "Lightsaber Training Regimens"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 15,
+     "ref": "Regimens-Tactics-Unleashed!C15:D15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_vo_ren_s_fourth_cadence",
+   "entity": "force_regimen",
+   "name": "Vo'ren's Fourth Cadence",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "group": "Lightsaber Training Regimens"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 18,
+     "ref": "Regimens-Tactics-Unleashed!C18:D18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_vo_ren_s_second_cadence",
+   "entity": "force_regimen",
+   "name": "Vo'ren's Second Cadence",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "group": "Lightsaber Training Regimens"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 16,
+     "ref": "Regimens-Tactics-Unleashed!C16:D16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "force_regimen_vo_ren_s_third_cadence",
+   "entity": "force_regimen",
+   "name": "Vo'ren's Third Cadence",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "group": "Lightsaber Training Regimens"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_force_regimens",
+     "sheet": "Regimens-Tactics-Unleashed",
+     "row": 17,
+     "ref": "Regimens-Tactics-Unleashed!C17:D17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

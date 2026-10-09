@@ -1,0 +1,78 @@
+{
+ "entity": "armor_size",
+ "label": "armor_size",
+ "role": "option",
+ "count": 3,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "armor_size_heavy",
+   "entity": "armor_size",
+   "name": "Heavy",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "H",
+    "canon_basis": "block_declaration",
+    "sort": 4
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_sizes",
+     "sheet": "Data",
+     "row": 68,
+     "ref": "Data!A68:C68",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_size_light",
+   "entity": "armor_size",
+   "name": "Light",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "L",
+    "canon_basis": "block_declaration",
+    "sort": 2
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_sizes",
+     "sheet": "Data",
+     "row": 66,
+     "ref": "Data!A66:C66",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "armor_size_medium",
+   "entity": "armor_size",
+   "name": "Medium",
+   "canon": "third_party",
+   "attrs": {
+    "abbr": "M",
+    "canon_basis": "block_declaration",
+    "sort": 3
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_armor_sizes",
+     "sheet": "Data",
+     "row": 67,
+     "ref": "Data!A67:C67",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}

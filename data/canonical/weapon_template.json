@@ -1,0 +1,1164 @@
+{
+ "entity": "weapon_template",
+ "label": "weapon_template",
+ "role": "option",
+ "count": 35,
+ "generated_utc": "2026-10-09T07:17:39+00:00",
+ "records": [
+  {
+   "id": "weapon_template_arkanian",
+   "entity": "weapon_template",
+   "name": "Arkanian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Deal fire and energy damage",
+    "limitdamagetype1": "Energy",
+    "limittype": "Ranged",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Arkanian"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 3,
+     "ref": "Data!GT3:HC3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_template_baragwin",
+   "entity": "weapon_template",
+   "name": "Baragwin",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+1 die damage on critical hit",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 4,
+     "ref": "Data!GT4:HC4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_bothan",
+   "entity": "weapon_template",
+   "name": "Bothan",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+1 die damage on stun or dealing ion damage",
+    "limitdamagetype1": "Energy (ion)",
+    "limitstun": "Stun",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Bothan"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 5,
+     "ref": "Data!GT5:HC5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_template_cinnagaran",
+   "entity": "weapon_template",
+   "name": "Cinnagaran",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Deal energy and bludgeoning damage",
+    "limitdamagetype1": "Energy",
+    "limittype": "Ranged",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 6,
+     "ref": "Data!GT6:HC6",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_cortosis_weave",
+   "entity": "weapon_template",
+   "name": "Cortosis Weave",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Retain DR against lightsabers",
+    "price_minimum": 0,
+    "price_percent": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 7,
+     "ref": "Data!GT7:HC7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_dashade",
+   "entity": "weapon_template",
+   "name": "Dashade",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Targets moved down the condition track can only spend 2 swift actions per turn to recover",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Dashade"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 8,
+     "ref": "Data!GT8:HC8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_template_echani",
+   "entity": "weapon_template",
+   "name": "Echani",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Once per encounter, increase critical range by 1",
+    "limitdamagetype1": "Slashing",
+    "limitdamagetype2": "Piercing",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 9,
+     "ref": "Data!GT9:HC9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_gand",
+   "entity": "weapon_template",
+   "name": "Gand",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Halves opponent's speed or immobilises upon moving them down the condition track",
+    "limitstun": "Stun",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Gand"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 10,
+     "ref": "Data!GT10:HC10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_template_genohardan_melee",
+   "entity": "weapon_template",
+   "name": "Genohardan Melee",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 to attack rolls for contact poison",
+    "limitdamagetype1": "Energy",
+    "limittype": "Melee",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 11,
+     "ref": "Data!GT11:HC11",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_genohardan_ranged",
+   "entity": "weapon_template",
+   "name": "Genohardan Ranged",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+1 stun damage",
+    "limitstun": "Stun",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 12,
+     "ref": "Data!GT12:HC12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_iridorian",
+   "entity": "weapon_template",
+   "name": "Iridorian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 damage to Power Attack or Power Blast",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 13,
+     "ref": "Data!GT13:HC13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_krath",
+   "entity": "weapon_template",
+   "name": "Krath",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "1d4 damage on target's next turn if exceeds Fortitude Defense as well as Reflex Defense",
+    "limitdamagetype1": "Slashing",
+    "limitdamagetype2": "Piercing",
+    "limittype": "Melee",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 14,
+     "ref": "Data!GT14:HC14",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_mandalorian",
+   "entity": "weapon_template",
+   "name": "Mandalorian",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+5 to Mechanics to modify",
+    "price_minimum": 1000,
+    "price_percent": 0.1
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 15,
+     "ref": "Data!GT15:HC15",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_massassi",
+   "entity": "weapon_template",
+   "name": "Massassi",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Triple Strength bonus to damage on critical hits when attacking with both hands",
+    "limittype": "Melee",
+    "limittypefeat": "Simple",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Massassi"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 16,
+     "ref": "Data!GT16:HC16",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_template_phrik_alloy",
+   "entity": "weapon_template",
+   "name": "Phrik Alloy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Retain DR against lightsabers",
+    "price_minimum": 0,
+    "price_percent": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 17,
+     "ref": "Data!GT17:HC17",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_prototype_improved_accuracy",
+   "entity": "weapon_template",
+   "name": "Prototype Improved Accuracy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+1 bonus to attack",
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 18,
+     "ref": "Data!GT18:HC18",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_prototype_improved_damage",
+   "entity": "weapon_template",
+   "name": "Prototype Improved Damage",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 bonus to damage",
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 19,
+     "ref": "Data!GT19:HC19",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_prototype_selective_fire",
+   "entity": "weapon_template",
+   "name": "Prototype Selective Fire",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Grant single-shot or autofire to weapon without",
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 20,
+     "ref": "Data!GT20:HC20",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_prototype_superior_accuracy",
+   "entity": "weapon_template",
+   "name": "Prototype Superior Accuracy",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+2 bonus to attack",
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 21,
+     "ref": "Data!GT21:HC21",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_prototype_superior_capacity",
+   "entity": "weapon_template",
+   "name": "Prototype Superior Capacity",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Double the number of shots",
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 22,
+     "ref": "Data!GT22:HC22",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_prototype_superior_damage",
+   "entity": "weapon_template",
+   "name": "Prototype Superior Damage",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "+5 bonus to damage",
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 23,
+     "ref": "Data!GT23:HC23",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_prototype_superior_range",
+   "entity": "weapon_template",
+   "name": "Prototype Superior Range",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Range increase",
+    "price_minimum": 0,
+    "price_percent": 0
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 24,
+     "ref": "Data!GT24:HC24",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_quick_draw",
+   "entity": "weapon_template",
+   "name": "Quick Draw",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Holster or drawn 1/round as Free action (Quick Draw)",
+    "price_minimum": 0,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Quick_Draw"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 25,
+     "ref": "Data!GT25:HC25",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_template_rakatan",
+   "entity": "weapon_template",
+   "name": "Rakatan",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Increase damage by one die step, +1 to attack",
+    "price_minimum": 3000,
+    "price_percent": 0.3
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 26,
+     "ref": "Data!GT26:HC26",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_sith_alchemical",
+   "entity": "weapon_template",
+   "name": "Sith Alchemical",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Retain DR against lightsabers, treat as a lightsaber for Block, Deflect and Redirect Shot, spend a Force Point to gain damage bonus equal to Dark Side Score",
+    "limittype": "Melee",
+    "price_minimum": 2000,
+    "price_percent": 0.2
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 27,
+     "ref": "Data!GT27:HC27",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_verpine",
+   "entity": "weapon_template",
+   "name": "Verpine",
+   "canon": "official",
+   "attrs": {
+    "canon_basis": "sourcebook_citation",
+    "canon_cited_sourcebooks": [
+     "KotOR"
+    ],
+    "effect": "Deal ion damage",
+    "limitdamagetype1": "Energy",
+    "limittype": "Ranged",
+    "price_minimum": 1000,
+    "price_percent": 0.1,
+    "url": "https://swse.miraheze.org/wiki/Verpine"
+   },
+   "prerequisites": null,
+   "sourcebooks": [
+    {
+     "id": "kotor",
+     "abbreviation": "KotOR",
+     "title": "Knights of the Old Republic Campaign Guide",
+     "page": null
+    }
+   ],
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_weapon_templates",
+     "sheet": "Data",
+     "row": 28,
+     "ref": "Data!GT28:HC28",
+     "canon": "third_party"
+    }
+   ],
+   "flags": [
+    "url:matched_by_name"
+   ]
+  },
+  {
+   "id": "weapon_template_cotosis_weave",
+   "entity": "weapon_template",
+   "name": "Cotosis Weave",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "Automatically deactivates any lightsaber that strikes the wearer"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 7,
+     "ref": "Lists!BJ7:BM7",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_damage_reduction",
+   "entity": "weapon_template",
+   "name": "Damage Reduction",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "DR +5"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 12,
+     "ref": "Lists!BJ12:BM12",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_dark_side_energy",
+   "entity": "weapon_template",
+   "name": "Dark Side Energy",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "+2 equipment bonus to activate Dark Side Force powers"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 8,
+     "ref": "Lists!BJ8:BM8",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_dark_side_stealth",
+   "entity": "weapon_template",
+   "name": "Dark Side Stealth",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "+2 equipment bonus to Use the Force checks to avoid detection"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 9,
+     "ref": "Lists!BJ9:BM9",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_imposing_form",
+   "entity": "weapon_template",
+   "name": "Imposing Form",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "+2 equipment bonus on Persuasion checks to intimidate"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 10,
+     "ref": "Lists!BJ10:BM10",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_iron_will",
+   "entity": "weapon_template",
+   "name": "Iron Will",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "+2 equipment bonus to Will Defense"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 13,
+     "ref": "Lists!BJ13:BM13",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_jagged_weapon",
+   "entity": "weapon_template",
+   "name": "Jagged Weapon",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "Living creature damaged takes 1d4 damage at start of its next turn",
+    "group_1": "advanced melee",
+    "group_2": "simple"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 3,
+     "ref": "Lists!BJ3:BM3",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_master_s_weapon",
+   "entity": "weapon_template",
+   "name": "Master's Weapon",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "Grants +2 bonus to Block and Deflect",
+    "group_1": "advanced melee",
+    "group_2": "simple"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 4,
+     "ref": "Lists!BJ4:BM4",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  },
+  {
+   "id": "weapon_template_vile_weapon",
+   "entity": "weapon_template",
+   "name": "Vile Weapon",
+   "canon": "third_party",
+   "attrs": {
+    "canon_basis": "block_declaration",
+    "effect": "Laced with Sith poison",
+    "group_1": "advanced melee",
+    "group_2": "simple"
+   },
+   "prerequisites": null,
+   "sources": [
+    {
+     "source": "sagaforge-1.53",
+     "block": "sf_sith_weapon_traits",
+     "sheet": "Lists",
+     "row": 5,
+     "ref": "Lists!BJ5:BM5",
+     "canon": "third_party"
+    }
+   ],
+   "flags": []
+  }
+ ]
+}
