@@ -1,0 +1,26 @@
+---
+title: "Aim"
+source_url: "https://swse.miraheze.org/wiki/Aim"
+canonical_url: "https://swse.miraheze.org/wiki/Aim"
+source_host: "swse.miraheze.org"
+revision_id: "15771"
+retrieved_at_utc: "2026-10-09T08:05:48Z"
+content_sha256: "a87497b2c95863f95bdad9696b16355978ac6fdfffd584b71de4524cfc32b09b"
+categories: ["Swift Actions", "Pilot Actions", "Copilot Actions", "Gunner Actions", "Core Rulebook"]
+---
+
+# Aim
+
+> Source: [https://swse.miraheze.org/wiki/Aim](https://swse.miraheze.org/wiki/Aim) · Retrieved 2026-10-09T08:05:48Z.
+
+*Reference Book: [Core Rulebook](https://swse.miraheze.org/wiki/Core_Rulebook "Core Rulebook")*
+
+You can take two consecutive [Swift Actions](https://swse.miraheze.org/wiki/Swift_Actions "Swift Actions") in the same round to more carefully line up a [Ranged Attack](https://swse.miraheze.org/wiki/Ranged_Attack "Ranged Attack"). When you do so, you ignore all [Cover](https://swse.miraheze.org/wiki/Cover "Cover") bonuses to your target's [Reflex Defense](https://swse.miraheze.org/wiki/Reflex_Defense "Reflex Defense") on your next attack. You still must have [Line of Sight](https://swse.miraheze.org/wiki/Line_of_Sight "Line of Sight") to the target, however. You lose the benefits of Aiming if you lose line of sight to your target or if you take any other [Action](https://swse.miraheze.org/wiki/Action "Action") before making your attack. Aiming provides no benefit when making an [Area Attack](https://swse.miraheze.org/wiki/Area_Attack "Area Attack").
+
+If you have the [Careful Shot](https://swse.miraheze.org/wiki/Careful_Shot "Careful Shot") feat, you gain a +1 bonus on your ranged attack roll when you take the time to Aim first. If you have the [Deadeye](https://swse.miraheze.org/wiki/Deadeye "Deadeye") feat, you deal an extra die of damage when you take the time to Aim first.
+
+## Vehicle Combat
+
+Just as in Character Combat, you can Aim with two [Swift Actions](https://swse.miraheze.org/wiki/Swift_Actions "Swift Actions") before making a ranged attack. When you do so, you ignore all [Cover](https://swse.miraheze.org/wiki/Cover "Cover") bonuses to your target's [Reflex Defense](https://swse.miraheze.org/wiki/Reflex_Defense "Reflex Defense") on your next attack. You still must have [Line of Sight](https://swse.miraheze.org/wiki/Line_of_Sight "Line of Sight") to the target, however. You lose the benefits of Aiming if you lose [Line of Sight](https://swse.miraheze.org/wiki/Line_of_Sight "Line of Sight") to your target or if you take any other [Action](https://swse.miraheze.org/wiki/Action "Action") before making your attack. Aiming provides no benefit when making an [Area Attack](https://swse.miraheze.org/wiki/Area_Attack "Area Attack").
+
+Loading comments...
