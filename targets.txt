@@ -1,0 +1,87 @@
+# SWSE reference pages. Use one full URL per line.
+# Lines beginning with @discover are index pages: their same-wiki article links
+# are fetched one level deep (the discovered pages are not recursively crawled).
+# Add or remove URLs here to tailor the export. Duplicate pages are de-duplicated.
+
+# Main / rules overview
+https://swse.miraheze.org/wiki/Introduction
+https://swse.miraheze.org/wiki/Character_Creation
+https://swse.miraheze.org/wiki/Level_Benefits
+https://swse.miraheze.org/wiki/Character_Sheet
+https://swse.miraheze.org/wiki/Abilities
+https://swse.miraheze.org/wiki/Species
+https://swse.miraheze.org/wiki/Talents
+https://swse.miraheze.org/wiki/Feats
+https://swse.miraheze.org/wiki/Skills
+https://swse.miraheze.org/wiki/Force_Powers
+https://swse.miraheze.org/wiki/Heroic_Traits
+https://swse.miraheze.org/wiki/Destiny
+https://swse.miraheze.org/wiki/Backgrounds
+https://swse.miraheze.org/wiki/Heroic_Classes
+https://swse.miraheze.org/wiki/Equipment
+https://swse.miraheze.org/wiki/Armor
+https://swse.miraheze.org/wiki/Weapons
+https://swse.miraheze.org/wiki/General_Equipment
+https://swse.miraheze.org/wiki/Equipment_Upgrades
+https://swse.miraheze.org/wiki/Gear_Templates
+https://swse.miraheze.org/wiki/Gamemastering
+https://swse.miraheze.org/wiki/Combat
+https://swse.miraheze.org/wiki/Vehicles
+https://swse.miraheze.org/wiki/Skill_Challenges
+https://swse.miraheze.org/wiki/Droids
+https://swse.miraheze.org/wiki/The_Force
+https://swse.miraheze.org/wiki/Eras_of_Play
+https://swse.miraheze.org/wiki/Galactic_Gazetteer
+https://swse.miraheze.org/wiki/Organizations
+https://swse.miraheze.org/wiki/Starship_Maneuvers
+https://swse.miraheze.org/wiki/Starship_Modifications
+https://swse.miraheze.org/wiki/Rank_and_Privilege
+https://swse.miraheze.org/wiki/Followers
+
+# Core classes
+https://swse.miraheze.org/wiki/Jedi
+https://swse.miraheze.org/wiki/Noble
+https://swse.miraheze.org/wiki/Scoundrel
+https://swse.miraheze.org/wiki/Scout
+https://swse.miraheze.org/wiki/Soldier
+https://swse.fandom.com/wiki/Technician
+https://swse.fandom.com/wiki/Force_Prodigy
+
+# Prestige classes
+https://swse.miraheze.org/wiki/Ace_Pilot
+https://swse.miraheze.org/wiki/Bounty_Hunter
+https://swse.miraheze.org/wiki/Crime_Lord
+https://swse.miraheze.org/wiki/Elite_Trooper
+https://swse.miraheze.org/wiki/Force_Adept
+https://swse.miraheze.org/wiki/Force_Disciple
+https://swse.miraheze.org/wiki/Gunslinger
+https://swse.miraheze.org/wiki/Jedi_Knight
+https://swse.miraheze.org/wiki/Jedi_Master
+https://swse.miraheze.org/wiki/Officer
+https://swse.miraheze.org/wiki/Corporate_Agent
+https://swse.miraheze.org/wiki/Gladiator
+https://swse.miraheze.org/wiki/Melee_Duelist
+https://swse.miraheze.org/wiki/Enforcer
+https://swse.miraheze.org/wiki/Independent_Droid
+https://swse.miraheze.org/wiki/Infiltrator
+https://swse.miraheze.org/wiki/Master_Privateer
+https://swse.miraheze.org/wiki/Medic
+https://swse.miraheze.org/wiki/Saboteur
+https://swse.miraheze.org/wiki/Assassin
+https://swse.miraheze.org/wiki/Charlatan
+https://swse.miraheze.org/wiki/Outlaw
+https://swse.miraheze.org/wiki/Droid_Commander
+https://swse.miraheze.org/wiki/Military_Engineer
+https://swse.miraheze.org/wiki/Vanguard
+https://swse.miraheze.org/wiki/Imperial_Knight
+https://swse.miraheze.org/wiki/Shaper
+https://swse.miraheze.org/wiki/Improviser
+https://swse.miraheze.org/wiki/Pathfinder
+https://swse.miraheze.org/wiki/Martial_Arts_Master
+
+# Expand the catalogues to collect their linked entries (one hop only).
+@discover https://swse.miraheze.org/wiki/Feats
+@discover https://swse.miraheze.org/wiki/Talents
+@discover https://swse.miraheze.org/wiki/Force_Powers
+@discover https://swse.miraheze.org/wiki/Category:Force_Powers
+@discover https://swse.miraheze.org/wiki/Species
